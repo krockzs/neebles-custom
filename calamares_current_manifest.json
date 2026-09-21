@@ -80,7 +80,7 @@
     {
       "path": "packages/cracklib-runtime_2.9.6-5.2+b1_amd64.deb",
       "type": "file",
-      "mode": "0o664",
+      "mode": "0o644",
       "size": 143400,
       "sha256": "cfafd7c436357dc8fc0b6c6701c8764cf36b8e2b239cd56b2f16a3d1207a53d6"
     },
@@ -234,7 +234,7 @@
     {
       "path": "packages/file_5.46-5_amd64.deb",
       "type": "file",
-      "mode": "0o664",
+      "mode": "0o644",
       "size": 43560,
       "sha256": "5b980b02a7d91aab9cb50c65ac7e059678a36d36ed626ec52506442f4501a1a7"
     },
@@ -353,7 +353,7 @@
     {
       "path": "packages/gzip_1.13-1+deb13u1_amd64.deb",
       "type": "file",
-      "mode": "0o664",
+      "mode": "0o644",
       "size": 138608,
       "sha256": "74cf12212beee4ab8d473bdc0107abf9e8cef737492198e2f4944a19f142b0ac"
     },
@@ -1676,14 +1676,14 @@
     {
       "path": "packages/libmagic-mgc_5.46-5_amd64.deb",
       "type": "file",
-      "mode": "0o664",
+      "mode": "0o644",
       "size": 337800,
       "sha256": "1368da7c4c7dd10fb2f9ee3ed8a70801650c0c1d249a4076af15e2ddfbb14b46"
     },
     {
       "path": "packages/libmagic1t64_5.46-5_amd64.deb",
       "type": "file",
-      "mode": "0o664",
+      "mode": "0o644",
       "size": 109312,
       "sha256": "53f653873216b135570b42c423ea93825c008ac464780b4578e80ee424237a4e"
     },
@@ -3972,8 +3972,8 @@
       "path": "rootfs/etc/calamares/modules/users.conf",
       "type": "file",
       "mode": "0o644",
-      "size": 475,
-      "sha256": "2a9987322c4fb0fad5d99f48b96ce98a6d0f140fc33c00282a9f60caa2f34b15"
+      "size": 497,
+      "sha256": "b8b729e7c263006d79fc724f331bb07ff55922920c27eba3cb046a9c6ad76806"
     },
     {
       "path": "rootfs/etc/calamares/modules/welcome.conf",
