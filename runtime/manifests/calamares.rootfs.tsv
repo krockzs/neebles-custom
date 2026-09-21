@@ -155,6 +155,7 @@ F	etc/pam.d/sudo	185	5355ef86ec2f1103fbb9db4f441ec15abdc31383d85774b77849b1fb3be
 F	etc/pam.d/sudo-i	170	46a50463de89ae075fbcfced2efc1a4c56d45d4cb3d47ea02fbb599eaa2e5392
 L	etc/profile.d/70-systemd-shell-extra.sh	/usr/lib/systemd/profile.d/70-systemd-shell-extra.sh
 F	etc/protocols	3144	4959498abbadaa1e50894a266f8d0d94500101cfe5b5f09dcad82e9d5bdfab46
+F	etc/pulse/client.conf	1201	afed55e1ec261c1d919cef2553f54c2d7f8f0c525fd830ee834e1aed91082536
 F	etc/python3.13/sitecustomize.py	155	43d81125d92376b1a69d53a71126a041cc9a18d8080e92dea0a2ae23be138b1e
 F	etc/request-key.conf	1787	87f286e86f12eb096e98663649116d375439ea0c689883ce9a3aa3a210b611cc
 L	etc/rmt	/usr/sbin/rmt
@@ -498,6 +499,7 @@ F	etc/ts.conf	938	0a6561d76d07230752b05dca3a4749444837313a0150fb738918dee2a48be7
 F	etc/udev/iocost.conf	865	39f985861cb49e86be2434029800eca9be9b9704f0ddb6d67465a3e037587c41
 F	etc/udev/udev.conf	305	72bcc7dc13cdacc3ec82832c653e1fc5ae0ca37ead4e3785550f0ce2a6558f45
 F	etc/update-motd.d/10-uname	23	1dca09550a75048731bbd17f17e027cc71ae50a86e0d911a8b3813e88d9b5ab6
+F	etc/vdpau_wrapper.cfg	51	938aa62078aef1bced7b85a3dc0d10de6df631b06d23244531553f93b5966378
 F	etc/xattr.conf	681	0fc794a9826011c88b118c5ff4e30dfcbebd73518e64b0cda7aaec3ad7e578bd
 F	etc/xdg/autostart/calamares-desktop-icon.desktop	196	fa16fc9664563ddba5fa057079c1cb6d1c766e8a85f950b6d749c25b4c37a83c
 L	etc/xdg/systemd/user	../../systemd/user
@@ -998,11 +1000,11 @@ F	usr/include/libcalamares/widgets/waitingspinnerwidget.h	5778	e541323e7c2028863
 F	usr/include/sudo_plugin.h	12071	11234d6e47e6da95adcb3ace71dc93f1d94b759aeca4cd938d829c076adfb35f
 F	usr/lib/binfmt.d/python3.13.conf	54	10f7fd39c493a458d54cc84ed3711a2510d853c2f6396384a6a40e2dab1a60d2
 F	usr/lib/calamares/modules/bootloader-config/module.desc	163	aad9c71783de385e35c29ddcd8df268ff7be8935132ff3b17d74a6eb298085ae
-F	usr/lib/calamares/modules/dpkg-unsafe-io-undo/module.desc	165	fc9b19d11d2bad23da075a086f021a8c1182e03ab0f058dcfb7c3cb54b1731a3
 F	usr/lib/calamares/modules/dpkg-unsafe-io/module.desc	157	4b822584128159b2816858e3a44f7211bb10004d7eb9d705f63c7fdfacb462a6
+F	usr/lib/calamares/modules/dpkg-unsafe-io-undo/module.desc	165	fc9b19d11d2bad23da075a086f021a8c1182e03ab0f058dcfb7c3cb54b1731a3
 F	usr/lib/calamares/modules/sources-final/module.desc	155	9aaa82ab30da0095d197f93bb476f05b84805213e14180cd542b258f942d1cbb
-F	usr/lib/calamares/modules/sources-media-unmount/module.desc	166	a922abd9f803c52dbc3beef1209e3d1ceee90a6e7526bd6526014247610580bf
 F	usr/lib/calamares/modules/sources-media/module.desc	155	7cd4695c98a050d6c2bdab568cea2c63de67e51c89992e2f8a9584044fe1e388
+F	usr/lib/calamares/modules/sources-media-unmount/module.desc	166	a922abd9f803c52dbc3beef1209e3d1ceee90a6e7526bd6526014247610580bf
 F	usr/lib/cryptsetup/askpass	18848	75cee0ecf27fdfa04ce3171d5b732f64476f648c591fcc09f1a46fc52a29a75e
 F	usr/lib/cryptsetup/checks/blkid	1188	895f7f5a4067d1040dec1037ffd46e86441243dad10d1119b6c90903395397ca
 F	usr/lib/cryptsetup/checks/ext2	386	281ea34afc3767e398cd4ca16b2c833a030297c21c94b2f59a76e806e60d233a
@@ -1801,19 +1803,6 @@ F	usr/lib/systemd/network/89-ethernet.network.example	636	3e5f238737715abe34beb9
 F	usr/lib/systemd/network/99-default.link	504	b7db47fb50889162af148c0ea3e29beb98ec8b5daf8f6efd6089ee97cfdbd167
 F	usr/lib/systemd/profile.d/70-systemd-shell-extra.sh	855	4f76c73d385e242cde71a859e35847477ccba26ce442ecadc25742e88b006258
 F	usr/lib/systemd/ssh_config.d/20-systemd-ssh-proxy.conf	758	96558b2d06fb0e038bc0d9680408bf7bd1070eed65b8314aec21f4cef6f52650
-F	usr/lib/systemd/system-generators/systemd-debug-generator	23080	0ed5110c491db1663a505b27658464d18516be2436310ab3e7074872a6b78d57
-F	usr/lib/systemd/system-generators/systemd-fstab-generator	51976	48b1e471ae09e84b1077275bf3e3620c28b7aa915837bf333cef20147ef370ea
-F	usr/lib/systemd/system-generators/systemd-getty-generator	22904	03b892ea431712300685687841c23ed8927317e7f52a2dcaa5d59a92a3b024c6
-F	usr/lib/systemd/system-generators/systemd-gpt-auto-generator	31288	5cab1473324acfe319121786aa49cb3a34e73ad715c673c34068799827abf2ff
-F	usr/lib/systemd/system-generators/systemd-hibernate-resume-generator	27152	2230099ee3150e2b5568d0a8a602d2f64a43346a1fd64f61acd9975230a625cf
-F	usr/lib/systemd/system-generators/systemd-rc-local-generator	14640	4924e494016eb3fac64c7d224d570d8d6b63dfdda44e2e5f50096c47ed21b966
-F	usr/lib/systemd/system-generators/systemd-run-generator	14824	ef797a9f83c1052c10f60194dd25f0cd051418b76ef89d598feeb3a25f0ffba5
-F	usr/lib/systemd/system-generators/systemd-ssh-generator	27056	7dcfab738a560149936db7b11ebfa5ca9317b50902cabbd48739ba77b001c649
-F	usr/lib/systemd/system-generators/systemd-system-update-generator	14712	a4530d6dc256d902786acb32372b678f196a4a760db135a0bbd68e35c4ce9824
-F	usr/lib/systemd/system-generators/systemd-sysv-generator	31096	662f91830e6f76e08a47be605ba2480ae87add1eac44aa095629bc0a4484cb11
-F	usr/lib/systemd/system-generators/systemd-tpm2-generator	14640	07dd5f254baa1f830c1ce97d9155b79fdde4e61a6ff84b0161439f63fc250f77
-F	usr/lib/systemd/system-preset/90-systemd.preset	1562	8243c547ef02bc5894b5b194f11fd82c8d3d3cd51237560746bf39b7f4a3000e
-F	usr/lib/systemd/system.conf.d/10-coredump-debian.conf	38	0600cca2c44aaca9b295d260bc15be83dbb3eada10110b6882fee2645294f4f0
 L	usr/lib/systemd/system/autovt@.service	getty@.service
 F	usr/lib/systemd/system/basic.target	927	7d97dda25769ba30dff93d7aa2818151d968c843281767b720b3eabf09563f0b
 F	usr/lib/systemd/system/blockdev@.target	519	c1db541fd7a72204a082bde5974d8d1b6435fa3ac389e81402c6f01b23942ab4
@@ -2112,6 +2101,19 @@ F	usr/lib/systemd/system/user@.service	1039	3e64dd11e1f9f5b39e31b689adecebf6f2e7
 F	usr/lib/systemd/system/user@.service.d/10-login-barrier.conf	605	1c1452839b609b0609cccaba3c648d780372df6f244deb487da6da5ee002a993
 F	usr/lib/systemd/system/user@0.service.d/10-login-barrier.conf	548	8871be748b7deb5aa26786504b1c6fad4cdda548161869f586e3bb2cfb11476f
 L	usr/lib/systemd/system/x11-common.service	/dev/null
+F	usr/lib/systemd/system-generators/systemd-debug-generator	23080	0ed5110c491db1663a505b27658464d18516be2436310ab3e7074872a6b78d57
+F	usr/lib/systemd/system-generators/systemd-fstab-generator	51976	48b1e471ae09e84b1077275bf3e3620c28b7aa915837bf333cef20147ef370ea
+F	usr/lib/systemd/system-generators/systemd-getty-generator	22904	03b892ea431712300685687841c23ed8927317e7f52a2dcaa5d59a92a3b024c6
+F	usr/lib/systemd/system-generators/systemd-gpt-auto-generator	31288	5cab1473324acfe319121786aa49cb3a34e73ad715c673c34068799827abf2ff
+F	usr/lib/systemd/system-generators/systemd-hibernate-resume-generator	27152	2230099ee3150e2b5568d0a8a602d2f64a43346a1fd64f61acd9975230a625cf
+F	usr/lib/systemd/system-generators/systemd-rc-local-generator	14640	4924e494016eb3fac64c7d224d570d8d6b63dfdda44e2e5f50096c47ed21b966
+F	usr/lib/systemd/system-generators/systemd-run-generator	14824	ef797a9f83c1052c10f60194dd25f0cd051418b76ef89d598feeb3a25f0ffba5
+F	usr/lib/systemd/system-generators/systemd-ssh-generator	27056	7dcfab738a560149936db7b11ebfa5ca9317b50902cabbd48739ba77b001c649
+F	usr/lib/systemd/system-generators/systemd-system-update-generator	14712	a4530d6dc256d902786acb32372b678f196a4a760db135a0bbd68e35c4ce9824
+F	usr/lib/systemd/system-generators/systemd-sysv-generator	31096	662f91830e6f76e08a47be605ba2480ae87add1eac44aa095629bc0a4484cb11
+F	usr/lib/systemd/system-generators/systemd-tpm2-generator	14640	07dd5f254baa1f830c1ce97d9155b79fdde4e61a6ff84b0161439f63fc250f77
+F	usr/lib/systemd/system-preset/90-systemd.preset	1562	8243c547ef02bc5894b5b194f11fd82c8d3d3cd51237560746bf39b7f4a3000e
+F	usr/lib/systemd/system.conf.d/10-coredump-debian.conf	38	0600cca2c44aaca9b295d260bc15be83dbb3eada10110b6882fee2645294f4f0
 F	usr/lib/systemd/systemd	133504	799fd89964a716fb5f26c4506047190b6e842ac2745b473bd45351c4d8cbd929
 F	usr/lib/systemd/systemd-backlight	31096	de392ac9d14293dcd92fe2829f6ea30ccee9f34a6e8444df1cf12cd1cd2cc59d
 F	usr/lib/systemd/systemd-battery-check	18808	fee7ecb1f7dd5f7fc9123c9c6e66e97604591a1500937ef0c27b9146b64759c7
@@ -2159,10 +2161,6 @@ F	usr/lib/systemd/systemd-user-runtime-dir	22904	fa28354e4222ece4588496923ee182a
 F	usr/lib/systemd/systemd-user-sessions	14640	85cbf2c3b614585ab4a67aa90063c912eedd0f4023656926f054ba769b88c59d
 F	usr/lib/systemd/systemd-volatile-root	22832	37b1af47f78d8d038fdd22fa5ef23ba9f68d4fd42492f55c3af28cabc33faa5c
 F	usr/lib/systemd/systemd-xdg-autostart-condition	14640	8161a9723632a25057c0a11c6113dad09a30c2fa74d9f4ba9b225d6c529ecd8a
-F	usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator	14640	7a5523d0a9ead3a5fbeb7ed9a4f26aa6118a311b7f885be498f80e88477dd4ab
-F	usr/lib/systemd/user-generators/systemd-xdg-autostart-generator	31096	d6fd07e7dde60aa808476ef60a18565b353f7c4dc307dc40e8efb08405b4f47e
-F	usr/lib/systemd/user-preset/90-systemd.preset	580	dead674359fa6191605f312a95139e488a490b211b265e008c0937f5293f3ef4
-F	usr/lib/systemd/user.conf.d/10-coredump-debian.conf	38	0600cca2c44aaca9b295d260bc15be83dbb3eada10110b6882fee2645294f4f0
 F	usr/lib/systemd/user/app.slice	442	2f692ece5b1dd36e8a09cb2cca022ce68cca75bda22a1503c2e98ebd6584001e
 F	usr/lib/systemd/user/background.slice	446	64352a7d8e99827974ac7c51fb1672cfa00b90a0498e49bcf8db212efa2e861e
 F	usr/lib/systemd/user/basic.target	505	0e24f3f2aba65c96ed47f17b50f8a338d840fc5314dc2f8f4d931ed2423bbdef
@@ -2199,6 +2197,10 @@ F	usr/lib/systemd/user/systemd-tmpfiles-clean.timer	541	7b4675a101566b70c56ca2b9
 F	usr/lib/systemd/user/systemd-tmpfiles-setup.service	717	4b409bf7c19e45706f10695059e9fd7d4c0e71637a38e1a4b21f2150bd02200c
 F	usr/lib/systemd/user/timers.target	453	664a530864df1f13f13b6a7faf556e7b421b808a9c6c8038fcb31158024b2a14
 F	usr/lib/systemd/user/xdg-desktop-autostart.target	477	b252b6346dede256eab63e28240477e4df4b2f7309ef9ee0d6d0adc80354161d
+F	usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator	14640	7a5523d0a9ead3a5fbeb7ed9a4f26aa6118a311b7f885be498f80e88477dd4ab
+F	usr/lib/systemd/user-generators/systemd-xdg-autostart-generator	31096	d6fd07e7dde60aa808476ef60a18565b353f7c4dc307dc40e8efb08405b4f47e
+F	usr/lib/systemd/user-preset/90-systemd.preset	580	dead674359fa6191605f312a95139e488a490b211b265e008c0937f5293f3ef4
+F	usr/lib/systemd/user.conf.d/10-coredump-debian.conf	38	0600cca2c44aaca9b295d260bc15be83dbb3eada10110b6882fee2645294f4f0
 F	usr/lib/sysusers.d/basic.conf	1693	3a03f4babbd4ea96e1fa96b83c3640f3a59194c5546695526d0d968f0b0893e3
 F	usr/lib/sysusers.d/dbus.conf	224	2bbbd944502e431abf91762f370c6a6867608d5523beb0d1f5b2f853156f1b9a
 F	usr/lib/sysusers.d/debian-udev.conf	143	e9493928a4ed5399c5619cee0559644099f0625075606baca35b40533286b5e0
@@ -2751,6 +2753,18 @@ F	usr/lib/x86_64-linux-gnu/gconv/libISOIR165.so	63480	52a6bdb62b40bc0e09f55bb996
 F	usr/lib/x86_64-linux-gnu/gconv/libJIS.so	108536	57e54466909cc2e7b0f1103def7376e5666b081ccfc92a51c0d608f82042cbe7
 F	usr/lib/x86_64-linux-gnu/gconv/libJISX0213.so	129016	88b6bb839b182419e52dbe70ce66f2dd41a0a584a8b45c8262fa6cccca61ea06
 F	usr/lib/x86_64-linux-gnu/gconv/libKSC.so	51192	f92ec9e14b4e340c8d7bc639a4b9a2ceab898f1c9c23cacd1b09f2652d90defa
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.so	22648	8f26bf263923a22aeb81ec2c822582ba7b6c48700f5c4f7985aae72bd02e5a7d
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.so	22696	e898b86a3bb0591bf0dc4878912c0209dcebd7f0b677494559b060fc2feb2c80
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so	30840	778f86548fa12028f18812b61991f4d83d7e8c3aea37e795bd55b414542a157a
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-icns.so	14456	ced5b0820e3d02679568e84d2facdc113138f4ec19ba874c42617ab4c955af36
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ico.so	22736	4af6fcd18b824e4d1b1e2a58bcba2967dfdcfa512d747492411154939ccacd5e
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-pnm.so	18640	e74a85e75dcc91687bdcb65815dfb58256ea63db952890cdd9782790b696e560
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-qtif.so	14480	a81c8f53e59ad992856c15e68a205e0fe271dc801e5023b2c60ae2d13b4231e9
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tga.so	18568	5789f85e21f10f9e59ff6fa5b4ce2e6e5372d58a458b0da515486e229bc3442d
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tiff.so	22664	a073f364b6452e47b5c738f76778f303c8c5f72e05734344bd27a574f15ae989
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xbm.so	14456	43875505716bc99a76ab68e4dff1fc86aa9ae63fe63e38fe0acc380d0dc1d4a3
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so	34936	120ff5716ea5ca52e47676597360d67acf33773ab3f632a8f444d11572c5d169
+F	usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders	14584	edcfad9b652e0629407df6e8a2302ce6e3f70158e5786e4dfa64ce7bb05a0882
 F	usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so	75688	8009e30b4471c44c94c785b672c9f5d7079e74ab8db602c459ca45435c4d858f
 F	usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop	14576	3da2b4641c75b5cef33a84f94c75049bfce8ee7b2d51bdf384cab0180babed1f
 F	usr/lib/x86_64-linux-gnu/glib-2.0/gio-querymodules	18672	e864cc7e50fcd8473c6001bf3279fc3a59eb2e869925c7adfa8968d978bda43f
@@ -2762,6 +2776,8 @@ L	usr/lib/x86_64-linux-gnu/libEGL.so.1	libEGL.so.1.1.0
 F	usr/lib/x86_64-linux-gnu/libEGL.so.1.1.0	88544	f4b60a4618fbf760f395f64dfd53320446ba1011151a80e411742b3232b194e6
 L	usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0	libEGL_mesa.so.0.0.0
 F	usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0	374456	af1229604d80d73422ff3767f572849dce074a0ecdba8254e93a06a88cfec2e6
+L	usr/lib/x86_64-linux-gnu/libFLAC.so.14	libFLAC.so.14.0.0
+F	usr/lib/x86_64-linux-gnu/libFLAC.so.14.0.0	427968	b39619be623caffbf2b04e7a2c9cc51b4ef20af8ae0434fb2693b50ebff9090f
 L	usr/lib/x86_64-linux-gnu/libGL.so.1	libGL.so.1.7.0
 F	usr/lib/x86_64-linux-gnu/libGL.so.1.7.0	542880	b01915dfedf03be4710d3184bc62a3364880fc950043742fd5e07659b409ef1e
 L	usr/lib/x86_64-linux-gnu/libGLX.so.0	libGLX.so.0.0.0
@@ -2848,6 +2864,8 @@ F	usr/lib/x86_64-linux-gnu/libKirigamiPrivate.so.6.13.0	48016	47afc021fd0d6cf350
 L	usr/lib/x86_64-linux-gnu/libLLVM-19.so	libLLVM.so.19.1
 F	usr/lib/x86_64-linux-gnu/libLLVM.so.19.1	129673080	3523f50f635d2a1ea47518a392451f2854b92823ceaf1345fb806099dd1a3b8a
 F	usr/lib/x86_64-linux-gnu/libLerc.so.4	579608	b04bc6a13a8cda1d3f60b7e8b9b69e38f8a998b3364705168510285c29719bee
+L	usr/lib/x86_64-linux-gnu/libOpenCL.so.1	libOpenCL.so.1.0.0
+F	usr/lib/x86_64-linux-gnu/libOpenCL.so.1.0.0	93712	d88510fe7ebed04b9e6e325a7c7188e8007cec88bf15afe7cadd730ffb9f25f8
 L	usr/lib/x86_64-linux-gnu/libOpenGL.so.0	libOpenGL.so.0.0.0
 F	usr/lib/x86_64-linux-gnu/libOpenGL.so.0.0.0	174232	b437e2bc5a58dd89f7ec78cac73ddb34b22fc724d5a2246d93ee06a8453f0e86
 L	usr/lib/x86_64-linux-gnu/libQt5Core.so.5	libQt5Core.so.5.15.15
@@ -2899,6 +2917,10 @@ L	usr/lib/x86_64-linux-gnu/libQt6Gui.so.6	libQt6Gui.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.8.2	8523512	0c608f37f3eee52c8903fe0112f858c9f90df79058a1cef04489c9d7a954e960
 L	usr/lib/x86_64-linux-gnu/libQt6LabsQmlModels.so.6	libQt6LabsQmlModels.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6LabsQmlModels.so.6.8.2	197008	03dee4614c4fc63775fbb89c38b808c3bd2b7a824eb9a49b1d6325cf990e8f04
+L	usr/lib/x86_64-linux-gnu/libQt6Multimedia.so.6	libQt6Multimedia.so.6.8.2
+F	usr/lib/x86_64-linux-gnu/libQt6Multimedia.so.6.8.2	1230976	abbb845edb1832fc6e52ab46598a3131de675288b28f41ef1ae888e146b4581a
+L	usr/lib/x86_64-linux-gnu/libQt6MultimediaQuick.so.6	libQt6MultimediaQuick.so.6.8.2
+F	usr/lib/x86_64-linux-gnu/libQt6MultimediaQuick.so.6.8.2	327560	33f747c9d0b462ccc224aca21fa70b340056058088718b54b96c1577baed5d18
 L	usr/lib/x86_64-linux-gnu/libQt6Network.so.6	libQt6Network.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6Network.so.6.8.2	2051744	fa4c276fe804c8589adb80ded11fb59602502dc7f5d82e379ced45418ba2642b
 L	usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6	libQt6OpenGL.so.6.8.2
@@ -2967,6 +2989,8 @@ L	usr/lib/x86_64-linux-gnu/libQt6Xml.so.6	libQt6Xml.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6Xml.so.6.8.2	165984	3dee8a9d16bb76384c131475be7b932e0fc1ab8cbba913512001ec5a45dda802
 L	usr/lib/x86_64-linux-gnu/libSM.so.6	libSM.so.6.0.1
 F	usr/lib/x86_64-linux-gnu/libSM.so.6.0.1	39120	8bacaea082b2ce4284bff87ab3c2aa9852d97b38e088206394665788d9e7f1b2
+L	usr/lib/x86_64-linux-gnu/libSvtAv1Enc.so.2	libSvtAv1Enc.so.2.3.0
+F	usr/lib/x86_64-linux-gnu/libSvtAv1Enc.so.2.3.0	7984736	48713dd9caf08909462bad0274cc9d9b249ccf836a9be72fd731f8d8096c4d35
 L	usr/lib/x86_64-linux-gnu/libX11-xcb.so.1	libX11-xcb.so.1.0.0
 F	usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0	13944	c73c2e98ad556a412dd6eef44b857dbd3cc02f191db8af30968084565f60f311
 L	usr/lib/x86_64-linux-gnu/libX11.so.6	libX11.so.6.4.0
@@ -2997,12 +3021,16 @@ F	usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0	22720	f310def51f5cd458e6b1f1ba98c
 L	usr/lib/x86_64-linux-gnu/libacl.so.1	libacl.so.1.1.2302
 F	usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302	38832	3c03774961231d8485a4dba36ec359a95939a84719799c58cd26173e44bbde90
 F	usr/lib/x86_64-linux-gnu/libanl.so.1	14408	f4d70be0af174f80a2c700f8a690b86ea3da867d10803e8641f7c11c11a4925d
+L	usr/lib/x86_64-linux-gnu/libaom.so.3	libaom.so.3.12.1
+F	usr/lib/x86_64-linux-gnu/libaom.so.3.12.1	5663608	85a81615a4994aa59be5795aecd60b4146926ef2c0e88812d2f38aa8e91f894f
 L	usr/lib/x86_64-linux-gnu/libapparmor.so.1	libapparmor.so.1.24.2
 F	usr/lib/x86_64-linux-gnu/libapparmor.so.1.24.2	84728	41334e9dd17faab58a35332cea20ea6e9d117f6aafc84aed54f26ef13ee38e7e
 L	usr/lib/x86_64-linux-gnu/libasound.so.2	libasound.so.2.0.0
 F	usr/lib/x86_64-linux-gnu/libasound.so.2.0.0	1178192	0faa79c7a37189b9efcd9bff5874cd1af1c05b0cc66831733087d84cbe87e811
 L	usr/lib/x86_64-linux-gnu/libassuan.so.9	libassuan.so.9.0.2
 F	usr/lib/x86_64-linux-gnu/libassuan.so.9.0.2	84120	3cb64a2b25aa728b908fe9c3c11c17aeaba566c2c4ba90d82cb087b402d92207
+L	usr/lib/x86_64-linux-gnu/libasyncns.so.0	libasyncns.so.0.3.1
+F	usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1	22368	03429d16fdb490790adb62a0140573111ff8ce2f2e17937a25b93096e8570051
 L	usr/lib/x86_64-linux-gnu/libatomic.so.1	libatomic.so.1.2.0
 F	usr/lib/x86_64-linux-gnu/libatomic.so.1.2.0	30848	9558489f171274c220104894258f483055853ed8a23d4ff754c850ce55765aa2
 L	usr/lib/x86_64-linux-gnu/libattr.so.1	libattr.so.1.1.2502
@@ -3013,10 +3041,18 @@ L	usr/lib/x86_64-linux-gnu/libavahi-client.so.3	libavahi-client.so.3.2.9
 F	usr/lib/x86_64-linux-gnu/libavahi-client.so.3.2.9	75952	897e41ebed37dc9df9c835be3b3fe3c5d99d0c82268f6ca0dde636fb7d5e7533
 L	usr/lib/x86_64-linux-gnu/libavahi-common.so.3	libavahi-common.so.3.5.4
 F	usr/lib/x86_64-linux-gnu/libavahi-common.so.3.5.4	51568	5b19f788782062294cc624d230fe5e2e622718c47b7d5e8d1290b21e212323ed
+L	usr/lib/x86_64-linux-gnu/libavcodec.so.61	libavcodec.so.61.19.101
+F	usr/lib/x86_64-linux-gnu/libavcodec.so.61.19.101	16895056	c01e80460c07b27883a61c53e549755b9ff052071a83f4912ff285168719219d
+L	usr/lib/x86_64-linux-gnu/libavformat.so.61	libavformat.so.61.7.103
+F	usr/lib/x86_64-linux-gnu/libavformat.so.61.7.103	3008504	8cde31eb30ee1ccc7d3758f60fe46dc9f342c4c9fef98cef81ecf7b681b78eeb
+L	usr/lib/x86_64-linux-gnu/libavutil.so.59	libavutil.so.59.39.100
+F	usr/lib/x86_64-linux-gnu/libavutil.so.59.39.100	1148960	6c463f7e033438989533aea3c35e4c9a98fd6b0a637ddb8529733c0f3db1850a
 L	usr/lib/x86_64-linux-gnu/libb2.so.1	libb2.so.1.0.4
 F	usr/lib/x86_64-linux-gnu/libb2.so.1.0.4	121416	3387d58bb34463a564ce9dee4677861eb89557f108c0dd9743c53f0333b3e2e4
 L	usr/lib/x86_64-linux-gnu/libblkid.so.1	libblkid.so.1.1.0
 F	usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0	396256	116b712c143ac68bb59f6d8e32ed8e05e0772c730a9ba55ec544dd28916af58c
+L	usr/lib/x86_64-linux-gnu/libbluray.so.2	libbluray.so.2.4.3
+F	usr/lib/x86_64-linux-gnu/libbluray.so.2.4.3	314352	ea49fc3c7e5cc55a4cae8564b9e1c34154bc49e45dcf8ec32d3d2bb592b80bb3
 L	usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1	libbrotlicommon.so.1.1.0
 F	usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0	141496	7b0b0de90d8d3d4f07b99738c0285c6a0dbb6611d774ca44e7ea53a19a01ea68
 L	usr/lib/x86_64-linux-gnu/libbrotlidec.so.1	libbrotlidec.so.1.1.0
@@ -3030,6 +3066,10 @@ L	usr/lib/x86_64-linux-gnu/libbz2.so.1.0	libbz2.so.1.0.4
 F	usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4	74688	c630f057efedc12f848710d71f40283895591e5b4608539f387895c64e0553da
 F	usr/lib/x86_64-linux-gnu/libc.so.6	1995216	9792e3cbb541c8f44c7acf5f14f4022ea62998ecc787d326bed4d8b6547dfd92
 F	usr/lib/x86_64-linux-gnu/libc_malloc_debug.so.0	53904	c9cad01c6334afa750c0b81b5818e3a643ff41860a4a4c802aa7f203c2372953
+L	usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2	libcairo-gobject.so.2.11804.4
+F	usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11804.4	42768	c29e4900b772b0cbafeafbe3fb4ab7d0bc535f25791a5cdad3e821a2970f4c5f
+L	usr/lib/x86_64-linux-gnu/libcairo.so.2	libcairo.so.2.11804.4
+F	usr/lib/x86_64-linux-gnu/libcairo.so.2.11804.4	1362632	55e6961d9c35923426aca75b85e10d69977428ffb6569719be13a87eb4fcab66
 L	usr/lib/x86_64-linux-gnu/libcalamares.so	libcalamares.so.3.3
 L	usr/lib/x86_64-linux-gnu/libcalamares.so.3.3	libcalamares.so.3.3.14
 F	usr/lib/x86_64-linux-gnu/libcalamares.so.3.3.14	1128304	3b5ad1cb47603559705f964be26776031c2c5e55d94f9cc976159b3f13404f9f
@@ -3043,6 +3083,13 @@ L	usr/lib/x86_64-linux-gnu/libcap-ng.so.0	libcap-ng.so.0.0.0
 F	usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0	30632	6b5be42df1bed00b8ea1f52e9412dce5ed500c29a6dd22b31e72f5dab5a3a575
 L	usr/lib/x86_64-linux-gnu/libcap.so.2	libcap.so.2.75
 F	usr/lib/x86_64-linux-gnu/libcap.so.2.75	47288	41217b0af128444f66dee8adda52b2ceaf19da00e5b0b155e2b87b857671286b
+L	usr/lib/x86_64-linux-gnu/libchromaprint.so.1	libchromaprint.so.1.5.1
+F	usr/lib/x86_64-linux-gnu/libchromaprint.so.1.5.1	92600	f2e04269a4a439896c5a6b5f06187ce268652ecf0f4577bd12c9446163f83c08
+L	usr/lib/x86_64-linux-gnu/libcjson.so.1	libcjson.so.1.7.18
+F	usr/lib/x86_64-linux-gnu/libcjson.so.1.7.18	34688	9bb1c2cfb9a48b062008eb2bf2a73b7e2283574ce17f1ba21ba7ff2422c38028
+L	usr/lib/x86_64-linux-gnu/libcjson_utils.so.1	libcjson_utils.so.1.7.18
+F	usr/lib/x86_64-linux-gnu/libcjson_utils.so.1.7.18	22520	33bafc885efb8de411c2e011a02cc23d936b9e9c67104c5ffc60068ac9aa05c9
+F	usr/lib/x86_64-linux-gnu/libcodec2.so.1.2	16883160	acb069dc8f3ed8e5c4ee1ea39ddd3ad1b3919f9329f9ba7619eb35531db82cb5
 L	usr/lib/x86_64-linux-gnu/libcom_err.so.2	libcom_err.so.2.1
 F	usr/lib/x86_64-linux-gnu/libcom_err.so.2.1	18344	dc4828400674492839b630c001db424cd38e5cecfcf46dbf705a637647e04bea
 L	usr/lib/x86_64-linux-gnu/libcrack.so.2	libcrack.so.2.9.0
@@ -3056,6 +3103,10 @@ F	usr/lib/x86_64-linux-gnu/libcups.so.2	657360	4a1b185e46ed19f279a437d16619c0bfe
 L	usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.3	libcurl-gnutls.so.4
 L	usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4	libcurl-gnutls.so.4.8.0
 F	usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.8.0	963560	2bb1c5c8ee8800820269aee650e3c316a9dea080f4888cf69612badf48bf56d0
+L	usr/lib/x86_64-linux-gnu/libdatrie.so.1	libdatrie.so.1.4.0
+F	usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0	34736	ce632159af92e1d1ceec68652920c412fb105ea579c97c26896a29d1b876abde
+L	usr/lib/x86_64-linux-gnu/libdav1d.so.7	libdav1d.so.7.0.0
+F	usr/lib/x86_64-linux-gnu/libdav1d.so.7.0.0	1746880	1d7a4182344230d5f4cf9f58bf4485da2801c411e9c9fd6d8471460c75ae8fbf
 F	usr/lib/x86_64-linux-gnu/libdb-5.3.so	1864304	cd87ddcf60a6e62ab0dedee64a4292c783e0e991de3329d959fac1ef2dc389af
 L	usr/lib/x86_64-linux-gnu/libdbus-1.so.3	libdbus-1.so.3.38.3
 F	usr/lib/x86_64-linux-gnu/libdbus-1.so.3.38.3	350360	f8c5475204730fa615547b10b642d7e27e5954ed1c12c47507743f2b486ba5a0
@@ -3077,6 +3128,10 @@ F	usr/lib/x86_64-linux-gnu/libdrm_intel.so.1.124.0	151344	b00cda27eb75459c505dad
 L	usr/lib/x86_64-linux-gnu/libdrop_ambient.so.0	libdrop_ambient.so.0.0.0
 F	usr/lib/x86_64-linux-gnu/libdrop_ambient.so.0.0.0	14256	01f97bc0f56ded766f3b1ad6f0114287d660cd0227c5b5173ef3e5c64c5d323a
 F	usr/lib/x86_64-linux-gnu/libduktape.so.207	300968	bf9d8bebf4819ef86bd0e5de5bf9461d47071c6fb36005708a336840ee9f52f3
+L	usr/lib/x86_64-linux-gnu/libdvdnav.so.4	libdvdnav.so.4.3.0
+F	usr/lib/x86_64-linux-gnu/libdvdnav.so.4.3.0	100264	8c79a491dd7261e771fb72b2852fb250d14d3423ad7e032476add0b850d8b828
+L	usr/lib/x86_64-linux-gnu/libdvdread.so.8	libdvdread.so.8.0.0
+F	usr/lib/x86_64-linux-gnu/libdvdread.so.8.0.0	132960	ce2a39e795496a66fbb5b4f2760eeb8c00b1966fca82ff4aa697bf09327bc103
 L	usr/lib/x86_64-linux-gnu/libe2p.so.2	libe2p.so.2.3
 F	usr/lib/x86_64-linux-gnu/libe2p.so.2.3	45016	e436d442d0453c844163c2a5e62b67891d1ceacf19560d4d38bb3444d8099c90
 L	usr/lib/x86_64-linux-gnu/libedit.so.2	libedit.so.2.0.75
@@ -3111,6 +3166,8 @@ L	usr/lib/x86_64-linux-gnu/libformw.so.6	libformw.so.6.5
 F	usr/lib/x86_64-linux-gnu/libformw.so.6.5	81296	10b2e85c3e0ebb8ebc6ef72892260bbede80bfaa4a89ecee6019513d879a25de
 L	usr/lib/x86_64-linux-gnu/libfreetype.so.6	libfreetype.so.6.20.2
 F	usr/lib/x86_64-linux-gnu/libfreetype.so.6.20.2	845736	9e376992a91e92d86809893a3b9eea22a4e27849db1686f6ca58032f79cdafb5
+L	usr/lib/x86_64-linux-gnu/libfribidi.so.0	libfribidi.so.0.4.0
+F	usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0	121064	bbd962bd1c3ac1c25dc983d2951962caf55acb46a80e33ef93e31392edd5a222
 F	usr/lib/x86_64-linux-gnu/libfuse3.so.3.17.2	276552	5ff190343ed1396bb4b13d4f264070b513541391ab5dd3d07755b174a50dff28
 L	usr/lib/x86_64-linux-gnu/libfuse3.so.4	libfuse3.so.3.17.2
 F	usr/lib/x86_64-linux-gnu/libgallium-25.0.7-2+deb13u1.so	42565904	5597543f11c2ef62bc95b0237a8a81339aed87e225d82ae2c6570f8973b1cee5
@@ -3119,10 +3176,14 @@ F	usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0	18736	ab1e16db65ef9809ee3bc2925c611dc
 F	usr/lib/x86_64-linux-gnu/libgcc_s.so.1	182856	30c61ab012a4241bed033725a09b61f5fdd3bb7df95ee852d0b096520524c7af
 L	usr/lib/x86_64-linux-gnu/libgcrypt.so.20	libgcrypt.so.20.5.0
 F	usr/lib/x86_64-linux-gnu/libgcrypt.so.20.5.0	1689752	c3d1cec07ff0d9f4c3abb67d5d828d4cfcda57c87837f0398efdafe3e01bd92c
+L	usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0	libgdk_pixbuf-2.0.so.0.4200.12
+F	usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.12	186552	e92815ef102d064b64eedf79b5ada7413197cad48432d2b13772724cd2204d30
 L	usr/lib/x86_64-linux-gnu/libgio-2.0.so.0	libgio-2.0.so.0.8400.4
 F	usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8400.4	2051320	ada55aa768da50c23a114736ac39dd8d8c62f77a5519747f99e8836e86a1fd35
 L	usr/lib/x86_64-linux-gnu/libglib-2.0.so.0	libglib-2.0.so.0.8400.4
 F	usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8400.4	1404320	980ab64e995225de1543779e3bafafac9d705904d42ca3b5eb76e7a336cc5e1d
+L	usr/lib/x86_64-linux-gnu/libgme.so.0	libgme.so.0.6.3
+F	usr/lib/x86_64-linux-gnu/libgme.so.0.6.3	329744	b5d824b8774a8d934e796464ebd45f161f2d7c455ad16e25b0cacf84c638ae70
 L	usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0	libgmodule-2.0.so.0.8400.4
 F	usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8400.4	22584	cb391dc09732706a0b2b9e2bf44ebe5539708cdeb8e8dd9c4ba910a958b78bb4
 L	usr/lib/x86_64-linux-gnu/libgmp.so.10	libgmp.so.10.5.0
@@ -3143,6 +3204,8 @@ F	usr/lib/x86_64-linux-gnu/libgpgmepp.so.6.21.2	469000	2c8ce3c7cd6de04cb3fc65661
 L	usr/lib/x86_64-linux-gnu/libgraphite2.so.2.0.0	libgraphite2.so.3
 L	usr/lib/x86_64-linux-gnu/libgraphite2.so.3	libgraphite2.so.3.2.1
 F	usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1	166048	5c4b17bdbd121d3c65f28c22d9c2a0504ca493d9e8fa7d7d31383c72237416b4
+L	usr/lib/x86_64-linux-gnu/libgsm.so.1	libgsm.so.1.0.19
+F	usr/lib/x86_64-linux-gnu/libgsm.so.1.0.19	63496	48b02117a3edb6834a2063e1f17fb1e50ac8354e1a9c309b20303ef47294c2aa
 L	usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2	libgssapi_krb5.so.2.2
 F	usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2	346904	c290f761873ebeac539911010526e1c5db86218bfcb29672760da46841741de0
 L	usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0	libgthread-2.0.so.0.8400.4
@@ -3155,6 +3218,12 @@ L	usr/lib/x86_64-linux-gnu/libhistory.so.8	libhistory.so.8.2
 F	usr/lib/x86_64-linux-gnu/libhistory.so.8.2	51656	992a6493753dfcc169cc13dd7b869f79f0368360ffd01ff6ef592c60c3a72de6
 L	usr/lib/x86_64-linux-gnu/libhogweed.so.6	libhogweed.so.6.10
 F	usr/lib/x86_64-linux-gnu/libhogweed.so.6.10	305144	2663d9bdca20ba67d2d72f1d4c24b6fd0a3e97d5ee23e7b739788176cf904380
+L	usr/lib/x86_64-linux-gnu/libhwy.so.1	libhwy.so.1.2.0
+F	usr/lib/x86_64-linux-gnu/libhwy.so.1.2.0	43016	dbff5edb6b30f0f47491b0fcb89302e804c7fa570cd46ed35a493a3350143cb7
+L	usr/lib/x86_64-linux-gnu/libhwy_contrib.so.1	libhwy_contrib.so.1.2.0
+F	usr/lib/x86_64-linux-gnu/libhwy_contrib.so.1.2.0	4769856	31569239d6dcb817b2340f9d30402ef32f7a7724740da9bbd06b35bd85b1ad6f
+L	usr/lib/x86_64-linux-gnu/libhwy_test.so.1	libhwy_test.so.1.2.0
+F	usr/lib/x86_64-linux-gnu/libhwy_test.so.1.2.0	14256	5f8c723dc1ea5ef749e5366a3a203d251bc8d1553ce00173f11b7c09a41f4f7f
 L	usr/lib/x86_64-linux-gnu/libicudata.so.76	libicudata.so.76.1
 F	usr/lib/x86_64-linux-gnu/libicudata.so.76.1	31864368	a04b2b906193fa1e40f968a3d16d7d6c844a1fafbdd5bce6e9f67b01c124ff24
 L	usr/lib/x86_64-linux-gnu/libicui18n.so.76	libicui18n.so.76.1
@@ -3180,6 +3249,12 @@ L	usr/lib/x86_64-linux-gnu/libjpeg.so.62	libjpeg.so.62.3.0
 F	usr/lib/x86_64-linux-gnu/libjpeg.so.62.3.0	616512	0928fd49fa79e10f72eb3276f1cf603d928201a628cd78e0118a2e9c01fd2dac
 L	usr/lib/x86_64-linux-gnu/libjson-c.so.5	libjson-c.so.5.4.0
 F	usr/lib/x86_64-linux-gnu/libjson-c.so.5.4.0	76024	e89c0b57f2cb3b2b6aea9231fe8cec777ba4a553a790fc2cb68673c34fde5149
+L	usr/lib/x86_64-linux-gnu/libjxl.so.0.11	libjxl.so.0.11.2
+F	usr/lib/x86_64-linux-gnu/libjxl.so.0.11.2	3581944	744b133b96514aa4be6093450eac6ba775b20394a39932c8b75b0261078477f6
+L	usr/lib/x86_64-linux-gnu/libjxl_cms.so.0.11	libjxl_cms.so.0.11.2
+F	usr/lib/x86_64-linux-gnu/libjxl_cms.so.0.11.2	92304	4509dd941a2385d8286482807f1866c1bc8bd0cedb26a1cdc2390ed2b9c07303
+L	usr/lib/x86_64-linux-gnu/libjxl_threads.so.0.11	libjxl_threads.so.0.11.2
+F	usr/lib/x86_64-linux-gnu/libjxl_threads.so.0.11.2	18584	0fb96603926fbdb3c304b46d0a8958fb8f785ac079cefe35a0c9a76324518fa2
 L	usr/lib/x86_64-linux-gnu/libk5crypto.so.3	libk5crypto.so.3.1
 F	usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1	187144	c4c3221d0350f882cee0430b58d5fb289a5776c684d3156964864c8a9719dff1
 L	usr/lib/x86_64-linux-gnu/libkeyutils.so.1	libkeyutils.so.1.10
@@ -3212,6 +3287,8 @@ F	usr/lib/x86_64-linux-gnu/liblzma.so.5.8.1	198832	01e05a4b5268805a10a2414a8904f
 L	usr/lib/x86_64-linux-gnu/liblzo2.so.2	liblzo2.so.2.0.0
 F	usr/lib/x86_64-linux-gnu/liblzo2.so.2.0.0	145320	c5425e5594b9f73641796b7a311b55ee679773f840c5f1a211f5eea6fa35775b
 F	usr/lib/x86_64-linux-gnu/libm.so.6	977112	6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3
+L	usr/lib/x86_64-linux-gnu/libmbedcrypto.so.16	libmbedcrypto.so.3.6.6
+F	usr/lib/x86_64-linux-gnu/libmbedcrypto.so.3.6.6	624880	d0fa156bfb6e7cd2d0ea0f8c164dfe50815b128fc4def6c44aa8a2f5d6ec85ef
 L	usr/lib/x86_64-linux-gnu/libmd.so.0	libmd.so.0.1.0
 F	usr/lib/x86_64-linux-gnu/libmd.so.0.1.0	59472	1c8c51474c0eb67dabd9f1605097eb58195cdabef64427ae17cfcd2053c37479
 L	usr/lib/x86_64-linux-gnu/libmd4c.so.0	libmd4c.so.0.5.2
@@ -3223,6 +3300,10 @@ L	usr/lib/x86_64-linux-gnu/libmng.so.1	libmng.so.1.1.0.10
 F	usr/lib/x86_64-linux-gnu/libmng.so.1.1.0.10	592584	b1beb8698737cdbfc62c06fcd4668c2ab46d343abb0893cf7a06f289ce11f704
 L	usr/lib/x86_64-linux-gnu/libmount.so.1	libmount.so.1.1.0
 F	usr/lib/x86_64-linux-gnu/libmount.so.1.1.0	502512	1654d2cf948e3608cc0d38340807d4ddac1114315a3a77f7b274c4c859cb2181
+L	usr/lib/x86_64-linux-gnu/libmp3lame.so.0	libmp3lame.so.0.0.0
+F	usr/lib/x86_64-linux-gnu/libmp3lame.so.0.0.0	305128	98d0d7579c760053242a1deac2ebe335b8f8636f44235580f05b732f5fa207bb
+L	usr/lib/x86_64-linux-gnu/libmpg123.so.0	libmpg123.so.0.48.3
+F	usr/lib/x86_64-linux-gnu/libmpg123.so.0.48.3	381112	b5963c5d72f19d4c86010150277a9630a13ce784b4f8af27659b66b69b25b3b8
 L	usr/lib/x86_64-linux-gnu/libmtdev.so.1	libmtdev.so.1.0.0
 F	usr/lib/x86_64-linux-gnu/libmtdev.so.1.0.0	22368	44b693da689bda67ed09a7dd8bf2c95d51f7fd51846c9d7b635f8abf7faa63cb
 F	usr/lib/x86_64-linux-gnu/libmvec.so.1	1018072	cd2f99df70ed0fa44f79bd6322396180d19eaa1fb527b1b6e2aec9cdfc034d9d
@@ -3238,6 +3319,7 @@ L	usr/lib/x86_64-linux-gnu/libngtcp2.so.16	libngtcp2.so.16.2.9
 F	usr/lib/x86_64-linux-gnu/libngtcp2.so.16.2.9	301592	ac58fdb952991fdb624bcb275e9a9ded9e59228eb7a989c4d18b4339103f50d3
 L	usr/lib/x86_64-linux-gnu/libngtcp2_crypto_gnutls.so.8	libngtcp2_crypto_gnutls.so.8.2.0
 F	usr/lib/x86_64-linux-gnu/libngtcp2_crypto_gnutls.so.8.2.0	43608	32ff8ebba031c45a407f0d4bb7f0f97b372089789de05e43a8d9deb97f569edf
+F	usr/lib/x86_64-linux-gnu/libnorm.so.1	493576	00b75c0ea021290c260a459edd3b95331564b5779432a489727a1a24e159f64c
 L	usr/lib/x86_64-linux-gnu/libnpth.so.0	libnpth.so.0.3.0
 F	usr/lib/x86_64-linux-gnu/libnpth.so.0.3.0	22904	9294fd663afa24bc8148c9729303ae23dedfdde80dbbc7cc311850c33d4a8f98
 F	usr/lib/x86_64-linux-gnu/libnsl.so.1	96472	559152811dc708d3626b1861bd6fb705f63ad36bc2360a1c678ef746a8042482
@@ -3247,8 +3329,16 @@ F	usr/lib/x86_64-linux-gnu/libnss_files.so.2	14336	8c93b2ae43dac3c2d688d227609d7
 F	usr/lib/x86_64-linux-gnu/libnss_hesiod.so.2	26840	8da91b801b5349aca633ffb8cb33e7b9f17cf949624623ea9882406c5779512f
 L	usr/lib/x86_64-linux-gnu/libntfs-3g.so.89	libntfs-3g.so.89.0.0
 F	usr/lib/x86_64-linux-gnu/libntfs-3g.so.89.0.0	354832	76e9b10f23772744d24ecc88b4d715ed14773967ac5294fa905ed042d4e94854
+L	usr/lib/x86_64-linux-gnu/libnuma.so.1	libnuma.so.1.0.0
+F	usr/lib/x86_64-linux-gnu/libnuma.so.1.0.0	56440	c3c046679e00b24819cc9410f9efb63a402a96ebd7cabf7f787234fc933ced0e
 L	usr/lib/x86_64-linux-gnu/libogg.so.0	libogg.so.0.8.5
 F	usr/lib/x86_64-linux-gnu/libogg.so.0.8.5	38752	642a3280273c5ecd8e1ff6c58c9fac3bffc1da41b878c9362473f59174937f77
+F	usr/lib/x86_64-linux-gnu/libopenjp2.so.2.5.3	465352	aa1654c4757c8b37f744d1b12c75f19166b298c05c0c8dbcff5467e300e3da18
+L	usr/lib/x86_64-linux-gnu/libopenjp2.so.7	libopenjp2.so.2.5.3
+L	usr/lib/x86_64-linux-gnu/libopenmpt.so.0	libopenmpt.so.0.4.4
+F	usr/lib/x86_64-linux-gnu/libopenmpt.so.0.4.4	2320592	0a6b0f94a16c3e0c6a4eb4221e4fe8477aa9430e5d632a747df7e475a064677c
+L	usr/lib/x86_64-linux-gnu/libopus.so.0	libopus.so.0.10.1
+F	usr/lib/x86_64-linux-gnu/libopus.so.0.10.1	3549688	621e97f23655dbf2727873b7717e3b65ae8c734f84a0848f88c21edb95202357
 L	usr/lib/x86_64-linux-gnu/libp11-kit.so.0	libp11-kit.so.0.4.1
 F	usr/lib/x86_64-linux-gnu/libp11-kit.so.0.4.1	1705664	e4ae39be74740511cf8e49e80fdfc16aeee7b822ee313793da1b78ce148ba05f
 L	usr/lib/x86_64-linux-gnu/libpam.so.0	libpam.so.0.85.1
@@ -3259,6 +3349,12 @@ L	usr/lib/x86_64-linux-gnu/libpamc.so.0	libpamc.so.0.82.1
 F	usr/lib/x86_64-linux-gnu/libpamc.so.0.82.1	18504	2db5c6b75f0b074f3471e7c6fe8d6cb88997210493f77d7e1cac544eaddedbd8
 L	usr/lib/x86_64-linux-gnu/libpanelw.so.6	libpanelw.so.6.5
 F	usr/lib/x86_64-linux-gnu/libpanelw.so.6.5	22528	00fe6bd6cf946faace4dd2812b1afd7a7f2b6e578d436148dac5ba2c10ec74f5
+L	usr/lib/x86_64-linux-gnu/libpango-1.0.so.0	libpango-1.0.so.0.5600.3
+F	usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5600.3	458368	3aeb194a48f427b907d77986cc8b1d7a2f43f8dab6a91abb3fa0416d5b071132
+L	usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0	libpangocairo-1.0.so.0.5600.3
+F	usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5600.3	63456	cd9ea0195bea8dc358774b5c7d3b4ef345d0bfc34c69a76f4e9e6d6d17bc6a91
+L	usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0	libpangoft2-1.0.so.0.5600.3
+F	usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5600.3	116656	f0a0ac4128a21eaec63b8d9811ab670cdf1763abfcde5d2d6d4693ecc8c7af99
 L	usr/lib/x86_64-linux-gnu/libparted.so.2	libparted.so.2.0.5
 F	usr/lib/x86_64-linux-gnu/libparted.so.2.0.5	332288	698b763411943f784430a60e4a4c91c635a22d2a3ba5c21994faf6f80bb1e74d
 L	usr/lib/x86_64-linux-gnu/libpciaccess.so.0	libpciaccess.so.0.11.1
@@ -3268,6 +3364,10 @@ L	usr/lib/x86_64-linux-gnu/libpcre2-16.so.0	libpcre2-16.so.0.14.0
 F	usr/lib/x86_64-linux-gnu/libpcre2-16.so.0.14.0	649776	0fdf097ef761185317ab3bcae0f2d21946c2fb5bda636235b2129dfeb7df0157
 L	usr/lib/x86_64-linux-gnu/libpcre2-8.so.0	libpcre2-8.so.0.14.0
 F	usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.14.0	711216	8dde125b341abfdf4a596d2974cd3048e350cbc8d2d77acd54ea044f7815ca77
+L	usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0	libpgm-5.3.so.0.0.128
+F	usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0.0.128	310472	ea4273bad000882cacc3fe27b66b27c8a06970daef5230584aaec72770893e9c
+L	usr/lib/x86_64-linux-gnu/libpixman-1.so.0	libpixman-1.so.0.44.0
+F	usr/lib/x86_64-linux-gnu/libpixman-1.so.0.44.0	706576	806ef6cd6ff8dace4332b8d611afe2f1c5ec0c1b743ea7ed0ebd48ed307618cd
 L	usr/lib/x86_64-linux-gnu/libplist-2.0.so.4	libplist-2.0.so.4.6.0
 F	usr/lib/x86_64-linux-gnu/libplist-2.0.so.4.6.0	116648	08e18f9ae2f386fee97965277d76f89e25a10f9580841cbb883cdb4cf9b100f2
 L	usr/lib/x86_64-linux-gnu/libpng16.so.16	libpng16.so.16.48.0
@@ -3286,25 +3386,37 @@ L	usr/lib/x86_64-linux-gnu/libpopt.so.0	libpopt.so.0.0.2
 F	usr/lib/x86_64-linux-gnu/libpopt.so.0.0.2	55784	f17e0e11908c7ce3a54c7e24ef99b8a571e410c78c3ac1d3abdca94d11152e41
 L	usr/lib/x86_64-linux-gnu/libproc2.so.0	libproc2.so.0.0.2
 F	usr/lib/x86_64-linux-gnu/libproc2.so.0.0.2	207368	f49a9d7fb1175fc11e4ec21b6bfea1fba2945568fce9082a5582498fa29a8572
+F	usr/lib/x86_64-linux-gnu/libproxy/libpxbackend-1.0.so	55208	ca5c681cb332fb373975f2fff8e47ba65323783a3ae2c4f8aa4d152720f140fd
 F	usr/lib/x86_64-linux-gnu/libproxy.so.0.5.9	14328	88a785edfa73af6727fcea089e008cbfbb253cd77c2532d7577e8f2c4cafc805
 L	usr/lib/x86_64-linux-gnu/libproxy.so.1	libproxy.so.0.5.9
-F	usr/lib/x86_64-linux-gnu/libproxy/libpxbackend-1.0.so	55208	ca5c681cb332fb373975f2fff8e47ba65323783a3ae2c4f8aa4d152720f140fd
 L	usr/lib/x86_64-linux-gnu/libpsl.so.5	libpsl.so.5.3.4
 F	usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4	75616	d9a6975db1b66ed34bdc04195a92a77b7d29b8d6affe4c35c05d7eafe5424fef
 L	usr/lib/x86_64-linux-gnu/libpsx.so.2	libpsx.so.2.75
 F	usr/lib/x86_64-linux-gnu/libpsx.so.2.75	18496	47a190d58422fbb390db98623c8c97314f8965e0eeccbf3daf180920ada61226
 F	usr/lib/x86_64-linux-gnu/libpthread.so.0	14408	85e21f7dba0394411d00959176fd18b470e575b0b05f1f4f41e5636802ce0500
+L	usr/lib/x86_64-linux-gnu/libpulse-simple.so.0	libpulse-simple.so.0.1.1
+F	usr/lib/x86_64-linux-gnu/libpulse-simple.so.0.1.1	22600	3c19059f54550b53dc9e563c2c9516c52c4bd09650e653c19005a628e3a818b7
+L	usr/lib/x86_64-linux-gnu/libpulse.so.0	libpulse.so.0.24.3
+F	usr/lib/x86_64-linux-gnu/libpulse.so.0.24.3	343088	2bce57f25d08141a071c348021f5f3c94bc0fdcf644b3dd22a592d6f303ce8fa
 L	usr/lib/x86_64-linux-gnu/libpwquality.so.1	libpwquality.so.1.0.2
 F	usr/lib/x86_64-linux-gnu/libpwquality.so.1.0.2	30712	fdf9c5ba0abb54bf219ef32d92323f6f6c678ecdec7f8e1640a2aa4cfec7a799
 L	usr/lib/x86_64-linux-gnu/libpython3.13.so.1	libpython3.13.so.1.0
 F	usr/lib/x86_64-linux-gnu/libpython3.13.so.1.0	7512760	362412239e5c87cbcd67c720f368ebf414632bfad3e0f30d1e3e95db9cc60b55
 L	usr/lib/x86_64-linux-gnu/libqca-qt6.so.2	libqca-qt6.so.2.3.10
 F	usr/lib/x86_64-linux-gnu/libqca-qt6.so.2.3.10	1251240	42b960dfca00066026f2eacccbc95b3396245c2f50d028b2bcdff80c0196a126
+F	usr/lib/x86_64-linux-gnu/librabbitmq.so.0.15.0	96168	1310f7d9da3438ed206485868c86cc643529d0165c83cb3199f16cec9cee7fef
+L	usr/lib/x86_64-linux-gnu/librabbitmq.so.4	librabbitmq.so.0.15.0
+L	usr/lib/x86_64-linux-gnu/librav1e.so.0.7	librav1e.so.0.7.2
+F	usr/lib/x86_64-linux-gnu/librav1e.so.0.7.2	3287296	10bf3d6ee37a1c2b69736ea333278b5053c80f894e8dc656cc377d9312b1839b
 L	usr/lib/x86_64-linux-gnu/libreadline.so.8	libreadline.so.8.2
 F	usr/lib/x86_64-linux-gnu/libreadline.so.8.2	362728	a3334d88f3f6c6a25736667e0b39db0f68b4e7e6bf758a475aff681ddb33ad8b
 L	usr/lib/x86_64-linux-gnu/libreiserfscore.so.0	libreiserfscore.so.0.0.0
 F	usr/lib/x86_64-linux-gnu/libreiserfscore.so.0.0.0	171904	f49091836d6546cc5271cefb186c211bee2a9ad5811bb4e837927b80d95fb65f
 F	usr/lib/x86_64-linux-gnu/libresolv.so.2	63936	d41dd4adacf5a35df426461dd8a92d7bdd5ba29bb61a1c3531bec0ada386f8dd
+L	usr/lib/x86_64-linux-gnu/librist.so.4	librist.so.4.4.0
+F	usr/lib/x86_64-linux-gnu/librist.so.4.4.0	165912	956fa52112a22eee65f469fbf6b15c85f04b1f0421f7087cc2c8a1c05da5dda0
+L	usr/lib/x86_64-linux-gnu/librsvg-2.so.2	librsvg-2.so.2.60.0
+F	usr/lib/x86_64-linux-gnu/librsvg-2.so.2.60.0	6228448	64a3d6a9b3178d9a747a9c8f7691176f43c282f01177c6802627adb5fd779554
 F	usr/lib/x86_64-linux-gnu/librt.so.1	14552	7b7b84d1aedda0e0b2bdfc68844362782132180b8f02be1300e21e77572e514b
 F	usr/lib/x86_64-linux-gnu/librtmp.so.1	122256	7d4c54c51f62085d79a4c96c7ad52f680f1f2e6d38ff7c8b8fa18d57f89df130
 L	usr/lib/x86_64-linux-gnu/libsasl2.so.2	libsasl2.so.2.0.25
@@ -3318,23 +3430,49 @@ F	usr/lib/x86_64-linux-gnu/libsensors.so.5.0.0	71640	bc0d631e86716b83841db1e78c9
 F	usr/lib/x86_64-linux-gnu/libsepol.so.2	825456	e7d3980298e4c1375f17b987d98006d6969c1a439d4e3ead74ac3c1276493b9c
 L	usr/lib/x86_64-linux-gnu/libsharpyuv.so.0	libsharpyuv.so.0.1.1
 F	usr/lib/x86_64-linux-gnu/libsharpyuv.so.0.1.1	26656	36969fea33a1afb64c381f053a8870b486c41cba93e9cc4779a42687c1b391ca
+L	usr/lib/x86_64-linux-gnu/libshine.so.3	libshine.so.3.0.1
+F	usr/lib/x86_64-linux-gnu/libshine.so.3.0.1	43112	3db5c00b4896605dcd79a5b5b18bb70ed6e86f9a1748645081c62302a7cd3bde
 L	usr/lib/x86_64-linux-gnu/libsmartcols.so.1	libsmartcols.so.1.1.0
 F	usr/lib/x86_64-linux-gnu/libsmartcols.so.1.1.0	313496	f97455584112dae5d2594ca9a771af006343088444ca1d62a02329eb51534c47
+L	usr/lib/x86_64-linux-gnu/libsnappy.so.1	libsnappy.so.1.2.2
+F	usr/lib/x86_64-linux-gnu/libsnappy.so.1.2.2	47496	ec0adbc41eb69633a846e676b11aa16cdcf460f84906bc362424b71f8a4b37f3
+L	usr/lib/x86_64-linux-gnu/libsndfile.so.1	libsndfile.so.1.0.37
+F	usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.37	574640	643e4862f5847d6e5ecb442222d93735a6d4190283df26d4b63d104141a9a056
+L	usr/lib/x86_64-linux-gnu/libsodium.so.23	libsodium.so.23.3.0
+F	usr/lib/x86_64-linux-gnu/libsodium.so.23.3.0	375496	85e2e494494f4f50c4b6d2b4ae90e885da1bfdefd52c4cc5767fd10abff62505
+L	usr/lib/x86_64-linux-gnu/libsoxr.so.0	libsoxr.so.0.1.2
+F	usr/lib/x86_64-linux-gnu/libsoxr.so.0.1.2	224152	9a4eaf0a939b7e96377bab1464b36a88cae334be5a9377c76204b240e965fbfa
+L	usr/lib/x86_64-linux-gnu/libspeex.so.1	libspeex.so.1.5.2
+F	usr/lib/x86_64-linux-gnu/libspeex.so.1.5.2	120744	d1afb3cb87da8bfde6e2c47292e2c4a0292b6cf6be3876fc34548d6fe6c81237
 L	usr/lib/x86_64-linux-gnu/libsqlite3.so.0	libsqlite3.so.0.8.6
 F	usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6	1571096	317d80bf5d592f98a71e14d2330591d6a339f631f37c5977835af748a1f26715
+L	usr/lib/x86_64-linux-gnu/libsrt-gnutls.so.1.5	libsrt-gnutls.so.1.5.4
+F	usr/lib/x86_64-linux-gnu/libsrt-gnutls.so.1.5.4	994120	74f1f72167eb1417256d8d270deb7d514ae5a0c9d4b18dbb3e6207ce9894763b
 L	usr/lib/x86_64-linux-gnu/libss.so.2	libss.so.2.0
 F	usr/lib/x86_64-linux-gnu/libss.so.2.0	34736	dfb6a1cb7aff3e210a4bcccf7a16e9fc775b5070fd467cf81c7dbb8195cb5fc2
+L	usr/lib/x86_64-linux-gnu/libssh.so.4	libssh.so.4.10.5
+F	usr/lib/x86_64-linux-gnu/libssh.so.4.10.5	531776	d24409d053e8331edb578558a1f4b7a0ff3b7d35de55e7dd87d6843f74c718ac
 L	usr/lib/x86_64-linux-gnu/libssh2.so.1	libssh2.so.1.0.1
 F	usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1	297472	bea384b0ed8797abdba6cb31b2de38ae2a6ad38d5a1cc13fb3704863bcbb15ca
 F	usr/lib/x86_64-linux-gnu/libssl.so.3	1101760	4b34859318555bf96d518131bed5fc4d5e35fefa4e1729f49eaa26bd05263850
 L	usr/lib/x86_64-linux-gnu/libstdc++.so.6	libstdc++.so.6.0.33
 F	usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33	2497768	972bb2a18b71140dab0240f8a1f68ab3fb1d56bcd4c4f824a91b70888faf5a00
+L	usr/lib/x86_64-linux-gnu/libswresample.so.5	libswresample.so.5.3.100
+F	usr/lib/x86_64-linux-gnu/libswresample.so.5.3.100	137208	de57f190891cf107b9c2fb51fc7d45c02c6c652f6fc7992a3c26d1f16f371674
+L	usr/lib/x86_64-linux-gnu/libswscale.so.8	libswscale.so.8.3.100
+F	usr/lib/x86_64-linux-gnu/libswscale.so.8.3.100	690168	eae84e83e4972297dec340cd77499b0ef50bef445b3b1dd0eb501bbd466d4f93
 L	usr/lib/x86_64-linux-gnu/libsystemd.so.0	libsystemd.so.0.40.0
 F	usr/lib/x86_64-linux-gnu/libsystemd.so.0.40.0	1131784	c59f9015342de9c2dcb2decccb3d83218849fe3e4388c723a6528254fd7606f0
 L	usr/lib/x86_64-linux-gnu/libtasn1.so.6	libtasn1.so.6.6.4
 F	usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.4	88064	cea637336b0855f91260714181894bcea9f345a3a97ce68d6447f6031728cabd
 L	usr/lib/x86_64-linux-gnu/libtdb.so.1	libtdb.so.1.4.13
 F	usr/lib/x86_64-linux-gnu/libtdb.so.1.4.13	96264	b8bfb84e453d5936f728b75691549f4beacf1797daae8c3066837c2d63433af0
+L	usr/lib/x86_64-linux-gnu/libthai.so.0	libthai.so.0.3.1
+F	usr/lib/x86_64-linux-gnu/libthai.so.0.3.1	41000	68da865e0efbc99eedc429f5e0c93a788cff55e85c0ecd37abc0279044a0cc32
+L	usr/lib/x86_64-linux-gnu/libtheoradec.so.1	libtheoradec.so.1.1.5
+F	usr/lib/x86_64-linux-gnu/libtheoradec.so.1.1.5	112632	f0264dbbb1227cdd56790daedc4008eda4b61ee0d6a2eeda98f12b1a5162957f
+L	usr/lib/x86_64-linux-gnu/libtheoraenc.so.1	libtheoraenc.so.1.2.0
+F	usr/lib/x86_64-linux-gnu/libtheoraenc.so.1.2.0	235512	15d2a36543f1aedeaa8a2dfeb887ebe022d21f08bf7d8816d9ee4e8335a83e3e
 F	usr/lib/x86_64-linux-gnu/libthread_db.so.1	47840	5becc66927b75fe505e93ece4bb42bbf919f35d2e8bd8d477bdaa40f3d21ea6e
 L	usr/lib/x86_64-linux-gnu/libtic.so.6	libtic.so.6.5
 F	usr/lib/x86_64-linux-gnu/libtic.so.6.5	71768	120c0d6252a56295db06db3a0a615ddffecf39c2989b82653b29efd2d1e7ec6e
@@ -3344,8 +3482,12 @@ L	usr/lib/x86_64-linux-gnu/libtinfo.so.6	libtinfo.so.6.5
 F	usr/lib/x86_64-linux-gnu/libtinfo.so.6.5	220464	4013e7651ac68f547d8333517def25b2366c97eec7de7f06e105dbf3444ffebf
 L	usr/lib/x86_64-linux-gnu/libts.so.0	libts.so.0.10.4
 F	usr/lib/x86_64-linux-gnu/libts.so.0.10.4	22464	c674a135e4c9d2c46c9f9af08199a37177039faf67876cc0338a87979aa0ab93
+L	usr/lib/x86_64-linux-gnu/libtwolame.so.0	libtwolame.so.0.0.0
+F	usr/lib/x86_64-linux-gnu/libtwolame.so.0.0.0	137128	10651dd7ed274c7d879866fa8189a243020f4b387df5bd4ade45ed4804d32913
 L	usr/lib/x86_64-linux-gnu/libudev.so.1	libudev.so.1.7.10
 F	usr/lib/x86_64-linux-gnu/libudev.so.1.7.10	280936	902fd5e300dacfd8f8292ce18fb8aca4775d67218cb44414a2a6fd89e09cc9a9
+L	usr/lib/x86_64-linux-gnu/libudfread.so.0	libudfread.so.0.1.0
+F	usr/lib/x86_64-linux-gnu/libudfread.so.0.1.0	38824	f57df5bdd1e84781688bd28f099253f587000d23d7e73266e6fe889a051180b6
 L	usr/lib/x86_64-linux-gnu/libunistring.so.5	libunistring.so.5.2.0
 F	usr/lib/x86_64-linux-gnu/libunistring.so.5.2.0	1996840	9c200ec975ff24c0a259d4f6cf0d0fc1736d0c86da30fff3d499ad3d9a368b65
 L	usr/lib/x86_64-linux-gnu/libusbmuxd-2.0.so.7	libusbmuxd-2.0.so.7.0.0
@@ -3353,10 +3495,25 @@ F	usr/lib/x86_64-linux-gnu/libusbmuxd-2.0.so.7.0.0	38768	dd510963225301f3f92d93c
 F	usr/lib/x86_64-linux-gnu/libutil.so.1	14408	e3981d10efd152a53f083e38f5f9ddde7a049c85d0ab388a5eec91b52fc98a11
 L	usr/lib/x86_64-linux-gnu/libuuid.so.1	libuuid.so.1.3.0
 F	usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0	39048	632fd43a9d8d6f3496833b7e62e7840f397163373dddf8b8eb0b2b7f36593117
+L	usr/lib/x86_64-linux-gnu/libva-drm.so.2	libva-drm.so.2.2200.0
+F	usr/lib/x86_64-linux-gnu/libva-drm.so.2.2200.0	14248	d96d4f6cf9701fce3e244998237c54e0a75c59bcbf31a873887a1ae6e1748182
+L	usr/lib/x86_64-linux-gnu/libva-x11.so.2	libva-x11.so.2.2200.0
+F	usr/lib/x86_64-linux-gnu/libva-x11.so.2.2200.0	26656	b1eb96be16c8f26061b4ec42aeb3d479ec32d4dfb2c28415bd24883e95a57041
+L	usr/lib/x86_64-linux-gnu/libva.so.2	libva.so.2.2200.0
+F	usr/lib/x86_64-linux-gnu/libva.so.2.2200.0	223232	109a21ea8c992c3c2f9d2138ffcee2f5110602124cfbc25e848dc09b18bb98ad
+L	usr/lib/x86_64-linux-gnu/libvdpau.so.1	libvdpau.so.1.0.0
+F	usr/lib/x86_64-linux-gnu/libvdpau.so.1.0.0	18440	a82ae37e62c98309ec6faa39beca780f64241431e702fc4036c3b1e93f5c7be2
 L	usr/lib/x86_64-linux-gnu/libvorbis.so.0	libvorbis.so.0.4.9
 F	usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9	186280	0685850ab1d1e71e4c162c18b26bfa41a9dd97ff22682a773df4ba6df3bc961a
+L	usr/lib/x86_64-linux-gnu/libvorbisenc.so.2	libvorbisenc.so.2.0.12
+F	usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12	694248	db5b676baf57298eedf65528ec31837f8c6fd9b7c8f03b162fc1666ce127c347
 L	usr/lib/x86_64-linux-gnu/libvorbisfile.so.3	libvorbisfile.so.3.3.8
 F	usr/lib/x86_64-linux-gnu/libvorbisfile.so.3.3.8	38752	da151c0441bc7baf8b4a05e8e00d26fa9ff6c447a146925fbdeb576b89fc51e5
+L	usr/lib/x86_64-linux-gnu/libvpl.so.2	libvpl.so.2.14
+F	usr/lib/x86_64-linux-gnu/libvpl.so.2.14	400848	e11e7513ca6257bda6fe3900e26d41d4c15c75fe3b4c44c8cb69496a614a9a54
+L	usr/lib/x86_64-linux-gnu/libvpx.so.9	libvpx.so.9.1.0
+L	usr/lib/x86_64-linux-gnu/libvpx.so.9.1	libvpx.so.9.1.0
+F	usr/lib/x86_64-linux-gnu/libvpx.so.9.1.0	3590216	51f64c8e2780d957b8ddce74ec0e8a325eb493f8fa4004687cf520c8739deed0
 L	usr/lib/x86_64-linux-gnu/libvulkan.so.1	libvulkan.so.1.4.309
 F	usr/lib/x86_64-linux-gnu/libvulkan.so.1.4.309	535024	bbd6827e9fe418e9b9740aea57ce6d21fcea03e9876b4b17835c5a9c58f849fc
 L	usr/lib/x86_64-linux-gnu/libwacom.so.9	libwacom.so.9.0.0
@@ -3375,6 +3532,8 @@ L	usr/lib/x86_64-linux-gnu/libwebpdemux.so.2	libwebpdemux.so.2.0.16
 F	usr/lib/x86_64-linux-gnu/libwebpdemux.so.2.0.16	22648	8f65a245c3c643dfe70e4260ad0e956bcd607de8eddc6d27fdaf01e85229677c
 L	usr/lib/x86_64-linux-gnu/libwebpmux.so.3	libwebpmux.so.3.1.1
 F	usr/lib/x86_64-linux-gnu/libwebpmux.so.3.1.1	55592	ee1bd367a626ef8e05867b27b227619ba6ae3c0345d4e80aaa99ce76c762a772
+F	usr/lib/x86_64-linux-gnu/libx264.so.164	1941624	2965dc6471b4f72884fa17fc9c9ff8f43b604a0c6d7a2364ff40040e7181d9f6
+F	usr/lib/x86_64-linux-gnu/libx265.so.215	16888736	9bc81380a0ffefeff2dc18bc67858d5e65a691c14b0cb1a45131e6c1f64a3fa7
 L	usr/lib/x86_64-linux-gnu/libxcb-cursor.so.0	libxcb-cursor.so.0.0.0
 F	usr/lib/x86_64-linux-gnu/libxcb-cursor.so.0.0.0	23624	54a692c826449c001cddb1282820ba22a44e38fb757decd3139f8944b5de787d
 L	usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0	libxcb-dri3.so.0.1.0
@@ -3427,6 +3586,8 @@ L	usr/lib/x86_64-linux-gnu/libxshmfence.so.1	libxshmfence.so.1.0.0
 F	usr/lib/x86_64-linux-gnu/libxshmfence.so.1.0.0	14352	c97efbccf3efdc35e030a5751ea16153abfc108d23afc6e4dae35dc77ca70b15
 L	usr/lib/x86_64-linux-gnu/libxslt.so.1	libxslt.so.1.1.35
 F	usr/lib/x86_64-linux-gnu/libxslt.so.1.1.35	272672	e743a69990386cfdac7fe26fce4e3ac554d42a9139baceb9bcbdbfd2963bf7f1
+L	usr/lib/x86_64-linux-gnu/libxvidcore.so.4	libxvidcore.so.4.3
+F	usr/lib/x86_64-linux-gnu/libxvidcore.so.4.3	711680	a52a0676fd28395b28fbab4827c3ff7b0f5545168d757b2bd342aa23199fd0ab
 L	usr/lib/x86_64-linux-gnu/libxxhash.so.0	libxxhash.so.0.8.3
 F	usr/lib/x86_64-linux-gnu/libxxhash.so.0.8.3	71592	7dd49b353facbee50c371d0559ce29db5afee5ac33249ca5c7068420fb642762
 L	usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.8	libyaml-cpp.so.0.8.0
@@ -3434,9 +3595,16 @@ F	usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.8.0	414976	d8d71580a3a434354371fd932
 L	usr/lib/x86_64-linux-gnu/libz.so.1	libz.so.1.3.1
 F	usr/lib/x86_64-linux-gnu/libz.so.1.3.1	125376	85590dd58edf5445e18bc7193e5ebc01ac5841f1ae187e97705a662e90c6421e
 F	usr/lib/x86_64-linux-gnu/libz3.so.4	27751664	7accc397d4ac387468b09489bdaff9d82bfac4ca6a7e339b8fbb2167edf9c1c0
+L	usr/lib/x86_64-linux-gnu/libzmq.so.5	libzmq.so.5.2.5
+F	usr/lib/x86_64-linux-gnu/libzmq.so.5.2.5	811080	dd57b7fc0ee994c65ba8028814b407a54d7457751ba002cf82f3019c77bf2eef
 L	usr/lib/x86_64-linux-gnu/libzstd.so.1	libzstd.so.1.5.7
 F	usr/lib/x86_64-linux-gnu/libzstd.so.1.5.7	825336	27f07c9a49c2c956bcfb64cd4712976586a66facbf15fc7f09bc37413b5f2b21
+L	usr/lib/x86_64-linux-gnu/libzvbi-chains.so.0	libzvbi-chains.so.0.0.0
+F	usr/lib/x86_64-linux-gnu/libzvbi-chains.so.0.0.0	67656	afe5fb0f500de930c69ad365a9541e3cdfab6df4065a9622f19c18249cb30d88
+L	usr/lib/x86_64-linux-gnu/libzvbi.so.0	libzvbi.so.0.13.2
+F	usr/lib/x86_64-linux-gnu/libzvbi.so.0.13.2	597400	b488ffcc15ba92e9bb57bb15cbf89ec43a4abfb7abfd8b9c43f40f4b4e20dcf9
 F	usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so	141224	533bb6758a00a87a2d7835bcd3ebca58e0def2c1096ec582dea180adceeb7404
+F	usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-17.0.so	551112	916b99b9bf3d354bdffa0aedc26480655d1ecf697e0d481ef02dc7ba5039024f
 L	usr/lib/x86_64-linux-gnu/qt-default/qtchooser/default.conf	../../../../share/qtchooser/qt5-x86_64-linux-gnu.conf
 F	usr/lib/x86_64-linux-gnu/qt5/plugins/bearer/libqconnmanbearer.so	229264	947a08b0e1042f349e5827a5fb3e9dd64b0478d020d3f52b8982944d60853d1c
 F	usr/lib/x86_64-linux-gnu/qt5/plugins/bearer/libqgenericbearer.so	60568	2e072afbce7e94008f0b0ec0915b9e7b8453aec6b9ca3305bbeeb92e64025cc8
@@ -3465,12 +3633,12 @@ F	usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so	251672	d59ada1343ffc
 F	usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so	18864	abe742fc3ec51dc384dcf7933b64963aaf5e354e0ad3299ad6423a3b399fda77
 F	usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so	77256	6ebcf09f31d2ba4346b62619858682faaa9abce7d02e114ad9227ed5a5703a6c
 F	usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so	73424	30118c0d8e95d04a9bfd4bf0bb9fe9e54a24f09928a647e45b1af31525207671
-F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/libqtquick2plugin.so	18496	e0bbb5b7125a4f08bfbfd44248a75d51579597b59ff0c0c956b1551af29ee39c
-F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/plugins.qmltypes	204541	a4c18f06fe88baa04cd638cb23cd161dfe015f1abb6af83ff7610a2e4235cfd9
-F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir	125	552dd9892fbaf38e8db48a41adb6ad0dab1b052aaae5adb3387e758d56b75dde
 F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/libwindowplugin.so	55360	6ebe2b98db15a86fc54d257890b57fc177941a5cf33481d84943e9f6e79b4d31
 F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/plugins.qmltypes	14715	73df254fa19aa35eb6cd7a22d0db32e980ea1c86654c10ab8987fcdbb4418396
 F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/qmldir	117	d91e660e8bdfcfc661709eb829ba2dfddecba34cae4bf6135f51d78d28659786
+F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/libqtquick2plugin.so	18496	e0bbb5b7125a4f08bfbfd44248a75d51579597b59ff0c0c956b1551af29ee39c
+F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/plugins.qmltypes	204541	a4c18f06fe88baa04cd638cb23cd161dfe015f1abb6af83ff7610a2e4235cfd9
+F	usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir	125	552dd9892fbaf38e8db48a41adb6ad0dab1b052aaae5adb3387e758d56b75dde
 F	usr/lib/x86_64-linux-gnu/qt5/qml/builtins.qmltypes	58807	3e39b14c92ed12c16238c0a093cb6fb096602025398431ffe11ea88fc5158277
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/egldeviceintegrations/libqeglfs-emu-integration.so	31184	fbf223920b6ca46178c5dc691c8215ebceefcb1725a6269ec26544a9891b0aca
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/egldeviceintegrations/libqeglfs-kms-egldevice-integration.so	51664	cac538800d55c3f4b40e6d65eacc14f9dd8cae845f3d4c6528f4981dfefa9d3d
@@ -3518,6 +3686,7 @@ F	usr/lib/x86_64-linux-gnu/qt6/plugins/kf6/urifilters/kurisearchfilter.so	18936	
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/kf6/urifilters/localdomainurifilter.so	27128	c6a88ac5d21e8eaaaace11dc60a468a235a4969f4ae7fe796ea02b408588c939
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/kpmcore/pmdummybackendplugin.so	31200	c9ec97bcf24092e36da9e7c2f5f446bd880b61d1178fb493937d0ec9e74a4c68
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/kpmcore/pmsfdiskbackendplugin.so	133600	2682c5517adf41f036fb02865105db91bc63ba5e4633f7a9227ab3772b800f50
+F	usr/lib/x86_64-linux-gnu/qt6/plugins/multimedia/libffmpegmediaplugin.so	613344	06032af6ccaa602b079b8ce8fee20a91b5c37a7d1fc75a077bde8202ad228558
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/networkinformation/libqglib.so	19024	862477f3c542b4d6a24baebcfeed03faf8e6dad8dab7152ab4835e1a9b2a981e
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/networkinformation/libqnetworkmanager.so	77392	7d1b07fe0f51bc933e6a1435fbb0d33a8cb4649f448ce469d6cc952c6bfe76cc
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so	27216	b2f00234515c8905a65e5960c0e351f937fe80787563d82f9e0b93ab5e1f11c8
@@ -3559,6 +3728,10 @@ F	usr/lib/x86_64-linux-gnu/qt6/plugins/xcbglintegrations/libqxcb-glx-integration
 F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels/liblabsmodelsplugin.so	18912	197ebfbd461e928eaa25a7c21df46dfdf7f635aeead947d778c543a9cea84947
 F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels/plugins.qmltypes	15147	f11281566fdfb75573dbbc9f3f71065c0ce97f408e7a80baafb9d2056fd9a54f
 F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels/qmldir	227	8ae287ed00333bfacc893a2d12c9d7238cd4e3b87ebdb5f6922ac5120f0f6ab8
+F	usr/lib/x86_64-linux-gnu/qt6/qml/QtMultimedia/Video.qml	10946	c439601955778d425c086fb8d169b91d76c60a3f0aff6df50f0ef64327b6db46
+F	usr/lib/x86_64-linux-gnu/qt6/qml/QtMultimedia/libquickmultimediaplugin.so	18904	b5ff13bb17534b5a28e4eb42e353aa238dceecf3b12a4f8269cdbe14dadd7b89
+F	usr/lib/x86_64-linux-gnu/qt6/qml/QtMultimedia/plugins.qmltypes	71613	daad748ff2b0bf5a7e274c78a0351f854a865e2700b01a0ca3eb264b0da04486
+F	usr/lib/x86_64-linux-gnu/qt6/qml/QtMultimedia/qmldir	243	756b4df2e8acc966f701cce2f6be17707110749c1377a32e2eb0c3ac88d4a876
 F	usr/lib/x86_64-linux-gnu/qt6/qml/QtQml/Models/libmodelsplugin.so	18736	8916590924937d286be70285f6fcd65198e50161818eae393416e430cbfaac1e
 F	usr/lib/x86_64-linux-gnu/qt6/qml/QtQml/Models/plugins.qmltypes	51139	a0a87ccf2c06643299890c47a4ff66b355c6664fcafe5662c7a0561a997946b2
 F	usr/lib/x86_64-linux-gnu/qt6/qml/QtQml/Models/qmldir	213	4abed3b5d84d4252f6bb292998a566b09a21ae4f2a435e6807cf7047fe14c58a
@@ -4236,6 +4409,8 @@ F	usr/lib/x86_64-linux-gnu/ts0/skip.so	14256	aac2d95f648512cf593be7b49e310d5756b
 F	usr/lib/x86_64-linux-gnu/ts0/touchkit.so	14256	3fa0bb85ffa54af143000116149a47a28feb35f12b75ce591f85b8d86d2e42cd
 F	usr/lib/x86_64-linux-gnu/ts0/variance.so	14256	d63b8c6149b854a9f61a93b5a8db2d69945656cffac3fb7ac62eab8f909d739d
 F	usr/lib/x86_64-linux-gnu/ts0/waveshare.so	14264	f29d6b90f23c1cdff1b968be5713fc5f6448ebdcbffb95efad36775caf83cc7a
+L	usr/lib/x86_64-linux-gnu/vdpau/libvdpau_trace.so.1	libvdpau_trace.so.1.0.0
+F	usr/lib/x86_64-linux-gnu/vdpau/libvdpau_trace.so.1.0.0	67576	80763c27b1b747a4773057efbe171aedcc603de53d1889d3f2585c521c5729b2
 L	usr/lib64/ld-linux-x86-64.so.2	../lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
 F	usr/libexec/coreutils/libstdbuf.so	14328	cea1139c8af14a7a28a8c057c18140dec0985e707c43b64510682a2ba4b21c6b
 F	usr/libexec/dconf-service	92312	e7a083f8b846df8fa3b67dbc53f1ddb1cb21ea58b7fc8cae9f77b0e0ee2e1ca5
@@ -4509,15 +4684,15 @@ F	usr/share/X11/locale/iso8859-9/XLC_LOCALE	763	1b4282e1a661f316d5de5ed9b999c9cf
 F	usr/share/X11/locale/iso8859-9e/Compose	22291	b9edd9f66ad87347746f5bf9cbeb14c184d4ad758cbcc7f009f2f1f5a7fae5aa
 F	usr/share/X11/locale/iso8859-9e/XI18N_OBJS	342	60d666759d2b03246d52e5d4df2ae3dd018e8de6be4ca8240f9adaff1cb695aa
 F	usr/share/X11/locale/iso8859-9e/XLC_LOCALE	942	36ee0c52a56edbe747127efb5421287dcb2d3ebb3b58331cefe3eeee749bbb32
+F	usr/share/X11/locale/ja/Compose	299	1881640f93410f9b7c8ac8368326f7206709bece16a76d33b5c2f1232a1483fb
+F	usr/share/X11/locale/ja/XI18N_OBJS	611	3e4fc429ec1d173058186aa5b443bf8efc675de48c5446538d3707d7c35ea37b
+F	usr/share/X11/locale/ja/XLC_LOCALE	1613	7d7c97b76834021df73c264ad1cc5cea2bb9bc69ea11ad9ec8f13f76fb2d5e6b
 F	usr/share/X11/locale/ja.JIS/Compose	303	ce3a4bf8b3666b0509ffe53a0e9151b18531e7db8d6cd8d7b64564182c4d4689
 F	usr/share/X11/locale/ja.JIS/XI18N_OBJS	340	f4be662f6dd770ea360a6cde97af797f44da2bdffe83c644edda9a9891ee53ad
 F	usr/share/X11/locale/ja.JIS/XLC_LOCALE	1681	659812ba83687a41bde281a570fb794a97ccac1138425d47950c7c3fc714c94a
 F	usr/share/X11/locale/ja.SJIS/Compose	304	9bd2b9276c34d78c6a5e9ce5ffbdb5838eeded8f979a524fe853647acf4fcd3d
 F	usr/share/X11/locale/ja.SJIS/XI18N_OBJS	481	bbfdd2a67876afd2ebf9fb7f1d89a7f5840380bdb3b78fda27356ce6617c3f51
 F	usr/share/X11/locale/ja.SJIS/XLC_LOCALE	5138	a60aabf425ecc47b83d65522df9b18adbe7b73315a2b6d549321d615c0c7745d
-F	usr/share/X11/locale/ja/Compose	299	1881640f93410f9b7c8ac8368326f7206709bece16a76d33b5c2f1232a1483fb
-F	usr/share/X11/locale/ja/XI18N_OBJS	611	3e4fc429ec1d173058186aa5b443bf8efc675de48c5446538d3707d7c35ea37b
-F	usr/share/X11/locale/ja/XLC_LOCALE	1613	7d7c97b76834021df73c264ad1cc5cea2bb9bc69ea11ad9ec8f13f76fb2d5e6b
 F	usr/share/X11/locale/ja_JP.UTF-8/Compose	52	2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59
 F	usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS	347	85023cec5e57823e91c22fd0cc8e0562e1b357dea2fb46e3978ebf01ed960d83
 F	usr/share/X11/locale/ja_JP.UTF-8/XLC_LOCALE	2161	cae871a0235e9b72631e8fd1b37b5791b23701ffbab543a865e683440400219b
@@ -4571,12 +4746,12 @@ F	usr/share/X11/locale/sr_RS.UTF-8/XLC_LOCALE	0	e3b0c44298fc1c149afbf4c8996fb924
 F	usr/share/X11/locale/tatar-cyr/Compose	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 F	usr/share/X11/locale/tatar-cyr/XI18N_OBJS	341	84c9f63886c9e1516e60c5e350c82db46013c10648c62a51a5601f724e418368
 F	usr/share/X11/locale/tatar-cyr/XLC_LOCALE	934	57b233d304d99d5495f9b0608f760c1668f9c3198f3d50adb155ec2704965628
-F	usr/share/X11/locale/th_TH.UTF-8/Compose	52	2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59
-F	usr/share/X11/locale/th_TH.UTF-8/XI18N_OBJS	347	2c125f8e32f5a1fafd00b88320d74c66ffec12dd267fa2fcac5baec5e14e3e3f
-F	usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE	1007	9561ffe58338823958c9d363113920eaf2c76e3ef220af27624dd213c05eb017
 F	usr/share/X11/locale/th_TH/Compose	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 F	usr/share/X11/locale/th_TH/XI18N_OBJS	337	76a0383f411132d9709b6a0f610944cba07c2bcb113a0181d32bff1b38a6aea4
 F	usr/share/X11/locale/th_TH/XLC_LOCALE	758	fd386de7fc7e72d399725552d10e820ac07bd62f630b96161e4732bdff45d85d
+F	usr/share/X11/locale/th_TH.UTF-8/Compose	52	2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59
+F	usr/share/X11/locale/th_TH.UTF-8/XI18N_OBJS	347	2c125f8e32f5a1fafd00b88320d74c66ffec12dd267fa2fcac5baec5e14e3e3f
+F	usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE	1007	9561ffe58338823958c9d363113920eaf2c76e3ef220af27624dd213c05eb017
 F	usr/share/X11/locale/tscii-0/Compose	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 F	usr/share/X11/locale/tscii-0/XI18N_OBJS	339	4d90d27f18aebae0b6f6d5ed716c6b6bfda493ab95dc7f3f06f71270fe1fb28c
 F	usr/share/X11/locale/tscii-0/XLC_LOCALE	893	a457496a3d7e6ee65a4361b196758ec911138c62364176cf3c7512d12a3e589b
@@ -4586,6 +4761,9 @@ F	usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE	907	ec55e37b253e2ab3c131ab498a7f97c
 F	usr/share/X11/locale/vi_VN.viscii/Compose	5509	7f108ea2bea94584dcc12c106c2ce229e666731d38b6438ad859cab8f2173a16
 F	usr/share/X11/locale/vi_VN.viscii/XI18N_OBJS	344	b0d1f14af33f7d6990fcc08594cfb52e76e0077560d74d848b69f5ad51b59003
 F	usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE	923	8c5ddd468371a5f177647a921cc274ffe2df31d1341555f2495ad3a52359150a
+F	usr/share/X11/locale/zh_CN/Compose	299	44b03d1fe026503f6b2338a8ce42713acb07c831e2e583cb35bfdbeaaaa6a2a1
+F	usr/share/X11/locale/zh_CN/XI18N_OBJS	338	a6e6dc413c4bd168cd26ab8b0cace5e464212f03aef6d1994fcbd4351815da5e
+F	usr/share/X11/locale/zh_CN/XLC_LOCALE	787	dcfd7043b9285b310749a25c196a866ec887e8a5f1fffd42a655caa05a89b2d6
 F	usr/share/X11/locale/zh_CN.UTF-8/Compose	52	2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59
 F	usr/share/X11/locale/zh_CN.UTF-8/XI18N_OBJS	347	16f3baef683a4a2cbbd48574eb4e25537bdce2348ce6913b3e13e3bf7459ca97
 F	usr/share/X11/locale/zh_CN.UTF-8/XLC_LOCALE	1901	06f8b0b892c9f4d975d7c1b8bb763bbcbf3cec98ad3b9a6627ab11f9057cf624
@@ -4595,9 +4773,6 @@ F	usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE	1413	47974c869ef9b4bcf09de84ce99
 F	usr/share/X11/locale/zh_CN.gbk/Compose	306	0c0bbcaa2747600218f820bf8d74dcbcdba0546f095eee45a6ceda373dc4b2bd
 F	usr/share/X11/locale/zh_CN.gbk/XI18N_OBJS	343	be9a55d0efc5433d09668feea32119b46347030ed8a77bfb037e3187465026fb
 F	usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE	1165	844880169e4182f724c2b2f2ff8ccd9d989d73bf242e2b0159de5c3cf746cdd0
-F	usr/share/X11/locale/zh_CN/Compose	299	44b03d1fe026503f6b2338a8ce42713acb07c831e2e583cb35bfdbeaaaa6a2a1
-F	usr/share/X11/locale/zh_CN/XI18N_OBJS	338	a6e6dc413c4bd168cd26ab8b0cace5e464212f03aef6d1994fcbd4351815da5e
-F	usr/share/X11/locale/zh_CN/XLC_LOCALE	787	dcfd7043b9285b310749a25c196a866ec887e8a5f1fffd42a655caa05a89b2d6
 F	usr/share/X11/locale/zh_HK.UTF-8/Compose	52	2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59
 F	usr/share/X11/locale/zh_HK.UTF-8/XI18N_OBJS	345	95fcb72dd3ae5e8d34183f3a068a7042434a82ac23801cadb22dfbf8ace8a432
 F	usr/share/X11/locale/zh_HK.UTF-8/XLC_LOCALE	1668	8672f39ad92391b57bf2214593be0e8b0b44c84546dcdb5ce759734a896902fa
@@ -4607,15 +4782,15 @@ F	usr/share/X11/locale/zh_HK.big5/XLC_LOCALE	1053	efa2b5071b1884e359a0035fbdea17
 F	usr/share/X11/locale/zh_HK.big5hkscs/Compose	310	40e4234500ef02f31f8dcd95caebb40b6b2adb0f59ff2b7ad0b901b2fe45cf4e
 F	usr/share/X11/locale/zh_HK.big5hkscs/XI18N_OBJS	349	f9e3ec1ce066da306f6edee42764c9cb8e586d900fd9341a9774a63c1d1ecf22
 F	usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE	1097	44182dc734ca2700d7fb485689f20f1e82fc0c3f7a29f03c8c70e1350827eec0
+F	usr/share/X11/locale/zh_TW/Compose	302	35e56e33bb1caf9819741f39069cc986e01502294d941e6c10292ed004570088
+F	usr/share/X11/locale/zh_TW/XI18N_OBJS	244	40deb13f5d81187a233d543da4509610d5647af4c74b202a530923aa9946449c
+F	usr/share/X11/locale/zh_TW/XLC_LOCALE	2283	1358bc65b381ba2ae6a7884ef232ce086bcd59e7171f9de4ebb4a72560961cb9
 F	usr/share/X11/locale/zh_TW.UTF-8/Compose	52	2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59
 F	usr/share/X11/locale/zh_TW.UTF-8/XI18N_OBJS	345	e67615cebce31ef62695e4b4f3603ee88c099c4ce66c2320fc3ee14eb9bd5910
 F	usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE	1228	ab32de05042135d0fbbe84985bd7221c52072146c809a835ace9cab82642f418
 F	usr/share/X11/locale/zh_TW.big5/Compose	307	806bad5419a8e6daea8e1e50d9e8d7e7373cbff41608f2d213e06b91ed449a1f
 F	usr/share/X11/locale/zh_TW.big5/XI18N_OBJS	344	675460866b5990e87bf9e967d1b8623d45cc70625839c57f113b030e214500ca
 F	usr/share/X11/locale/zh_TW.big5/XLC_LOCALE	9519	37ec838903461a720be5093b281f23872c2deb9609693f0ebfd03cb9f8a24fa4
-F	usr/share/X11/locale/zh_TW/Compose	302	35e56e33bb1caf9819741f39069cc986e01502294d941e6c10292ed004570088
-F	usr/share/X11/locale/zh_TW/XI18N_OBJS	244	40deb13f5d81187a233d543da4509610d5647af4c74b202a530923aa9946449c
-F	usr/share/X11/locale/zh_TW/XLC_LOCALE	2283	1358bc65b381ba2ae6a7884ef232ce086bcd59e7171f9de4ebb4a72560961cb9
 L	usr/share/X11/rgb.txt	/etc/X11/rgb.txt
 F	usr/share/X11/xkb/compat/README	1712	ab88a02b01ce646a5a3965a05f1876b70b97b24e4d6409973126a0baa59126a5
 F	usr/share/X11/xkb/compat/accessx	1121	e7f0630dbf09f3bb3adf3bb8e8d2464afbd6e616fe0075dbef29b7e82bd2a50d
@@ -5127,19 +5302,22 @@ F	usr/share/bug/grub-common/presubj	1112	7d74a717e22593d859775580361d27ea561e8a6
 F	usr/share/bug/grub-common/script	1768	c2253f4ed09fbf03764ab479f7b982433da8f0388be930795d1327e9e6b3eb2c
 F	usr/share/bug/init-system-helpers/control	24	c0306308b3e8655628cca8238616b8750ab7003201bdd68937a4739fe087ce5c
 F	usr/share/bug/libcryptsetup12	763	f37bf028f730fcad3c4369da63eb285752fab214ab5ef9af790d493d0829d75e
+F	usr/share/bug/libdvdnav4/control	24	3bf9d7aaab95b964a75928fc9061fe730192d19c93cbc736452644165877e397
+F	usr/share/bug/libdvdread8t64/control	35	88a65411d34805ac542ea0611badaf0f4b7b3bd4d375fe1db0f6e8757fed5ee1
 F	usr/share/bug/libegl-mesa0/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/libegl-mesa0/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
 F	usr/share/bug/libegl1/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/libgbm1/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/libgbm1/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
+F	usr/share/bug/libgl1/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/libgl1-mesa-dri/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/libgl1-mesa-dri/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
-F	usr/share/bug/libgl1/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/libglvnd0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/libglx-mesa0/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/libglx-mesa0/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
 F	usr/share/bug/libglx0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/libopengl0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
+F	usr/share/bug/libvdpau1	553	62ef379a02f7caf68115b035d9ff307e1f985f134db6e3a9b2ec4b6cec7fa673
 F	usr/share/bug/media-types/presubj	548	40ca64c14041a61aba24773d54467a4f9409d3772118348477b2578025ee99bb
 F	usr/share/bug/mesa-libgallium/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/mesa-libgallium/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
@@ -5394,13 +5572,6 @@ F	usr/share/debhelper/autoscripts/prerm-xmlcatalog	81	99b2145ce8632c697a2f6a5189
 F	usr/share/debianutils/shells	42	184fd1ac95af5ad460ee875e9fddb4975e8720ee7d805d964c68d125573537be
 F	usr/share/debianutils/shells.d/bash	50	999107ef5f119f2d28b0d1a1e62530204b1d85fcae2534df811e2a13211e0c70
 F	usr/share/debianutils/shells.d/dash	14	2080d33b239fbbab0b52f5c3ebade4dcdb94e5771ab44c573183365ec7ddd75f
-F	usr/share/doc-base/base-passwd.users-and-groups	423	159902a0284dbbcc039824ebab914948f8a803280fa2b67742b8f7fd40c50250
-F	usr/share/doc-base/findutils.findutils	323	83026123456c2f7c1cc44196701180752a65423ade28344ef277cf577b12faa6
-F	usr/share/doc-base/fontconfig.fontconfig-user	560	6407dfe8c19a767d5f3e4abc97790aa3d23f8e81cdd175a4c2881de046a8934a
-F	usr/share/doc-base/libcrack2.libcrack2	541	6ddc9556a67ad35e077c44f962c2c1e26d6c9065cbe3b9ce558a15619831504c
-F	usr/share/doc-base/libpng16-16t64.libpng16	1370	7ad199267001a82ebeeab552d0cf3e0447d10fa117606579cee3a2ea3b95a8c0
-F	usr/share/doc-base/python3.python-policy	474	0e4cc74f5551140c7c2667bf5d798fb212d21ce89f977e9c529fec4da11fdcc1
-F	usr/share/doc-base/shared-mime-info.shared-mime-info	474	11b8381ce63239c2e3274ff6c641d6f1c15c2944d2ce7b8ba94eba96a1672e0b
 F	usr/share/doc/HTML/ca/kioworker6/data/index.cache.bz2	1735	940a33661615171ef4ee041102642cfb49403d6f7415a52de22198be5343d946
 F	usr/share/doc/HTML/ca/kioworker6/data/index.docbook	2196	a331a824099fc6940113fe02d6cc8f87e0dbe18bf6f545691d194b4d0e44c5c7
 F	usr/share/doc/HTML/ca/kioworker6/file/index.cache.bz2	1166	7d28afe5e3940a84ecb3a0429f0a54df24532a11bee694c86f61797fe8f3b404
@@ -5673,10 +5844,10 @@ F	usr/share/doc/adduser/examples/adduser.local	26434	2616e1a15504e19334dc07ed7ca
 F	usr/share/doc/adduser/examples/adduser.local.conf	21865	e30642d899811439c641210124c23444af5f01f5bc8b6f5248101944486122dd
 F	usr/share/doc/adduser/examples/adduser.local.conf.examples/bash.bashrc	2778	e2b7ffb015bb534a4da1c2bb46e078ba45b704ca00f81728ed5aefa2d327c369
 F	usr/share/doc/adduser/examples/adduser.local.conf.examples/profile	2254	4088448d6754b1e0fdeec5361f42628cb3cdb6e76ebad2bafde6d0cffbd5493b
-F	usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other/index.html	771	4c4447794438339c2962006f009543add5d45a93407de98ce5d31d2f89450cba
 F	usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_logout	427	103be0d07dc5c355052f928a6941aeaf54d887bea192be0b668173785b2c5c4b
 F	usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_profile	1290	67998d4777ea54bda9fd4cc4ee6b3bdeaf5a5e07bf6de046606180ff5b3bae35
 F	usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bashrc	802	09c9e1ae7b3318a377c899bcbf40b5793a7b18c9526ffe8c14b71b5779b4de73
+F	usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other/index.html	771	4c4447794438339c2962006f009543add5d45a93407de98ce5d31d2f89450cba
 F	usr/share/doc/adduser/examples/deluser.conf	1706	348c114422e9e28c8b24775cf39e785d02600445c0ac1c38fe7976c377fba6e5
 L	usr/share/doc/base-files/FAQ	README
 F	usr/share/doc/base-files/NEWS.Debian.gz	320	2d5dcea919681d92d097ef4f0556224d05fbda98d2ee73e1294121627f367cd8
@@ -5722,11 +5893,11 @@ F	usr/share/doc/ca-certificates/examples/ca-certificates-local/debian/rules	155	
 F	usr/share/doc/ca-certificates/examples/ca-certificates-local/debian/source/format	13	e8e18df40bcd69d6aa404282679186d9b8256ac63a5b4e80d7f081e8a0095a2e
 F	usr/share/doc/ca-certificates/examples/ca-certificates-local/local/Local_Root_CA.crt	123	985569e29b5b76c920bac707e4ad2f262a33e2c7d5d8d4850d8e755010be21c0
 F	usr/share/doc/ca-certificates/examples/ca-certificates-local/local/Makefile	114	37d3102a6abc24512db54c4e97d1c852b2d0439d09713991b66abe779f29e273
+F	usr/share/doc/calamares/changelog.Debian.gz	2532	28164bf48609de8eafa7da92f49e020ce5b1e163157f4422037b0d3c02b008a2
+F	usr/share/doc/calamares/copyright	11152	4a7c8c9c191c9da7f6df9f5be47f0fb71972b3a05db320ebaa94b7580ac53f27
 F	usr/share/doc/calamares-settings-debian/changelog.Debian.gz	1608	8d34fba5389149737249d29d22ca6fb4481c843658509f50b5e3b6c7de160741
 F	usr/share/doc/calamares-settings-debian/changelog.gz	1598	d797f3c2e06e82f6d66fee4688dc6cfe59165677a9a9d8a4cb86f12448e51624
 F	usr/share/doc/calamares-settings-debian/copyright	22006	3b1565253021b443389eb950dc7559abacdce48dcae6ec457281064858e53689
-F	usr/share/doc/calamares/changelog.Debian.gz	2532	28164bf48609de8eafa7da92f49e020ce5b1e163157f4422037b0d3c02b008a2
-F	usr/share/doc/calamares/copyright	11152	4a7c8c9c191c9da7f6df9f5be47f0fb71972b3a05db320ebaa94b7580ac53f27
 F	usr/share/doc/coreutils/AUTHORS	3838	d9e6348a7c03ae52148ae4fc66149d45bd81b63f445896c51e2203ab0b991fcc
 F	usr/share/doc/coreutils/NEWS.gz	83812	ef7a070d0d62500a7bf86315d5ca57c79ba51af34698e18e91b2c8de6992a851
 F	usr/share/doc/coreutils/README.Debian	451	370f7cc50f2123416d4c966010220325a9637bc60e986a1244cba5d05ad115a3
@@ -5736,9 +5907,6 @@ F	usr/share/doc/coreutils/TODO.gz	3381	c8b2cd236e2ea01e0944160ab19c3ee92db0d18e8
 F	usr/share/doc/coreutils/changelog.Debian.gz	2014	531c0cecb16bda4388c4bb8aff0f3dce75d1517330320877f78d079a077ead0b
 F	usr/share/doc/coreutils/changelog.gz	154902	67bb588aa755762dde99da0ff3f9a45a856f4151479ba59212af5d6347ba41ff
 F	usr/share/doc/coreutils/copyright	5572	3a63d4b11a7ba4c1c17175072ea28e07b0f80c7bc1ca042b27431fe65a14755b
-F	usr/share/doc/cryptsetup-bin/NEWS.Debian.gz	1190	e9f7d14f3c041084ed42934722206dcead751d0296b53348f26c4d51a4b052ac
-F	usr/share/doc/cryptsetup-bin/changelog.Debian.gz	14489	5864f668dde1ebe4ac7ce951e3726d811ab599184532451848e2f567523023ae
-F	usr/share/doc/cryptsetup-bin/copyright	26550	9bcaeb0c94e0da31bb51a1519ab8011674ae76eea11b1969accef223f43b80d4
 F	usr/share/doc/cryptsetup/AUTHORS	137	012a99c581df2f922c8996d25fb19b13eba7776bb7ceb6b79f97c31208845820
 F	usr/share/doc/cryptsetup/FAQ.md.gz	50723	ff2007a4df050dcfefd82779de9be99013bed09c8030de510e41ed9a4aa7feb7
 F	usr/share/doc/cryptsetup/Keyring.txt	3899	2c0d86a2aed9303024e50b724c6da522f35590f9dc4360508cf86c5e8760f230
@@ -5814,11 +5982,20 @@ F	usr/share/doc/cryptsetup/v2.7.2-ReleaseNotes	1175	418c66140b7c77bf755bc556cc2d
 F	usr/share/doc/cryptsetup/v2.7.3-ReleaseNotes.gz	2151	1acc6e51e845de240f396d43bd42d38db6a48f6c5919f6143eaa45878eb3a4f5
 F	usr/share/doc/cryptsetup/v2.7.4-ReleaseNotes	2703	f9dbf44e53a3d2b6e1f9c665a19ba964fa8b1282aa42ab109ccd79e4252a5df8
 F	usr/share/doc/cryptsetup/v2.7.5-ReleaseNotes	893	4279d829aa21ce9c316446e7dd5d19b2ce239ce62a82d0999be0d6a6a597f5d7
+F	usr/share/doc/cryptsetup-bin/NEWS.Debian.gz	1190	e9f7d14f3c041084ed42934722206dcead751d0296b53348f26c4d51a4b052ac
+F	usr/share/doc/cryptsetup-bin/changelog.Debian.gz	14489	5864f668dde1ebe4ac7ce951e3726d811ab599184532451848e2f567523023ae
+F	usr/share/doc/cryptsetup-bin/copyright	26550	9bcaeb0c94e0da31bb51a1519ab8011674ae76eea11b1969accef223f43b80d4
 F	usr/share/doc/dash/README.Debian.diet	580	0fe44f665187a1ab906414cde5361739b764929aa4b676037b2710e397476bfa
 F	usr/share/doc/dash/README.source	3224	d88176f77467d8d45e791a06cd8328f0a685e16dbba6ce1bff413ec3ccf39874
 F	usr/share/doc/dash/changelog.Debian.gz	3198	ae309a3fb2d8e621c89906c02af6e0f2e9d93e34cc8c55825d9a4ac39043aac6
 F	usr/share/doc/dash/changelog.gz	7388	dcf3f2da9d2e14994d51b934c7c7b77222fe19c00f1fe0f7904912f2fb4a440c
 F	usr/share/doc/dash/copyright	3878	d98c53f281321baad38164aa9ae6e368a9253be6ec51bd26a759b5e72b326f4a
+F	usr/share/doc/dbus/AUTHORS.gz	5030	00968ca1b351c2218108232ca2f3b2eeff0bcf0b7727eaf65909fff56c9dceaa
+F	usr/share/doc/dbus/NEWS.gz	24770	8ab4458d236c2dbc3aee7058266e03e95b101328374819d55e5de5fa4051dbf9
+F	usr/share/doc/dbus/README.Debian	1635	ca3df6025363e1e15b5d58f207d7dfbece3d1fddce124e9c7ae689d2da69f424
+F	usr/share/doc/dbus/README.gz	2993	8035f4a328cb7153be446c539f7e66dbdd4ddf550c5e32abe8588421c0654a57
+F	usr/share/doc/dbus/changelog.Debian.gz	8988	e8ca889dce8959d049cfc4f4e297508b0111a4efd3320115682dceed03aec738
+F	usr/share/doc/dbus/copyright	20076	f5fd0bfcceb21f4c23a517368abcbfe8a4c1cfb3b521757b50fae4898840fe35
 F	usr/share/doc/dbus-bin/AUTHORS.gz	5030	00968ca1b351c2218108232ca2f3b2eeff0bcf0b7727eaf65909fff56c9dceaa
 F	usr/share/doc/dbus-bin/NEWS.gz	24770	8ab4458d236c2dbc3aee7058266e03e95b101328374819d55e5de5fa4051dbf9
 F	usr/share/doc/dbus-bin/README.gz	2993	8035f4a328cb7153be446c539f7e66dbdd4ddf550c5e32abe8588421c0654a57
@@ -5844,12 +6021,6 @@ F	usr/share/doc/dbus-user-session/NEWS.gz	24770	8ab4458d236c2dbc3aee7058266e03e9
 F	usr/share/doc/dbus-user-session/README.gz	2993	8035f4a328cb7153be446c539f7e66dbdd4ddf550c5e32abe8588421c0654a57
 F	usr/share/doc/dbus-user-session/changelog.Debian.gz	8988	0fe92e9cb9a1fa14fdbf342f3b5db0d63528b47de6e2a5d4e9abfd20d253c23b
 F	usr/share/doc/dbus-user-session/copyright	20076	f5fd0bfcceb21f4c23a517368abcbfe8a4c1cfb3b521757b50fae4898840fe35
-F	usr/share/doc/dbus/AUTHORS.gz	5030	00968ca1b351c2218108232ca2f3b2eeff0bcf0b7727eaf65909fff56c9dceaa
-F	usr/share/doc/dbus/NEWS.gz	24770	8ab4458d236c2dbc3aee7058266e03e95b101328374819d55e5de5fa4051dbf9
-F	usr/share/doc/dbus/README.Debian	1635	ca3df6025363e1e15b5d58f207d7dfbece3d1fddce124e9c7ae689d2da69f424
-F	usr/share/doc/dbus/README.gz	2993	8035f4a328cb7153be446c539f7e66dbdd4ddf550c5e32abe8588421c0654a57
-F	usr/share/doc/dbus/changelog.Debian.gz	8988	e8ca889dce8959d049cfc4f4e297508b0111a4efd3320115682dceed03aec738
-F	usr/share/doc/dbus/copyright	20076	f5fd0bfcceb21f4c23a517368abcbfe8a4c1cfb3b521757b50fae4898840fe35
 F	usr/share/doc/dconf-gsettings-backend/changelog.Debian.gz	2059	3061663305e1eab7c0183d4595bff7f3d3137dca603a5b917eeb6eed09152f23
 F	usr/share/doc/dconf-gsettings-backend/copyright	1912	a9d427b6a6e5cb665da3b4115039750c9d1092f558d6dee391d20800fb5c850e
 F	usr/share/doc/dconf-service/changelog.Debian.gz	2049	03b976c1cb5531518526f5639f5034800e109744776c0ded51b67e888c510fde
@@ -5917,9 +6088,6 @@ F	usr/share/doc/findutils/TODO	2860	a730e0cfe11e233069b56626e2240c6cb1add4f43658
 F	usr/share/doc/findutils/changelog.Debian.gz	2380	ae28da6ad8c697ad97ad24ccc1e263797bd9955ada3455f3579596921825858c
 F	usr/share/doc/findutils/changelog.gz	191547	b6c2e5d07c52f9e3ece5b6524654a03c0a0cc0d756eccb737d553eac60c1fc25
 F	usr/share/doc/findutils/copyright	24411	f51541fbdfe15c01cd3fd3a06ad3b74478902d36a958d95b1756434979d97ed5
-F	usr/share/doc/fontconfig-config/changelog.Debian.gz	3589	73350e4fd85dc26f6047e556001dd221eec009e6e8e7417d482702ae1e7eb439
-F	usr/share/doc/fontconfig-config/changelog.gz	262491	a2f4c9af2249d09f9eddf34860817d07e4ecde85d8877c70483b7bdd09be96b3
-F	usr/share/doc/fontconfig-config/copyright	1301	b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db
 F	usr/share/doc/fontconfig/README.Debian	2172	47f51a1bec98f41ad9de0ffb0f796d195ef8715ab1a7809ae19948ca39bc06a3
 F	usr/share/doc/fontconfig/changelog.Debian.gz	3589	6d80419181925b6700da71fcdaec017513a87f338b53ee8c11fbac873885ba4f
 F	usr/share/doc/fontconfig/changelog.gz	262491	a2f4c9af2249d09f9eddf34860817d07e4ecde85d8877c70483b7bdd09be96b3
@@ -5927,6 +6095,9 @@ F	usr/share/doc/fontconfig/copyright	1301	b215a61cdd3e62b5b17cc28b1852c78acb3dd3
 F	usr/share/doc/fontconfig/fontconfig-user.html	45391	7da5fec488a024281327a36324742d3addadc7f2a9b620c49dc1aa87467e3fef
 F	usr/share/doc/fontconfig/fontconfig-user.pdf.gz	137634	209174055722559d358c478ff9a8c4b0a67375d6d2c1e7a26b9c31f73ef7214f
 F	usr/share/doc/fontconfig/fontconfig-user.txt.gz	11193	ae20390d2c86c2ace8efd829d395d270062847ca9d1601dd2e722644c5ae964f
+F	usr/share/doc/fontconfig-config/changelog.Debian.gz	3589	73350e4fd85dc26f6047e556001dd221eec009e6e8e7417d482702ae1e7eb439
+F	usr/share/doc/fontconfig-config/changelog.gz	262491	a2f4c9af2249d09f9eddf34860817d07e4ecde85d8877c70483b7bdd09be96b3
+F	usr/share/doc/fontconfig-config/copyright	1301	b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db
 F	usr/share/doc/fonts-dejavu-core/AUTHORS	842	915a742f0b242ea43fcbef934b6d24353b51351470f71d8a8d00c751892fad50
 F	usr/share/doc/fonts-dejavu-core/BUGS	51	f3a3ba43ec32229502ca63f91de8862c22657b79aed0b2e06f1580001052e3e0
 F	usr/share/doc/fonts-dejavu-core/README.md	2557	a531455b82dfefec9e02852474c6d3398b3ef57fba069d369f3633df2be53c0d
@@ -5957,10 +6128,6 @@ F	usr/share/doc/gettext-base/ABOUT-NLS	67	fbe8681a07eab3934d302edb4db8fbcea014b4
 F	usr/share/doc/gettext-base/changelog.Debian.gz	3925	3913d5fcf10ec15d1a85ed0a7ca469789e58a3ed23eee8c4b53e914964f53b68
 F	usr/share/doc/gettext-base/changelog.gz	149734	86b5ff1e0d5c14078b0e2bb29e72f3d98cfaa24029ab68736d070e332e8b1718
 F	usr/share/doc/gettext-base/copyright	3867	520038c2d0a990ba26f5216348f2e65bd5134f6608b853fd7a61d855749f1dd4
-F	usr/share/doc/gnupg-l10n/NEWS.Debian.gz	1445	d7b330d88495fd869c995793d6740ca812a7d81b8598324d3af5583c0388b9af
-F	usr/share/doc/gnupg-l10n/changelog.Debian.gz	9581	00dac413941e86f889f0a602dc17d5df81b197ac56a0a8236c0ddddad17e8d04
-F	usr/share/doc/gnupg-l10n/changelog.gz	101	3a1a4bd3d7d401eeabe428cc9c1cbb2be9c57bb2dde54d6f40442c1f7c117045
-F	usr/share/doc/gnupg-l10n/copyright	13143	c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8
 F	usr/share/doc/gnupg/DCO	1263	51dfd51b4c955304ed6e2e7dc0c1973ef07ba2d38d6a3bd1308dbaefce249e36
 F	usr/share/doc/gnupg/DETAILS.gz	24780	b07a304e70fa94c0d8f2554135164b2ed14be906e90a4278fe4cff3f5016de61
 F	usr/share/doc/gnupg/FAQ	278	3b5367b76118c5ca94a566f3dcbddf0672dc729251e7829f8e2f683f562f3e6b
@@ -5986,6 +6153,16 @@ F	usr/share/doc/gnupg/examples/qualified.txt	9600	7b104d9675b3332ef035c8f9daefa9
 F	usr/share/doc/gnupg/examples/scd-event	1846	20d82de3dbb976a1f2f3a42bfab5136874a32508f55a4a2ebf2f462197f564e1
 F	usr/share/doc/gnupg/examples/systemd-user/README	2274	ea441cf584f22765926aa3619387bd730fd2a5d7937ec3413372950c6bd43d85
 F	usr/share/doc/gnupg/examples/trustlist.txt	2707	267092aca5a090b4f4b824f856b07be5f8fa96fc4d5c1d9e0e4f6f93bc780ab8
+F	usr/share/doc/gnupg-l10n/NEWS.Debian.gz	1445	d7b330d88495fd869c995793d6740ca812a7d81b8598324d3af5583c0388b9af
+F	usr/share/doc/gnupg-l10n/changelog.Debian.gz	9581	00dac413941e86f889f0a602dc17d5df81b197ac56a0a8236c0ddddad17e8d04
+F	usr/share/doc/gnupg-l10n/changelog.gz	101	3a1a4bd3d7d401eeabe428cc9c1cbb2be9c57bb2dde54d6f40442c1f7c117045
+F	usr/share/doc/gnupg-l10n/copyright	13143	c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8
+F	usr/share/doc/gpg/NEWS.Debian.gz	1445	d7b330d88495fd869c995793d6740ca812a7d81b8598324d3af5583c0388b9af
+F	usr/share/doc/gpg/README.Debian	1533	3725bdd512b577cd9bbdfe4c8d0beaf826dec6ee678c3d7d018e963fb692e1d2
+F	usr/share/doc/gpg/changelog.Debian.amd64.gz	253	552737f356a701b86eee309a02cd2af9a04d24e920e9ca691709339bcf34b177
+F	usr/share/doc/gpg/changelog.Debian.gz	9581	17196273023212c4051c11593eda028532a7c3b29142868c0f931b581694b701
+F	usr/share/doc/gpg/changelog.gz	101	3a1a4bd3d7d401eeabe428cc9c1cbb2be9c57bb2dde54d6f40442c1f7c117045
+F	usr/share/doc/gpg/copyright	13143	c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8
 F	usr/share/doc/gpg-agent/NEWS.Debian.gz	1445	d7b330d88495fd869c995793d6740ca812a7d81b8598324d3af5583c0388b9af
 F	usr/share/doc/gpg-agent/README.Debian	3140	ddbe8f73e936810bf4af9ca854e3c61e8fd429d80cbabca0d344bdf58b2971a4
 F	usr/share/doc/gpg-agent/changelog.Debian.amd64.gz	253	552737f356a701b86eee309a02cd2af9a04d24e920e9ca691709339bcf34b177
@@ -5994,12 +6171,6 @@ F	usr/share/doc/gpg-agent/changelog.gz	101	3a1a4bd3d7d401eeabe428cc9c1cbb2be9c57
 F	usr/share/doc/gpg-agent/copyright	13143	c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8
 F	usr/share/doc/gpg-agent/examples/pwpattern.list	1231	7c1d7a1c780f015a46667cc06cd6355063c78c8fd5cfd57127d7937ab9c38765
 F	usr/share/doc/gpg-agent/examples/trustlist.txt	2707	267092aca5a090b4f4b824f856b07be5f8fa96fc4d5c1d9e0e4f6f93bc780ab8
-F	usr/share/doc/gpg/NEWS.Debian.gz	1445	d7b330d88495fd869c995793d6740ca812a7d81b8598324d3af5583c0388b9af
-F	usr/share/doc/gpg/README.Debian	1533	3725bdd512b577cd9bbdfe4c8d0beaf826dec6ee678c3d7d018e963fb692e1d2
-F	usr/share/doc/gpg/changelog.Debian.amd64.gz	253	552737f356a701b86eee309a02cd2af9a04d24e920e9ca691709339bcf34b177
-F	usr/share/doc/gpg/changelog.Debian.gz	9581	17196273023212c4051c11593eda028532a7c3b29142868c0f931b581694b701
-F	usr/share/doc/gpg/changelog.gz	101	3a1a4bd3d7d401eeabe428cc9c1cbb2be9c57bb2dde54d6f40442c1f7c117045
-F	usr/share/doc/gpg/copyright	13143	c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8
 F	usr/share/doc/gpgconf/NEWS.Debian.gz	1445	d7b330d88495fd869c995793d6740ca812a7d81b8598324d3af5583c0388b9af
 F	usr/share/doc/gpgconf/changelog.Debian.amd64.gz	253	552737f356a701b86eee309a02cd2af9a04d24e920e9ca691709339bcf34b177
 F	usr/share/doc/gpgconf/changelog.Debian.gz	9582	8a78483868a9948d6740ba1362a020101a7e8a5c3497b8b3a3b93e74596d3228
@@ -6046,6 +6217,9 @@ F	usr/share/doc/libacl1/changelog.Debian.amd64.gz	224	a85535e01535afed208fffd920
 F	usr/share/doc/libacl1/changelog.Debian.gz	7925	b8a1631956b2142ba5010d0371afb530eac85cef5e06b31d5db1598a955230a5
 F	usr/share/doc/libacl1/changelog.gz	8296	6a6e7777e7d407c6cfba826e5f3dd70dd0264719d7e8f097f0f8be5a17989ae3
 F	usr/share/doc/libacl1/copyright	2048	9a2dfb4a5abc7e84be2cc41f1089be665519c9409549296f6c19de57ab1d37c2
+F	usr/share/doc/libaom3/changelog.Debian.gz	4183	c41b9fa6e3f5da4fcd634200519c578975f188ab4adcae223f948f0c1b429ae5
+F	usr/share/doc/libaom3/changelog.gz	16731	95076b9675c8b4e3a884a738379d05718c7efe27ef673df1352056a67a82f6f3
+F	usr/share/doc/libaom3/copyright	12372	4bb7b0d9f568bb6fd91b6505f7d6c81edab21e12707b7fd28bc2bcbb01af9d4d
 F	usr/share/doc/libapparmor1/changelog.Debian.gz	10567	cf119ef2ea3a9f2ba3d7682ffa978afb8baeab2e3e599e7217a3f102439da2b5
 F	usr/share/doc/libapparmor1/copyright	6065	52b7cf37d674ca47296cf6270a95ecda0ecbef976cc090d702acbd741e36b3b4
 F	usr/share/doc/libasound2-data/changelog.Debian.gz	3137	74669feeecf53e06f055af9d0b7c3cd6dcf1cbc512c4132c23b38d0f78988584
@@ -6056,6 +6230,10 @@ F	usr/share/doc/libasound2t64/examples/asoundrc.txt	11473	27c58e2147c4dbbc15670d
 F	usr/share/doc/libassuan9/changelog.Debian.gz	2125	814c60d52b08a564ecb57c2af20e01fca710e841ed1627fe0eb721de28eb2af6
 F	usr/share/doc/libassuan9/changelog.gz	21813	2ccb5010967d264c1794ab58abddcdea62ed96aeae6a5aaad4bdb479da00b62e
 F	usr/share/doc/libassuan9/copyright	12055	77098ae4bd20a17039c27a742aaec873c0317793a2867332b3083509c16cfb9a
+F	usr/share/doc/libasyncns0/changelog.Debian.amd64.gz	232	1ef4d045fbadc9959d0e63dbacf621aa7f1dda656787484d3ddae06cf72f9504
+F	usr/share/doc/libasyncns0/changelog.Debian.gz	997	544e56d069c0246c38db96a979ada7a945a1fadb0dd0704ba8636feac4a37e38
+F	usr/share/doc/libasyncns0/changelog.gz	431	9efb44b83543dd3f6a3ed521a03548ebf3507f1efd61a17ef0e03261adece178
+F	usr/share/doc/libasyncns0/copyright	1368	26f98be71539b8f1038fbaf51551598d0e2eb16f98db9a62094fc85db5f1c25d
 L	usr/share/doc/libatomic1	gcc-14-base
 F	usr/share/doc/libattr1/changelog.Debian.gz	8404	97a08babe5ab4e645caf23ae7f7bcc8e92903dd7dfb79f9e44153824fe9136c8
 F	usr/share/doc/libattr1/changelog.gz	5039	0df2c7fe1f963bca2fa7030381ec5b4f7708c8f00b3c9c9b08c4f6a365444c32
@@ -6078,6 +6256,15 @@ F	usr/share/doc/libavahi-common3/NEWS.gz	14406	00e900bb028e0d047555e853567bdefc2
 F	usr/share/doc/libavahi-common3/README	1518	d80d5f7026ea376b7d1478ae7b802323b8888cbb28a49530593b9cba28545307
 F	usr/share/doc/libavahi-common3/changelog.Debian.gz	6708	80af525e57a5a012e15620f45b3526ead0b3cb68769b911e6afd8acf36e37472
 F	usr/share/doc/libavahi-common3/copyright	5487	66849d0ab7cbf0d770e40e00276ed8d264ed8974c0e064fb12814c0f80430c5d
+F	usr/share/doc/libavcodec61/changelog.Debian.gz	6996	27a62376fdd3c00430f28b2dc3ea802dff754570294c3dac8a488088d8fc1177
+F	usr/share/doc/libavcodec61/changelog.gz	41940	cf7621d9de0007ac97994d5c7f472dc690acf956f97b5e13cc30f1d47e61d1e8
+F	usr/share/doc/libavcodec61/copyright	43994	28700587b4c278cd4e24adf4174a6fbe2510f27af962966d9ff15144b0b9ddbb
+F	usr/share/doc/libavformat61/changelog.Debian.gz	6996	aad5a463a025802f959fc41703b189ec1cb4d536e0dd1cfb1f063905f1c7192d
+F	usr/share/doc/libavformat61/changelog.gz	41940	cf7621d9de0007ac97994d5c7f472dc690acf956f97b5e13cc30f1d47e61d1e8
+F	usr/share/doc/libavformat61/copyright	43994	28700587b4c278cd4e24adf4174a6fbe2510f27af962966d9ff15144b0b9ddbb
+F	usr/share/doc/libavutil59/changelog.Debian.gz	6996	e4398adfd868ac91d4c7e71c1d2ecec0d650adea5c6f98bdb012da0a00265e5b
+F	usr/share/doc/libavutil59/changelog.gz	41940	cf7621d9de0007ac97994d5c7f472dc690acf956f97b5e13cc30f1d47e61d1e8
+F	usr/share/doc/libavutil59/copyright	43994	28700587b4c278cd4e24adf4174a6fbe2510f27af962966d9ff15144b0b9ddbb
 F	usr/share/doc/libb2-1/changelog.Debian.amd64.gz	233	02e049f38680fad12d5b491354e8eceda3f4d9b82ebf53ad3b70239a7e74864c
 F	usr/share/doc/libb2-1/changelog.Debian.gz	776	8d290e8d94891e60fd405a62b9d176b18139ff43b149ed99617f74853a1212e9
 F	usr/share/doc/libb2-1/copyright	7555	8ab5efc2b43fee31be3c4ffaa2fed49f22fa050b2b5eb81b4c792c11d964ff0f
@@ -6085,6 +6272,10 @@ F	usr/share/doc/libblkid1/NEWS.Debian.gz	465	ef07ba8b9e6bcc88029a15494ae958dd119
 F	usr/share/doc/libblkid1/changelog.Debian.gz	13776	1bf82b2011233424697e720610a35b24b537deed83ee69a027d0a7f7838312aa
 F	usr/share/doc/libblkid1/changelog.gz	113	7d1164ec23c4068457ccf5c3437b81a883e429b94bc301638c1863e58f0dedb2
 F	usr/share/doc/libblkid1/copyright	30341	56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6
+F	usr/share/doc/libbluray2/changelog.Debian.amd64.gz	228	8a1cff4f3a4f3ff3cb8ae68367639f1a60ddd960c1a434ce7e590d55b1b6ae31
+F	usr/share/doc/libbluray2/changelog.Debian.gz	1224	bed0d553455a25ba558fd380fa6494dd948ec9fb1a7b5674b3f3d6adda71f608
+F	usr/share/doc/libbluray2/changelog.gz	4580	7e04b2d53d7be409d2612f21361911ad4b15ccf4eda93783dccc9e21c89a43a4
+F	usr/share/doc/libbluray2/copyright	24166	4e890ce8aa03539f2a76b929552e1c4791a4a1619317c9379d0c506a2faedf0d
 F	usr/share/doc/libbrotli1/changelog.Debian.amd64.gz	227	b404c92d1c16d748b88f48e2d8ebddd3aa9e22f277decd646d5a7f840f2241d2
 F	usr/share/doc/libbrotli1/changelog.Debian.gz	1073	b1c489706e905408b243652d4adb060ad150f024ea49286a3f9190c86b8d7ca5
 F	usr/share/doc/libbrotli1/changelog.gz	2022	891538038faa6e50fa2e524f8d68cf655274663ae0bf3d7ed131d63697859655
@@ -6105,6 +6296,15 @@ F	usr/share/doc/libc6/README.hesiod.gz	2357	13e364163184406285935cea0fd0555aba25
 F	usr/share/doc/libc6/changelog.Debian.gz	37607	9847644969b76d150301885e17baf0dc38ddab640fe09e9c036b5d6830fa7971
 F	usr/share/doc/libc6/changelog.gz	153	b66db2deaee0257c5a456c17ee3058e014b51d596466b8454da17936a38d7e88
 F	usr/share/doc/libc6/copyright	51200	f5788886720a2605a946e81d571e6c8162b09f58d2e2ceb8d36e5768fccd850d
+F	usr/share/doc/libcairo-gobject2/AUTHORS.gz	3967	b924e8de9c66d201eb4b88b12928c2089b7ed2d6535bb87a01af43030bcaa8cf
+F	usr/share/doc/libcairo-gobject2/NEWS.gz	101742	8b6d63a5752b922cc396cc63df06101c6b0b31eaba2878943184307cd62c9143
+F	usr/share/doc/libcairo-gobject2/README.md.gz	2210	c5e9da765e823825c3407f883964d4e9de207474c06b39526a59ed5ccc304cd4
+F	usr/share/doc/libcairo-gobject2/changelog.Debian.amd64.gz	231	039af962ce6f610a5b7e55d62613f8520ee2ebaaced34a8f12ec5f7cf47018c3
+F	usr/share/doc/libcairo-gobject2/changelog.Debian.gz	2861	c1e7d7d419f6ae5a016443c9b516ee20562b3625721a8a3f73b3e2b66900eaf6
+F	usr/share/doc/libcairo-gobject2/copyright	28461	408fb9e704e875cd42d432e7c9b3b378f568e3c89db2b5c5ef3d11c025319574
+F	usr/share/doc/libcairo2/changelog.Debian.amd64.gz	231	039af962ce6f610a5b7e55d62613f8520ee2ebaaced34a8f12ec5f7cf47018c3
+F	usr/share/doc/libcairo2/changelog.Debian.gz	2861	681d4f73c06dd77cf548cacb36ab60ee7cc103e7ae0a522e52e5f01aefb0dd78
+F	usr/share/doc/libcairo2/copyright	28461	408fb9e704e875cd42d432e7c9b3b378f568e3c89db2b5c5ef3d11c025319574
 F	usr/share/doc/libcanberra0/README.Debian	993	bf8915a886e8d5d2871376760ffb13dce8396b14f68c58944546515162bb85b0
 F	usr/share/doc/libcanberra0/README.gz	3698	41fe085350e21057f0f785ce782d3aade465d31e00d6b0d16ab8c53363393b09
 F	usr/share/doc/libcanberra0/changelog.Debian.gz	1931	be7cdd372534cccc70b40aef2693af09785e39744b97c050a4532aba7b718572
@@ -6117,6 +6317,14 @@ F	usr/share/doc/libcap2/changelog.Debian.amd64.gz	250	ce1d9e1feab9851ac77bbf7d98
 F	usr/share/doc/libcap2/changelog.Debian.gz	3892	f141debe1e4c23e7a8282bd0486c9284ff8205fae3d20bea55772b54d6a1fb67
 F	usr/share/doc/libcap2/changelog.gz	240	84e9856521ec0984d4c7e8724e866bc32d8a137e70d4a9100e028853043f9917
 F	usr/share/doc/libcap2/copyright	4496	04f9fb974e10f6ca0cd226811f72b3855f8383daad0e5de7adac8d5b0b7796c3
+F	usr/share/doc/libchromaprint1/changelog.Debian.gz	1002	6d03e845fffaaae6ab6a871c3823818689e17b350667ef85095ed051ade593a5
+F	usr/share/doc/libchromaprint1/changelog.gz	2277	358082aa7a5ea746e6faeeee25f4bbddfc85db063bb1b30726f042047857788c
+F	usr/share/doc/libchromaprint1/copyright	4189	23dfbeb067dc73487dce9a90bfb42a5e8e69d985c6a890cbb41068f53a2bb8f9
+F	usr/share/doc/libcjson1/changelog.Debian.gz	1157	714ccc8a0ef2e03421a0ed0130311ff72a4b755b76e829faef65f7b0daa3daa6
+F	usr/share/doc/libcjson1/changelog.gz	8428	4d57a42dae632e9932bc0813765a16a901af32e012d74a31931092b10ad8ec01
+F	usr/share/doc/libcjson1/copyright	2379	720c3c9cc0f8d29113ac4cc6de63c23118aaa9cc8e626b79401ccfd7ce905b1d
+F	usr/share/doc/libcodec2-1.2/changelog.Debian.gz	1508	408c60e3f01f7301b4d487990511521849ffe3328e21bc701a79f2be104cdecd
+F	usr/share/doc/libcodec2-1.2/copyright	5368	fd07bd00dbf40eff6b292e2b6774cd2a01f3d839137c6a7622d6f088af220d97
 F	usr/share/doc/libcom-err2/changelog.Debian.amd64.gz	248	4024d262f9e74b6819cd54ff6c620d074e048986e2223e40b43c0cf8f7e6a6ca
 F	usr/share/doc/libcom-err2/changelog.Debian.gz	12715	a33862be4952ca3351b8c9d5d7aed2c710021d07886d6a23e89481e642868849
 F	usr/share/doc/libcom-err2/copyright	20459	2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19
@@ -6142,6 +6350,14 @@ F	usr/share/doc/libcups2t64/examples/client.conf	2690	30a0a5ddc2b37e62ad7371dea9
 F	usr/share/doc/libcurl3t64-gnutls/changelog.Debian.gz	13551	c22dac0e875b7d4938c01fdbbb6310f2f7f806cc552c732fbe7f360eea310e44
 F	usr/share/doc/libcurl3t64-gnutls/changelog.gz	306	43a2212a7e247c49e9dd13ddcd602672a5adc10a6a5fbfb772e94ae81acbf220
 F	usr/share/doc/libcurl3t64-gnutls/copyright	22132	e1b7678c8443b4f8ac69350e1eefd6132339b010cc3b870675fec0c0c29779a5
+F	usr/share/doc/libdatrie1/NEWS.gz	2623	6e3963d8ad435757b8389c8d83c55be1c73030a0975da0223513737644913104
+F	usr/share/doc/libdatrie1/README	1188	24e7f17186e02bc7876e264d2f8ed8ea31b46ce794d809086ba1f5832bff709f
+F	usr/share/doc/libdatrie1/changelog.Debian.amd64.gz	227	4eb70f091417fd0d687887eb5eebc3cb217a893de5bd3961cf39519cf0735bd2
+F	usr/share/doc/libdatrie1/changelog.Debian.gz	1064	03ff0a7971c36af87d234e71cef66f9835b17fd17f94b67a3f3ab6d524e5af1b
+F	usr/share/doc/libdatrie1/changelog.gz	18885	d24ff33c8cfd9c179e47674f605b3ad22a67d1d6654249023f8f8782fa3fb0a0
+F	usr/share/doc/libdatrie1/copyright	2129	7c994f175cb0da0bbe158f729ca43bc6193bb99d3c8bc82b41c46d93904b584d
+F	usr/share/doc/libdav1d7/changelog.Debian.gz	1500	ba7c7c87c5ff04952ff625140f90d416bb62cdf471c023a550443118e319c68a
+F	usr/share/doc/libdav1d7/copyright	9722	38aaebbbf5ab0c19a5d4029acb5ce6566f8bd95e07eff6f6472753f5bea83d97
 F	usr/share/doc/libdb5.3t64/build_signature_amd64.txt	9	9bcc6b8dda7b5ef9fd43c0ab7580d3a91d87fcd6a988b22dc4d39549be61fb83
 F	usr/share/doc/libdb5.3t64/changelog.Debian.gz	1550	e10a04ac12a0b46af446a135e5bc586d2e68b790a927a950b8e2823e8939d53e
 F	usr/share/doc/libdb5.3t64/copyright	17177	8b53da37d73289d9df7317b3a2dbe16491f1fa9fec8b77b86d69704b40ce2c26
@@ -6176,6 +6392,16 @@ F	usr/share/doc/libdrm2/copyright	15612	512c9a57fd8b449aa157351da9df07bf8e19f767
 F	usr/share/doc/libduktape207/changelog.Debian.amd64.gz	226	b5679c32eb2fa91076a2086b31ec6b362fe82aadab7a4ba99fd99434c10eb9ff
 F	usr/share/doc/libduktape207/changelog.Debian.gz	740	3e13441b3a07cd9547ccaa467a8e54b522f0ec468f34e62899846ad1bc23380e
 F	usr/share/doc/libduktape207/copyright	3492	ffc72ca2383e76328250b48c18a2c87d551174db0334fee34ca895eae5e1bf6b
+F	usr/share/doc/libdvdnav4/AUTHORS	312	120360d44a585630a4bcef395da624620690023ec177857b1cb6baa02513265b
+F	usr/share/doc/libdvdnav4/README	2620	cae4cf95cd8a5e3f7f01f6cd7d7d487401c74cf1a05bcae1fc07cbeeaab8d686
+F	usr/share/doc/libdvdnav4/changelog.Debian.amd64.gz	229	2dc6a1d44b984d1435b1c847e0adbd37c7de89d60adae3754c885adb474d4e9d
+F	usr/share/doc/libdvdnav4/changelog.Debian.gz	895	47882a863af605c9b1aa9a8d52b9d744064a3a27853fb736cac3fefc0a01e21d
+F	usr/share/doc/libdvdnav4/changelog.gz	3318	284332ace94f6c8abcd6510c1b0ebd810c04c69c53abfb7ce2073e64e5238de4
+F	usr/share/doc/libdvdnav4/copyright	2379	0995210b67fef81fb95cb94db75cdbb2cabf6a9c2d518c446477a71056895247
+F	usr/share/doc/libdvdread8t64/README.css	813	29dc1bbbcaa6ced031f534977440f3530a82a48f99a2524d257d3cc38f8b8bfb
+F	usr/share/doc/libdvdread8t64/changelog.Debian.gz	1222	fd0dcc8d16f494a16fb571eafcdd798843fe7488bfc506efa7439fb29b8c0921
+F	usr/share/doc/libdvdread8t64/changelog.gz	33419	6919d8d15aa26b6f662d74c205bd5f25386fa182791a75e023faa68ab15111fb
+F	usr/share/doc/libdvdread8t64/copyright	5156	2e205dfcd5c256fccad82c00be13856316bef1bf776b3b367d7fd23a64b33c98
 F	usr/share/doc/libedit2/TODO.Debian	44	53538838b5baa5302f6ec60e7733c753812452a34dbb950409670d68215d2af7
 F	usr/share/doc/libedit2/changelog.Debian.gz	1251	f8538580d9e958ca8be417c6d0ef50a34f9bb18ba94a9bdd7992d4c0c900453d
 F	usr/share/doc/libedit2/changelog.gz	3702	e5390d42e7750b3959e7aa848d3b89f8298cf700b2b2e52ac3efd4b4702e57ca
@@ -6210,6 +6436,9 @@ F	usr/share/doc/libfdisk1/changelog.gz	113	7d1164ec23c4068457ccf5c3437b81a883e42
 F	usr/share/doc/libfdisk1/copyright	30341	56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6
 F	usr/share/doc/libffi8/changelog.Debian.gz	1745	332b5e2250594b86c51eb818c64eb1c1b3653a888d52745d2a057e1a31e615ca
 F	usr/share/doc/libffi8/copyright	10164	25ee86cfccc2b7eb9a156a127f1e1b38c46c231f516ff201912223eaf62ee186
+F	usr/share/doc/libflac14/changelog.Debian.gz	1925	47e75c32d8fabbda5fb8ad8222f08d86a408fc613d523b2fed4b80d13cf94898
+F	usr/share/doc/libflac14/changelog.gz	23502	7e33106ac2b2409bd8fe676ed619d772ac8e9cfdebb51071f4b22307f18837ee
+F	usr/share/doc/libflac14/copyright	8606	2448b1e329b046bde52bc0ec613b66a9d44762c34fcef486764305b0dd82f81e
 F	usr/share/doc/libfontconfig1/changelog.Debian.gz	3589	c3e7addbb0d5c772598c0ec89e82c625fdc248c863a25d9b6bd13d185c995e9e
 F	usr/share/doc/libfontconfig1/changelog.gz	262491	a2f4c9af2249d09f9eddf34860817d07e4ecde85d8877c70483b7bdd09be96b3
 F	usr/share/doc/libfontconfig1/copyright	1301	b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db
@@ -6217,6 +6446,13 @@ F	usr/share/doc/libfreetype6/README	3114	304b99f680248e42f9c656d36c8c41cda74cf6e
 F	usr/share/doc/libfreetype6/changelog.Debian.gz	6211	b2ff5b8bb4aaaa316e6f075853d7e31fc311e8cc59effcba9aa5bcf4a5bcdb35
 F	usr/share/doc/libfreetype6/changelog.gz	78525	2307fb4386ffe9f8aa7a73ff5716c95b70b5595afb6302a7a42d39f3bfec53ff
 F	usr/share/doc/libfreetype6/copyright	31206	acdab1506824347784d2cc0a634cfa17dbf525c0d5b4902b4ac9d0d4e1fed6c7
+F	usr/share/doc/libfribidi0/NEWS.gz	2002	9be20ee58d69c55da7c0f4443afdb12f5155f1e7a1e4072dbac90b747dd390ea
+F	usr/share/doc/libfribidi0/README	14	3debe734c777df09c3c762cadd0fea1bebdb857c55243d605dc5b09211895bf3
+F	usr/share/doc/libfribidi0/THANKS	1242	25add6c5ee91b15d6f7932905762d7fc71315a76f4b9750c19b8327880038655
+F	usr/share/doc/libfribidi0/TODO	2629	e391176791f01aabf1065da5dc741079816b49c0cc042073ac1576f8d57a0d3a
+F	usr/share/doc/libfribidi0/changelog.Debian.gz	1449	db15dabd89d8faabaa066a2b799f632d1401c7e237271d0e33f4c5f9ca408332
+F	usr/share/doc/libfribidi0/changelog.gz	1692	a6c50abb1dc2e94015f97b7c15ac566f4e6209c665116f990bbc088778945f97
+F	usr/share/doc/libfribidi0/copyright	1460	a9b76593ba12d42b47000f8779d0b631432147980e71464e8ba88238becbc038
 F	usr/share/doc/libfuse3-4/NEWS.Debian.gz	318	80259d9f288f60d73eb7e3a133e339cf33f536b397bf72cbcdf280c51a081cd9
 F	usr/share/doc/libfuse3-4/README.NFS	2156	b0e3e7ea0859147894cecbc5525e095f25c7034f11b2c4ba2d97e22f57a7b0fb
 F	usr/share/doc/libfuse3-4/README.md	6448	58e349611837f6b24cbd32549cbfac592dd276b1f6d37d50d85bdace3050ab7b
@@ -6236,12 +6472,16 @@ F	usr/share/doc/libgcrypt20/THANKS.gz	3618	b4ab3b58942af018d013470746311e868557e
 F	usr/share/doc/libgcrypt20/changelog.Debian.gz	4920	cb8c4883b49536a7f1365e1877c4c3fd60049e79bce6a2144c75fecdc368e601
 F	usr/share/doc/libgcrypt20/changelog.gz	261206	89597fd725ccbb5637f0c16ad2c4a90a87f378bebb21dd6e1ef243fb1c793220
 F	usr/share/doc/libgcrypt20/copyright	26983	4feae258cab1ad4743fb569a77e0b2a5b7a0199520bdbc0a613916291b9aa8a8
-F	usr/share/doc/libgl1-mesa-dri/changelog.Debian.gz	11889	36ae2dfe7b011962af8f1d766e8a8e955b568ea524d5e56ca2066ba99515a739
-F	usr/share/doc/libgl1-mesa-dri/changelog.gz	1987	c8fabf3eaa5438873ea7ecbdb1378e47b6fcab9aa5e58bda690f0e9645b91053
-F	usr/share/doc/libgl1-mesa-dri/copyright	14847	55268f06fbc193ee1a4fe694045a9cec58ba727d74bb17b5b1d54de36873a038
+F	usr/share/doc/libgdk-pixbuf-2.0-0/NEWS.gz	8507	80a61496fc107bd6fa8413280f6d206ffdfce0a8d82bd65dd0aab23834a43b06
+F	usr/share/doc/libgdk-pixbuf-2.0-0/README.md	2697	19f9a57887ff4ad71a8dd49ce74af460151a81410a47907f06ab0aa2f0dbc5c2
+F	usr/share/doc/libgdk-pixbuf-2.0-0/changelog.Debian.gz	5544	5b42410a897e4cc35dfc52cca59a0012b97c1dd91f6360e57581544ded61ad7a
+F	usr/share/doc/libgdk-pixbuf-2.0-0/copyright	5415	2b914b2304e7474aaa8108307b9e95c3f8345e0a4153c7bfa0ca9c48813cb406
 F	usr/share/doc/libgl1/changelog.Debian.amd64.gz	228	9e3bc1c93d51c58fe4ad275d2c0825b4134ee86001612b70b730dbc4c2c35c83
 F	usr/share/doc/libgl1/changelog.Debian.gz	1478	f44e681252c8133887b7c87b52b30b4cd3745ead9f95b4eff0bcc81ed86a806c
 F	usr/share/doc/libgl1/copyright	4422	37920f219f60efa2fde5d003c51be0608b2159cc74c5eb6d70d630907db2d9a3
+F	usr/share/doc/libgl1-mesa-dri/changelog.Debian.gz	11889	36ae2dfe7b011962af8f1d766e8a8e955b568ea524d5e56ca2066ba99515a739
+F	usr/share/doc/libgl1-mesa-dri/changelog.gz	1987	c8fabf3eaa5438873ea7ecbdb1378e47b6fcab9aa5e58bda690f0e9645b91053
+F	usr/share/doc/libgl1-mesa-dri/copyright	14847	55268f06fbc193ee1a4fe694045a9cec58ba727d74bb17b5b1d54de36873a038
 F	usr/share/doc/libglib2.0-0t64/NEWS.gz	251743	9742cf0c973b87f0891b94a0c336d713747cfef0ba22899a6d3baf97e332d90a
 F	usr/share/doc/libglib2.0-0t64/README.Debian	1703	36e1c7acf1a83c0c2136d7556170563def281a14fdf389cd0a17dbfc344f492e
 F	usr/share/doc/libglib2.0-0t64/README.md	3248	c8d47803738fc68c8fa05735504e4423a2f0844a53c71d07f506985e5db7827e
@@ -6260,6 +6500,10 @@ F	usr/share/doc/libglx-mesa0/copyright	14847	55268f06fbc193ee1a4fe694045a9cec58b
 F	usr/share/doc/libglx0/changelog.Debian.amd64.gz	228	9e3bc1c93d51c58fe4ad275d2c0825b4134ee86001612b70b730dbc4c2c35c83
 F	usr/share/doc/libglx0/changelog.Debian.gz	1479	b2bfb1053a7970b24ccc262894217e83c213b4def4f2b445f3caa4ec6833a252
 F	usr/share/doc/libglx0/copyright	4422	37920f219f60efa2fde5d003c51be0608b2159cc74c5eb6d70d630907db2d9a3
+F	usr/share/doc/libgme0/changelog.Debian.amd64.gz	230	4ccd87d7bdb53894fc5a0ef6198fbfcc5b9a174a3f665364a8e04176999bdae0
+F	usr/share/doc/libgme0/changelog.Debian.gz	1127	902f45c9a0bf576aaef253cbe6531bbe3abc779ab2d21114c671168b8960104d
+F	usr/share/doc/libgme0/changelog.gz	139	528fe4eebbba3752da24212d30104bd322fd14a6385320d14467b97758f93420
+F	usr/share/doc/libgme0/copyright	2749	05a592c9b5923026691840dd10f5f08b407a8ca94fb237850354a4128b2cdc6c
 F	usr/share/doc/libgmp10/README.Debian	334	d1775a26bb45dcae5fae14312945a30822706fe992da77296672170e12e82d7d
 F	usr/share/doc/libgmp10/changelog.Debian.gz	1764	eba45acf1c7220c57cf1a1b21a0ed8996de7ac0162f07824df86814694dbcc4d
 F	usr/share/doc/libgmp10/changelog.gz	316684	9f1c97a9a5523c44243731e81d28f9390316437b4ed5be22b4df175581a681aa
@@ -6286,6 +6530,13 @@ F	usr/share/doc/libgpgmepp6t64/copyright	3964	634b667cb8c01f73d9d59ce522faee9f6c
 F	usr/share/doc/libgraphite2-3/changelog.Debian.gz	1610	b9e076f217370e4cfa6fda967b000343b8ee67da35fae9f07447496f29520f3a
 F	usr/share/doc/libgraphite2-3/changelog.gz	3661	8a4335bb5d64cc9798d8d2cdc7ae9a04221b896e25bdfa509555a3b5282e09f4
 F	usr/share/doc/libgraphite2-3/copyright	9348	a33017ba0308c41bdbde4751bff349ab7b26af45fadbb1e3e7ac67c372985572
+F	usr/share/doc/libgsm1/MACHINES	439	fccbe9ec3787c9c49f97e1ef0e3d3386aae50a4ed00ed98431b2b7f88304d395
+F	usr/share/doc/libgsm1/README	1730	31856eee76c7e2d0a8d93d43e3debd1b5380f04c9f713551917cb9ad432d6daa
+F	usr/share/doc/libgsm1/README.Debian	3288	47cdc728e88861b302b2e4bec2d7b43d9dbdf78714a7215ede86831af7b213b0
+F	usr/share/doc/libgsm1/changelog.Debian.amd64.gz	233	c800d551e483ace0f3f1b6c7bc21efd5dd66a49c28c3ce3c5f6a1dcad614cd3f
+F	usr/share/doc/libgsm1/changelog.Debian.gz	927	adc9790519faf905890c8423690579b015807b12accad0ca20853f389c09b992
+F	usr/share/doc/libgsm1/changelog.gz	2461	6ec8ff8493d4cabb1672c26a987ec727d8f22d69a46d6f952e2e8c9d094e509a
+F	usr/share/doc/libgsm1/copyright	1912	546515a7de6c93db62b6b32bd4ad35bce0314055c255889a70a51a8aae6f3cd8
 F	usr/share/doc/libgssapi-krb5-2/changelog.Debian.gz	4400	c6baea56ccb89d406da4d2ba7c564723fd7be160db511a802b7cbdd6846ca078
 F	usr/share/doc/libgssapi-krb5-2/copyright	63047	936728f4181718f42951b881c1e8f1386bf6b2723c4fbc533c374d6f42c71816
 F	usr/share/doc/libgudev-1.0-0/changelog.Debian.gz	1391	a0b8cbb9a55df3fbc44dabe56a8e606d10dba8f20b2741e63367edb09a72aa17
@@ -6295,6 +6546,9 @@ F	usr/share/doc/libharfbuzz0b/copyright	31772	9295e101a07824e8ae77c448884bd357a6
 F	usr/share/doc/libhogweed6t64/changelog.Debian.gz	2384	2a9e4c3265fb568749bf162c7eb0503c32ef5809e51ebb572e16080524fc2611
 F	usr/share/doc/libhogweed6t64/changelog.gz	133023	70f9988d97ab3c64cf03fd98544e36a8ac4d091f0581f67e0cfdf977bddd104c
 F	usr/share/doc/libhogweed6t64/copyright	24407	344396197142cd506468b20029ea5722d507c980129bb3db4af02424ed6f39c6
+F	usr/share/doc/libhwy1t64/changelog.Debian.amd64.gz	240	6e28264c6e23099d627bd75e093f3454bd39321731bcbe44eeac225f209120cd
+F	usr/share/doc/libhwy1t64/changelog.Debian.gz	3302	78ece79d73eb39334f478de6640c24521913aa83915a716cf5cf3ebdc906b5bc
+F	usr/share/doc/libhwy1t64/copyright	982	fd82ff294401d62244717374587aa9daa62934600096460a8565d215ff902f8c
 F	usr/share/doc/libice6/changelog.Debian.gz	906	6b8c60d17c5c403428eb27af04c511e4e8d357b76751bf2036fbe3160ee0bf25
 F	usr/share/doc/libice6/changelog.gz	24371	c220001fcc24c7b03ba5e0b7c141b052b25afd98444c66d754a3ece8bd8bfad6
 F	usr/share/doc/libice6/copyright	1256	fc16500a74acc2d0a7bb2fa1005956a52551abdce2afe0642a9a8dc2b6af53c6
@@ -6328,6 +6582,9 @@ F	usr/share/doc/libjson-c5/README.html	1782	fd7c06f29e2aa59daf54ad6b94055ba22675
 F	usr/share/doc/libjson-c5/changelog.Debian.gz	2315	cb6a47cde08ae10f34f204ab6906a4a77eda75eef710b7bffd99bd76dce1d309
 F	usr/share/doc/libjson-c5/changelog.gz	11153	5517fefd5f1d2725a441cf9d92468637caf4c2ad80f58f0884a137cf76623c6d
 F	usr/share/doc/libjson-c5/copyright	2121	95f676ac96c7f4771bba4f17a11bddca699f7cba8317dd099cfd5600a81aa848
+F	usr/share/doc/libjxl0.11/changelog.Debian.gz	5672	29bcd71d76ec48961360f482368ddaad083766be0f3132dfc18fc49bef2223e0
+F	usr/share/doc/libjxl0.11/changelog.gz	6791	9ded15d62267d559860cbd76c29fa33369381ea6fa19434f2a406bf6e082e790
+F	usr/share/doc/libjxl0.11/copyright	2662	cf449aae49be7e62803ac2ee7f4bd63d1156c1ace680908d24a3856215cd3329
 F	usr/share/doc/libk5crypto3/changelog.Debian.gz	4394	645f7c939371f8a2b75b1ee0df258bca16135e73325494ebbb17a26f81ed0326
 F	usr/share/doc/libk5crypto3/copyright	63047	936728f4181718f42951b881c1e8f1386bf6b2723c4fbc533c374d6f42c71816
 F	usr/share/doc/libkeyutils1/changelog.Debian.gz	1294	8f47ddb9fe3052942d66dca66199a0b16261d51a3454857bf12b836766715968
@@ -6506,6 +6763,9 @@ F	usr/share/doc/liblzo2-2/changelog.Debian.amd64.gz	231	45cd1336c49a38953c3eeab1
 F	usr/share/doc/liblzo2-2/changelog.Debian.gz	801	632e618f2c0064ad87153971a03c04f4971eea4ccf0426cf994ae40ab38b0414
 F	usr/share/doc/liblzo2-2/changelog.gz	4681	843efde9644e296b5e5271ab92044c58653fffd8f30566fda294409ff4826ac6
 F	usr/share/doc/liblzo2-2/copyright	1286	67f612aaf8ba7dc7dc8d0dd8b67745dee8b87d97cb388768da2cd8b902175479
+F	usr/share/doc/libmbedcrypto16/changelog.Debian.gz	3244	5eada13dbefcec5c73b1969945b2ea651393c0f4f94d4510545a73973717d414
+F	usr/share/doc/libmbedcrypto16/changelog.gz	117479	77e41e7e42142f64085ec8261f4d681d691e8f37c88c7fef92e6dd0155cb48e3
+F	usr/share/doc/libmbedcrypto16/copyright	2052	446042a6d62055e5617c220129b03063deff1a2b595ac29d9d10a9058cc10981
 F	usr/share/doc/libmd0/changelog.Debian.amd64.gz	229	ff9c87cb95698dcee056549951e6f1f9bf17e53690a8ad2a444b11c05e229824
 F	usr/share/doc/libmd0/changelog.Debian.gz	1394	89d208a1ea137de24a5697ea74fd64e023874af31b83cb25d1ae3868cd9a8452
 F	usr/share/doc/libmd0/changelog.gz	9589	5aa2b99c59f8b772b29cbee6967477c6411aae230e6c4328c16a2c6a2d9d3abe
@@ -6523,6 +6783,13 @@ F	usr/share/doc/libmount1/NEWS.Debian.gz	465	ef07ba8b9e6bcc88029a15494ae958dd119
 F	usr/share/doc/libmount1/changelog.Debian.gz	13776	f3699fadcd4070fb19f391c5e29cbb754bf90b6b01e872937d636af90318fa23
 F	usr/share/doc/libmount1/changelog.gz	113	7d1164ec23c4068457ccf5c3437b81a883e429b94bc301638c1863e58f0dedb2
 F	usr/share/doc/libmount1/copyright	30341	56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6
+F	usr/share/doc/libmp3lame0/changelog.Debian.amd64.gz	230	b2b301d691c72769ee963be6d182761bf9af6e1d63b33b2d28ae719e49f91c33
+F	usr/share/doc/libmp3lame0/changelog.Debian.gz	856	7ac4d56091ea434216ffa93a31e1dfd731e1613a30c38e39b3a63bc2d891e9f3
+F	usr/share/doc/libmp3lame0/changelog.gz	226841	885d45fe83e300ff52d6173fefa63acd3bc78fed48d0236b0a6eaa5a0349ceac
+F	usr/share/doc/libmp3lame0/copyright	7026	f0e4c5098ffedad31473eec38810c26409223858fb8d63dd7685bf225f96bc5d
+F	usr/share/doc/libmpg123-0t64/changelog.Debian.gz	1953	46eef974f2905862b331dda613d6f3e657ef3e555c7c915f6149c9bacedf04cc
+F	usr/share/doc/libmpg123-0t64/changelog.gz	164	5d4b2ff95f41dd3b73990f54d16953ff3464518c3db2ac6a4197393f6be0c265
+F	usr/share/doc/libmpg123-0t64/copyright	1492	ba3657ec83ab9af9070bacccc6c9735d1856c8a5adab275708ba3d4c9e41b5f8
 F	usr/share/doc/libmtdev1t64/changelog.Debian.gz	895	e9b87953532e14a37a65ba7ce58d453febbb7173331805a957f43d51ab69387b
 F	usr/share/doc/libmtdev1t64/changelog.gz	8694	38de1d887df0b78fcc02f6bbdc87a482c89d3e033377bf575912b3d0d65cd973
 F	usr/share/doc/libmtdev1t64/copyright	1632	b502da9f272701b04af7f80670e381193e5fd86134d73f7a4c67b6375e43d355
@@ -6545,12 +6812,17 @@ F	usr/share/doc/libngtcp2-16/copyright	9543	e192f8ca275520fbd3f2f75251483cbf208e
 F	usr/share/doc/libngtcp2-crypto-gnutls8/changelog.Debian.gz	1565	c9fa1199a6c5445c1cef36bdb1972c8ffc63ae6a30862fe00fd9f22794e11dd6
 F	usr/share/doc/libngtcp2-crypto-gnutls8/changelog.gz	10770	cede36150a68134bb8f33ca7b627c5862f75fe6e21661d420e4257927dec1fab
 F	usr/share/doc/libngtcp2-crypto-gnutls8/copyright	9543	e192f8ca275520fbd3f2f75251483cbf208ef6bd8759d6b736b8fc0b59f8fb55
+F	usr/share/doc/libnorm1t64/changelog.Debian.amd64.gz	247	0f769c0a6242047fbe9d73f4af1557e5cf07cdf5152a6b49a9c1dd045d243e9f
+F	usr/share/doc/libnorm1t64/changelog.Debian.gz	830	77a949c63d3b5c41e2e0384dd61c21f24602b1be4c0924a5194b1b59f34426a5
+F	usr/share/doc/libnorm1t64/copyright	9569	88c38443da2ea7d228b3d3e4e13138c02b41448e1210ad0e6277516c9ad493ef
 F	usr/share/doc/libnpth0t64/changelog.Debian.gz	959	bc40476719682e719f3f003ba4cb9d03a81284e49948b5ce11adc0dbbc94ea56
 F	usr/share/doc/libnpth0t64/changelog.gz	14341	c550cc20a57409dc40c163a336298906d9a8a14b723932c4b3479fe3af1f8e77
 F	usr/share/doc/libnpth0t64/copyright	1164	df6909abb38f4e84d237d8617e948bdbb391b2004ecf573863011d54a88ccf22
 F	usr/share/doc/libntfs-3g89t64/changelog.Debian.gz	1790	94beba21fc82366bd69bbb594f2a616d4649bc7f030f7dba2af3abbfd196ea19
 F	usr/share/doc/libntfs-3g89t64/changelog.gz	11084	3636b0b059267ea92c32c63f04a34ac8a35dc944cd7da0ac36452950c9161586
 F	usr/share/doc/libntfs-3g89t64/copyright	2109	4b0b34de1a0d48d80152bbd862ee9c764f9657e7b4ab409bed0c58b59fa8ce3f
+F	usr/share/doc/libnuma1/changelog.Debian.gz	876	13a9cbb91fd6757927a7553442cbb5e75feb8ef0354f8b8cce77bcce792573aa
+F	usr/share/doc/libnuma1/copyright	1357	179c34f5e56cd0b6b73dd7970a97357ee784e2236e8293826656c7ebb3bface7
 F	usr/share/doc/libogg0/changelog.Debian.amd64.gz	227	459f9e876da72e6821033f1f274cfd42950c1379e30349841494a380e5c3bc91
 F	usr/share/doc/libogg0/changelog.Debian.gz	1076	9d68724f3e1ad35ae5ba0fe8e6e6154c4edc7789a4b5dd1b7cf8c070be765bde
 F	usr/share/doc/libogg0/changelog.gz	1577	0e1627504436844dd11f44d52ecac30033642618e1a57b4b85718f1e747e9393
@@ -6558,18 +6830,27 @@ F	usr/share/doc/libogg0/copyright	4213	36bb02bf6a764f4fac0ca9d38d2563932513df601
 F	usr/share/doc/libopengl0/changelog.Debian.amd64.gz	228	9e3bc1c93d51c58fe4ad275d2c0825b4134ee86001612b70b730dbc4c2c35c83
 F	usr/share/doc/libopengl0/changelog.Debian.gz	1479	f03dde46a875270d0a41017d3650caf57f6d32ce4017b9693dd152093418e222
 F	usr/share/doc/libopengl0/copyright	4422	37920f219f60efa2fde5d003c51be0608b2159cc74c5eb6d70d630907db2d9a3
+F	usr/share/doc/libopenjp2-7/changelog.Debian.gz	2249	49a09a63a791e4b57c8995a35fd8473ec098506f26ad0afa4c82de8f5c258060
+F	usr/share/doc/libopenjp2-7/changelog.gz	26194	70e48e80e44e2207029d1badd9dd89f7765403d8928b92b1dd39fe43bf41e428
+F	usr/share/doc/libopenjp2-7/copyright	34923	ba3ae385ad2337d6cfc862e280a9f155bb421b43f6ee47e77ebcaaf24e992151
+F	usr/share/doc/libopenmpt0t64/changelog.Debian.amd64.gz	239	dca84c91f41bd45db932c97bef0015bceca78842655e86a070c9cf41cf90fa6b
+F	usr/share/doc/libopenmpt0t64/changelog.Debian.gz	1566	a2bbb2a489a0ad1f4842c8600a7bb24bfc7ca413a2d18a705a6b658be6516ba1
+F	usr/share/doc/libopenmpt0t64/changelog.gz	26511	d4a4fc58f105c928ff4661e8eeacde2403e1aa787791587de2e637ae8eb511ba
+F	usr/share/doc/libopenmpt0t64/copyright	11727	5998a8ed3e0b53886019f9cdb54a2048ee3c26308db7fc692585c9721fb42e6b
+F	usr/share/doc/libopus0/changelog.Debian.gz	1251	73550b1a41b45a3d911a697cab3cff6688b9cb95ca39d25287b51e9dcb763268
+F	usr/share/doc/libopus0/copyright	9663	7c9b923fe330bd98d4736866d6a0b8ca99a971c09d4a300dbfb20566a5707c60
 F	usr/share/doc/libp11-kit0/changelog.Debian.gz	3188	81dcdc7ff084bf8542d3256ef5b6f971c9366b64c7f9db5898007233ed898c06
 F	usr/share/doc/libp11-kit0/changelog.gz	181853	dc605651444dd1e10efd8dd126d03201663fad924c468521a57e8c1108da8949
 F	usr/share/doc/libp11-kit0/copyright	15605	008107de203c9f89a6c71b625fb47e10074c6b7ccb0e310694014d4551f67b2b
 F	usr/share/doc/libp11-kit0/examples/pkcs11.conf.example	390	5f8fb09ce1ecb5aac84612a6d8255111ade9cbf9ad972cad61858f4678a146df
-F	usr/share/doc/libpam-modules-bin/changelog.Debian.gz	7442	3aac1add941cc923156cf96487e9e8bb506540434faa931de372542b76440fe0
-F	usr/share/doc/libpam-modules-bin/changelog.gz	7383	6308fb23a46115c6388ab90baa8e69245236b7addfb89669406faf34bb3eba88
-F	usr/share/doc/libpam-modules-bin/copyright	9727	6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb
 F	usr/share/doc/libpam-modules/NEWS.Debian.gz	659	c48c1a71206051744b76f069b058956e94f3eb6a1e00c2f7dd1e80350d4c7f5b
 F	usr/share/doc/libpam-modules/changelog.Debian.gz	7442	ae3594acd0edc0c1615c70722cbd92ec63483fd03ffd0ff42282bb770b309263
 F	usr/share/doc/libpam-modules/changelog.gz	7383	6308fb23a46115c6388ab90baa8e69245236b7addfb89669406faf34bb3eba88
 F	usr/share/doc/libpam-modules/copyright	9727	6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb
 F	usr/share/doc/libpam-modules/examples/upperLOWER.c	3714	28c932d0a6298a43fcbc0fc2dd07fd7babfc971caecb92a1956f90fcc7a62a9b
+F	usr/share/doc/libpam-modules-bin/changelog.Debian.gz	7442	3aac1add941cc923156cf96487e9e8bb506540434faa931de372542b76440fe0
+F	usr/share/doc/libpam-modules-bin/changelog.gz	7383	6308fb23a46115c6388ab90baa8e69245236b7addfb89669406faf34bb3eba88
+F	usr/share/doc/libpam-modules-bin/copyright	9727	6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb
 F	usr/share/doc/libpam-runtime/changelog.Debian.gz	7441	b45f3d15fbab9584a3a44073c0168b3e1ede99e84a5e4866c2b0aa252a1ded67
 F	usr/share/doc/libpam-runtime/changelog.gz	7383	6308fb23a46115c6388ab90baa8e69245236b7addfb89669406faf34bb3eba88
 F	usr/share/doc/libpam-runtime/copyright	9727	6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb
@@ -6583,6 +6864,15 @@ F	usr/share/doc/libpam0g/TODO.Debian	191	db6f8193f83874d46af1fad723c5316bd03e496
 F	usr/share/doc/libpam0g/changelog.Debian.gz	7441	356f0a26a8a16ffa0a32defcfb7e9a30d3da12c20a75fc1d877f19e1d0174d47
 F	usr/share/doc/libpam0g/changelog.gz	7383	6308fb23a46115c6388ab90baa8e69245236b7addfb89669406faf34bb3eba88
 F	usr/share/doc/libpam0g/copyright	9727	6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb
+F	usr/share/doc/libpango-1.0-0/NEWS.gz	42784	5ff79f9e4591159b5930887680918cdc6101dc635144ec1dc30f79fcbefa0ab2
+F	usr/share/doc/libpango-1.0-0/README.md	3099	b502e67df79d3ec97a4fb1b9c0bf062dfd07f334e6aaa92040516a290bd73e0d
+F	usr/share/doc/libpango-1.0-0/THANKS	403	2672b381a7af206dc7690c18a0e49a1a4fb6e7b9c258881c1b4a219faba4905a
+F	usr/share/doc/libpango-1.0-0/changelog.Debian.gz	8039	8e60676aeba17b0c8b78a564ae27c23d6c9d4c04da43f0293ecedbf82c18d617
+F	usr/share/doc/libpango-1.0-0/copyright	20017	8d9dd932bc836ab2ea02e0b13c7cc1e9e5472a71008f0caa2a8793eb5780ee94
+F	usr/share/doc/libpangocairo-1.0-0/changelog.Debian.gz	8043	db00dd870e13e2906b0e079329a6aca7c02bd37cd07c460acddaef13051888cd
+F	usr/share/doc/libpangocairo-1.0-0/copyright	20017	8d9dd932bc836ab2ea02e0b13c7cc1e9e5472a71008f0caa2a8793eb5780ee94
+F	usr/share/doc/libpangoft2-1.0-0/changelog.Debian.gz	8044	119fbfb2936a42e04b0c7da256922bf70e4cc7c71b5857930cc429c68d045fc1
+F	usr/share/doc/libpangoft2-1.0-0/copyright	20017	8d9dd932bc836ab2ea02e0b13c7cc1e9e5472a71008f0caa2a8793eb5780ee94
 F	usr/share/doc/libparted2t64/NEWS.gz	15046	ee516338f18bf8fa1142933d7569d21b961d6058f951f6f403c87b2e00acd705
 F	usr/share/doc/libparted2t64/changelog.Debian.gz	2267	e7a97bd6f2ce93dab5efef7b50445dce22ebcec1f9882307d20f0bfdbe1dcc2b
 F	usr/share/doc/libparted2t64/changelog.gz	153962	188a2aa43ce3895c9057fdd78eff2d6f48d19bf4c9aaae1b0d412cfe4d166327
@@ -6598,6 +6888,11 @@ F	usr/share/doc/libpcre2-8-0/README.Debian	458	c8b10fd8a13c4913ce6d9640636276de0
 F	usr/share/doc/libpcre2-8-0/changelog.Debian.gz	1817	da8257ea75ba7eb4017a44932966407ace899f8cf87400e83bc52ed99b52a588
 F	usr/share/doc/libpcre2-8-0/changelog.gz	54675	52c11eab22666fa717acf029f956b3233dd1795a17ee8a10765fee3e28be43b5
 F	usr/share/doc/libpcre2-8-0/copyright	6627	e915cde4251f96ec6af107ecd2e194440a4e69440893b0c982802f8a1e4ae40a
+F	usr/share/doc/libpgm-5.3-0t64/changelog.Debian.amd64.gz	234	4403e09d9bd69bb0870b54f6accead17e9f0e51883b8867f3702e18272da4dac
+F	usr/share/doc/libpgm-5.3-0t64/changelog.Debian.gz	578	fb7acd1e5d3f54b086cdf43fc630fdbaaeec49fef5b5c52ded7d5e7d068f4944
+F	usr/share/doc/libpgm-5.3-0t64/copyright	4704	07836d892d92dcef15583e4e01569805498b95769f1c85d79bc996821dace2cf
+F	usr/share/doc/libpixman-1-0/changelog.Debian.gz	733	692f34595208abf7955ed0ad235a778e531a48b768a57be4ed4a4ebc2b4809de
+F	usr/share/doc/libpixman-1-0/copyright	2247	1b3fb5690861e15ca4fd6640fd4def4b2576617942eec04b6fcb7d8bc6c4c9da
 F	usr/share/doc/libplist-2.0-4/AUTHORS	395	9ee5828311bc47160791e9fc1574cb356d9d6a661b1d194a97cd254d58c9d3b9
 F	usr/share/doc/libplist-2.0-4/changelog.Debian.amd64.gz	240	1072343b3f0a11d446f256c7fc743b5fdd27a9b307901ca8fc73bb34d9c028ec
 F	usr/share/doc/libplist-2.0-4/changelog.Debian.gz	2077	ca84ed77e1d3fc76baebc93e3014a9deb05de20329d5bca680241122311123db
@@ -6631,6 +6926,11 @@ F	usr/share/doc/libpsl5t64/changelog.Debian.amd64.gz	228	81cfa0ca525672bea754e08
 F	usr/share/doc/libpsl5t64/changelog.Debian.gz	1118	46468b88294410e15eea3337a258a3cd72c608bae1738cffd939ef912d650f53
 F	usr/share/doc/libpsl5t64/changelog.gz	3086	d9cd253136cc3910d81639b1cfca8f575f4a6e99a4c81a4d4d65d33a32cca983
 F	usr/share/doc/libpsl5t64/copyright	3310	bbafb0cf52d34465fc69f5ffd22d724224f6a2f28402c88b045c69d88af06aaf
+F	usr/share/doc/libpulse0/NEWS.gz	10100	8fba2e608e15b713cd3679263f643d53b6d397e0f56e36048834d42873ac42f9
+F	usr/share/doc/libpulse0/README	911	7d6085829f1cb5110b986babbcae7c2f7fae78a56eb6f40173d1b61107611136
+F	usr/share/doc/libpulse0/changelog.Debian.amd64.gz	232	7d144c0f505620ef67f9747884e31acaf366d95d26a4d2924e1b1a78168ad90e
+F	usr/share/doc/libpulse0/changelog.Debian.gz	5747	31c41fea0e76dafe1a72f74ade9f855a041fa1cd50c6c28be7dc26fb85fa4228
+F	usr/share/doc/libpulse0/copyright	21813	aff3f1d729168de06e34d940dc493cc305a6e4a6278f1ac38ee52ec0f69e342c
 F	usr/share/doc/libpwquality-common/changelog.Debian.gz	1330	4186871180591fbb7fb7e082ca31fabe530c9b695cebef825da299f34c331bac
 F	usr/share/doc/libpwquality-common/changelog.gz	316	cc61a4fe1ab69d720b7530a0de0607c481d6d1b987ee38b7288c55c5fab61c59
 F	usr/share/doc/libpwquality-common/copyright	2848	4ee4614cdca1088dcb1553489a3952be788709d294ec43e5f52da3b7683ee3a4
@@ -6672,6 +6972,8 @@ F	usr/share/doc/libqt6dbus6/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf37
 F	usr/share/doc/libqt6dbus6/copyright	134315	f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d
 F	usr/share/doc/libqt6gui6/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b
 F	usr/share/doc/libqt6gui6/copyright	134315	f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d
+F	usr/share/doc/libqt6multimedia6/changelog.Debian.gz	3236	bcb673c355cd148549ac0e0b81f6407272d1986bf4663967849c1da698a344ae
+F	usr/share/doc/libqt6multimedia6/copyright	12954	62f74366044d68823f1aa93a43f7f17a1237a702278d8868fa270c323efff305
 F	usr/share/doc/libqt6network6/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b
 F	usr/share/doc/libqt6network6/copyright	134315	f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d
 F	usr/share/doc/libqt6opengl6/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b
@@ -6708,6 +7010,12 @@ F	usr/share/doc/libqt6wlshellintegration6/changelog.Debian.gz	2158	799412cfb1212
 F	usr/share/doc/libqt6wlshellintegration6/copyright	14808	465c6e85b01f4c6acc3da2f56e0cc737c35b364ccfbea6b68df7c45154da6231
 F	usr/share/doc/libqt6xml6/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b
 F	usr/share/doc/libqt6xml6/copyright	134315	f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d
+F	usr/share/doc/librabbitmq4/changelog.Debian.gz	1866	e1df8b0d94923a16d3f7e4a089dfaf81e473afdda0ec5fc00ef9a2e824f2aa70
+F	usr/share/doc/librabbitmq4/changelog.gz	6079	13328a3f93142b7f4c67cc27ecd6379905be8ae4c02b5b8f7bf415a57ced3f24
+F	usr/share/doc/librabbitmq4/copyright	1602	99f53e190f9ca2ec8a8cbd98f2ccd34f885e91e0e36bceacfa763582dfa2f8f7
+F	usr/share/doc/librav1e0.7/changelog.Debian.amd64.gz	245	5833c49e3c9469866067d018541fc1a9f91a2c160ee7096089d4a80b394fbb19
+F	usr/share/doc/librav1e0.7/changelog.Debian.gz	1751	0a8d58c7485a308fb691c217e294a98403161d3cafbcd1a74dc0dd65d37d0f1a
+F	usr/share/doc/librav1e0.7/copyright	10346	e07d0f301681c1e8eede9c1bc91e3bc27fbd83b035941e4f2c59134d2787a872
 F	usr/share/doc/libreadline8t64/README.Debian	2027	acd6c06b17be2b53af372832183fc280322667dffce7328d148350369cb98e18
 F	usr/share/doc/libreadline8t64/USAGE	2025	0759c74d61889b687f33cb03899630d8ecc09c5ebe7cedd2dd2e17eeef193f93
 F	usr/share/doc/libreadline8t64/changelog.Debian.gz	1666	e709ecac48c99f6e5c50469287bc73de55c21a11afcc25efd59a779b57d54b52
@@ -6718,6 +7026,13 @@ F	usr/share/doc/libreadline8t64/inputrc.arrows	727	092e7ff3a9e25ec05baeabb3e4035
 F	usr/share/doc/libreiserfscore0t64/changelog.Debian.gz	1017	994efda0381622f5099f3a2fdc26fc6176bba657ffa31e4485f7a0177c7b5fc9
 F	usr/share/doc/libreiserfscore0t64/changelog.gz	7429	1d0bda8a701d59d373ce6d282b5085ed7ff20b784e6fab8b2d9faf64ae2141e8
 F	usr/share/doc/libreiserfscore0t64/copyright	1160	f474271604efe1bcf18c52497528feda22c34700318bf656f1150e98b4bb40fa
+F	usr/share/doc/librist4/changelog.Debian.gz	1498	f576506755b1f5c2d2fbe5cc3e3497b30da292c140695ce50885c1c4c04fbba5
+F	usr/share/doc/librist4/copyright	6900	e67ffa708e79c29f03c5621e9feb89f4931c01ec5aaa361f11ac57bccfd476f2
+F	usr/share/doc/librsvg2-2/AUTHORS	1798	14e765b9c1097d93f4b842a6ad23172b530cc00dfe7a5aae1b9afefdca54531b
+F	usr/share/doc/librsvg2-2/NEWS.gz	38178	00e167b8c8691689dbbd5046e2f9ae142f76d10fbb9e53ce47aab41cf505a4f1
+F	usr/share/doc/librsvg2-2/README.md.gz	3261	9a1fe68431b41befc8d729c2c7f082cec3362d46741dcd86f5946ae92d5009db
+F	usr/share/doc/librsvg2-2/changelog.Debian.gz	6378	cdd279a7f5c0c3b128c987cae1f0a168d4d129f170d6099cc286067866385432
+F	usr/share/doc/librsvg2-2/copyright	20481	2777f2b3753caf1e049a866d79a500467f2d0f066b576c1c754dd55cb38bb73b
 F	usr/share/doc/librtmp1/changelog.Debian.amd64.gz	241	2f17799f8b7522cec8537fff51c906ed1bdc3beacd7213328b4d987eb6085be3
 F	usr/share/doc/librtmp1/changelog.Debian.gz	926	484b435b3ac4ce0c3f1d74dafcd6d425e4ee3891606325bbc79c95b3ac96f4e1
 F	usr/share/doc/librtmp1/changelog.gz	4237	372bb94f8da9aa9e8f6835efed992da1303d7ee35f3d43fd68447573b93265ee
@@ -6748,6 +7063,10 @@ F	usr/share/doc/libsepol2/copyright	3750	78d2a34606a0302057ec499a3b3c07bcbc43ca3
 F	usr/share/doc/libsharpyuv0/changelog.Debian.gz	2779	929b65e08e91894495d4d7096cb07d03cc8e1339bdf2296ddbb4b50120454f26
 F	usr/share/doc/libsharpyuv0/changelog.gz	97240	b26ac5d9530383b370de696440e3f3c83ad37969c6ddb9788c0c7d54cc70a062
 F	usr/share/doc/libsharpyuv0/copyright	6490	725344c9200f6e6dad88d1ea88add2d673cdf1d8fbc3961bcd2693ab0c26d30d
+F	usr/share/doc/libshine3/changelog.Debian.amd64.gz	227	838e0302ac701200c7184d48bb78ff9e54cf2a27f5599af678d75f2199318087
+F	usr/share/doc/libshine3/changelog.Debian.gz	628	21075040e88728fb33c0d9ffb7748db6c6353eab5b16387187b2550432cfa707
+F	usr/share/doc/libshine3/changelog.gz	447	43d1321a1603eced2fe23dcddbbe2c2177d4a140ec52a28f0d0b8507257b2e85
+F	usr/share/doc/libshine3/copyright	2277	b631215db51471d41765f415b55a76fabc553f4a33760c7740c9e31d33a4aba8
 F	usr/share/doc/libsm6/changelog.Debian.gz	841	773c3cf6fdde88224edd07b43d04d7372e1673fc10b5f614d59ac51abe884b32
 F	usr/share/doc/libsm6/changelog.gz	21059	aa67173be56f3f011054b8f93ca441ec4dbe157ecd13b7b5772277334e932e25
 F	usr/share/doc/libsm6/copyright	1224	333d829128c80619625f7e43a0ff0e79f36812b2b7ba12696eec9b4b42ce729b
@@ -6755,14 +7074,37 @@ F	usr/share/doc/libsmartcols1/NEWS.Debian.gz	465	ef07ba8b9e6bcc88029a15494ae958d
 F	usr/share/doc/libsmartcols1/changelog.Debian.gz	13776	1dc6356bad0e1bf5c5595e4a58ff4ff2262f22c29a4b8a612bfac46daf290e96
 F	usr/share/doc/libsmartcols1/changelog.gz	113	7d1164ec23c4068457ccf5c3437b81a883e429b94bc301638c1863e58f0dedb2
 F	usr/share/doc/libsmartcols1/copyright	30341	56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6
+F	usr/share/doc/libsnappy1v5/changelog.Debian.gz	842	6217ad9819928366482bfc175be5d895db394c90bdf68a41efa2b705c7beea0b
+F	usr/share/doc/libsnappy1v5/copyright	34490	6e3b7206a2a68d959274c289922e06bd19788a3d48d3bf74e92db43ee21593e6
+F	usr/share/doc/libsndfile1/changelog.Debian.gz	2255	5434846c9a682b2bbd2cb5268bbf63340320497c3d7dc7ebcd795793134ec392
+F	usr/share/doc/libsndfile1/changelog.gz	109	6bfc213bc0b4c3e35fdb0a6f2b93645050952c43e0655d716b6cf49662c1a428
+F	usr/share/doc/libsndfile1/copyright	15460	66706015979e7ecb0ddfd155c00c5f70d0b69a5f7aa78481ee8ce31e3bf2139a
+F	usr/share/doc/libsodium23/AUTHORS.gz	911	c8ae11cfa5aacc0a6e90b4f3daef4c045962e165466f1d775b9b8a0d5ba3df8b
+F	usr/share/doc/libsodium23/README.markdown	2094	464d35ee88d03b9d3635b192f82910b25ae7f8c9f47e460bffc17c9221b7771f
+F	usr/share/doc/libsodium23/THANKS	2295	88b4a9ac9d3cd423cc6888ef04e43bee7fd9b474f380436604578f170da8e3ad
+F	usr/share/doc/libsodium23/changelog.Debian.gz	559	2255f1fbda3e46f5083e9ad9c859568476c2bebe60b600a16161f1bcf36d93e6
+F	usr/share/doc/libsodium23/changelog.gz	9835	9f28144eaca90fbbafe5d27215b316594d18ed7d8f26f2f76599c2ab69ecee64
+F	usr/share/doc/libsodium23/copyright	7898	10d3576a7a0af8afb5601f358c06eb8c24b02192bb71ed4fb9a328a0979ec74b
+F	usr/share/doc/libsoxr0/changelog.Debian.amd64.gz	227	091727762a3976556f91053bc3bbd53ba5cd9e852efd4162b919c8dcfac58453
+F	usr/share/doc/libsoxr0/changelog.Debian.gz	811	112ecf10fbaadcaa22106897a2421de8059a7752bf2cff9a322ed5d13f66c85a
+F	usr/share/doc/libsoxr0/copyright	3239	a56a0046bfa8ae9907f9847d50158dadee4ae4884db2f3841a3184f5f627a729
+F	usr/share/doc/libspeex1/changelog.Debian.gz	1623	bda7de93d87e138bf275e35d15290aa5c39680b64cce58b48e0c67f7b45bd446
+F	usr/share/doc/libspeex1/changelog.gz	471	737f8e4ed53a51b8a6efd779ff22445fd4c83714df9bbd6d33d9d76f790f56b5
+F	usr/share/doc/libspeex1/copyright	4978	9bd13b2ec0f10da92819d14c44cf6ddca15a191a23ee360e665fa1f68a53d984
 F	usr/share/doc/libsqlite3-0/README.Debian	721	a10c47c2bc0b93bd7a58bf3823f99b8fd658065024a0fc412dc423d05f1fa242
 F	usr/share/doc/libsqlite3-0/changelog.Debian.gz	4570	adf0751e693b3c42ccbdf7de2e8520a67f5fadcbcde41cec6e2a7715c2fb30f6
 F	usr/share/doc/libsqlite3-0/changelog.gz	109555	1a98cb4e685efbadc210127a218a3d686ff49b09f11c13670cffae89cddfdd23
 F	usr/share/doc/libsqlite3-0/changelog.html.gz	126237	c661a58b5fc196e5bc27901edb2aaf5659556f096d18cca6e45644839a2dd303
 F	usr/share/doc/libsqlite3-0/copyright	1770	7b1679aaa97e6e49ec12460eefa85a82b432053bc468dd89dbdb50f2326589f3
+F	usr/share/doc/libsrt1.5-gnutls/changelog.Debian.gz	3400	141a5de50c76a19687631f7d36cc75b2db8d4bf960d5b2709080f914d2a1eb7b
+F	usr/share/doc/libsrt1.5-gnutls/copyright	23161	f546213b63d33dc480d3cd8fef2ce03fdc1eb2e2803b534a22ff558a6f4f7096
 F	usr/share/doc/libss2/changelog.Debian.amd64.gz	248	4024d262f9e74b6819cd54ff6c620d074e048986e2223e40b43c0cf8f7e6a6ca
 F	usr/share/doc/libss2/changelog.Debian.gz	12715	c6dbab88058af8cfa3ab8281a4266ec30cad0c42ae88aaa529c5a6ea83e8cccf
 F	usr/share/doc/libss2/copyright	20459	2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19
+F	usr/share/doc/libssh-4/README.Debian	256	dd5b550217782ade64d8a59161cdbfacc918673fe8f89c0009882238e7658a38
+F	usr/share/doc/libssh-4/changelog.Debian.gz	4261	c0a791b00fadb4f90b35527fd409874dfd926054906cecc73b5062579c871b16
+F	usr/share/doc/libssh-4/changelog.gz	11234	090f5e14c9a426053a8fdc30f44d5af22a434c088b75f0b8c9c1e82cdfeb71ec
+F	usr/share/doc/libssh-4/copyright	12992	4cee4f0ea834fceb25e80a87cd685cdc2bab2d11d62ba0c1fe3fad24bfd0de9a
 F	usr/share/doc/libssh2-1t64/AUTHORS	1219	e161024bacda626cc77bc905db2fcfb0870e83f53b98f9b8b736f22cb48ab862
 F	usr/share/doc/libssh2-1t64/RELEASE-NOTES.gz	9398	fe54cd2ad412e75125d3f7f172208621216c25a37e5d60b53a9fa3cf8c6b79e3
 F	usr/share/doc/libssh2-1t64/changelog.Debian.gz	1946	854d4b5d99d01df36f93c8c393dfb5e2a7d18efe4f5d385d51d76bcf3565d123
@@ -6773,6 +7115,15 @@ F	usr/share/doc/libssl3t64/changelog.Debian.gz	7511	aa4ec4a36b9788e916677f49c377
 F	usr/share/doc/libssl3t64/changelog.gz	271837	de7e88f075451ad8ebc3784a263a873c1079a940a56bb6d6f77155027f406b89
 F	usr/share/doc/libssl3t64/copyright	2543	6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35
 L	usr/share/doc/libstdc++6	gcc-14-base
+F	usr/share/doc/libsvtav1enc2/changelog.Debian.gz	1245	048ddd9cd930ead1e61837da71814edf67f8a8143c5a41f9141910b9b6fa13dc
+F	usr/share/doc/libsvtav1enc2/changelog.gz	8244	179990c24b2e279b86d90106d85ff907823595c8120c2e84f0d3da658dd43352
+F	usr/share/doc/libsvtav1enc2/copyright	14574	66433ce51ad1f83c561940a0af5f78e45a1beee67e5cc5087c1f0c5d2736e1e4
+F	usr/share/doc/libswresample5/changelog.Debian.gz	6996	039a9e95ce45685e23243c4452abff1ab730006e4e6985f3ff51fa035ed93c62
+F	usr/share/doc/libswresample5/changelog.gz	41940	cf7621d9de0007ac97994d5c7f472dc690acf956f97b5e13cc30f1d47e61d1e8
+F	usr/share/doc/libswresample5/copyright	43994	28700587b4c278cd4e24adf4174a6fbe2510f27af962966d9ff15144b0b9ddbb
+F	usr/share/doc/libswscale8/changelog.Debian.gz	6996	5b3ef3f49b26ee5a734d02043b9798a003eea4559c4378e131cb60f598093921
+F	usr/share/doc/libswscale8/changelog.gz	41940	cf7621d9de0007ac97994d5c7f472dc690acf956f97b5e13cc30f1d47e61d1e8
+F	usr/share/doc/libswscale8/copyright	43994	28700587b4c278cd4e24adf4174a6fbe2510f27af962966d9ff15144b0b9ddbb
 F	usr/share/doc/libsystemd-shared/NEWS.Debian.gz	3292	b4b53c789347f2237993e4e2613beca6ce6def16b6eb6f67928bb928a88412f6
 F	usr/share/doc/libsystemd-shared/changelog.Debian.gz	49266	0f622d3373b402b64974f15fcdcd0b264bf815f5a00ebb89b84be36eae48d6f3
 F	usr/share/doc/libsystemd-shared/copyright	12521	a79e4b379cabbd960bb44f6cc1a069081a3778c59a25ee529b68df5a2cb7d27d
@@ -6787,6 +7138,16 @@ F	usr/share/doc/libtasn1-6/changelog.gz	8677	b1ef47f3d6ee1bbac58d4a6280c774ad62a
 F	usr/share/doc/libtasn1-6/copyright	3359	5f9f7b538d221104bdb561ae80fd794ec5f813eb8fd04650293bddcc0f856e7d
 F	usr/share/doc/libtdb1/changelog.Debian.gz	39100	718dc80149253fc541a19e0b6bdf7194afa3d3db79621a24419c629b16ceb63b
 F	usr/share/doc/libtdb1/copyright	21122	3b25db5a1a079b6c48023249138e766bfb2eafa11424864146763e42948e7ccc
+F	usr/share/doc/libthai0/changelog.Debian.amd64.gz	232	7a5eb787ac3c3c11b2b197602b0626c7a705996d7a4dd963681d483437d2b978
+F	usr/share/doc/libthai0/changelog.Debian.gz	1132	66bc80f3eeb89d48fb87dc53797146f246e4b783a25dcb876e1804d15a385b22
+F	usr/share/doc/libthai0/changelog.gz	31085	9c1f78e72906725d7fce640fbd8099963a8500d17332799cb9057dc28cbfa28b
+F	usr/share/doc/libthai0/copyright	2458	62d2835587b92a6abdbe62fe4524a7b6a59ac478df2c591eb98c3fbce6c3fa08
+F	usr/share/doc/libtheoradec1/changelog.Debian.gz	1727	be6680a607988587eacf5bab33a41c1652ec3572a181d34ce15f8907494d5e1a
+F	usr/share/doc/libtheoradec1/changelog.gz	4099	61aa7d9a297ac5eac31d771125f0e063a606477b55fd5a8ba0f1a53311348210
+F	usr/share/doc/libtheoradec1/copyright	6034	4ed02a3e98153cf16e26803bb65d41772a4ed6c9f075eefa21294deb1a8a2de4
+F	usr/share/doc/libtheoraenc1/changelog.Debian.gz	1725	f88c8322b25ccb0125757fcaf2eda4f716e5a808fe2ec505b6b41e0695b5537b
+F	usr/share/doc/libtheoraenc1/changelog.gz	4099	61aa7d9a297ac5eac31d771125f0e063a606477b55fd5a8ba0f1a53311348210
+F	usr/share/doc/libtheoraenc1/copyright	6034	4ed02a3e98153cf16e26803bb65d41772a4ed6c9f075eefa21294deb1a8a2de4
 F	usr/share/doc/libtiff6/changelog.Debian.gz	4959	4e3a3caef9086258157135a180fd0f9426509974cf541d6d955967911701efae
 F	usr/share/doc/libtiff6/changelog.gz	152337	2fc5dfdac0940d8053a14bda1229e6f713125a9296cc44cbf13fc33998bcfb5b
 F	usr/share/doc/libtiff6/copyright	1935	d73e31b03a0d7a515851601c19fee5792c7db03a312efacae146ddf9c91f86f1
@@ -6797,9 +7158,17 @@ F	usr/share/doc/libts0t64/changelog.Debian.amd64.gz	225	f83c9b98ea2bbb1ca18bb0de
 F	usr/share/doc/libts0t64/changelog.Debian.gz	420	6463281c6360930b42c404dd69128a83b483591bac0e9a0de4480569869b2b0d
 F	usr/share/doc/libts0t64/changelog.gz	168	93df8527882eb6144d529ee075a3fd92304284526ed2712cc442116fc6558b3e
 F	usr/share/doc/libts0t64/copyright	1544	6b79c5bd34339026d164d59755477be1975cb6c609f1aba6377a106b2544b763
+F	usr/share/doc/libtwolame0/changelog.Debian.amd64.gz	231	a7239a12ea970e09ac6e404f809d32999301bab81bbddf3c02f0bd90eff57699
+F	usr/share/doc/libtwolame0/changelog.Debian.gz	708	e55a5990973446b6adbf72184d366e12023f76d42c740ac5f64d3cce4789ac5d
+F	usr/share/doc/libtwolame0/changelog.gz	2938	7f084353755d4592f39539d49248b9b9ac0c1280adfcf3b88fcbdcfef762efe6
+F	usr/share/doc/libtwolame0/copyright	1363	147113a009ccf1c952c6903f248ac66581a3496aff7b5331fdec5e2c37f71f24
 F	usr/share/doc/libudev1/NEWS.Debian.gz	3292	b4b53c789347f2237993e4e2613beca6ce6def16b6eb6f67928bb928a88412f6
 F	usr/share/doc/libudev1/changelog.Debian.gz	49266	b5ce83584c3df6e17fb94ae73c896930a68b1ae9778607846292c92af6c5da79
 F	usr/share/doc/libudev1/copyright	12521	a79e4b379cabbd960bb44f6cc1a069081a3778c59a25ee529b68df5a2cb7d27d
+F	usr/share/doc/libudfread0/changelog.Debian.amd64.gz	227	953fac47cd7c0adbb9af97d6492f305161389074f7aeeaa99769a6e763dc203b
+F	usr/share/doc/libudfread0/changelog.Debian.gz	304	f1de9aaa6cb02a68c262e2dd56accbbf0208b67adfb61b84274b6eb245810209
+F	usr/share/doc/libudfread0/changelog.gz	288	f294c647ef04c33c702528b8ad5a463b161a6b3c439abae71a34207ffa5491a3
+F	usr/share/doc/libudfread0/copyright	3155	2e591d4448d6a5d38a3b2c1a2412651bd015f798ef5ac0a4bcba2b1a9a227297
 F	usr/share/doc/libunistring5/changelog.Debian.gz	1704	9104c178ae45ce3921f95ba7817ba3409b8291b8de7756b8cb1f1a7a1e6396be
 F	usr/share/doc/libunistring5/changelog.gz	2720	d27c5f106fb014e0dd679cfc40f29ea9b5c71f1196299121e3d04280f7bc3601
 F	usr/share/doc/libunistring5/copyright	103761	a585cd2cc2a5fcb8e58f12c7a710a35e06e5b897c59cd5ae4a7d835f0b49eae3
@@ -6810,12 +7179,34 @@ F	usr/share/doc/libuuid1/NEWS.Debian.gz	465	ef07ba8b9e6bcc88029a15494ae958dd1195
 F	usr/share/doc/libuuid1/changelog.Debian.gz	13776	03b2e5aff8e83b06f9114bb43e671bfb6f4c5ed8b458ae4bceed6a1229b4db79
 F	usr/share/doc/libuuid1/changelog.gz	113	7d1164ec23c4068457ccf5c3437b81a883e429b94bc301638c1863e58f0dedb2
 F	usr/share/doc/libuuid1/copyright	30341	56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6
+F	usr/share/doc/libva-drm2/changelog.Debian.gz	1583	c7329d48e0a49a7540571506a834d2f60713e7e4ada9f10a74ef4ca80690ea63
+F	usr/share/doc/libva-drm2/changelog.gz	9822	07a50f91f92638473cdbe8de3c5d34d2b3f8fee7b2f582f70032d788b03cd1b9
+F	usr/share/doc/libva-drm2/copyright	5571	8d234a9a0e094a1c13a4e21e2a28856763a1890306e17679502c894606f8638c
+F	usr/share/doc/libva-x11-2/changelog.Debian.gz	1580	4dbb8da6faab5af7daca5206891112ebeccd45d1a512d6fe3b33055a12d57e35
+F	usr/share/doc/libva-x11-2/changelog.gz	9822	07a50f91f92638473cdbe8de3c5d34d2b3f8fee7b2f582f70032d788b03cd1b9
+F	usr/share/doc/libva-x11-2/copyright	5571	8d234a9a0e094a1c13a4e21e2a28856763a1890306e17679502c894606f8638c
+F	usr/share/doc/libva2/changelog.Debian.gz	1579	e9d93f12c74c0b1073d5493480a619c5c4ca3655de1417778e1130e6003699af
+F	usr/share/doc/libva2/changelog.gz	9822	07a50f91f92638473cdbe8de3c5d34d2b3f8fee7b2f582f70032d788b03cd1b9
+F	usr/share/doc/libva2/copyright	5571	8d234a9a0e094a1c13a4e21e2a28856763a1890306e17679502c894606f8638c
+F	usr/share/doc/libvdpau1/changelog.Debian.amd64.gz	225	f784d35dec9f9ac2454d965e88d1e361eb26431ab58258b788c7c37c7ee99e62
+F	usr/share/doc/libvdpau1/changelog.Debian.gz	1325	e59366787d1a96d5b012098165330d730ff76f5053879bf1e333ee37fab0b3ad
+F	usr/share/doc/libvdpau1/copyright	3259	d14bf5148c76e0d329f918b97d458bc4ada79a016289d298ad72464a5ad0e18e
 F	usr/share/doc/libvorbis0a/changelog.Debian.gz	1412	9b976db5d4bd06879d4853d1e8bb7cb3dacab0d3bd60f52429778aa38a2674e6
 F	usr/share/doc/libvorbis0a/changelog.gz	3071	5d593aa9b9ae95645f1b589ea92611e5a6e40617826378b4b6d74debbbb50ad8
 F	usr/share/doc/libvorbis0a/copyright	2307	47badad9f7f750f92cd12f44db08b6937e5b4d47935ba1cc60de0ea3a2adff9b
+F	usr/share/doc/libvorbisenc2/changelog.Debian.gz	1413	d1eaff9ab1deeb4b79c3e4ac246780241c91211e499a9dc570f99b5177d87c45
+F	usr/share/doc/libvorbisenc2/changelog.gz	3071	5d593aa9b9ae95645f1b589ea92611e5a6e40617826378b4b6d74debbbb50ad8
+F	usr/share/doc/libvorbisenc2/copyright	2307	47badad9f7f750f92cd12f44db08b6937e5b4d47935ba1cc60de0ea3a2adff9b
 F	usr/share/doc/libvorbisfile3/changelog.Debian.gz	1413	be9d66d94aff8b32f8ebfa79d9db506aeaca4f4a4aa1f6b518e083c1fc082824
 F	usr/share/doc/libvorbisfile3/changelog.gz	3071	5d593aa9b9ae95645f1b589ea92611e5a6e40617826378b4b6d74debbbb50ad8
 F	usr/share/doc/libvorbisfile3/copyright	2307	47badad9f7f750f92cd12f44db08b6937e5b4d47935ba1cc60de0ea3a2adff9b
+F	usr/share/doc/libvpl2/changelog.Debian.amd64.gz	220	a6ef3f5de5808749d92d42c0a271cb57ddaeaec224550e552ebb98024f285dce
+F	usr/share/doc/libvpl2/changelog.Debian.gz	746	7ca84aa59899fce11fe267c0479b835454b02a2120ba393ec777989bf56d883c
+F	usr/share/doc/libvpl2/changelog.gz	5207	9a2c45c5145033bc34d1d74f3746dfc8e36dd8d315c51a5ef8d18210d1bea297
+F	usr/share/doc/libvpl2/copyright	3454	81a668a0aef1bb4299dd552e97595d376bc0ca6cc32af14bc60bf893636f464f
+F	usr/share/doc/libvpx9/changelog.Debian.gz	1726	6c52fd6ee4362b49ee74c22f0c9a507c8e95d43df528ade207767d96a73b2fab
+F	usr/share/doc/libvpx9/changelog.gz	15539	d9555e9cbf1151344c10a4136a89144534d575326647248a532ddf7223ae19a1
+F	usr/share/doc/libvpx9/copyright	5127	d1a1b1f5d4545ebc7d4b9cad97569b0caf2ceb4f28e761d10642eb5cae46fdb4
 F	usr/share/doc/libvulkan1/changelog.Debian.gz	2435	ffb9adb0b5bb0266c8b5feed39e7fc677b4896a2eb7e6bc8e7daf3696d4082bd
 F	usr/share/doc/libvulkan1/copyright	1964	c579213e28f67944a7e407816b8a8e1d2d2406b3d820e420aa923807c450dc07
 F	usr/share/doc/libwacom-common/changelog.Debian.gz	1844	60e01bf0bf6fb7a4a97b75d699ecdbd880df6a37087498a08d304833b346e3cb
@@ -6848,6 +7239,12 @@ F	usr/share/doc/libx11-data/copyright	47102	0b380a7fd5b2228f26e9585e56f14812efd3
 F	usr/share/doc/libx11-xcb1/changelog.Debian.gz	2104	61078e4382f3b49f9f5896988ff2333545d09d1a65b5c77bb8fe11142d468540
 F	usr/share/doc/libx11-xcb1/changelog.gz	235772	764be3d0e316b75988a3663223a971e7189811821e7389b152400bcc521053f7
 F	usr/share/doc/libx11-xcb1/copyright	47102	0b380a7fd5b2228f26e9585e56f14812efd3350f3df307507d2bc055dfd8de3e
+F	usr/share/doc/libx264-164/changelog.Debian.amd64.gz	263	de349dbc14a26037481599a242186f0474b15f4b671e5299507cde4744f8e2ee
+F	usr/share/doc/libx264-164/changelog.Debian.gz	1214	08bf8dc5ca153242a9619be2ab986d589918712c1b24f29e5451e99b07a2da76
+F	usr/share/doc/libx264-164/copyright	7690	b8b4d68a602bf580d47237c3119e52ac7a70121de39fb365ca28a63b3a200655
+F	usr/share/doc/libx265-215/changelog.Debian.gz	958	3171be7ca10903c3871d8da326a30fe6743f3b6b6cb4bc34cc8c9589fe0a6010
+F	usr/share/doc/libx265-215/changelog.gz	11784	5702b2fc650e82d45b21e802d0176b1a619c66d6597fcabafd0a1c02a2a13b75
+F	usr/share/doc/libx265-215/copyright	4551	ac2859168010138bce5a5a16a1c2442570ed236121352c34c1a710005b727eb5
 F	usr/share/doc/libxau6/changelog.Debian.gz	836	184175a4f21e8d2d164029360a00d9a18548f25ddc3daed76f9552da66ef4ec8
 F	usr/share/doc/libxau6/changelog.gz	13127	f885fe6a119fb141ecd5fa1e000dbe6bb3e8fe61e04e6acdaa340e984c38e5ae
 F	usr/share/doc/libxau6/copyright	1224	118dd263a7b91c8f21c489f949bf13281dff9e766deea92b829dac4dce66601a
@@ -6990,6 +7387,10 @@ F	usr/share/doc/libxt6t64/changelog.Debian.amd64.gz	238	1eacde3b37f2e246426796e5
 F	usr/share/doc/libxt6t64/changelog.Debian.gz	602	6e13ae79bc9cf6a753de5ea144b302f6d36e85c7c5630004dc10d05157b4fb0c
 F	usr/share/doc/libxt6t64/changelog.gz	25644	3cc4bef59cd41fe9031fd216ff0b3de16bb8edaf93be670e56346057356a81b7
 F	usr/share/doc/libxt6t64/copyright	6829	294382fd73d07b7b086c4829366bad834fc25cdf094400ec6ca4ff3b9ab73665
+F	usr/share/doc/libxvidcore4/changelog.Debian.amd64.gz	236	b5592fc7c16f791986f2552b2436655a6ebdcf9afe95d26d05b49cf51cdfdd96
+F	usr/share/doc/libxvidcore4/changelog.Debian.gz	784	4f270abf64cb3b7bc394d49ff7a5ab565c295cae4f45cb53ff0cd4d955e616be
+F	usr/share/doc/libxvidcore4/changelog.gz	38178	11db8294e4356ebbfa5e14b56ffb7e4cb81fb8b65fe1fa5af98c0ad0932b8d5a
+F	usr/share/doc/libxvidcore4/copyright	4696	c3baa7a8b91984e32d4a53031bcf61c9b1d5aface9f592f70ae00b980b5e95c2
 F	usr/share/doc/libxxf86vm1/changelog.Debian.amd64.gz	242	c45371383891e0826627e12c8bbb363276ee46594a1df7f81e489e4b81b5b75c
 F	usr/share/doc/libxxf86vm1/changelog.Debian.gz	660	c5dd3d1bd7b16e518ad1a0a959632866774c8853fbe6b27fb1addde6d1263e54
 F	usr/share/doc/libxxf86vm1/changelog.gz	9577	5c98df607d3a3e60971b16498fc29c28d986ad74737c307e81066ccfedb57b79
@@ -7002,9 +7403,21 @@ F	usr/share/doc/libyaml-cpp0.8/copyright	2180	97e7bac77c8cc263b3cee8aa41e4502558
 F	usr/share/doc/libz3-4/changelog.Debian.gz	2746	5afb956fea9a775d97de58d9676aed9cc9e2df5d20e65a489895ba142ea8e87b
 F	usr/share/doc/libz3-4/changelog.gz	24465	1d2a90442ad3521551c58c58132e8dc663e200a730444515e95c4d96a1c94e05
 F	usr/share/doc/libz3-4/copyright	2283	807f874c81a0dbce7d4e32b1a4e1ef1e094b9a3fe8579f34e60fda4f2077289c
+F	usr/share/doc/libzmq5/AUTHORS	2350	9c7e32ac52c546ce6c9b328f348b2053ff6d56630cba06727e2e5abf644f4aed
+F	usr/share/doc/libzmq5/NEWS.gz	27149	f908fa2498d44b480c23e9c5768ded26c8290e7a150e1e3aa1f0039696919d4d
+F	usr/share/doc/libzmq5/changelog.Debian.amd64.gz	233	6daaa86975ab9f87235ff274e73d47f03a9e3604031f196e48638e081e412d45
+F	usr/share/doc/libzmq5/changelog.Debian.gz	1418	ce27e3e561bc8401841113d697dfd132714d5577c84cffdd19a60db6fbe8f082
+F	usr/share/doc/libzmq5/copyright	3000	78a1462a7c5ab0488ddacdde2fc1cdd10815f8139acac01dcab13f03dbef3a17
 F	usr/share/doc/libzstd1/changelog.Debian.gz	5498	7b0d4a55026eb5dfbccbb2ebeac75db9f848679958f6b50ac94192d35e424c75
 F	usr/share/doc/libzstd1/changelog.gz	18222	9d9bc4945d1802ffe12cca4e3c5013839550cf95cfc53ddeaa0280827d45fc6f
 F	usr/share/doc/libzstd1/copyright	5332	5cec9fef4d3fa7e0371fbef4ec3fc416e0105dc2a9922117f84e825cb11f50f8
+F	usr/share/doc/libzvbi0t64/AUTHORS.gz	5165	254368350f1f4ebc0ba12abdf6aa845e70b1f081bd0e76b461ffd4acfe311115
+F	usr/share/doc/libzvbi0t64/NEWS.gz	6510	c0eea30f700926e984d79c618cce89b07edad7c4b496a1800adba40fded4fb35
+F	usr/share/doc/libzvbi0t64/README.md.gz	2684	502d2e189bf126e7661e1c24018aaaffd52318d5de0351b583e1a08c21ca9ac1
+F	usr/share/doc/libzvbi0t64/TODO	493	a9a86ce0c3672ecf6cca8bc4cb53f2027e886ac5cb7d97cf31058a060fb4f307
+F	usr/share/doc/libzvbi0t64/changelog.Debian.gz	1977	d06b347c3f8010f2387bd1b70fecf5b95a9a95ac1c953707b7bbff70ec668f69
+F	usr/share/doc/libzvbi0t64/changelog.gz	31600	847d23a6da45a4c8b8624512029133c0835533b4d5ebe41ca4851dffb709a8d8
+F	usr/share/doc/libzvbi0t64/copyright	11261	e25dd401f7454b6d4b631e53e2f69d42d5bc132038c467d8d492da5952a2d6a5
 F	usr/share/doc/login.defs/NEWS.Debian.gz	683	8b50146793efdf46d94ab101ce2c7826e9f57ed87fc80efe38be25cc70f469f4
 F	usr/share/doc/login.defs/changelog.Debian.gz	7380	df86dd7526e2e15f4f960f5494b46e2645443c46c5b567f5603ea93809249ecd
 F	usr/share/doc/login.defs/changelog.gz	148368	e3920d85dd77611b2b98585f21356861790a5afea9e52a08530a2ed9d4a0f6ea
@@ -7048,9 +7461,12 @@ F	usr/share/doc/ntfs-3g/TODO.Debian	110	33b8e06ae94b0065c22948eae25130ca9dd38294
 F	usr/share/doc/ntfs-3g/changelog.Debian.gz	1787	4e32b516bb0114cfbcb2819386e6b9e21f4fc57f987ca3d51d37bca7bc825fd7
 F	usr/share/doc/ntfs-3g/changelog.gz	11084	3636b0b059267ea92c32c63f04a34ac8a35dc944cd7da0ac36452950c9161586
 F	usr/share/doc/ntfs-3g/copyright	2109	4b0b34de1a0d48d80152bbd862ee9c764f9657e7b4ab409bed0c58b59fa8ce3f
-F	usr/share/doc/openssl-provider-legacy/changelog.Debian.gz	7511	492882e076b553abc4a99b9d431140abdc9111d26eeb35b337bbfb3745037deb
-F	usr/share/doc/openssl-provider-legacy/changelog.gz	271837	de7e88f075451ad8ebc3784a263a873c1079a940a56bb6d6f77155027f406b89
-F	usr/share/doc/openssl-provider-legacy/copyright	2543	6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35
+F	usr/share/doc/ocl-icd-libopencl1/README	1387	595cfb0dbf009b3befa202d91a3e0371a4a9df92c8fde66d3904d838144511dc
+F	usr/share/doc/ocl-icd-libopencl1/README.Debian.gz	4883	3abf5e688ee2d754d0113227cce79983d063a4cacda90b7fb2f39357e5ceabbf
+F	usr/share/doc/ocl-icd-libopencl1/changelog.Debian.gz	1086	6b65c21fe9b6ef9038f9f97e3620fe43a215a2679a81b466f7965b85b87110ca
+F	usr/share/doc/ocl-icd-libopencl1/changelog.gz	4617	92af033b59acbcf5c6ac0fa5251b825e1b594909a970a22ad78c520af2839713
+F	usr/share/doc/ocl-icd-libopencl1/copyright	2509	69b388028066ab453fa7ad403530f7b8aafe753f9c0818653692438329d9aa07
+F	usr/share/doc/ocl-icd-libopencl1/html/libOpenCL.html	23330	3394f6697a7ddc878384a093424707fbc1e0ae686ae27ed86fa0afb495da5c6e
 F	usr/share/doc/openssl/HOWTO/certificates.txt.gz	1959	bd935e5c5a1a58b20c289cba7337c630a8bf0560c1b670b08940dba41f3ef13c
 F	usr/share/doc/openssl/HOWTO/documenting-functions-and-macros.md.gz	2556	7cb0ca06ab9ee1ea7a34bd426f6b709f5260c5bacfc023823608ff9e21d69dc5
 F	usr/share/doc/openssl/HOWTO/keys.txt.gz	1556	50dab1696ff40a666152d4b2d187df6d469678ae542996cffcc8f9303ca6447c
@@ -7064,6 +7480,9 @@ F	usr/share/doc/openssl/changelog.Debian.gz	7510	0bb42db5a34926a171292255432020f
 F	usr/share/doc/openssl/changelog.gz	271837	de7e88f075451ad8ebc3784a263a873c1079a940a56bb6d6f77155027f406b89
 F	usr/share/doc/openssl/copyright	2543	6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35
 F	usr/share/doc/openssl/fingerprints.txt	929	6981d49948888879f7f7184179dec2406f2ec2c0286ef714678cf659f6d90e01
+F	usr/share/doc/openssl-provider-legacy/changelog.Debian.gz	7511	492882e076b553abc4a99b9d431140abdc9111d26eeb35b337bbfb3745037deb
+F	usr/share/doc/openssl-provider-legacy/changelog.gz	271837	de7e88f075451ad8ebc3784a263a873c1079a940a56bb6d6f77155027f406b89
+F	usr/share/doc/openssl-provider-legacy/copyright	2543	6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35
 F	usr/share/doc/os-prober/README	3443	4112c46792c6d53eab2dcd7a3c08bf89ae4768b5e8ed68bc0389115e43e347c3
 F	usr/share/doc/os-prober/TODO	858	7e8926761b377e8898932d341c4e868a37d7bd3c6b721b46d59b207aed27191c
 F	usr/share/doc/os-prober/changelog.gz	1136	f6bee58f6fb008eac9ee99fdac989eb9872f3eca0adcf126f48ecfaca75fca37
@@ -7099,12 +7518,13 @@ F	usr/share/doc/procps/bugs.md	3426	01c2558f362cfc7b7ec12fafcaa9f3b874aae1340a79
 F	usr/share/doc/procps/changelog.Debian.gz	3569	c396603910ec5b17918084a695bf7c10c2db71c69aa9371706c658efcf50356c
 F	usr/share/doc/procps/changelog.gz	14253	b0602a1e29b8d69e2fde60127114fbdf64e4106f9e9614da6b9e3179fd2b3abe
 F	usr/share/doc/procps/copyright	3974	90a66617c36d83068b52bbb77cbfef1234f526bfa287156d9d05f7df4d339539
+F	usr/share/doc/python3/README.Debian	463	068545d82be248b9ad9b907b24393b5363b43dcdfc7b081c2b67160ebf22ade8
+F	usr/share/doc/python3/changelog.Debian.gz	4166	a2ae38a351d0f43c3f9eda2006a933ecba1acee7e43db557033bb2243f2973f1
+F	usr/share/doc/python3/copyright	16122	5b274dbb44b28a54b795b9471c07ab045054d6b8a86273cb9feb632b6fd2760d
+F	usr/share/doc/python3/python-policy.txt.gz	12867	922a0a6572a019c0c5c90e38059fe31f2bf6f7694f01fa1ea7208cebaa33d262
 F	usr/share/doc/python3-minimal/README.Debian	463	068545d82be248b9ad9b907b24393b5363b43dcdfc7b081c2b67160ebf22ade8
 F	usr/share/doc/python3-minimal/changelog.Debian.gz	4168	6397aaedcc1a5c1d01ae1f2a0c4c39032e3d855bc46a98d3b71fad72dd84dac5
 F	usr/share/doc/python3-minimal/copyright	16122	5b274dbb44b28a54b795b9471c07ab045054d6b8a86273cb9feb632b6fd2760d
-F	usr/share/doc/python3.13-minimal/README.Debian.gz	1420	e148f975d5f3b3d5d464b9c4fdd0a385f393a3048db8c8adbc28347964493305
-F	usr/share/doc/python3.13-minimal/changelog.Debian.gz	11980	eacec260880e856cc2c105af2cad9220707c325ba6ec198658c2da96adfc57b6
-F	usr/share/doc/python3.13-minimal/copyright	49855	f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382
 F	usr/share/doc/python3.13/ACKS.gz	15714	6b9244e5ef04f7e88beb0b1c623374828e6a9df7909713c723aebf4ec6b977c9
 F	usr/share/doc/python3.13/NEWS.gz	696973	b5f140fce82e89a47d610aa5cf19d70285735e21c2d864ee9bbcac5316cee046
 F	usr/share/doc/python3.13/README.Debian	2754	11c835bb09c9be8653a00f24fb30a72c5c3032cb7b3d3493cf0fceaece95b4be
@@ -7114,10 +7534,9 @@ F	usr/share/doc/python3.13/changelog.Debian.gz	11977	13872bacf3ef2e60e4c93d84c97
 L	usr/share/doc/python3.13/changelog.gz	NEWS.gz
 F	usr/share/doc/python3.13/copyright	49855	f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382
 L	usr/share/doc/python3.13/python-policy.txt.gz	../python3/python-policy.txt.gz
-F	usr/share/doc/python3/README.Debian	463	068545d82be248b9ad9b907b24393b5363b43dcdfc7b081c2b67160ebf22ade8
-F	usr/share/doc/python3/changelog.Debian.gz	4166	a2ae38a351d0f43c3f9eda2006a933ecba1acee7e43db557033bb2243f2973f1
-F	usr/share/doc/python3/copyright	16122	5b274dbb44b28a54b795b9471c07ab045054d6b8a86273cb9feb632b6fd2760d
-F	usr/share/doc/python3/python-policy.txt.gz	12867	922a0a6572a019c0c5c90e38059fe31f2bf6f7694f01fa1ea7208cebaa33d262
+F	usr/share/doc/python3.13-minimal/README.Debian.gz	1420	e148f975d5f3b3d5d464b9c4fdd0a385f393a3048db8c8adbc28347964493305
+F	usr/share/doc/python3.13-minimal/changelog.Debian.gz	11980	eacec260880e856cc2c105af2cad9220707c325ba6ec198658c2da96adfc57b6
+F	usr/share/doc/python3.13-minimal/copyright	49855	f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382
 F	usr/share/doc/qml-module-qtquick-window2/changelog.Debian.gz	4000	db99f0a0d563e8bffe0990073d9a6653f805434623cfa83098502989687df32d
 F	usr/share/doc/qml-module-qtquick-window2/copyright	44601	5efc270a798372057f7ee88c14cf4a7cb41289607f2a15a5c5aa7d26809eddd0
 F	usr/share/doc/qml-module-qtquick2/changelog.Debian.gz	3994	3cba5eea3998ef78def919d663645d362deb22f3614f07653b18f5cf747850ce
@@ -7126,12 +7545,16 @@ F	usr/share/doc/qml6-module-org-kde-kirigami/changelog.Debian.gz	3695	5a97d0b371
 F	usr/share/doc/qml6-module-org-kde-kirigami/copyright	10546	9b9ef851f0e58ab8379d1dd15d736fda505182076b3b7565366059c79ce431f3
 F	usr/share/doc/qml6-module-qt-labs-qmlmodels/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qt-labs-qmlmodels/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
+F	usr/share/doc/qml6-module-qtmultimedia/changelog.Debian.gz	3236	bcb673c355cd148549ac0e0b81f6407272d1986bf4663967849c1da698a344ae
+F	usr/share/doc/qml6-module-qtmultimedia/copyright	12954	62f74366044d68823f1aa93a43f7f17a1237a702278d8868fa270c323efff305
+F	usr/share/doc/qml6-module-qtqml/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
+F	usr/share/doc/qml6-module-qtqml/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtqml-models/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qtqml-models/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtqml-workerscript/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qtqml-workerscript/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
-F	usr/share/doc/qml6-module-qtqml/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
-F	usr/share/doc/qml6-module-qtqml/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
+F	usr/share/doc/qml6-module-qtquick/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
+F	usr/share/doc/qml6-module-qtquick/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtquick-controls/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qtquick-controls/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtquick-layouts/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
@@ -7142,8 +7565,6 @@ F	usr/share/doc/qml6-module-qtquick-templates/changelog.Debian.gz	3755	a20543a35
 F	usr/share/doc/qml6-module-qtquick-templates/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtquick-window/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qtquick-window/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
-F	usr/share/doc/qml6-module-qtquick/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
-F	usr/share/doc/qml6-module-qtquick/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qt6-image-formats-plugins/changelog.Debian.gz	1487	a7e1f31d855a3a1251ce628d3e6c074d20ea697a667b28d202405aeec51c05a2
 F	usr/share/doc/qt6-image-formats-plugins/copyright	7532	f9eef710bd547d321ce334d08c8e70c5502d6fb62a6cc7d025351b9cea919286
 F	usr/share/doc/qt6-qpa-plugins/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b
@@ -7221,9 +7642,6 @@ F	usr/share/doc/sudo/examples/sudo_logsrvd.conf	9804	4826edf5a95781d40cdaccb5ef8
 F	usr/share/doc/sudo/examples/sudoers	4178	dcf943c4b04ceed69a41a990b28adf9f9679ade670934d6196267949a4ff70c4
 F	usr/share/doc/sudo/examples/sudoers.dist	5053	4aaa11d6de36ef56cf35524c168a6244d10baa9d7a35b78270052ba7a027ce84
 F	usr/share/doc/sudo/examples/syslog.conf	1075	c1ae44009f02e4228e77f98d4101445bbe06d77dc45f26eac4e857572d4dde95
-F	usr/share/doc/systemd-sysv/NEWS.Debian.gz	3292	b4b53c789347f2237993e4e2613beca6ce6def16b6eb6f67928bb928a88412f6
-F	usr/share/doc/systemd-sysv/changelog.Debian.gz	49263	893ecd188005fe71729765e68ef2a5dedef4cfb8af1b4a3cfe2c693373d65426
-F	usr/share/doc/systemd-sysv/copyright	12521	a79e4b379cabbd960bb44f6cc1a069081a3778c59a25ee529b68df5a2cb7d27d
 F	usr/share/doc/systemd/CODING_STYLE.md.gz	14336	6bf54de9e1f9c94a6668a60f04e0d53021179c9e50afccf1578761f263e6eec2
 F	usr/share/doc/systemd/DISTRO_PORTING.md	3338	3855c9197873757b19551937ea63f695902f8c2c3f53879f17a8a1fcc2b9d9c5
 F	usr/share/doc/systemd/ENVIRONMENT.md.gz	13157	c02f287ad7196dbe914bdbf12efc6e569193d727a13a0a2ff9728c04877ab355
@@ -7238,6 +7656,9 @@ F	usr/share/doc/systemd/TRANSLATORS.md	2416	2ab17e6543255e1e21bfe77a5dc3fbee4c4c
 F	usr/share/doc/systemd/UIDS-GIDS.md.gz	6877	2d7e5f3003e9316c3d604c92db7b819e2dfae26dfd198e6c16d50294828653b3
 F	usr/share/doc/systemd/changelog.Debian.gz	49262	ebf752b05041562f223ddd68775346020496e290d3fad791de8fe60d66d68954
 F	usr/share/doc/systemd/copyright	12521	a79e4b379cabbd960bb44f6cc1a069081a3778c59a25ee529b68df5a2cb7d27d
+F	usr/share/doc/systemd-sysv/NEWS.Debian.gz	3292	b4b53c789347f2237993e4e2613beca6ce6def16b6eb6f67928bb928a88412f6
+F	usr/share/doc/systemd-sysv/changelog.Debian.gz	49263	893ecd188005fe71729765e68ef2a5dedef4cfb8af1b4a3cfe2c693373d65426
+F	usr/share/doc/systemd-sysv/copyright	12521	a79e4b379cabbd960bb44f6cc1a069081a3778c59a25ee529b68df5a2cb7d27d
 F	usr/share/doc/sysvinit-utils/changelog.Debian.gz	8249	6a63e8208e625d97406e4ab158f23861a7c9df7a2060b1ebad32597a1cebfa84
 F	usr/share/doc/sysvinit-utils/copyright	5881	53c7ef3839f64b24cc25a0937d11ce228517a48be0cc794f0d67b7e209b2a9ba
 F	usr/share/doc/tar/AUTHORS	601	876a77923efd06818de5bd58bf38a7175a820ec4375af888d49d969abf6c9b5f
@@ -7344,6 +7765,14 @@ F	usr/share/doc/zlib1g/changelog.Debian.amd64.gz	238	55b56c3a523dc79e97cad05e0b9
 F	usr/share/doc/zlib1g/changelog.Debian.gz	1508	c631c3743056aea5d6c114efc27fc9f53f32a75d3f33767f4d244746e8fa153a
 F	usr/share/doc/zlib1g/changelog.gz	29508	a697e1cefca8aa7ad377a5a46b941f7ccb8c15686d781f74c923c7ecf46afd5b
 F	usr/share/doc/zlib1g/copyright	2927	9e5b96d63773a5d177ba264254390f792be07e41748ebd94730981c6cac31cc6
+F	usr/share/doc-base/base-passwd.users-and-groups	423	159902a0284dbbcc039824ebab914948f8a803280fa2b67742b8f7fd40c50250
+F	usr/share/doc-base/findutils.findutils	323	83026123456c2f7c1cc44196701180752a65423ade28344ef277cf577b12faa6
+F	usr/share/doc-base/fontconfig.fontconfig-user	560	6407dfe8c19a767d5f3e4abc97790aa3d23f8e81cdd175a4c2881de046a8934a
+F	usr/share/doc-base/libcrack2.libcrack2	541	6ddc9556a67ad35e077c44f962c2c1e26d6c9065cbe3b9ce558a15619831504c
+F	usr/share/doc-base/libpng16-16t64.libpng16	1370	7ad199267001a82ebeeab552d0cf3e0447d10fa117606579cee3a2ea3b95a8c0
+F	usr/share/doc-base/ocl-icd-libopencl1.ocl-icd-libopencl1	393	bc40c8598099fcffdf3bd035a236291a4d4770cef410be58ab8747b3727b8709
+F	usr/share/doc-base/python3.python-policy	474	0e4cc74f5551140c7c2667bf5d798fb212d21ce89f977e9c529fec4da11fdcc1
+F	usr/share/doc-base/shared-mime-info.shared-mime-info	474	11b8381ce63239c2e3274ff6c641d6f1c15c2944d2ce7b8ba94eba96a1672e0b
 F	usr/share/dpkg/abitable	352	dc56b70537be90fccb2f934f579464c8cdbabbdbb3c7ff1db67333cde7edf36e
 F	usr/share/dpkg/cputable	2062	00280a0b55eb3c8b684e506fa1763b9598941e99773405ec797a2c880a65e38f
 F	usr/share/dpkg/ostable	1880	c5f0d533e607acf9150c78fd373996cb094dfef210e181f627eae876374d54b0
@@ -8448,15 +8877,20 @@ F	usr/share/lintian/overrides/kwallet6	45	e858622497579dc971493a8e4bed3d2103884d
 F	usr/share/lintian/overrides/libacl1	87	0f5931e8c6fba05a97d58967511976e96138067e59994523bb20ad6e7e471a79
 F	usr/share/lintian/overrides/libasound2t64	60	d00d11cc6080bd73efbcc3c8d7d96832e9aa35c0108aabcdb722a460767127db
 F	usr/share/lintian/overrides/libattr1	88	d8ea1d469a799a2b2d8a16706b7cb2ffd00261c01cb0203fc590bf84692cfd7a
+F	usr/share/lintian/overrides/libavcodec61	432	da5d5e12de6557fd3919e767486fb5231b23b6ba19f1d0cdb213509ae325abca
+F	usr/share/lintian/overrides/libavutil59	430	7438a9f3984dac4f95fb7100b21a04098f00ef9e30c732c3b4e63efc1c7b711b
 F	usr/share/lintian/overrides/libblkid1	90	3f4697d193cc5757f741992ec2de48a0830a4b97b5255219a2ffd3a68c47add7
 F	usr/share/lintian/overrides/libbrotli1	90	2348de77b1f367dbd9891dd844d22a63299861d50db72b621849ecd0466467f2
 F	usr/share/lintian/overrides/libbsd0	227	041224377bd928f1282dd8527337f0db1af2b72df676f7f7f434629f4e940f8c
 F	usr/share/lintian/overrides/libc-bin	689	63c1c2e5a851bfeb05f10bdb0c8a9ccf3e84220366b53fa3eb9ce002641b2767
 F	usr/share/lintian/overrides/libc6	971	0897b1b340b6588f122f63908fb930a292c0b533de1ccaa588ae4b9aa0927b2b
+F	usr/share/lintian/overrides/libcairo-gobject2	125	d51d1ca13bf00f380809410a15d85c24139216ff6c3f692a8c8c22b0dfba75e3
 F	usr/share/lintian/overrides/libcanberra0	230	de5107ac87bab59c307c55fdd32187f3224329155e2477d9e42de41703c1a90c
 F	usr/share/lintian/overrides/libcups2t64	56	f56837ded789c8f7a45d3ae3a85020d9ad509e82f29fc41ad63bac8cdb383dcf
 F	usr/share/lintian/overrides/libcurl3t64-gnutls	70	45d557307f4f5cd12f2e297641c6b88d196d527adc50705752df9f7ff0f6c072
 F	usr/share/lintian/overrides/libdb5.3t64	134	bd6da8460178e9ecfdee8f049fa14b46c208c8581c94d9979c0071b8af49d182
+F	usr/share/lintian/overrides/libdvdnav4	189	7f767115d9c0b1dae0d79a26be5d9fee755f8a1bf148f594c31f449eb040db2c
+F	usr/share/lintian/overrides/libdvdread8t64	62	59ad8ec12fbd836c6085d18cd97d8311499fe19e6aefcbfd04fab6ea6f0487bd
 F	usr/share/lintian/overrides/libedit2	329	4d5c6eab3596cee847c0ca714934dd6553924cbef6f2e035211e9b17af675d45
 F	usr/share/lintian/overrides/libefiboot1t64	62	94049a41f724a51423699059521b6f1455b3143bc0a65f23c1ac845170bc3d8c
 F	usr/share/lintian/overrides/libefivar1t64	60	75c7a66a0f385d26513ba95fac127028e11cbaa4445515408960f078aee0bc6c
@@ -8472,6 +8906,7 @@ F	usr/share/lintian/overrides/libgpgme11t64	60	6b33ff508ca2aaf253f6de3abc19866d8
 F	usr/share/lintian/overrides/libgpgmepp6t64	497	dbf20f7b7371ddc0d64ea4505b028414350a9d2f185467826673d6ce46018a4b
 F	usr/share/lintian/overrides/libgssapi-krb5-2	56	37c96bae99465cb3bf1aea52c9a559f48d79a538c7db7d2f90ac6f3df6ddebd7
 F	usr/share/lintian/overrides/libhogweed6t64	62	1b5a13f3c273df5067cc876aa8b65d2d93716b95402cc6ff35ddf9ee7759ff9c
+F	usr/share/lintian/overrides/libhwy1t64	83	6ae830bf8d821832ee1f1fc70655b479776f8020423bbe66e599fb250468d727
 F	usr/share/lintian/overrides/libicu76	345	28b4f704bc7e93d2e69541c78a0b760a21ee605dc62d4f7e97f4d2aa4adc3b35
 F	usr/share/lintian/overrides/libidn2-0	87	a3adef313d14b2ed3c1f8aaf890c773bcef5f0a121913b9b09810ecae4f2bf73
 F	usr/share/lintian/overrides/libjpeg62-turbo	386	fe0c416dfe223cf9538e01337fd8574f1263a157f028f6df9ddfb69e9278a89b
@@ -8483,16 +8918,21 @@ F	usr/share/lintian/overrides/libkrb5-3	63	9cdb010e14118fbbfa0f598e2f795a8112cea
 F	usr/share/lintian/overrides/libkrb5support0	132	5e3a70fcdde7b54d17fc8f490ccc3c0c3925fbad8036bac8463c90cba4bf1575
 F	usr/share/lintian/overrides/libllvm19	122	80cc22c475ce4eb023439b956592462d47ac4b1b2e86e59431292e3e52b7f653
 F	usr/share/lintian/overrides/libmount1	90	ff1461ab0f7d14354a3bf594d4867eeb3fcbf34c9ddf37c6cbb23a5ae7bca916
+F	usr/share/lintian/overrides/libmpg123-0t64	192	b96a68a541a91c273cb9e23c14b9ffc0811f22c7704e32268c15f97226637c5a
 F	usr/share/lintian/overrides/libmtdev1t64	58	8a8472ccd168ac8e3d875efa9d6e01fa2dd3f7ba58f7c67aa262297a0f7e819e
 F	usr/share/lintian/overrides/libnettle8t64	60	490ace30ef913e61026d7277d4174039bec9f0dcad0568753334da91f0298ae3
+F	usr/share/lintian/overrides/libnorm1t64	56	87ea450f871eb2b1985517e97fd08ce99e195919ddb62fb1dc6b0b3bf1d593ab
 F	usr/share/lintian/overrides/libnpth0t64	56	b052c06018bc2e789e9e5719ba10312191827ff2519de20c90b361c7167b5b0e
 F	usr/share/lintian/overrides/libntfs-3g89t64	182	18951370964be361f1ac38c8ca4721cec009b2e3f1b90935d80341f2aa6d98a9
+F	usr/share/lintian/overrides/libopenmpt0t64	155	69773c76cd9d5a8f87c8179170d5008add70cff710eeeb739ecb4042d9aedc18
 F	usr/share/lintian/overrides/libpam-modules	923	73371fdec87ef9f3b392e1bd4e15f6668723f93047215702ffcdf398e931f992
 F	usr/share/lintian/overrides/libpam-modules-bin	132	8014dba6b408c0a61466fa7975c839653193be7cde0d48e526dba0bb4aef5a32
 F	usr/share/lintian/overrides/libpam-runtime	807	7c956e9b023abeb91756e5d0245494b747eff11b7b9f800bf7334822a877565b
 F	usr/share/lintian/overrides/libpam-systemd	82	4a8b6c726289306a481884eab789091222433264b0112dff202d84aeb2733582
 F	usr/share/lintian/overrides/libpam0g	570	5f25a1a35a8a1f103386c928c1615d03ce3c219cf0d83fd42c09e3c4a2fd8f3e
 F	usr/share/lintian/overrides/libparted2t64	60	daab9bc9f01bdeef6e83d5995836248fe5391af3ce91ff4851671f3467a6d673
+F	usr/share/lintian/overrides/libpgm-5.3-0t64	64	527fecb8e3d341dab167ae2f349e7f40027fa1da06c018b576586909a609d503
+F	usr/share/lintian/overrides/libpixman-1-0	83	4cff5414a8fa76d2d2cdf4fca31f515518db413866b4510ee19e059b00153d8c
 F	usr/share/lintian/overrides/libpng16-16t64	62	242ebd49eb8cf9b895f8a425fca820eddd73b462be198ce395048c339b789b59
 F	usr/share/lintian/overrides/libpolkit-qt6-1-1	122	874092ef3555f6a3ca3b8e0e43c23b7a2365076bb48939c6d9dd3fc1a4e0775f
 F	usr/share/lintian/overrides/libproxy1v5	58	0a4e2f3c7d5c77d469e7dca8884acbc85620e03be0c1dd01c0c8674fc4cafe23
@@ -8525,8 +8965,13 @@ F	usr/share/lintian/overrides/libqt6widgets6	237	77aaa060534cde34c68ca5e9ffdfcf4
 F	usr/share/lintian/overrides/libqt6wlshellintegration6	257	08c3e9e44796471ab917c64b389e23f97344211033147e9f408b205293499f5b
 F	usr/share/lintian/overrides/libqt6xml6	233	117a09b8437bf9223c5b0cba3890a7a1dbd8612a6a6044f7c09132c6d66fb058
 F	usr/share/lintian/overrides/libreiserfscore0t64	72	474cc2c506f42cd899db068040af82f3916223dee73874e1c82ab14c5fd6f8f8
+F	usr/share/lintian/overrides/librsvg2-2	233	c8e238f1dd44d05a8967dd769acea802a607a1be5baada50988627c64eff5278
 F	usr/share/lintian/overrides/libsmartcols1	98	265d92e3412aa121486fdf9c474bab83d26380809d16fb17f69027c6d81f987b
+F	usr/share/lintian/overrides/libsrt1.5-gnutls	285	447ce55cbe0424adf16fa06c4040046d415a7b42d01b7df237c84e6641d7f59b
+F	usr/share/lintian/overrides/libssh-4	117	1c1e7c9d64e9075e6db7d60fa1ea6f87631157e0e2050d920564b84fb92c0efc
 F	usr/share/lintian/overrides/libssl3t64	54	418ab624307a41fdee3c70f79632449caad9b6407c2d63ad06443a80852622c4
+F	usr/share/lintian/overrides/libswresample5	437	3233a3167f4bf149466b12fc4d595c30fe90166d708b5a6858938d4f5cc1bcc5
+F	usr/share/lintian/overrides/libswscale8	431	f56b741c0d6f0641a2d7abe598d74dcbbd7df10880a890538b65ad814608945e
 F	usr/share/lintian/overrides/libsystemd-shared	181	591db1e50be660004c884f179d39bb93c962f20fceacee074d911fa69b0c297c
 F	usr/share/lintian/overrides/libts0t64	52	d1fbe826d4cecb047c53663b94f7614c9ebb68df2078b9bf8111909b1d478f4d
 F	usr/share/lintian/overrides/libvorbis0a	98	574bcb65a7b7004d3014543e82c528d93a81577ac5292245fc131a6f10c2c6e4
@@ -8534,9 +8979,11 @@ F	usr/share/lintian/overrides/libx11-6	60	f463047684138b2efc6bd51cbf7dcd7f4f6001
 F	usr/share/lintian/overrides/libxml2	43	ed5c762bc0ed14e0d4a9fd7cb5e72b425a46a007f8c7501d0ce25cd3a34d6be3
 F	usr/share/lintian/overrides/libxslt1.1	46	44730299aa9c7f6f8bf845a4dc5bba460b01ad970550967525c95cd320e7f3b3
 F	usr/share/lintian/overrides/libxt6t64	52	7240b78bdc5f64b42ff39affcdfe3becfde4c5e72e91e07694b4debe05f6b9fd
+F	usr/share/lintian/overrides/libzvbi0t64	225	5f34866d880df53b898ef3977a9a97cbaef6efa6c5bfa10acf643457af888a86
 F	usr/share/lintian/overrides/mesa-libgallium	47	50257a11e925a0244b637ebb8b1bd7378378403a5822dee62a32e4ee6f143e0c
 F	usr/share/lintian/overrides/mount	117	301edbe909501012f3c366647fba8d9f810b5ecd0d11462113099964d63cc079
 F	usr/share/lintian/overrides/ntfs-3g	62	3b893da267645b29eb5bce9660016e00e0c03ecc331baced02e5c636ff874c5e
+F	usr/share/lintian/overrides/ocl-icd-libopencl1	98	dfae57670447709fa7a2489262f741889ed35188abd57ffe6c631f69e708f59c
 F	usr/share/lintian/overrides/openssl	160	f7e7408eaeff69d64c13596d78116d2e1ac1bc990d59ee22d69f6f6f99429c8f
 F	usr/share/lintian/overrides/parted	56	7e99b755af453ecbf972a05bdb9e62283001695cf03d6001d3c7e2a0d0aa54b4
 F	usr/share/lintian/overrides/passwd	360	6353b1cbf1d0bb27dbb21bad36d9c820e4a64dc4398a50db31591f8a5099f8d0
@@ -8546,6 +8993,7 @@ F	usr/share/lintian/overrides/python3	91	17391c6b1531d52e4eed2e4a3a3b753c9b49ea4
 F	usr/share/lintian/overrides/python3.13	461	c9a9e98a25e25acb9c52f02a1eb8aa01d524ddbbb827b19155143e6177aa8204
 F	usr/share/lintian/overrides/python3.13-minimal	235	a04b78d10d79314b4dda7979e0ddd4571b1943803eaeae046bdbb5f073c01d63
 F	usr/share/lintian/overrides/qml6-module-qt-labs-qmlmodels	249	442c4904964c5052b36a00beba6760bc7efd838052019483d60c65ac91aac00b
+F	usr/share/lintian/overrides/qml6-module-qtmultimedia	241	9632ddab0123dfaaf3511e16bfeff6a8dfb2141fe2268b6ee0d3286d0a502ddc
 F	usr/share/lintian/overrides/qml6-module-qtquick-layouts	242	9c5d2a48d6320c48cca965d4982d78dec118f8bdba08313816651ee2d880b0e5
 F	usr/share/lintian/overrides/qt6-wayland	361	d1d34e4cae148cae05671a9d4fc469d7cd15b2ed2555da8619981c41194c5112
 F	usr/share/lintian/overrides/readline-common	42	8ee145c8c2958431bddb705cc2e9032a194337fd5fdee299cfe06fe1fb529707
@@ -13059,6 +13507,8 @@ F	usr/share/man/man7/gnupg.7.gz	623	dbcb1f949e212224d6ff0559c5b9eee5bc09120bb4f7
 F	usr/share/man/man7/hwdb.7.gz	2381	9935285582209e862189e22be082039962ad333b11ffcf3ed00acea9767049ef
 F	usr/share/man/man7/kernel-command-line.7.gz	5534	a9380d411c9b20290e6de2b2e7213b6d05fa95bf4536a7ddd98bb3f2e61a8905
 F	usr/share/man/man7/keyutils.7.gz	1156	0e4bba21b3bcc0dd9de7852f6d1967dbaebc210314a194e074d2947e7488d224
+F	usr/share/man/man7/libOpenCL.7.gz	2439	74ff3277cfa22647a2265a906aae3871ea0694ee6bc0a0d6c5a81b5dccd0ad1d
+L	usr/share/man/man7/libOpenCL.so.7.gz	libOpenCL.7.gz
 F	usr/share/man/man7/life_cycle-cipher.7ssl.gz	2361	39326e6feb06a924bc4a47dea8b916fa353584a701d2094f8815cb910ea3b67c
 F	usr/share/man/man7/life_cycle-digest.7ssl.gz	2242	822da18eb71c93b0a89131afe358b63b26edfdc627a4a8d86d4b11d5e5f24203
 F	usr/share/man/man7/life_cycle-kdf.7ssl.gz	1772	393bc39899e45984f4b31e57658dbdd13c7868e9ac12502cc059ee577d1a5ee3
@@ -13910,9 +14360,6 @@ F	usr/share/mime/packages/freedesktop.org.xml	2488673	dacfd65f815c094da7a23ebb8b
 F	usr/share/mime/packages/io.systemd.xml	1903	a16475ac20a577be69dcfcdbd97a04a92339728cedc581444dd6cca9ab90c6f5
 F	usr/share/mime/packages/kde6.xml	221568	5dbc8ab417f5485513c9d0a11293c9646b4d674da87407b26475e0bc9839537a
 F	usr/share/os-prober/common.sh	6706	154be223dcf2c6926eb60778986a24662671e98ddf4ab009145648c884d84b19
-F	usr/share/pam-configs/mkhomedir	154	ea2840c7336e177f75943580824fe69a5edff790c30c1c40c286462151e22dfa
-F	usr/share/pam-configs/systemd	182	537e690d43f2482ea13003ddeef131dd72e056fa91be2e0dfbe445a1563fffdb
-F	usr/share/pam-configs/unix	672	66528ec667294fd2eaa1418ad4372f51e0c9a8fbe628275242276ca070639276
 F	usr/share/pam/common-account	1175	8657819f898333b2ff09e8bb4fcc6ffabb02acd015411d0ec89f28a70e672537
 F	usr/share/pam/common-account.md5sums	107	8e2e9985399c29f44638f97acc1b71f9b2b946cfedb21ead16a54cd12c25992a
 F	usr/share/pam/common-auth	1194	940827d13f472a45ebd38cca4c4b2f91b7fc22f08a266a9e987222e88df4cc9b
@@ -13923,13 +14370,15 @@ F	usr/share/pam/common-session	1151	e20193c7a54174369b72d7dbe4abde44ff3ada4c623d
 F	usr/share/pam/common-session-noninteractive	1206	f4bd93f830678c340287f0738043a51425133fa65103d0892e6536abe58693af
 F	usr/share/pam/common-session-noninteractive.md5sums	46	c4e029edf22d18a793db84b3092d36b88ddfacc5e361b785364e4756755b10e1
 F	usr/share/pam/common-session.md5sums	174	b80d0e21fd90493886ba1dd4a4fbacf283e6ffc07815469a0ccb130f2e5d156b
+F	usr/share/pam-configs/mkhomedir	154	ea2840c7336e177f75943580824fe69a5edff790c30c1c40c286462151e22dfa
+F	usr/share/pam-configs/systemd	182	537e690d43f2482ea13003ddeef131dd72e056fa91be2e0dfbe445a1563fffdb
+F	usr/share/pam-configs/unix	672	66528ec667294fd2eaa1418ad4372f51e0c9a8fbe628275242276ca070639276
 F	usr/share/perl5/Debconf/AutoSelect.pm	2024	f2a6ec2142d76cc775668f239e0210d769d5329c2ae494b1af51a52fcb8f387b
 F	usr/share/perl5/Debconf/Base.pm	510	b69794dc206f91e1d8230dfff68c97543f7c2937e02270d5b09557504e25ec32
 F	usr/share/perl5/Debconf/Client/ConfModule.pm	3891	dee1cb9f961b76d28ef7c6e099ebf0ef4e18bad55f4d0bf843245f8ab2b80457
 F	usr/share/perl5/Debconf/ConfModule.pm	15717	010edf4ec588ad8fc1856f37ea9767b6b8e5eeb82017ce922d887c671358be8f
 F	usr/share/perl5/Debconf/Config.pm	7181	e5e262cea03f075f0a459f57c077f485a184b4819c3bea7d2f5bb55528a073f5
 F	usr/share/perl5/Debconf/Db.pm	1212	ee568caf310d037671e28f5aca28526bb9509ac88897e1be437d5570d678b254
-F	usr/share/perl5/Debconf/DbDriver.pm	2408	281474446e4b96c66425716afc63837be4684a08be6ae0fc455edd65ed16a416
 F	usr/share/perl5/Debconf/DbDriver/Backup.pm	1647	3620ba1981937ffe39fd1365561e751dc11a78ce4b9087bf04858c2e90a5e952
 F	usr/share/perl5/Debconf/DbDriver/Cache.pm	4830	2b7548c30e8ded3b1bbc795a1396edb3a812fee32d5aaa481650535202742ebd
 F	usr/share/perl5/Debconf/DbDriver/Copy.pm	959	f762dfec8894befed2f129342dc56cea97e273ec99d7e04abf94ef540ad0b2cb
@@ -13941,7 +14390,7 @@ F	usr/share/perl5/Debconf/DbDriver/LDAP.pm	6215	dc729b02bbb78fac5c200725f619c8be
 F	usr/share/perl5/Debconf/DbDriver/PackageDir.pm	3680	3b52f5916de51dedeb563c2ce3db83a4d749d1fcc9eac917a9b80af03a43aa2b
 F	usr/share/perl5/Debconf/DbDriver/Pipe.pm	1810	d992f4df3a92570ac5838aa019afabfbacd78ca17cc1b4da905c82f6b7e2712c
 F	usr/share/perl5/Debconf/DbDriver/Stack.pm	5260	192d19a3b8701fcc1fe0ff634fb2e6aa1b9d56e422e13dd03c6e34b3c802bda2
-F	usr/share/perl5/Debconf/Element.pm	206	a2b1c2afd76a96771daa3253e277b697c5d69efdb29d540dfff816b986d71fad
+F	usr/share/perl5/Debconf/DbDriver.pm	2408	281474446e4b96c66425716afc63837be4684a08be6ae0fc455edd65ed16a416
 F	usr/share/perl5/Debconf/Element/Dialog/Boolean.pm	740	8b005178b1eaa2287743c1f13d6f9aa33778428110811f2c73c8c07d2bbf0678
 F	usr/share/perl5/Debconf/Element/Dialog/Error.pm	341	f8b82dddc6846a459d0b20e3e858c8d85421cafb4528d51b19e58a61f6e7dd3b
 F	usr/share/perl5/Debconf/Element/Dialog/Multiselect.pm	2194	7f66878812ce99fd67b4dd85eb42b8b12d0ab83b83e63f0d4602117911b5cab8
@@ -13960,7 +14409,6 @@ F	usr/share/perl5/Debconf/Element/Editor/Progress.pm	246	a000b866a949e08ef3dff1f
 F	usr/share/perl5/Debconf/Element/Editor/Select.pm	843	2fd2b0182c1cc4e6b273991ea664d8b6493582f59016336cd94d57399d6f5249
 F	usr/share/perl5/Debconf/Element/Editor/String.pm	450	b3f9ac3c8bf337b271402a4c50d18eb788f6e88ca96033692cbfa164ff85df3c
 F	usr/share/perl5/Debconf/Element/Editor/Text.pm	326	2c3949a7aeeea2202c99aa158b269fd8980c2313d96c9559c8efe8c436f8c2b4
-F	usr/share/perl5/Debconf/Element/Gnome.pm	2869	2a385481d07bf770ba902bc695b42da827858a9a768ec07c0e4b2f61e5fd34b7
 F	usr/share/perl5/Debconf/Element/Gnome/Boolean.pm	693	48112d97692c0dc236b7768d0056e818c14566d0bc8ee5f58e04606608ed0478
 F	usr/share/perl5/Debconf/Element/Gnome/Error.pm	1177	2837ac3b2273b702b881786742841e34c6b7d78aa1568c4aeceb53d3ed4fc29e
 F	usr/share/perl5/Debconf/Element/Gnome/Multiselect.pm	2485	36810b1a352f9437f7001175a647caf09789ac55e956eac47e1d1bdd2192190c
@@ -13970,8 +14418,8 @@ F	usr/share/perl5/Debconf/Element/Gnome/Progress.pm	1123	991b298c100d68d3a56f0af
 F	usr/share/perl5/Debconf/Element/Gnome/Select.pm	985	9101a0a8d775a319a81c2b16e8049c11d932a26665e8261b44e2a57890b53341
 F	usr/share/perl5/Debconf/Element/Gnome/String.pm	659	0791fd1b17791057dec52249cde63e027638e381b9ed6d8df3af61af31385865
 F	usr/share/perl5/Debconf/Element/Gnome/Text.pm	301	04d3e093b9bb5b054a0f6b30c343d7f469106427b3706a6a2f1d66747db04293
+F	usr/share/perl5/Debconf/Element/Gnome.pm	2869	2a385481d07bf770ba902bc695b42da827858a9a768ec07c0e4b2f61e5fd34b7
 F	usr/share/perl5/Debconf/Element/Multiselect.pm	926	52b9ff6a8619ddc2e9d81e7ee005a0d844e83340c1a8869de0575c5ab02d010c
-F	usr/share/perl5/Debconf/Element/Noninteractive.pm	352	d09df6c1ebe36e8a66d1763b18246a3474c1069ea9658b2d813de798efd95a58
 F	usr/share/perl5/Debconf/Element/Noninteractive/Boolean.pm	189	da9bc4de7a37954ffe0ff352f015fcc9f2fee44ad4731d4251176e665ff6a4b1
 F	usr/share/perl5/Debconf/Element/Noninteractive/Error.pm	1686	8307cc93fe02070febe53c84a80abfc4433c5686084139168f0500f51c3168c0
 F	usr/share/perl5/Debconf/Element/Noninteractive/Multiselect.pm	193	b87f48cef7f37bee09f1c004b3ef24c4caae957735f42c81f26854e7e57a30a6
@@ -13981,6 +14429,7 @@ F	usr/share/perl5/Debconf/Element/Noninteractive/Progress.pm	269	ff9324048f2197f
 F	usr/share/perl5/Debconf/Element/Noninteractive/Select.pm	613	bc98ec856a55d4190ed4beb12716d35a599c86479a7602ad4fecb04251e988fd
 F	usr/share/perl5/Debconf/Element/Noninteractive/String.pm	188	0268c7c333d42a172c2a04b7497356753a70e182e975f76240a185eef02c8c6b
 F	usr/share/perl5/Debconf/Element/Noninteractive/Text.pm	237	c71f33fce010170d5f914d2dbf15f0e4b7bc1b96b1dde51f26853d5fb31ce7f1
+F	usr/share/perl5/Debconf/Element/Noninteractive.pm	352	d09df6c1ebe36e8a66d1763b18246a3474c1069ea9658b2d813de798efd95a58
 F	usr/share/perl5/Debconf/Element/Select.pm	1991	b0d1708f0cb3379bd535cb507c3316e57b2e9cd99744d7b4f9aac0950120fd82
 F	usr/share/perl5/Debconf/Element/Teletype/Boolean.pm	1206	9b841f807abeb509c47b6d28eff5ca120f20d7c20393ba22c763792f3240896c
 F	usr/share/perl5/Debconf/Element/Teletype/Error.pm	181	6a039f10a5b99bad208dcf4fe34a9b6656ec204edc0d987d768aa09f5ba8e0a9
@@ -14000,10 +14449,10 @@ F	usr/share/perl5/Debconf/Element/Web/Progress.pm	242	58785869b8dfcd6f0e466cbecf
 F	usr/share/perl5/Debconf/Element/Web/Select.pm	887	50dfbb3f090947a1d47691083e4d5a893f523faa5bad92c057be61aee5eba439
 F	usr/share/perl5/Debconf/Element/Web/String.pm	478	8c08e24dc1fe9b88e1c0ca61a245bd82d9624b93404951685e43e5337d73589d
 F	usr/share/perl5/Debconf/Element/Web/Text.pm	326	142e2c3004fb2d0c42e6a0093aabcbf15ebcceba5d1db43de0f69541597faff4
+F	usr/share/perl5/Debconf/Element.pm	206	a2b1c2afd76a96771daa3253e277b697c5d69efdb29d540dfff816b986d71fad
 F	usr/share/perl5/Debconf/Encoding.pm	1483	aba864856f671a1f5b553a845e80c683183b50db08b178377c061f01c6736e3b
-F	usr/share/perl5/Debconf/Format.pm	144	8a606807846230c56c0b117f0be535432503b81afd8a858bf225b0710079a19d
 F	usr/share/perl5/Debconf/Format/822.pm	2105	4e0606e39f3cde0221b87434ac258be14a8e168871ca81711ada2c5e337bfeab
-F	usr/share/perl5/Debconf/FrontEnd.pm	2870	9807fa98c81e5b9314bc25c4d288ffe97350cf33ff5aa46534f690db78baf888
+F	usr/share/perl5/Debconf/Format.pm	144	8a606807846230c56c0b117f0be535432503b81afd8a858bf225b0710079a19d
 F	usr/share/perl5/Debconf/FrontEnd/Dialog.pm	7832	0fe24d4a9be73f9136812cfbaad43b2818554db8a037db39392070091eb9bc96
 F	usr/share/perl5/Debconf/FrontEnd/Editor.pm	2179	a800ddbeffc897ab64f738a18e9ce9ea12b25ae884283ae48b74eb1356a4c789
 F	usr/share/perl5/Debconf/FrontEnd/Gnome.pm	7519	d18d81e196ec08a86eee1ccf688ac75d985fd2811c0e23350296fe3183c6d93e
@@ -14015,14 +14464,15 @@ F	usr/share/perl5/Debconf/FrontEnd/ScreenSize.pm	892	163b48b39d090fe21dc0c71ed63
 F	usr/share/perl5/Debconf/FrontEnd/Teletype.pm	1659	92504cbd234d2d8387dfd97e55e60db370fd1b6b71b8c0d3568128689457d919
 F	usr/share/perl5/Debconf/FrontEnd/Text.pm	166	e0aac882da15de83d9eb5306d9f0b86f1418821d67924d647e109faafd30855f
 F	usr/share/perl5/Debconf/FrontEnd/Web.pm	2666	3f99aeda14e4c64ec41dda69f4f906b70812a1f578dc073631fe4df8b720f295
+F	usr/share/perl5/Debconf/FrontEnd.pm	2870	9807fa98c81e5b9314bc25c4d288ffe97350cf33ff5aa46534f690db78baf888
 F	usr/share/perl5/Debconf/Gettext.pm	311	cf0d28ad9cee9812620584cf0ef6a98062b36502fa601b725178ebc764c01e4e
 F	usr/share/perl5/Debconf/Iterator.pm	209	d08310a34e32c689d8bff8dcafd92bf4849d76e762470f8c991425c4990f751c
 F	usr/share/perl5/Debconf/Log.pm	926	0f4b4a7b38292449475f981760f14056a44c7b641d0a84951a767a493dcab91e
 F	usr/share/perl5/Debconf/Path.pm	305	25967cae35d6e7cf0e75fb13b9ca142d6fa8c9f034c13a9e6b4e379edba1266d
 F	usr/share/perl5/Debconf/Priority.pm	676	7ccb2d9fb96964ea06a7c3ac71910c5a8afc0e50e571c1bea5d31922019e3d84
 F	usr/share/perl5/Debconf/Question.pm	5862	76e39a8413aae732f4f08e321be98725e670b62469e4f5905440f971a7a1487d
-F	usr/share/perl5/Debconf/Template.pm	8198	9aef3d86e4a57c90fe69bc7275930049d37e1308547097680b3ae1d941ff9b2a
 F	usr/share/perl5/Debconf/Template/Transient.pm	1100	20c8d2c432718c69b9e5f6e0e8dd3420c6756a498074ad167716ff61119a736f
+F	usr/share/perl5/Debconf/Template.pm	8198	9aef3d86e4a57c90fe69bc7275930049d37e1308547097680b3ae1d941ff9b2a
 F	usr/share/perl5/Debconf/TmpFile.pm	388	d21f028a596779cf454bdc8acc7e2f3803e01acf034750c53ff6ea7023949067
 F	usr/share/perl5/Debian/AdduserCommon.pm	17054	cebffd7d51af1b07bcef4e79b21a6078e030f103886e11ddf3858db4d037ae71
 F	usr/share/perl5/Debian/AdduserLogging.pm	7225	61f70264cc9bc1ca895df9eb56f37c1ff8f8b598f8560b963ae9e4afa68bf930
@@ -14401,11 +14851,11 @@ F	usr/share/rsync/scripts/mnt-excl	2468	609fe6a360c587d618bb4ce1c13b58818809041a
 F	usr/share/rsync/scripts/munge-symlinks	2613	cdaa1d376bcb1be81a1b0f27647efef3d1f7c870f1e1c8ce78d1767a11176644
 F	usr/share/rsync/scripts/rsync-no-vanished	585	e22a445a9c2a5b2414ee48f1e3d4c61806f3d8fd5dbb7221129878c27c6dfe80
 F	usr/share/rsync/scripts/rsyncstats	8687	ee498096105ca3ae658e9118ca8fc8bdcdc525e24f232e8a5288b7e1afc0b08b
+F	usr/share/sgml/dtd/xml-core/catalog	947	6f0755523a6d0f2f8f6a61cf564ca673bdd5808f040acfb2c80e6e619d1fa605
+L	usr/share/sgml/dtd/xml-core/catalog.dtd	../../../xml/schema/xml-core/catalog.dtd
 F	usr/share/sgml-base/catalog.centralized	331	26aa2cf3b20538b1ca0bb56d13fa8b414a6691a071ac84c5216d65c5181b4b0d
 F	usr/share/sgml-base/catalog.super	335	660f36a3389875d1f2924bf3918e89909570a8ea8ba0310c1d9c27911e9343c4
 F	usr/share/sgml-base/transitional.cat	354	f109b09b8793eb59736c7ba2e12ca4bcf6c91f03d784c29a7d057ae3f6609ca2
-F	usr/share/sgml/dtd/xml-core/catalog	947	6f0755523a6d0f2f8f6a61cf564ca673bdd5808f040acfb2c80e6e619d1fa605
-L	usr/share/sgml/dtd/xml-core/catalog.dtd	../../../xml/schema/xml-core/catalog.dtd
 F	usr/share/sounds/freedesktop/index.theme	77	0dd956b7a0d9f600a5a2e1c2799abb4dff8b1aeb752e41b02405ff8bc46adf29
 F	usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga	73696	c28b4e0463eb3f19a3352049991c919cf8755e3f301f56a6276f5a81df472595
 F	usr/share/sounds/freedesktop/stereo/audio-channel-front-center.oga	17015	986708048bb5ed244f2243150781a222a5c20c0e5954576a7c65ae5559c0b8cf
@@ -14447,13 +14897,13 @@ F	usr/share/systemd/kbd-model-map	3854	4852eb51ba552df14d7a313281084576264b2a110
 F	usr/share/systemd/language-fallback-map	218	df256be45479f419f5671ad5fd99a647017f31a6319b670c72fc2660d5f78c9d
 F	usr/share/util-linux/logcheck/ignore.d.server/util-linux	155	3d25dc26469558ee0720665c24a7e68bb7231771b1ce72384f834285648783e9
 F	usr/share/xdg-desktop-portal/portals/kwallet.portal	119	daff78e798de5bd34a6dc9ca98d136cda4330e415377ebda2a80a309cacb41d6
-F	usr/share/xml-core/catalog.footer	11	39f7130d91d685f8e543ec1502f9e36ba377978f1be39f5595022669e2aa312c
-F	usr/share/xml-core/catalog.header	202	2b25e4dba8b8a2fabb1a91e2f928634d923cd0bdb73e99dc88cc1c4501de2a37
 F	usr/share/xml/fontconfig/fonts.dtd	8254	76afafd572f6194858eef6d28389505d591d8d2a026da46568046554a87c207f
 F	usr/share/xml/polkit-1/catalog.xml	374	3bcc3363915032a6b02ac043aaa127d33bd74948de4594d0843e5b93bc8a9a2e
 F	usr/share/xml/schema/xml-core/catalog.dtd	3843	007a47a8f3d7698d64293e8e774455ee4d9d6c0a322e02f29b3806e9c03ed61f
 F	usr/share/xml/schema/xml-core/catalog.xml	777	47401aef197be8d76ddbd17ecaa0e6f5d89036303f3190bbb305cf81f0bc6175
 F	usr/share/xml/schema/xml-core/tr9401.dtd	4316	99d475b3e099fc1c4f6be367256b3330a407e058de05563692d23fb9fdfd3e03
+F	usr/share/xml-core/catalog.footer	11	39f7130d91d685f8e543ec1502f9e36ba377978f1be39f5595022669e2aa312c
+F	usr/share/xml-core/catalog.header	202	2b25e4dba8b8a2fabb1a91e2f928634d923cd0bdb73e99dc88cc1c4501de2a37
 F	usr/share/zoneinfo/Africa/Abidjan	148	d2efac4e5f23d88c95d72c1db42807170f52f43dd98a205af5a92a91b9f2d997
 F	usr/share/zoneinfo/Africa/Accra	1060	7346770dc7af569c724fd1ce816d7149ffdff3e303420059faa1557cc959e115
 F	usr/share/zoneinfo/Africa/Addis_Ababa	185	fc87a606ec2e31f061a7806193472eb39181dd3b1a8a3563f404992bc693a77b
