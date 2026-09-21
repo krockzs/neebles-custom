@@ -17,6 +17,7 @@ F	etc/X11/rgb.txt	17394	2c8ab5acc9eb072f4cc88696834188100d05e50af5d1425501d99370
 F	etc/adduser.conf	3981	854e57e61a6592500fae89e9224faed4ea7299918fcd1786d2ef1494bfca44e8
 F	etc/alternatives/README	100	a44afdb50eacfc09e45f6dac1e18ae231c179feec633c106e1060bae8ae11df1
 F	etc/apt/apt.conf.d/70debconf	182	db749e19baf3b72ca2c157c70c52522cae23d94bc8b2dc5793fd43d427445367
+F	etc/bash.bashrc	1997	ccbe82649c573d2d5fadcd04d4fb7fe93d5d9bc473a6aa2e3e6a5ea57e6d385c
 F	etc/bindresvport.blacklist	367	63229551ffc257f56e3df60ca97e1f2963f3ab2128ce27a0f398b4418fa454d0
 F	etc/calamares/branding/debian/branding.desc	1047	e3b4ccdd6806c46a717a66c3b2a41b16a8b10c9e42a0d2902d5b77d5152edf89
 F	etc/calamares/branding/debian/debian-logo.png	29455	4efad2b1263aee39423ed6c676b861f45e29ba183b33c5b2b21a6ef3bf7dfff4
@@ -175,6 +176,9 @@ F	etc/sensors.d/.placeholder	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca
 F	etc/sensors3.conf	10749	628447dcfa3bfbe4c3df9f0885dcbe93a757b82d5dc91369da5139864a969663
 F	etc/services	12990	20c48954659cf753baa383ecde0e6f026fadc06c2c9fbe29d88d928188c3ec17
 F	etc/sgml/xml-core.cat	45	3c46704b553c4b55ce928ffe89badfcfd08a02f0e6558211dfd57d9ae1e72aa4
+F	etc/skel/.bash_logout	220	26882b79471c25f945c970f8233d8ce29d54e9d5eedcd2884f88affa84a18f56
+F	etc/skel/.bashrc	3526	afae8986f549c6403410e029f9cce7983311512d04b1f02af02e4ce0af0dd2bf
+F	etc/skel/.profile	807	28b4a453b68dde64f814e94bab14ee651f4f162e15dd9920490aa1d49f05d2a4
 L	etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf	/usr/lib/systemd/ssh_config.d/20-systemd-ssh-proxy.conf
 L	etc/ssl/certs/002c0b4f.0	GlobalSign_Root_R46.pem
 L	etc/ssl/certs/0179095f.0	BJCA_Global_Root_CA1.pem
@@ -510,6 +514,8 @@ F	usr/bin/base32	47528	8231d307e288c6a9d91428f23e7e770f2ba22caa9f57295e3263bfe35
 F	usr/bin/base64	47528	d366e0e50248ffe77018b327e0af70707dfdcb8616a6f1f088535f17d677dcc6
 F	usr/bin/basename	43432	b4f6fa4b123e1c2e77964d803e5d80837c41b03c6cc870d1619cd3560193f7e1
 F	usr/bin/basenc	59816	e7efc17c3f04412e65ef1fdfaa9491a365a8264ac71bbfed95b04078d68bc0a5
+F	usr/bin/bash	1298416	223fe8564b60636bc738b6178d3ba9a50ef7d791266b0efae6363bb716e4c47f
+F	usr/bin/bashbug	6944	a357c1cf0160577653948e84981386c790457f6c1af391297c07ad873ad17cb9
 F	usr/bin/btrfs	1049104	50acb3d975e0bdfd5af4eeb55ae87b1238751729a2180b23dbf8248b5b54d320
 F	usr/bin/btrfs-convert	613904	9350dca895fc19d5b37211e71af8883aa4b9761279dc93035837a5decf95f63a
 F	usr/bin/btrfs-find-root	548368	736a4efe8931fa7eeeabd5a5459cc4ec925610e7e2d542b92b4ca3753167ca4f
@@ -534,6 +540,7 @@ F	usr/bin/chown	76232	22538ede9a6532d7c5db3c67c73bbcd68adc44a1ac99e09a2d739282ae
 F	usr/bin/chrt	72072	c01e7ed7374201e4cdf81b75fc0acf4ec3b0b1cf4a20d26ce5579c1bd32d17ec
 F	usr/bin/chsh	52936	cbe6de7973fadde66cd19f5da00640eafdfb8a70e83bee6e2f89d0c1b0bf548e
 F	usr/bin/cksum	137672	8d1f9a228917b56a039030d6715978075c4c4de161d6b578c35c299774689333
+F	usr/bin/clear_console	14488	badc350244ab2cc267dd40fe72db6ef3c1bc5cf550033aedbbb407a1b634ef3b
 F	usr/bin/comm	47560	bf9159463e1ca1e6acd94bd1f1762527c2e9168893f7b9a1bb654e47fb9adce7
 F	usr/bin/cp	149960	5a3a8808bab81a67c6ac578670f5608595f1569948d4dc7d7d604c1d08d596d9
 F	usr/bin/csplit	59848	6b492d1b227657b17c9f6fadf7eb75dac5fe804d9aadbc5e8e775c25f06ae8b7
@@ -577,6 +584,7 @@ F	usr/bin/dpkg-statoverride	88584	89eef9deb1c5c113bd87ebb2682d8b4b86ad2a89fd63b5
 F	usr/bin/dpkg-trigger	92672	6d9e980584722d22673f549418a755091e99702ed5b765dbad6bb1c355d2b676
 F	usr/bin/du	113096	3c0b05db84b02f20521c548adbe76fe05012a24effa6116e0752a81dd0faa9ba
 F	usr/bin/echo	43432	416903b966ea8a2fc3b11e09b03a30e09aaf3b2e8f5a581b4c1b80899edf545f
+F	usr/bin/egrep	41	10caa507f39367738ca977a5f2014406159064b072dbade0c0c23a40597f66da
 F	usr/bin/env	56144	eb1c64bbc9908afcdf8cb48524f17112d8dd76a249f80dee2f01da14747b3b6e
 F	usr/bin/envsubst	47424	5e82e867ac3161f1000e1ee137f15e27a6cc67764b447fb296a13fab68f7ef83
 F	usr/bin/expand	47560	e0f08507cff3739ebd8db737ab7c88fa52d52fa15fd374520292f026558a18e2
@@ -594,6 +602,7 @@ F	usr/bin/fc-pattern	14648	aafed8798387e9a174bff481403d4ceb9bd83bedaeb6ed212be2c
 F	usr/bin/fc-query	14648	1fcffad5abed5d6c2a2927639c62a577c58fad74ba9dfc5bf5a928481bbbfa4f
 F	usr/bin/fc-scan	14648	4e791262a7febc6b54410aebe4cd08fc9ece935e167d0b0c943933acc6fce1b6
 F	usr/bin/fc-validate	14648	14005d1c94c39d91aeb62268f7e19a5318ee246fdd562d2745970bc1aac1fc62
+F	usr/bin/fgrep	41	f1bdb63da98989d55e56cef651139f70448d4c8f6ea40bb02610be439e29bf0c
 F	usr/bin/find	233040	91b75e72c495e68dd6aab198c2fd6c458fd51a2dc361045ee31f8e657417de26
 F	usr/bin/findmnt	102296	598a23e36910f5cf7a99dfe83b6b29b54dae26ec73faa82fb097c0d5ddc36334
 F	usr/bin/flock	35288	231d0d5879ff18acd8edcedb791be807cc7507df4dcfd7a17269d54bbeef21e1
@@ -618,6 +627,7 @@ F	usr/bin/gpg-agent	456184	6855b10b86292329d6b8185e6e55a10fed0c6406756d3d04feb46
 F	usr/bin/gpg-connect-agent	142608	75af86fb74d8bac594cc60528f061c4316b3bad8db1f5f3c6b14b7cbc56b5b13
 F	usr/bin/gpgconf	171560	17ea11378c9d71166df855b73a66333fbf8095cb8da7d3a474bd325e3ca726db
 F	usr/bin/gpgsm	628040	b3411f52a1e8317d523f062b920511ab2ba0da10ef995d46cf11711313484029
+F	usr/bin/grep	203152	bd6686bf7a650a9717fd7e73fdb07dc63b70547a1da41bce093c56df937a66eb
 F	usr/bin/gresource	22768	e640fc40d8d0c281a48b6416e629b8a31ae73aeb05154099246ccb8252d482a4
 F	usr/bin/groups	43432	24283ffdfdfb560805b73377422b3bbf715dc5fc10fc1f43a25ff5296c820341
 F	usr/bin/grub-editenv	403720	556a9ce504274f24e9d85e01c2a121b87a6937564a7f9d94081116acb33783ce
@@ -760,10 +770,12 @@ L	usr/bin/pygettext3	pygettext3.13
 F	usr/bin/pygettext3.13	24439	51d01328dcdb6007716f0fe50a22bf68fabbdc2e07c0ba39d7c6eecca2df1151
 L	usr/bin/python3	python3.13
 F	usr/bin/python3.13	6832784	889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9
+L	usr/bin/rbash	bash
 F	usr/bin/readlink	55720	1dcaf494f4dec175292b1684b3e978d18a4c3c703c52f81606d9e8eea30eb6db
 F	usr/bin/realpath	55752	43708156c6862ae153685c621c4b9c601ae3f77fefa737cf2f47f3a0f5afaf24
 F	usr/bin/rename.ul	31112	9b905a0ee4c15b50764f48a0629cf1d4d507818b273e93e03e6548f0e17d43e7
 F	usr/bin/rev	14728	55a85a6fbbabde90f932bbf5fea905bb6c621725fcad64c2d5cadda0a33e117b
+F	usr/bin/rgrep	30	0a8dd42a068115f058ae57f9f6347e1ef0ae2ffea89bf658b132974246577748
 F	usr/bin/rm	76232	c959a237e7b95d229eea44764b2246fcb61a95dc679a10ad0cc97ad84c2316c1
 F	usr/bin/rmdir	43432	d78acd70f897e47588f964663f26b0dd5f7787b25ce6d70a81d842563f952845
 F	usr/bin/rrsync	13005	d4739b6f82a93894aeb027dc55b02ff655eca7b8dd06accd733eada5865585f1
@@ -5380,6 +5392,7 @@ F	usr/share/debhelper/autoscripts/postinst-xmlcatalog	60	2bafe56deae9d23112ac157
 F	usr/share/debhelper/autoscripts/postrm-xmlcatalog	68	3b10a76850c573a474df72ec48b5a91803fd47617c2c776432867de124348392
 F	usr/share/debhelper/autoscripts/prerm-xmlcatalog	81	99b2145ce8632c697a2f6a5189391895c1570c0f8d728783fe95cfd906dc5740
 F	usr/share/debianutils/shells	42	184fd1ac95af5ad460ee875e9fddb4975e8720ee7d805d964c68d125573537be
+F	usr/share/debianutils/shells.d/bash	50	999107ef5f119f2d28b0d1a1e62530204b1d85fcae2534df811e2a13211e0c70
 F	usr/share/debianutils/shells.d/dash	14	2080d33b239fbbab0b52f5c3ebade4dcdb94e5771ab44c573183365ec7ddd75f
 F	usr/share/doc-base/base-passwd.users-and-groups	423	159902a0284dbbcc039824ebab914948f8a803280fa2b67742b8f7fd40c50250
 F	usr/share/doc-base/findutils.findutils	323	83026123456c2f7c1cc44196701180752a65423ade28344ef277cf577b12faa6
@@ -5676,6 +5689,21 @@ F	usr/share/doc/base-passwd/changelog.gz	2499	c950f04b63cab5effb73e269f280655a71
 F	usr/share/doc/base-passwd/copyright	798	0f1cde79bd80a75f9029ae9a8c252b642223027ef36f6989c63a8230aae576a7
 F	usr/share/doc/base-passwd/users-and-groups.html	19984	0d3faf981eddd55fca42b15670ecc0a3170bc0949c65d346ff471d10a5190c0e
 F	usr/share/doc/base-passwd/users-and-groups.txt.gz	5837	404e8bf8ad9821bc8a579304e050f32817c1c56babdcb73045912d426b9a6164
+F	usr/share/doc/bash/CHANGES.gz	126824	f36693fd9a9fe19117b089f967eed107287eb0b7412e7ec3251ca7bceae0118a
+F	usr/share/doc/bash/COMPAT.gz	10180	983c4a0d46ded580870ce01aa7d7ddec57bf7d6edb059b8361c442e44a783c09
+F	usr/share/doc/bash/INTRO.gz	2921	68785f9dc6e6f27fe798494c74c7321859f5f04245f2efa3c16b675598829308
+F	usr/share/doc/bash/NEWS.gz	35089	458eadcbc797f0d3fcd80dac95bcacce9e26c82a886a3693ea608d68fa810cbe
+F	usr/share/doc/bash/POSIX.gz	4329	38ef3774c98e9e1fe49d425a213b39e8d84d8dc6312863336d8a4987c7ccf7e3
+F	usr/share/doc/bash/RBASH	2472	89375446fa1e3ec0b78b691b7043f1c6b0954bc390055ca6de36277cf2fceca5
+F	usr/share/doc/bash/README.Debian.gz	1919	1320b2a626d1cd26d074df797ffd2552add3fe1ecc8a0ccfb7a3b8ccab2c6675
+F	usr/share/doc/bash/README.abs-guide	1105	4425e3eb24abbaca4ab43a71e02b7364987daba13bb3e2a71df589ab71aa97ba
+F	usr/share/doc/bash/README.commands.gz	3021	2dc024421ca0ed975b13f6be11314d98f843a3be2d6327fded522b4246dfb24b
+F	usr/share/doc/bash/README.gz	2003	a644cc1e584c9da5e49b03bfc1fa4ccf676a187fbec61a47e1109765a76d73e3
+F	usr/share/doc/bash/changelog.Debian.amd64.gz	244	d1a11a70952efbba77ad2330a3c930d98b472a952754e7fc36e87cb1ac740767
+F	usr/share/doc/bash/changelog.Debian.gz	2454	140d6663ff31c7375d1c0dfa1422fd1e4cc1aa57cad09b11a53a5b9d9592d8e5
+F	usr/share/doc/bash/changelog.gz	126824	f36693fd9a9fe19117b089f967eed107287eb0b7412e7ec3251ca7bceae0118a
+F	usr/share/doc/bash/copyright	9764	06319d84c3e5ed096036f6a9310a030c7e84e50dff2b8a6792285c83ec0ada73
+F	usr/share/doc/bash/inputrc.arrows	727	092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce
 F	usr/share/doc/btrfs-progs/changelog.Debian.gz	3053	f009c3fc267dae7fb4349c21387a3486f7a9d643d77fb074ad1760c62271c88d
 F	usr/share/doc/btrfs-progs/changelog.gz	26559	a625b02ae4fc910a9c7add1d9ab6eb64fa0a022ebc3e4b578b7eda188058c50f
 F	usr/share/doc/btrfs-progs/copyright	9881	404173cbef7df535588634d3e47469ce7b22dfb7cba5f81ab347ec03855d8410
@@ -5983,6 +6011,15 @@ F	usr/share/doc/gpgsm/changelog.Debian.amd64.gz	253	552737f356a701b86eee309a02cd
 F	usr/share/doc/gpgsm/changelog.Debian.gz	9582	23bba234adf76cecae19cf5231e6fb641fcc9c1311d57f46af6c25179e404900
 F	usr/share/doc/gpgsm/changelog.gz	101	3a1a4bd3d7d401eeabe428cc9c1cbb2be9c57bb2dde54d6f40442c1f7c117045
 F	usr/share/doc/gpgsm/copyright	13143	c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8
+F	usr/share/doc/grep/AUTHORS	2769	1b2210609aeb3bd6569dba0c3a837bff30ad99a91293078a076896aace0ff074
+F	usr/share/doc/grep/NEWS.Debian.gz	1293	9c88881504545eaa76d641dbd23473af7be08ff8358185fd8a5e18381ef9b064
+F	usr/share/doc/grep/NEWS.gz	18380	74875f3d20db6e8ec15db27aa4384873371997d6d07a9e51690db09c2bfd6212
+F	usr/share/doc/grep/README	2370	1adde0fceb1237bad92be9769ca0156e3460f98d102f5b012aa4dd8e95d33afa
+F	usr/share/doc/grep/THANKS.gz	3265	806197c99e7c9d23f6d14b485787fe7fa72c7f15ff5b71ed47db5ed60eff236d
+F	usr/share/doc/grep/TODO.gz	4395	f4b8ef691d7cbf48b71c13c3a67a5e8ee4e82200b831da8dcd6ff8c74e79bb84
+F	usr/share/doc/grep/changelog.Debian.gz	1836	18cd271488995dda7d9d627d6c87cb7e8f912f71e5e2dc6f8d9f706cc931c6d8
+F	usr/share/doc/grep/changelog.gz	160783	0779d49052cbe498300b30c599eac242774d2f8b37a40b56b076a00c3e22db09
+F	usr/share/doc/grep/copyright	1807	42d9b4d610396b1e8d1303dcb9487af3f5a2d2709623cf03a04cf76acdf6c5e3
 F	usr/share/doc/grub-common/AUTHORS	669	0496a4e1e901d9a36a1f1ae6a801ce6bf381e8bb37d964bf5f1cfdcf46f1d640
 F	usr/share/doc/grub-common/NEWS.Debian.gz	242	2f0576dea02efc0bb227b0ad2c545b95ddfb804742e4246bb2c2c113386bb8fb
 F	usr/share/doc/grub-common/NEWS.gz	9384	899e3cc76a2048559988a28af5dc467c31179e40a064c0efaae793eb92004cef
@@ -7419,6 +7456,7 @@ F	usr/share/info/gnupg.info-1.gz	90777	475b647addc18644ed37bbea3cc47aaa6ab78e82b
 F	usr/share/info/gnupg.info-2.gz	92559	f486fdb2271c7abed991dd88181692867c318e72ef26e75e67108d81edb3c5c9
 F	usr/share/info/gnupg.info-3.gz	1827	121ddbb7ec93064d5a5a50341572086b7bcdc6d9fca7c0836c29b4617a57c368
 F	usr/share/info/gnupg.info.gz	2919	c823b8626a5094e00229367a99b5633c87fe030f4a09c8e67c10d5e8c1c67919
+F	usr/share/info/grep.info.gz	34984	76666a8f3a878e5ca9fa5f9e618b7ac703216bb635500d7b1fec41ac9b99f0b1
 F	usr/share/info/rluserman.info.gz	26693	161d3684da4ce2047c416ef67c935711b353f2479da6769f0dc0a73099795f20
 F	usr/share/info/sed.info.gz	56008	ee8b4b7c5d8ee3b4262c0b4c835b8db1958964398496b6a9bf11bae33123f239
 F	usr/share/initramfs-tools/hooks/btrfs	701	695a9e48c9af29c0e3802ce0defaab3e20fb5b36a561397174cf215ffafc60f5
@@ -8386,6 +8424,7 @@ F	usr/share/libwacom/xp-pen-g640.tablet	202	07e0f02a4e01b068c1ebc086f7c307fcdf93
 F	usr/share/libwacom/xp-pen-star03.tablet	493	060469d92d9b09efaadd68a8cd247efd64bf874a9c64f50ef56dc9b7f6ec9cd2
 F	usr/share/lintian/overrides/base-files	1666	02120b9c96091120933c60555f951a206cfd75fd70d5aabe388202033eddd2fc
 F	usr/share/lintian/overrides/base-passwd	31	090c479775fcd5cb1be8c2a827070a2cc0fcb0eaa25426a1b57a16165e996c2e
+F	usr/share/lintian/overrides/bash	156	08f5c7407d53510dbb16cfae6bb9787930991931dd6d8e13119f8f07e3729fd4
 F	usr/share/lintian/overrides/calamares	358	cc1f3f8f653d2dbc763f71ccb6d03dd1f3a0e0e3761f24f9528d4a80df9abee0
 F	usr/share/lintian/overrides/calamares-settings-debian	220	a255deae12e53a11025eae5e3e74c9406b82c58e709a43f811f487d681e78358
 F	usr/share/lintian/overrides/coreutils	180	29ae8af8ac76b9d1527dfd7be137cc105a91d3fd99a10e8d027bc302f96be12d
@@ -8524,8 +8563,10 @@ F	usr/share/lintian/profiles/dpkg/main.profile	270	d8d3386a25eaa491d7054830ed31a
 F	usr/share/locale/ab/LC_MESSAGES/glib20.mo	10614	03fb6b4227877bab23030f34e97d3e5524906fd86ae6eaab2b70bdb06d3347c6
 F	usr/share/locale/ach/LC_MESSAGES/avahi.mo	412	2d9047abdb2db3522f01fdf1fb60993cc3e1501db1b854c3a5daf92d9eb8b9fe
 F	usr/share/locale/af/LC_MESSAGES/Linux-PAM.mo	494	527c0287ea439be4062bae9bd2cd30df268e9e7c1310019a73ecc885825bd4b2
+F	usr/share/locale/af/LC_MESSAGES/bash.mo	1280	f0b2cdc27513d85c66f9c0bbae95a1b71863301e96c52fed72069ac8adce3e34
 F	usr/share/locale/af/LC_MESSAGES/coreutils.mo	25802	518c4abd5f29d2cae7a34de47a0bb293e72561f88baa131b71976d3d59be2c82
 F	usr/share/locale/af/LC_MESSAGES/glib20.mo	9368	0f7273b298bed1875b571f36be52802fca6a7aac10fd5ad86c87ccdd7740ff9e
+F	usr/share/locale/af/LC_MESSAGES/grep.mo	1171	9b8a180a4c00b9a575fb2a61f89b700b0052623bf15b485b0f8ee0bc4345bdaa
 F	usr/share/locale/af/LC_MESSAGES/kauth6_qt.qm	30	c74050972fcccb53792f5f1ca9074e6dd9dafab4fa24f97514df782850096742
 F	usr/share/locale/af/LC_MESSAGES/kcodecs6_qt.qm	30	c74050972fcccb53792f5f1ca9074e6dd9dafab4fa24f97514df782850096742
 F	usr/share/locale/af/LC_MESSAGES/kconfig6_qt.qm	30	c74050972fcccb53792f5f1ca9074e6dd9dafab4fa24f97514df782850096742
@@ -8671,6 +8712,7 @@ F	usr/share/locale/be/LC_MESSAGES/coreutils.mo	52978	bf2c153814c87f45234c9c4a475
 F	usr/share/locale/be/LC_MESSAGES/findutils.mo	54561	52a958335db1c02ce99ee138d6e04ca8eeaecf827d7f222d282c65c1e75602e5
 F	usr/share/locale/be/LC_MESSAGES/gettext-runtime.mo	2659	eea67ec7408975cd44811a779b372ca50c85251db18d9373bf05f35d62891af7
 F	usr/share/locale/be/LC_MESSAGES/glib20.mo	103847	78ce64fb9fdef97219b90fa6089261bbeb3dcf3b9878bbd4bb18f517db2a46ad
+F	usr/share/locale/be/LC_MESSAGES/grep.mo	23291	96531d2d7e7569b3f701c4cbd408ee4e0de7c3fb0fc64c898de309b545568a33
 F	usr/share/locale/be/LC_MESSAGES/kauth6_qt.qm	1950	6cc1ecfecb3df4d4f5bcf7729b3e68dcbb0e99d3328162b05cc6d899549383b4
 F	usr/share/locale/be/LC_MESSAGES/kcodecs6_qt.qm	8653	e0ee667ec0e4f27dcf8d8d642c7064191b30ce7980d8028f75dcd1c71582fa57
 F	usr/share/locale/be/LC_MESSAGES/kcolorscheme6.mo	845	3d4e89cd16666d74d690edc29ff2e3f7fb422283d69485e26cee46e6522a1b2d
@@ -8715,11 +8757,13 @@ F	usr/share/locale/be@latin/LC_MESSAGES/systemd.mo	15962	70272119706e19583abde24
 F	usr/share/locale/be@latin/kf6_entry.desktop	3483	6261634e5c774a569958defe99330218560fdc8e4e73f6780d883d68b7fb3808
 F	usr/share/locale/bg/LC_MESSAGES/Linux-PAM.mo	12272	3033f0afa41e6ad833f8dab95ab9c5379ede6d2eee54d609634661a179b59520
 F	usr/share/locale/bg/LC_MESSAGES/avahi.mo	21435	2a6e5f64d298d2912d140d3665df3b95d262b81bfd9c30b37d0072de061ff1dd
+F	usr/share/locale/bg/LC_MESSAGES/bash.mo	248812	f7119e061b1e86d363c56c37878325ef239148d6c93a2d2af89f65d3b0bb3b6f
 F	usr/share/locale/bg/LC_MESSAGES/calamares-python.mo	3801	d73648bd5a49a1195651b4e604adebc72ee7b7a55688375247cf5f6f33b419aa
 F	usr/share/locale/bg/LC_MESSAGES/coreutils.mo	506413	083e089e79a929b3e5452e0fb55aaad6878d12261d335b42180bfc9568be6d27
 F	usr/share/locale/bg/LC_MESSAGES/findutils.mo	55782	ae0bff68906fef8c267fee2d322edd456700afc3869e0c9625b7ea680222803c
 F	usr/share/locale/bg/LC_MESSAGES/gettext-runtime.mo	10312	f95369d9952a84a5b17b9b09d697a5fe776b8cab28dcf2b027e2e08fc1fa0494
 F	usr/share/locale/bg/LC_MESSAGES/glib20.mo	184521	ec3984e4c61fc07d5371e0b8e2145be35cd278976eeb46dd8d2a41d4b75c3874
+F	usr/share/locale/bg/LC_MESSAGES/grep.mo	23915	9be58eb4dcbe211ba6c63a132d8506168e0c96072918d64ff8927cb9a0c502bf
 F	usr/share/locale/bg/LC_MESSAGES/karchive6_qt.qm	12618	daf34bfad202824ee7e7513c606ff6602e8e1a28036f33938d3ce019df5a69ed
 F	usr/share/locale/bg/LC_MESSAGES/kauth6_qt.qm	1941	3db79b042ca25da8bc24a143a7c9bd93fc290004ae2e5d45b9861d3ed97cd50f
 F	usr/share/locale/bg/LC_MESSAGES/kcodecs6_qt.qm	8248	4474b115d500f0ad96ae717c592158dcce7b5f16b20d9f39a962bc1be1b55745
@@ -8838,6 +8882,7 @@ F	usr/share/locale/bs/LC_MESSAGES/solid6_qt.qm	14587	1bd2fd55eaf81d7aa5ace3cd259
 F	usr/share/locale/bs/kf6_entry.desktop	1893	6e9224448dcafab60ddbabd6b941d356999806b96d8b616a5d4ea92ab679126f
 F	usr/share/locale/ca/LC_MESSAGES/Linux-PAM.mo	10174	0499eb24e7a848bde7b3c2e2e9df1f56d5b0b1bd44a7db74c95d545e7a6ce672
 F	usr/share/locale/ca/LC_MESSAGES/avahi.mo	17663	8c730ceb0d283629c4ec8846262ba76c30d4947be913f7905596168b46e50e89
+F	usr/share/locale/ca/LC_MESSAGES/bash.mo	183474	f209e46482625fb28b15ffc32d01b7ee22b145a47c1572dcaaeaabcc3274bd05
 F	usr/share/locale/ca/LC_MESSAGES/calamares-python.mo	10094	79eb7c3f2c0cb6aa3cc4db053ba66d88badca2d5f82e964ac09cadce10c7ca78
 F	usr/share/locale/ca/LC_MESSAGES/coreutils.mo	365936	57923b9e2a54e754d2a59874d5a74dfa9be4162e4829f5297b7805e18160b7f4
 F	usr/share/locale/ca/LC_MESSAGES/dpkg.mo	181404	cdacd4fb419ff4ab89ee2418bdcf2cbbe5e95917946f71f548c18b276aa63baf
@@ -8845,6 +8890,7 @@ F	usr/share/locale/ca/LC_MESSAGES/findutils.mo	5930	30b94f924d1cada43c9c81841a1d
 F	usr/share/locale/ca/LC_MESSAGES/gettext-runtime.mo	8161	f43ac2c39ccc5ca0f702a63129561bbad9719569eb5b9cdea4ae574e655dd38e
 F	usr/share/locale/ca/LC_MESSAGES/glib20.mo	147071	2e9c5047bbf78ac6853467d53bd9dafc312989b1571e22ba6fb9199c1ba35cab
 F	usr/share/locale/ca/LC_MESSAGES/gnupg2.mo	43010	fd32c188f1ac37555ba86da7d14807ec5a4b36a4da0e09dc532110e06c406866
+F	usr/share/locale/ca/LC_MESSAGES/grep.mo	12262	b41542d0b46de7bd58131688dda77c6fbdae4a8c539d1512deda5aad86917b38
 F	usr/share/locale/ca/LC_MESSAGES/grub.mo	119925	e09b8d63b5bf6410206a4b708664ba978af80d6dedd33b2eabdd8450afc3f8d3
 F	usr/share/locale/ca/LC_MESSAGES/karchive6_qt.qm	13514	a0920a79ba998e797bd3fc3c03290e3bd582536baf601dcb84ee24a0c172a28f
 F	usr/share/locale/ca/LC_MESSAGES/kauth6_qt.qm	1957	6e88aa276d5c2fe4599afc3ae534de8c078b4763cfd6b3fd40108bfd97935442
@@ -8929,6 +8975,7 @@ F	usr/share/locale/crh/LC_MESSAGES/xkeyboard-config.mo	44647	8c00f2e10f61b264fe6
 F	usr/share/locale/crh/kf6_entry.desktop	2961	9a756a0231afb2290623160300dbcc0cc7ac802126e3097583259fea15ab14cf
 F	usr/share/locale/cs/LC_MESSAGES/Linux-PAM.mo	10207	ab2bfdb9b6fef2d9b3c2046a27d634f3ce95ae0afa25094393b8ced59db949f1
 F	usr/share/locale/cs/LC_MESSAGES/avahi.mo	13140	15a5565967234fec07c645e4f017c8e9bba40511acf29797ccd5054c652cfbde
+F	usr/share/locale/cs/LC_MESSAGES/bash.mo	185301	6e0765885e5b1e1569aeea74b0172ee2cfda84e82dfcca294e87a8f7f72663ce
 F	usr/share/locale/cs/LC_MESSAGES/coreutils.mo	391405	3fdcf8b9a6d397eea4487f45e4c1db45f64f7d683dcb5b7c1bc053ce9efba2f4
 F	usr/share/locale/cs/LC_MESSAGES/cracklib.mo	1807	4343289b203588ea7447761f7745073974ec83c47423a6ce146fe4f4a26b4818
 F	usr/share/locale/cs/LC_MESSAGES/cryptsetup.mo	125316	23a496d3edc29df3b705db201bf2407561e8609cda9b3d191601bb9b43f34406
@@ -8938,6 +8985,7 @@ F	usr/share/locale/cs/LC_MESSAGES/gettext-runtime.mo	8308	1b19f82e6d767c376aade4
 F	usr/share/locale/cs/LC_MESSAGES/glib20.mo	140539	526ad33398c4257274cf0fd03bb8d5038850c01d4a130767744800443c281d36
 F	usr/share/locale/cs/LC_MESSAGES/gnupg2.mo	241729	96587b631334b91ca583612c7467254e979baca19dbc97bacd34536b4192660d
 F	usr/share/locale/cs/LC_MESSAGES/gnutls30.mo	34151	37c15a824305507e996034e34d2635f2f3954d4943a435409f2ef03f4cf75100
+F	usr/share/locale/cs/LC_MESSAGES/grep.mo	18845	168b3f12b9dc5fac1faff345953809bee3f032ea591e9e56d402028144cc1e42
 F	usr/share/locale/cs/LC_MESSAGES/karchive6_qt.qm	3141	8c64f13b8fe1d770853f047f7a9eae72e272585a3b37f67724af363578ab3842
 F	usr/share/locale/cs/LC_MESSAGES/kauth6_qt.qm	1825	b984fb9e112902c84e312d30e750d99606a772059a2f9c4804695e48d36d50af
 F	usr/share/locale/cs/LC_MESSAGES/kcodecs6_qt.qm	7538	8df49b8dfecea57ee50a9f3fb24b8306afd017530fedb59c0d38747bd04f9ff6
@@ -9016,6 +9064,7 @@ F	usr/share/locale/cy/LC_MESSAGES/shared-mime-info.mo	6624	1bb5ae1c03647aaeb6dc5
 F	usr/share/locale/cy/kf6_entry.desktop	2204	20011144b391bfa3606bf7e367d11cc050b5de9b74d434ec08d2be01300ad7e8
 F	usr/share/locale/da/LC_MESSAGES/Linux-PAM.mo	10035	785e3eb2864afe0e6f9e5ec7301ed0834bbb5d76a178b30fff02103ab925c211
 F	usr/share/locale/da/LC_MESSAGES/avahi.mo	16741	01352c343747e2bb7e1a8116d4549a4934c1f9fa230bd49ee22852974447c939
+F	usr/share/locale/da/LC_MESSAGES/bash.mo	70624	9eb16f6743231ff442a4e6eda73afe09212f98460d1fa5cb61292efcb302bcb0
 F	usr/share/locale/da/LC_MESSAGES/calamares-python.mo	6028	d64e540f39005fdcfc04b2b494671f4d93ca14275e7083aac8fd20e91d2fce02
 F	usr/share/locale/da/LC_MESSAGES/coreutils.mo	330228	4a5dad1b6e8dbf4b6b2c76db2dc82d8cfde1ab4882de833a546c019edf9c12ea
 F	usr/share/locale/da/LC_MESSAGES/cracklib.mo	1786	4e14da2a6b71b6f0a4f0811ad1e2ca4355c976bb3e7f098d9a9b2675922bf946
@@ -9025,6 +9074,7 @@ F	usr/share/locale/da/LC_MESSAGES/findutils.mo	30408	25c7d25c606e957a428b4a3a69e
 F	usr/share/locale/da/LC_MESSAGES/gettext-runtime.mo	5178	3fd6b3a3280eba052152d1c1ac4dffdd9b7188d98d776f282804ae574b5c96c2
 F	usr/share/locale/da/LC_MESSAGES/glib20.mo	137218	2c0b755cb7140df3811b6e8886431d4f025eb1fe5a383498b49620c8fe9597f8
 F	usr/share/locale/da/LC_MESSAGES/gnupg2.mo	130977	93df66a5596bd91f5c9a2a7d69fb8de02d5ac5434270cc725cb8e6d0a0747b59
+F	usr/share/locale/da/LC_MESSAGES/grep.mo	15797	aaf85272ab0bce04e00da114bef9483697410cd8f2f89f826f9ca2d3edfa6f4a
 F	usr/share/locale/da/LC_MESSAGES/grub.mo	111681	f65335aff8e6b91e15d0f245c57919f95413c3f9b2c9a6794a179e1f959fe842
 F	usr/share/locale/da/LC_MESSAGES/kauth6_qt.qm	1863	23790fcf2510467c9b6546ec26d4c5632e30d80179894c044fe96ac0a11bd65e
 F	usr/share/locale/da/LC_MESSAGES/kcodecs6_qt.qm	8412	1a2f4461f02aca53e5c9538d4e197f8232f731ff8a9a213983d9bfe196dc5a38
@@ -9064,6 +9114,7 @@ L	usr/share/locale/da/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/da/kf6_entry.desktop	2224	f2742a2bfd5f27466f0f8617f93268cbcf1aaca93f579a86695f822ed8e30654
 F	usr/share/locale/de/LC_MESSAGES/Linux-PAM.mo	10373	1ca18d5e28ce4b832f08486cb778321e961908ddb951c725da4a212c8a3eb9e6
 F	usr/share/locale/de/LC_MESSAGES/avahi.mo	17399	8ec35e37fadf65ceaec385e744cb909f4003fb56b47ee80bee838bc759478a4d
+F	usr/share/locale/de/LC_MESSAGES/bash.mo	125828	4089a683a98eedbe65862517aa270dbcb2375e4fd93c4644776ae72b3ae23202
 F	usr/share/locale/de/LC_MESSAGES/calamares-python.mo	9963	0d5ef833fa953445706d4394081a5a1f305d79cf5b0cc1487bd10647ee5d551d
 F	usr/share/locale/de/LC_MESSAGES/coreutils.mo	394562	feec09baeafa968e3eca1fd69dae311abd98eca62b323ea9a391d5664935a45e
 F	usr/share/locale/de/LC_MESSAGES/cracklib.mo	1943	fdef49a5e24290ad6e83d46d9e0c2b333d9c375bc9ffa1c1194fbbdeab1bcfda
@@ -9075,6 +9126,7 @@ F	usr/share/locale/de/LC_MESSAGES/gettext-runtime.mo	8301	40a37bee8d968e7d3d948c
 F	usr/share/locale/de/LC_MESSAGES/glib20.mo	143935	ad868e29aa85e30a4418926032d57b7222e4a0403cee17de40be632b30a2665d
 F	usr/share/locale/de/LC_MESSAGES/gnupg2.mo	246363	9e15c654ca7191538983c1c656ef60ec776cf781feb9889d75540f30a7567e22
 F	usr/share/locale/de/LC_MESSAGES/gnutls30.mo	35254	e92f0e6c6cf75fdc2f3e1405d1a43073c88192714795f5472e2cfe6a70bd7b03
+F	usr/share/locale/de/LC_MESSAGES/grep.mo	19248	7c104597edf9ec711a664a3c0d964097396a6a4469846c6ac5b154d232b0dbf3
 F	usr/share/locale/de/LC_MESSAGES/grub.mo	141112	b986b230c920ebe0aeeac0c8a9cb984d0911a888786ab8c89f84e38cf2c9580e
 F	usr/share/locale/de/LC_MESSAGES/karchive6_qt.qm	13269	f78755d50b4f25fbc90ab24312b8b13723f5e3355bc20cb4d821c814ee20019b
 F	usr/share/locale/de/LC_MESSAGES/kauth6_qt.qm	2247	73964a3b6153a6e534b5db657a65e9c42aa238b270d5090583c022f55874bb93
@@ -9124,6 +9176,7 @@ F	usr/share/locale/dz/LC_MESSAGES/glib20.mo	34836	ce0628326eeb7eb49e961557a21b48
 F	usr/share/locale/dz/LC_MESSAGES/shadow.mo	29413	453f0e28e4fc2a9c38affb0b4f5e794fbbe2c3a9fbec6faffef28976b9685d8d
 F	usr/share/locale/el/LC_MESSAGES/Linux-PAM.mo	467	14e59a892cf4f8386bfd30e920f4cea63d4e8b5964a43de73a645637a2e5bda6
 F	usr/share/locale/el/LC_MESSAGES/avahi.mo	21783	ff58fe1f7bc52f29c7975fa88324978e35eb89ed1d9714959051cd995e556525
+F	usr/share/locale/el/LC_MESSAGES/bash.mo	83800	cc28ce0ea81e1a078d4eafeb442daabefce5bf34a03dc780271ed2e6bc157f64
 F	usr/share/locale/el/LC_MESSAGES/calamares-python.mo	987	c9f5907e7c07cc6d8c6f760717e65514e73e6c3595a815d8655ba8850bb0d7e4
 F	usr/share/locale/el/LC_MESSAGES/coreutils.mo	22723	5d13fd4f7bdb43267fba2fbb53f139c496a24923927d5984933d451279575369
 F	usr/share/locale/el/LC_MESSAGES/cracklib.mo	2222	8b07d340d8d0846829e5b09e742654d7d82d9df9813ea0bb558731a3ec274bab
@@ -9132,6 +9185,7 @@ F	usr/share/locale/el/LC_MESSAGES/findutils.mo	39353	437809787e3056eb03053eb6925
 F	usr/share/locale/el/LC_MESSAGES/gettext-runtime.mo	892	762b2ce3f89fd35b24d472874bc7e90810be51d03954b86da8dbf255ec318c8c
 F	usr/share/locale/el/LC_MESSAGES/glib20.mo	118601	675b78010403f8a782d7cbbcea4a39787252c66085de680bfce7d71ab97f0299
 F	usr/share/locale/el/LC_MESSAGES/gnupg2.mo	56832	8d2b74065124734aaa0650df887bfeb8a3519de633c79c5f60e7a823224e373c
+F	usr/share/locale/el/LC_MESSAGES/grep.mo	3746	43d79f43c9fbb5e67f4ecf9ed570c196d5198cb318dc7213272a77a8fdef72da
 F	usr/share/locale/el/LC_MESSAGES/kauth6_qt.qm	2061	7d7ac2113e0ebdd459f9a6c97391db235bde404856e2d6a9728af43a2bedc65d
 F	usr/share/locale/el/LC_MESSAGES/kcodecs6_qt.qm	9428	57b2f64489277cf0cb862dbf7283cf48f778d70d968e4df25fe37881bb120af2
 F	usr/share/locale/el/LC_MESSAGES/kconfig6_qt.qm	21256	bffce6e2616588adc526483b7589cb4d132da6444db1d359d52a89c1b454104f
@@ -9166,6 +9220,7 @@ F	usr/share/locale/el/kf6_entry.desktop	2167	8f0371639db4ed04c1c3142f657b211ddb4
 F	usr/share/locale/en/LC_MESSAGES/kcoreaddons6_qt.qm	875	54965f4a6107aeb2bca0a9612fef922d91882e633ad85e53b9d0796dab82c054
 F	usr/share/locale/en/LC_MESSAGES/kwidgetsaddons6_qt.qm	313	49082e02027c2396e445ac6d57398e3ca6e0ec22f5c245d3d63c6e9e6c835146
 F	usr/share/locale/en@arabic/LC_MESSAGES/grub.mo	175960	69c62b41acf886d13704d87c803c4823ea7f1634c17f36ba3e415a635f92a7ae
+F	usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo	164675	865ac127474412eff39c529a76aff00fe27979e85de0346b0053d682e157e221
 F	usr/share/locale/en@boldquot/LC_MESSAGES/elfutils.mo	193204	3d7d3c6a6fec0e5127c2b2a687636be01a7f52c42299228a6bd859fbe1fbc55f
 F	usr/share/locale/en@boldquot/LC_MESSAGES/gettext-runtime.mo	7705	5752dac6a14ac68ac5c4f005482a5336ed0f4e7f9ce0dc8dc99a6cb31efb0a8a
 F	usr/share/locale/en@boldquot/LC_MESSAGES/gnupg2.mo	224496	2bf5b980c98febb346cdc5fbb1204d0bc403630dea31457ac036f1c3f84abc80
@@ -9173,6 +9228,7 @@ F	usr/share/locale/en@cyrillic/LC_MESSAGES/grub.mo	166040	858ccfe0b3152a25d6c109
 F	usr/share/locale/en@greek/LC_MESSAGES/grub.mo	166037	4f985680b891e61f230d324ece66d0d36b45d7f021d12e246c88e2cfddb614e2
 F	usr/share/locale/en@hebrew/LC_MESSAGES/grub.mo	190500	acd82093dba4e10d31966ca9edeef9ed1f8c9cd8fe6e039a3b1c20922ec0bb1b
 F	usr/share/locale/en@piglatin/LC_MESSAGES/grub.mo	147016	29f80a60994838c3b59509e467488154cb0ffcbbfc92760ea6141c194b593fb0
+F	usr/share/locale/en@quot/LC_MESSAGES/bash.mo	163043	a14f635b33a9bd32090514c6edc8d44e650d239d236e102ce3ad5060afecb56e
 F	usr/share/locale/en@quot/LC_MESSAGES/elfutils.mo	190632	ca32190b3b2baffcdf15e8d73d8ab745eeb35b4532ea5ba75b2211e84cad9f17
 F	usr/share/locale/en@quot/LC_MESSAGES/gettext-runtime.mo	7677	1fbe5f48445a4a76fadcabe058da8754b70f778c01d052dbcdaf4789b7eb48d4
 F	usr/share/locale/en@quot/LC_MESSAGES/gnupg2.mo	222112	ac1ddaac8a4e726c8eca32a3e6eab9b2a5581290e57368f81a19320bff244594
@@ -9215,6 +9271,7 @@ F	usr/share/locale/en_NZ/LC_MESSAGES/avahi.mo	14220	20decd2fbbe639359d3dbc63fcef
 F	usr/share/locale/en_US/kf6_entry.desktop	1732	e9b9f1b64f4e0088fffe35876ce5166e4c050ecf0d46808b1cfe8fcf288ecbe4
 F	usr/share/locale/eo/LC_MESSAGES/Linux-PAM.mo	3778	c0ea9cf7cded6943345568bcc25e5b5f345f2e5d35823d92616745ae33db0951
 F	usr/share/locale/eo/LC_MESSAGES/avahi.mo	4046	aa0def5ef2936a920344af30aba903db02de005b2fba8eef93a738cafc65fa8e
+F	usr/share/locale/eo/LC_MESSAGES/bash.mo	162418	a7beda07d0c0c6b758e8e3d87a0d84c9d1e27db26b6d960cdc56e92b4bfe18c0
 F	usr/share/locale/eo/LC_MESSAGES/calamares-python.mo	991	e1eda9b9d8a2c18b12701f9d6d36428bfa9baab98e6a158b6d406b68b87181e5
 F	usr/share/locale/eo/LC_MESSAGES/coreutils.mo	140293	088cd4ad94a486293efe308234b8c0d5bcdbb47d4d7959c33e46ae5e110877ac
 F	usr/share/locale/eo/LC_MESSAGES/dpkg.mo	110997	1ee32ff43e7f3f968f8a873d8d500e41728f3c02ffcc973434245d19db11988b
@@ -9223,6 +9280,7 @@ F	usr/share/locale/eo/LC_MESSAGES/gettext-runtime.mo	7818	94b1bfbc621f616ca0d3f1
 F	usr/share/locale/eo/LC_MESSAGES/glib20.mo	60288	f4e7071ca307f932584fd6dad8a8de433cbeceb6172fbd160a80d3c65f128776
 F	usr/share/locale/eo/LC_MESSAGES/gnupg2.mo	28068	a10d8a5e69ca608f6cedb16868597930306f4b6219d38863e02790228dfa5431
 F	usr/share/locale/eo/LC_MESSAGES/gnutls30.mo	33110	2f2b86435e7cf3f6d7367ea18627023f507c98997307d66bc8725896a5b52b71
+F	usr/share/locale/eo/LC_MESSAGES/grep.mo	17359	f4e601a2f52fbfc853a63429cb3efaf0f8283e735423ab85f7e537eb37442f1c
 F	usr/share/locale/eo/LC_MESSAGES/grub.mo	42309	c144468b4d83e152918a5a498dc93e73e2339732ee43cd6bda6220a4082db1ff
 F	usr/share/locale/eo/LC_MESSAGES/karchive6_qt.qm	11838	f49486aac2f1c8d6a111c9a0a79adf707e4552d80a092ee42612a7c86703f77a
 F	usr/share/locale/eo/LC_MESSAGES/kauth6_qt.qm	1767	944449735d3245d9aa79d2ce234eaf8b2ada2d2382462260041cc5c1de819838
@@ -9260,6 +9318,7 @@ L	usr/share/locale/eo/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/eo/kf6_entry.desktop	2716	c5cd01be48708296a747665bf8df435f9ff57197ab72ca4d9972da85f0b57098
 F	usr/share/locale/es/LC_MESSAGES/Linux-PAM.mo	8677	48b6c65af9038a4683762ea5dc027f95fde9ec14ed3c2ff1cbfe28e050b5dfe1
 F	usr/share/locale/es/LC_MESSAGES/avahi.mo	17415	fba468e98e5fd1449f8f37968e61e37014b2c0b5efad808343277c04c61d812a
+F	usr/share/locale/es/LC_MESSAGES/bash.mo	183966	a576c4ce7e6e90bef59758ed2998356f2d0dbbf69c82ab32c0ae5d678b2c361e
 F	usr/share/locale/es/LC_MESSAGES/calamares-python.mo	10643	5e96f7b68ac156cf1dc597483be2f9fc229ea206f90b028406683a7a6ef94a90
 F	usr/share/locale/es/LC_MESSAGES/coreutils.mo	205563	78b9f95cb3aca24f275a9de1342bca628f0c5eb481a7c32b46f50868d4b34902
 F	usr/share/locale/es/LC_MESSAGES/cracklib.mo	1863	0e4b5c9e522df71248fea2b2027540050a33db65de9db0c0b962d149ea26b009
@@ -9271,6 +9330,7 @@ F	usr/share/locale/es/LC_MESSAGES/gettext-runtime.mo	8270	182108270c7e8368ca475b
 F	usr/share/locale/es/LC_MESSAGES/glib20.mo	143953	871a0704880292b315d371f261ebfe6510fd08003441eac2b85a7ba99af26e5a
 F	usr/share/locale/es/LC_MESSAGES/gnupg2.mo	214465	35fe8dbada7c704d6241f1d8a2a6fe34cc8e3bd96f7f63365affc97ff121b114
 F	usr/share/locale/es/LC_MESSAGES/gnutls30.mo	34721	4adde96d8158be63f7449d9d8523f5432ec58b7b0b7af7a9f9b11e9c31a118a6
+F	usr/share/locale/es/LC_MESSAGES/grep.mo	17100	6faaa517188672cc10151cbcd43407bf00e3d6851896240bb6442dcbba121acd
 F	usr/share/locale/es/LC_MESSAGES/grub.mo	122218	2bb0978cc454210ae3bd85b5626722c22724f84a19233ce513e318de9f5dea70
 F	usr/share/locale/es/LC_MESSAGES/karchive6_qt.qm	13836	6e75bdd8760f6bf8ad314a5c04a2d5daeaae193296784cd3f8adcca02e162b1c
 F	usr/share/locale/es/LC_MESSAGES/kauth6_qt.qm	2027	dcac6eebca78aeb834b94b6eac9df082b64a1daa71f06199c942ca0e4d05d084
@@ -9314,6 +9374,7 @@ F	usr/share/locale/es_AR/LC_MESSAGES/calamares-python.mo	10332	c04b62e4df6cf03ff
 F	usr/share/locale/es_MX/LC_MESSAGES/calamares-python.mo	5160	405dd2b38b6a7a5450378e822b11fe83c0815783c28e47f3cd36ca7a1e730659
 F	usr/share/locale/et/LC_MESSAGES/Linux-PAM.mo	2320	c37a28cee5e92c4bd214ff81484d20e9d82dc1cde40428cd5d9b622b2d24bb1c
 F	usr/share/locale/et/LC_MESSAGES/avahi.mo	9657	70c21cb1cabd3dd2312ef2b9ef396eed8d0a0e1f5ab58ebb202e8e4bd299ef4a
+F	usr/share/locale/et/LC_MESSAGES/bash.mo	12156	ed3bca39dbabde1cd9103047b0e7361df3d7290790998dfbb13b65ca0aebe09c
 F	usr/share/locale/et/LC_MESSAGES/calamares-python.mo	1640	3feac99bb3bf9ee4cb209e31e6723d87b792c41f3b00fde8c0a480e5adb723ae
 F	usr/share/locale/et/LC_MESSAGES/coreutils.mo	361458	6c5dc28d70d42d76a5edf4119106dc129a4c39b2a7f6672f775fdd4be9f3a792
 F	usr/share/locale/et/LC_MESSAGES/dpkg.mo	18494	def069ce5eb6ff1ddb122c5d78210011e42cc37d0ea3508a11d7984b5bf372c8
@@ -9321,6 +9382,7 @@ F	usr/share/locale/et/LC_MESSAGES/findutils.mo	29743	38f254ac8d2001a8d6c88c23dd5
 F	usr/share/locale/et/LC_MESSAGES/gettext-runtime.mo	788	0d2d333f5669ba2d5a0fb34f4395a5c58218349fa7289453bf7ab79123485e00
 F	usr/share/locale/et/LC_MESSAGES/glib20.mo	50929	c4a10d5de2c960b347180444ffdd53921ee6d820f98be1cb2f02a99145c86e64
 F	usr/share/locale/et/LC_MESSAGES/gnupg2.mo	41196	ded92e0daa3deb6d85cf52df85a48ffdcdecdb7ffa5d51044540dc5ecef2f81c
+F	usr/share/locale/et/LC_MESSAGES/grep.mo	16997	4415fe271e9f93ef8bf6a96817599edc3e597afde933d528df1d8b9896d4cc51
 F	usr/share/locale/et/LC_MESSAGES/kauth6_qt.qm	1865	86dea77cc3f0313ff2716c09ce1cd6618769dcecf549d8fc613f2455bb188b40
 F	usr/share/locale/et/LC_MESSAGES/kcodecs6_qt.qm	7878	2606d12e3c9bdc090b197eb5d6e482acc8966d606069facef634ee6464358529
 F	usr/share/locale/et/LC_MESSAGES/kconfig6_qt.qm	9624	40e75013b6eae4bafd55526f0f336b9b3c9562b63a2319599b7ed5b9bffcbad5
@@ -9354,6 +9416,7 @@ F	usr/share/locale/eu/LC_MESSAGES/calamares-python.mo	2019	2d34150bbf96787a689f3
 F	usr/share/locale/eu/LC_MESSAGES/coreutils.mo	25893	d4c3b5b8fe7c823742aec18f54b8bd98f3c97eb356bafe55a5b6bfbcc069ae9e
 F	usr/share/locale/eu/LC_MESSAGES/dpkg.mo	115335	8878e8b5758c1a601693ff72f49327078c34fad4fe266db2bcca498cc2a853a4
 F	usr/share/locale/eu/LC_MESSAGES/glib20.mo	142571	18063df94e8e2bf981187452679a93b3e562981ed535a6bc357fb00cfd7ddfd0
+F	usr/share/locale/eu/LC_MESSAGES/grep.mo	1278	b049f94194566e609ee9f5739bfa6fde1e42dbac22f191e09030adcd455c4f72
 F	usr/share/locale/eu/LC_MESSAGES/karchive6_qt.qm	13042	2e51487ca99c9350446233c5f8726f7257009f17c69638505a217a607d455d89
 F	usr/share/locale/eu/LC_MESSAGES/kauth6_qt.qm	1985	ad1631cd78aa40f4935f54e9b1099e8d31f9ee2fbb7f979e8a7638ced9cf6040
 F	usr/share/locale/eu/LC_MESSAGES/kcodecs6_qt.qm	8404	5a129e1cd9ae99e2e6401b816fbe1ff854b29117f7e59bb8f36a218b70d046ae
@@ -9416,6 +9479,7 @@ F	usr/share/locale/fa/LC_MESSAGES/sudo.mo	14867	2b65d72244e5230dfb30d9ff643acefb
 F	usr/share/locale/fa/kf6_entry.desktop	2178	33032b4c0b14783d31bc6bb8df9a56a6bf395b11636f75ce38f6b1e3dc08d262
 F	usr/share/locale/fi/LC_MESSAGES/Linux-PAM.mo	10236	04a74a35064c2472218763e6e8fe32d4c710f7a3f9e467008cbaa31d3519b8a7
 F	usr/share/locale/fi/LC_MESSAGES/avahi.mo	15951	eaa73842003db9b0ab9bf1a2dded1a36d2f6fbf47dbfaf71a09013644cafb271
+F	usr/share/locale/fi/LC_MESSAGES/bash.mo	73116	d3d7c5a1ff1d89125fee8a91ee0bae5084d359077d2a79a168b040d0977e62d0
 F	usr/share/locale/fi/LC_MESSAGES/coreutils.mo	106475	99219e3fd38d786909a0d1bf6758561c8f1ba7ed24199e75477fd0cfaf812b37
 F	usr/share/locale/fi/LC_MESSAGES/cracklib.mo	1764	0ce18be7028d076369145bc66e6add6a409cae4f14101b658d13887adb6127da
 F	usr/share/locale/fi/LC_MESSAGES/cryptsetup.mo	46133	152032c8efb3aff11b3f7d73e845a5a9cd7bc5f9763ebf44e9c9cf49cc4fdaa3
@@ -9424,6 +9488,7 @@ F	usr/share/locale/fi/LC_MESSAGES/gettext-runtime.mo	7981	9257daa48ad237f549d66e
 F	usr/share/locale/fi/LC_MESSAGES/glib20.mo	54693	81336ad87bcda81a2f5392cbfe80e59724790b9b7272fb41edac77ee2a0c3706
 F	usr/share/locale/fi/LC_MESSAGES/gnupg2.mo	42743	3de9053043eff3ba610037360224be7b7c28c7b2a8f94aa5a1fe16187122a4b9
 F	usr/share/locale/fi/LC_MESSAGES/gnutls30.mo	24153	86f679ccf3daeabacbd95937adf81d1dbc15de35b38cbb2e618b599780777284
+F	usr/share/locale/fi/LC_MESSAGES/grep.mo	17773	c4971f16983c4854cc32c34c40aabfa68c817f7cb979bf0e21e2303204829ece
 F	usr/share/locale/fi/LC_MESSAGES/grub.mo	122963	0ab9b8f5df51309f145458659d594b213746fb3ca02787ea6c4de2fc43874738
 F	usr/share/locale/fi/LC_MESSAGES/karchive6_qt.qm	12432	8dff4cce446dc831be07be5e957243eafa6c70cca18404a04f75d29455195be3
 F	usr/share/locale/fi/LC_MESSAGES/kauth6_qt.qm	1915	7fe71fc867d69b8ad858358c410f34d41caeaa32a58982a80ce8629565c696ce
@@ -9470,6 +9535,7 @@ F	usr/share/locale/fo/LC_MESSAGES/avahi.mo	8623	a8753767954d8655bad0f924608d8382
 F	usr/share/locale/fo/LC_MESSAGES/shared-mime-info.mo	26842	72dfe7c4c28e50471f71a1a1ea22ab93c19e02bb2fde23cf724d2f85d2124c57
 F	usr/share/locale/fr/LC_MESSAGES/Linux-PAM.mo	10832	d42b4988dd61a45a988247c6c0169bc6b45315e927e4bc90a5a83b32691f17ad
 F	usr/share/locale/fr/LC_MESSAGES/avahi.mo	17409	4941e7cec2081c6ee7914ad0ec04f4a18d61cbd72336bfa6231597c30628d5b1
+F	usr/share/locale/fr/LC_MESSAGES/bash.mo	190057	7af1c13ef4b427528b750e94c3a5367f9acef9be2363041ac6858076659a8fe9
 F	usr/share/locale/fr/LC_MESSAGES/calamares-python.mo	10330	71b60f635b4f46494b805ff72db5cb7da62c417f0b44c6af2bf7b08445a56d26
 F	usr/share/locale/fr/LC_MESSAGES/coreutils.mo	402472	02e2b25aef6862eeaad649918adc78de5e3381f32c1ce8542702271a4bf98ebd
 F	usr/share/locale/fr/LC_MESSAGES/cracklib.mo	1822	e02e3e7a1a58b820a8dc4610ac235bee6ace98bf24c69ca901d5d730f665623d
@@ -9480,6 +9546,7 @@ F	usr/share/locale/fr/LC_MESSAGES/gettext-runtime.mo	7998	59c3c7b6d5a96852d42852
 F	usr/share/locale/fr/LC_MESSAGES/glib20.mo	151405	2d0aa6897ecf0c11a4a05630ad1e7ce376742ef9dc241d651bc95de736ee6245
 F	usr/share/locale/fr/LC_MESSAGES/gnupg2.mo	200649	a335308ca6ed2d9d943d41944b5957ad6f58c3e12ea9893dd9989c8039c1d888
 F	usr/share/locale/fr/LC_MESSAGES/gnutls30.mo	35159	061005aff55b0baf38aa5ae80d60a09d22eb66f6e902f261c8a2f39b9694ed8e
+F	usr/share/locale/fr/LC_MESSAGES/grep.mo	18057	6eac189e1c6c7733d6621041190bc75c778994f2fce29752405ffad640064590
 F	usr/share/locale/fr/LC_MESSAGES/grub.mo	147754	592d63ec1b763a606cb0932c70a2f75284dcb55c09015bb0285115f8380ad7cc
 F	usr/share/locale/fr/LC_MESSAGES/karchive6_qt.qm	14808	e2233c5793370d6c9faf773fbf07e6d518d4f8fe65a117d81afb100392ca8c22
 F	usr/share/locale/fr/LC_MESSAGES/kauth6_qt.qm	1901	dfaf935b3f32bcb4d64880bff93acfc8829db1f2de25b282aff01dee756a021f
@@ -9546,10 +9613,12 @@ F	usr/share/locale/fy/LC_MESSAGES/kwindowsystem6_qt.qm	30	9fcf1c709a991b9d0635c5
 F	usr/share/locale/fy/LC_MESSAGES/kxmlgui6.mo	11198	8be95acc5bc1ff3126f5599a55eb935f81c741adfc46af1f928136755d5ffb95
 F	usr/share/locale/fy/kf6_entry.desktop	2383	2745d07346124c01a5775a589c96be3fa59ca87699c01c167dfdc80441f8e3a4
 F	usr/share/locale/ga/LC_MESSAGES/Linux-PAM.mo	11131	ff28cd6ca280c0c6aaf9e58058a3c6d20ce401de0e811579d6788db599cf181c
+F	usr/share/locale/ga/LC_MESSAGES/bash.mo	115689	82ac099fd96d3b4dde69e2c16a3d405c8e26f9b2ef49319bbb1dae7fa3921da5
 F	usr/share/locale/ga/LC_MESSAGES/coreutils.mo	98979	e8c80d2d80c6ebc1d17f7a5e95be6bc9f33ab9dfea6f23868290d09d06212020
 F	usr/share/locale/ga/LC_MESSAGES/findutils.mo	16353	669c5c28caf07f9a7394d3616db235741825fd59a8a0429975b9f82590d78b44
 F	usr/share/locale/ga/LC_MESSAGES/gettext-runtime.mo	5290	dca277fa20db3cbfaee7a01111801ff1f6db25a68c245892e971b72039a67482
 F	usr/share/locale/ga/LC_MESSAGES/glib20.mo	14727	2bd62bec51fed73df41e274f7e4ce4e54b55e8355fb890d6ded82d8053d1e747
+F	usr/share/locale/ga/LC_MESSAGES/grep.mo	10276	5e2e62f1025e910796488b8571f85802ad5b3fc29def7b8baba943082fd9f276
 F	usr/share/locale/ga/LC_MESSAGES/kauth6_qt.qm	33	daee6ab22c76df37d26a33278fc578511aac48c57caa6edcff848edd760fad14
 F	usr/share/locale/ga/LC_MESSAGES/kcodecs6_qt.qm	33	daee6ab22c76df37d26a33278fc578511aac48c57caa6edcff848edd760fad14
 F	usr/share/locale/ga/LC_MESSAGES/kconfig6_qt.qm	33	daee6ab22c76df37d26a33278fc578511aac48c57caa6edcff848edd760fad14
@@ -9598,6 +9667,7 @@ F	usr/share/locale/gd/LC_SCRIPTS/ki18n6/ki18n6.js	541	52cb978eb1c5c0bc81735f0eae
 F	usr/share/locale/gd/kf6_entry.desktop	1667	b60e1e05bd649aba011ff872ec282c653b367144c3386ec95977c60a7b4c0fe2
 F	usr/share/locale/gl/LC_MESSAGES/Linux-PAM.mo	493	667b8d19a89eb3bb527fba9da5fdbe9d2158a3a3c47d4a2ba8473417105bf3b1
 F	usr/share/locale/gl/LC_MESSAGES/avahi.mo	17992	b8f462ef1a54f0659db23bc50781a4f3289f12c9da936884ab41900aba19c8a6
+F	usr/share/locale/gl/LC_MESSAGES/bash.mo	53798	99f9dd6443133ed19be3e7ad684a206c53e7293abcbba13ba7620cc4e8e8fc6b
 F	usr/share/locale/gl/LC_MESSAGES/calamares-python.mo	2102	d78363004770880a271584c62ed7faf7fd238530d86bd105a1bdce0fbc950a98
 F	usr/share/locale/gl/LC_MESSAGES/coreutils.mo	24898	58c33027bee0817d72ed9ee9de88157b9b415011136f117b5e63f3980ee8d743
 F	usr/share/locale/gl/LC_MESSAGES/dpkg.mo	50656	066140c9e1a76d47d8c14246c0e1392504070a21a906346e86d8924e00e07e4f
@@ -9605,6 +9675,7 @@ F	usr/share/locale/gl/LC_MESSAGES/findutils.mo	19821	c09684029ee50122421aeee5d40
 F	usr/share/locale/gl/LC_MESSAGES/gettext-runtime.mo	5235	03d5311ea5aacccb1b373a6fb21a664c811fc8b163aaa6ad8b037b31715e7308
 F	usr/share/locale/gl/LC_MESSAGES/glib20.mo	144076	574cc291b4d5ee91e3f6f669a7f1ea0ac6d479651abdbf7d23f9d945375ac678
 F	usr/share/locale/gl/LC_MESSAGES/gnupg2.mo	42679	c887dc550b6a7d33e1a131547b51d79403cb37fb819f48e08c7ac8a273f3c327
+F	usr/share/locale/gl/LC_MESSAGES/grep.mo	15677	7c6f71599738e253ecdf570c7ae65a7d4bc498325c5f08a3c17ddae0e51599e0
 F	usr/share/locale/gl/LC_MESSAGES/grub.mo	96475	60f320c1aec018013358cab36bd4c2fa38dfb18067e25f544e2d256ef94e108d
 F	usr/share/locale/gl/LC_MESSAGES/karchive6_qt.qm	13834	0fe247d7e5035d19df5353950ea4870eb38f2d12e1d16e02f023120f97f2dc60
 F	usr/share/locale/gl/LC_MESSAGES/kauth6_qt.qm	1945	a8a0c8242d8761f5137707aa8f01f30bfb921642dd294f88c7e7aa7c3fa65003
@@ -9681,6 +9752,7 @@ F	usr/share/locale/he/LC_MESSAGES/Linux-PAM.mo	11018	707a50e77cda88ff8fbb61b91a5
 F	usr/share/locale/he/LC_MESSAGES/avahi.mo	7843	0ffe44ba04f3f5ec78cc0beaba9132840173ddc1c15e6f066e9bbd9f586cb7a6
 F	usr/share/locale/he/LC_MESSAGES/calamares-python.mo	10958	575d87f94506466313bc0e5f590bd81e4823bc9a72c8cc6e4f127f82a96ac052
 F	usr/share/locale/he/LC_MESSAGES/glib20.mo	135799	7c8fe2b02ead5f412582eb6f822f7253c00c1dc60558314dab70c6ed18c87a0f
+F	usr/share/locale/he/LC_MESSAGES/grep.mo	1138	d2acfd9c0b1245a987ff70d1bc84573c86ae6d3f0601565d2f4b74329b5ca261
 F	usr/share/locale/he/LC_MESSAGES/grub.mo	83723	408c05e6709dcde6deb2f57c38e564028cbe7760ea9c72958970bb01bddd4ca4
 F	usr/share/locale/he/LC_MESSAGES/karchive6_qt.qm	10834	6d31ff3ab4bb7cc801b91133225b01d218b5fcea0e7d7df4aafc6bd88da9222f
 F	usr/share/locale/he/LC_MESSAGES/kauth6_qt.qm	1607	153378ec3a74763ccfc3ae75c3d19becf3ca2da8bb19e3ebd9febf96d28df838
@@ -9761,11 +9833,13 @@ F	usr/share/locale/hne/LC_MESSAGES/kwindowsystem6_qt.qm	24	92a9fa3222fd8eb71ebd4
 F	usr/share/locale/hne/LC_MESSAGES/kxmlgui6.mo	10349	e4d22346f52290e0068d36957bbb6883fef3228c5d933ae81e97048d158d21b4
 F	usr/share/locale/hne/kf6_entry.desktop	2267	4c380c338f318e3df3b115bc9613c59bf1b719f596e6bcf8b3d864b43e867a93
 F	usr/share/locale/hr/LC_MESSAGES/Linux-PAM.mo	10187	befb0199d209a09ea2d60e5986d2cac70851f9e646acac8412bc64c6d1133fa8
+F	usr/share/locale/hr/LC_MESSAGES/bash.mo	178369	5a9cbdb4c14619dd410379012020c18e37a82bf02c08ab75420d2449e1f0aa49
 F	usr/share/locale/hr/LC_MESSAGES/calamares-python.mo	9781	e1366020c2a15e56dc648dc1fa33153e545afa93918d97cbc2eedb123c126cd3
 F	usr/share/locale/hr/LC_MESSAGES/coreutils.mo	376566	9d454a45d269ed4bb978bc3f4c6f762158fd0b0bfa7b16fdba673ce9185c49d3
 F	usr/share/locale/hr/LC_MESSAGES/findutils.mo	42115	e263f6cf740fbd4ea0680007a6d5ce916dda254ed4ed373f2b2b87ef03ffb8b2
 F	usr/share/locale/hr/LC_MESSAGES/gettext-runtime.mo	7864	bd091b240661f566ae93e31562246e9a5f6a120b5533a1dd8fd0c9be787e479d
 F	usr/share/locale/hr/LC_MESSAGES/glib20.mo	135478	1a031b24f21b45caa91ea9ea96ed6af98c9aed2c7117b5502a004e38acba4acb
+F	usr/share/locale/hr/LC_MESSAGES/grep.mo	18223	7ab6ec65b7770043f0572f0fd10dd38b487e48ea357d3790106c1b3b32ce9360
 F	usr/share/locale/hr/LC_MESSAGES/grub.mo	120913	e222a9991a1d8abfab14c78fbc5e2497b347df4d7957f8669a31727a6e042231
 F	usr/share/locale/hr/LC_MESSAGES/kauth6_qt.qm	41	0467a097fe9c7190d7054e02b6fc1ec87ad3e3039613134475d6eb6a722f9204
 F	usr/share/locale/hr/LC_MESSAGES/kcodecs6_qt.qm	41	0467a097fe9c7190d7054e02b6fc1ec87ad3e3039613134475d6eb6a722f9204
@@ -9817,6 +9891,7 @@ F	usr/share/locale/hsb/LC_MESSAGES/kxmlgui6.mo	7847	baa200f5797ab44d79c4a1e33150
 F	usr/share/locale/hsb/kf6_entry.desktop	3152	4d94ec08fe1f1b697872d4bcbe45d12b092d20e62a66e716924e40a9a6b1c236
 F	usr/share/locale/hu/LC_MESSAGES/Linux-PAM.mo	10610	edfad00a7ce65198689765ff2a82f34ac343dd7588a177588b12d157e2502b2f
 F	usr/share/locale/hu/LC_MESSAGES/avahi.mo	17821	f0b2dea51c4125d6e2b2cdb987bbd124e76d72860815754bcc09b298a1c8878d
+F	usr/share/locale/hu/LC_MESSAGES/bash.mo	152745	b81dbc1434b0d6924bfafc7b87cc47dc56f2df62bef4291606b727cf24066452
 F	usr/share/locale/hu/LC_MESSAGES/calamares-python.mo	10151	9bcf2fbe85ba9471681450a618485e0fafec3fc3716eea21ace72adec21d34f9
 F	usr/share/locale/hu/LC_MESSAGES/coreutils.mo	277153	9c4818aea3ee8c6210250d6e23af68c51b968bd2558df55f081ad898fce1bc39
 F	usr/share/locale/hu/LC_MESSAGES/cracklib.mo	1843	3d285980e12b74e6917c59bf705821bf6fd83c2a9dc07315fb8dd105a220ad06
@@ -9825,6 +9900,7 @@ F	usr/share/locale/hu/LC_MESSAGES/findutils.mo	32776	7de8e5746bf9ac8b5b46d16176a
 F	usr/share/locale/hu/LC_MESSAGES/gettext-runtime.mo	8454	72ffe00c5838196730197b059e043d97e22e1182ee22a7fa4730e0f21a4a9984
 F	usr/share/locale/hu/LC_MESSAGES/glib20.mo	145455	7c3e37a023fbdf8ad818efe57facfa01c88ae247e56ea236e387f3afbdcc3cb0
 F	usr/share/locale/hu/LC_MESSAGES/gnupg2.mo	44132	4f8de79d608d59fb3a78f5bea34628d6a46ed8dd1bb327ffeca047ca50fa7d13
+F	usr/share/locale/hu/LC_MESSAGES/grep.mo	18874	26394293f35627a27f9b7421f7ae9dbd02fb7ac4a18bae647c1a3f7768a88482
 F	usr/share/locale/hu/LC_MESSAGES/grub.mo	127835	9a5159b0120be48cf25d55ed90041f7697692b77c92dae7011b3251f54486c90
 F	usr/share/locale/hu/LC_MESSAGES/karchive6_qt.qm	11928	f615f849f9167c5e79e8cbfe25dfc344976f191c9b4e82ec56440eea300472d9
 F	usr/share/locale/hu/LC_MESSAGES/kauth6_qt.qm	1874	c2753bda9234cb6e5e5439133acbc1c58682c537e90b63bf2da4d61fd3080ae0
@@ -9910,6 +9986,7 @@ L	usr/share/locale/ia/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/ia/kf6_entry.desktop	2031	6963245c0612db6ccd2e74c07a8cca3eff6aab01687283fef15762789149741d
 F	usr/share/locale/id/LC_MESSAGES/Linux-PAM.mo	8181	bc68472f89ad43fd970ce8e50c0767caba651a832b524631f25bc492351cc27e
 F	usr/share/locale/id/LC_MESSAGES/avahi.mo	16508	a53940febe46698151471d536937b2d56567bc780de1710b5b66986a0d03a661
+F	usr/share/locale/id/LC_MESSAGES/bash.mo	98266	bfd13b1e48a1ec72af924d720c5b46c8424afad4ff74a6e25624a8c8b4a0a99e
 F	usr/share/locale/id/LC_MESSAGES/calamares-python.mo	1992	6c2ca7e5cd3986588a0700c1d6966a111f8970aba7c1d0bbda5431b1e78e777b
 F	usr/share/locale/id/LC_MESSAGES/coreutils.mo	121518	bc759b159a3e0cf39d7aa1fb8ad8e60bde234456200a2dc50fd0ea9153b15554
 F	usr/share/locale/id/LC_MESSAGES/cryptsetup.mo	18682	8cb7d5075fc9870a61e98b8bf3f7ffa9a03ebc9d24cbb5c2801e9a099d7a539f
@@ -9918,6 +9995,7 @@ F	usr/share/locale/id/LC_MESSAGES/findutils.mo	41757	a54173447bee586ff69adf53359
 F	usr/share/locale/id/LC_MESSAGES/gettext-runtime.mo	4073	c26532f38cccdddce4abe89ef2982c8b79a78e03ada22731c4970d5a36ff52c4
 F	usr/share/locale/id/LC_MESSAGES/glib20.mo	135882	4fa0c46bdf577d6ac22e31df631613e3581ffbf9a3db0edb50e36850389f3452
 F	usr/share/locale/id/LC_MESSAGES/gnupg2.mo	41028	98b72fddaec69b73544ef9d2439309929c8e5378bfd8cbd45534cdbbc0db4183
+F	usr/share/locale/id/LC_MESSAGES/grep.mo	17660	01ce10ebf77a3ad7af28a63f494f139a059555961b4b68b37cd7ba3197e8276d
 F	usr/share/locale/id/LC_MESSAGES/grub.mo	27729	f4a910fe350d38e3a45c06144313ef8991a967f5b9f5d1f62bcaae89d4bdb392
 F	usr/share/locale/id/LC_MESSAGES/karchive6_qt.qm	12050	a13d7409f614bb1cb24c6a5e8b1425d527df38ac982d8b53649e1c06d3563b91
 F	usr/share/locale/id/LC_MESSAGES/kauth6_qt.qm	1820	1dbe5af1fd9d61c25cebc3f2e7c74f2390d1b1e43a1ff8475b7021078abc46fe
@@ -9993,6 +10071,7 @@ F	usr/share/locale/is/LC_MESSAGES/solid6_qt.qm	17883	76de71f7b6b98719a2d2aa00f38
 F	usr/share/locale/is/kf6_entry.desktop	2669	f279bff4f6021c68df30af53af75f5cda30a66c68b83406e9a462797e7e65bdd
 F	usr/share/locale/it/LC_MESSAGES/Linux-PAM.mo	9816	80ea5ddbf0267fa4ddd8f174a26db16ebbc4c9fe7af610a0e2624ebcef88d773
 F	usr/share/locale/it/LC_MESSAGES/avahi.mo	17366	b6169113a4d409cf68cccadd8f05fff639055335effd9184825b19ea1929371b
+F	usr/share/locale/it/LC_MESSAGES/bash.mo	83883	7c5d5cf9aa21b4384d88409ab1776bf40e3a56d93591a754859f44a96ecf2b04
 F	usr/share/locale/it/LC_MESSAGES/coreutils.mo	136872	9172cdf1fff8bf4ccc22947039187223728cdca1c628beeaedcebe23931cc038
 F	usr/share/locale/it/LC_MESSAGES/cracklib.mo	1893	8351dfa7e0ca5f293a03aea38728b60cf03effd713e25013eee5e70b03509e27
 F	usr/share/locale/it/LC_MESSAGES/cryptsetup.mo	87060	cb335b94124668dad4c25fcbebeb2534f731e470b12923448c9f23ea92a7ad8f
@@ -10002,6 +10081,7 @@ F	usr/share/locale/it/LC_MESSAGES/gettext-runtime.mo	8067	3fc95a894e9f8edd5407d0
 F	usr/share/locale/it/LC_MESSAGES/glib20.mo	142375	7495849918f7f18a7dcce0fed94bda9354073c040e8cad6c06cb6c272bb40583
 F	usr/share/locale/it/LC_MESSAGES/gnupg2.mo	235434	37f1011f19f22eb0cb8e2866cc8f36e45aff82cdfa83a11d313c99d8f43b89ee
 F	usr/share/locale/it/LC_MESSAGES/gnutls30.mo	34940	29773feccfee4e3a156a0bdad708f9ea4c2c4fae2f36cf4ccfdd6807bdebbed3
+F	usr/share/locale/it/LC_MESSAGES/grep.mo	16614	bc6ebe120bb7e5d999a99c93aa7ab7239012686270bf7bacfbe6bb53cfe1238e
 F	usr/share/locale/it/LC_MESSAGES/grub.mo	116895	5bae74b7be3622b1213bcd61aa462c456634efc3700f67475734282ded7bf5d4
 F	usr/share/locale/it/LC_MESSAGES/karchive6_qt.qm	13206	e2aad5ad44ea04894c25e3aaa73b9d0f177971276c95bcad1a14d00adc9b5d96
 F	usr/share/locale/it/LC_MESSAGES/kauth6_qt.qm	2003	2387a249c3b16d27716b0d69ca9a09a1ab29fbed00162307d57a709b3e4e0c20
@@ -10044,6 +10124,7 @@ F	usr/share/locale/it/kf6_entry.desktop	2475	31fe12b1772a05a096131afaef173c125ea
 F	usr/share/locale/it_IT/LC_MESSAGES/calamares-python.mo	9707	0cb9ff6fbc9b1a7f42864825cc64b77b83f66545310c6606d2ce67e629855dbd
 F	usr/share/locale/ja/LC_MESSAGES/Linux-PAM.mo	11145	5f3ebe2f610d1f50449f0d17e788e2f0c32f14806eb54a08580bb6096f6e261f
 F	usr/share/locale/ja/LC_MESSAGES/avahi.mo	19023	7c1da903768345dc9b1331252832455fc68f9716337bb68d395fe693f779744f
+F	usr/share/locale/ja/LC_MESSAGES/bash.mo	114809	a31267ec9057ff1ca82d06a357267ada319606b512456818d4400bf14b7a863c
 F	usr/share/locale/ja/LC_MESSAGES/calamares-python.mo	11257	d8751b28e9247f6720f0cdf9ba8cef12d9bb50a5e2b185323b255988c6ce1e27
 F	usr/share/locale/ja/LC_MESSAGES/coreutils.mo	380541	d4a06b9bd0ae64f25bf8f8318725a61fedd2b893048e3154cbdf5a8ba5320d0a
 F	usr/share/locale/ja/LC_MESSAGES/cracklib.mo	1984	f38eec11023958e56296ec5449eff77a79fafb8197cba467048ac5079c6f0ccb
@@ -10054,6 +10135,7 @@ F	usr/share/locale/ja/LC_MESSAGES/findutils.mo	23750	ade82c927cfecb052e6686c16ae
 F	usr/share/locale/ja/LC_MESSAGES/gettext-runtime.mo	8619	4a1a4349fdf762ac64613d3840a11ca1ae875c56cc9f4989db3528287ac73246
 F	usr/share/locale/ja/LC_MESSAGES/glib20.mo	134573	c509dee29d0ba18034d4728df9b1ac45160e4de998c489fe6f8c6dcb5c153424
 F	usr/share/locale/ja/LC_MESSAGES/gnupg2.mo	253339	9d22df1d6bac33aa4ac4fb144309352ea2860344e5136e2f1003fba2628492a0
+F	usr/share/locale/ja/LC_MESSAGES/grep.mo	11159	9935e3ba594791dfe37a173115fd3dab4a6142e44f8605b29a1d45fc683baffe
 F	usr/share/locale/ja/LC_MESSAGES/grub.mo	43864	a1f847aa3ea3220b7899d51c47b8a5879be08bf79ae3da15787ce049ec2354ad
 F	usr/share/locale/ja/LC_MESSAGES/karchive6_qt.qm	9388	562bab31e030187940d6040db10a803132f177359204944c88193cac9e39174c
 F	usr/share/locale/ja/LC_MESSAGES/kauth6_qt.qm	1424	e26500619f372f316d60158b132b7862b11f05d02b4b6bb25dc33490ed9cba85
@@ -10103,6 +10185,7 @@ F	usr/share/locale/ka/LC_MESSAGES/fontconfig.mo	23346	e2f139b399f3ef2c7362f93485
 F	usr/share/locale/ka/LC_MESSAGES/gettext-runtime.mo	5742	8646d2763363daa5a33549aa92c894a73852edc3588dc0df93928b875bfaa735
 F	usr/share/locale/ka/LC_MESSAGES/glib20.mo	220893	647c29352d9eb61ea9aee8f35bd37b83c504d14c24385207bad63d8817e1f929
 F	usr/share/locale/ka/LC_MESSAGES/gnutls30.mo	51597	497719777fb70210bc66d1a488f97c308f542a53efaad9b0c05af6484095f0d1
+F	usr/share/locale/ka/LC_MESSAGES/grep.mo	27898	e11f4d0f94eef2f34e7a495196104c43bf248f4d407b6ba7adae2a2a6c8a0506
 F	usr/share/locale/ka/LC_MESSAGES/grub.mo	150445	9aafc4049d444a60b6f7967eb16bee3832721207ceaeaba8ec22bfcdda0ab91c
 F	usr/share/locale/ka/LC_MESSAGES/karchive6_qt.qm	12162	8f99de1e376e707969fa5e19623156094cf81d000559e15dfd316b14a9da9463
 F	usr/share/locale/ka/LC_MESSAGES/kauth6_qt.qm	1933	fe7eb0b67891a41923b1782a9b05b6b0ed36889a8f4386d39981c9f392488d54
@@ -10221,6 +10304,7 @@ F	usr/share/locale/kn/LC_MESSAGES/shared-mime-info.mo	438	1734ce8ecff56fe818d33c
 F	usr/share/locale/kn/kf6_entry.desktop	1720	8311b45ef95f44c1b1bfa38fdcb97ab7b921dfd63451e08047f04c4dd688a9d6
 F	usr/share/locale/ko/LC_MESSAGES/Linux-PAM.mo	10659	8953f9d5a72274d1aa4e9e14ea4dce70d29781632d1e22b4c04ad78d8dd50e82
 F	usr/share/locale/ko/LC_MESSAGES/avahi.mo	419	83776afadc596682238b15dc7774ddd67ce3e5370b6a47b3ebe4b79c48f97f19
+F	usr/share/locale/ko/LC_MESSAGES/bash.mo	185602	43a49fc7e56aed2158b0b2c69522a8668e6b32be92fa7b7ef2659c77182f6828
 F	usr/share/locale/ko/LC_MESSAGES/calamares-python.mo	10279	32b52321fd276ed153a1e51d6ad13a8cf883f577a2a11b16da2689dff14038da
 F	usr/share/locale/ko/LC_MESSAGES/coreutils.mo	398378	614e8b3240c547d4f6bc63018482ff8d18dd327632cca0c8768c1ef1cca50659
 F	usr/share/locale/ko/LC_MESSAGES/cracklib.mo	2012	e0572cac41894a48dfe8f8f9a38d7ef4383a7137e3e32ee02b2dd7bdd0bb7afa
@@ -10228,6 +10312,7 @@ F	usr/share/locale/ko/LC_MESSAGES/dpkg.mo	75925	b7d7f11c1363badd9c10e253fbb7cc7e
 F	usr/share/locale/ko/LC_MESSAGES/findutils.mo	44028	ca037145af1c0b5cdd7a671eaf69eee09120f436e3dca4d931e24bac4438fd7a
 F	usr/share/locale/ko/LC_MESSAGES/gettext-runtime.mo	8104	b07137af32c48896c192e47d997ff7d93f57ef85d2ed99d7484d6fd6debba9c2
 F	usr/share/locale/ko/LC_MESSAGES/glib20.mo	149788	57e5e63509dc40bd9d56bbc3619eccc7bcb1b404d1d0c17b3598a0c18f8255e6
+F	usr/share/locale/ko/LC_MESSAGES/grep.mo	19452	0c8621092aa6aab58f608baa0bf6d1b4ff2d7c6de66292285a32f2e8ef87f7c6
 F	usr/share/locale/ko/LC_MESSAGES/grub.mo	146377	10fea4a26543f34b97247b74301fdc26b6d81d9369c9615d77bb8c919f046081
 F	usr/share/locale/ko/LC_MESSAGES/karchive6_qt.qm	8850	423d8bd920476f7a5c7cc6bc70d84ce324da6c8780ecdf46f4f5be30fade16ab
 F	usr/share/locale/ko/LC_MESSAGES/kauth6_qt.qm	1368	5cdd01efb4c6bf006600816d09a4b3bf2916248b9506908f2e2388465a40250d
@@ -10290,6 +10375,7 @@ F	usr/share/locale/ku/LC_MESSAGES/kxmlgui6.mo	8572	fc41b139784adb11a8fa62578d827
 F	usr/share/locale/ku/kf6_entry.desktop	2204	3b75b9d070bbcc52277f1c0906c17e05675284edbd537c4facbea84cf613d617
 F	usr/share/locale/kw_GB/LC_MESSAGES/Linux-PAM.mo	448	331616fdcadbb12891b5339b9ae7a3da27d877ee3b0ba4e42b0bb74800141159
 F	usr/share/locale/ky/LC_MESSAGES/Linux-PAM.mo	484	23ea6900ac2bf311737507518f62106aa54b60d1e8f5ab7d45d0bb4ffd7d1e46
+F	usr/share/locale/ky/LC_MESSAGES/grep.mo	1518	5abae431f7cffeed7837b2ebe3b94cee9e2e1cca8e53fc7d46bea2fc2a181bb3
 F	usr/share/locale/ky/LC_MESSAGES/shared-mime-info.mo	431	619c6355b6cd6e033b6f34bd222a735123f73d3050b5c62b7327fda920f5a774
 F	usr/share/locale/ky/LC_MESSAGES/tar.mo	53652	349464bbcceed171dc99b8905fd02e4fad9e0312efb640e9344e68f6f62e9f36
 F	usr/share/locale/ky/LC_MESSAGES/xkeyboard-config.mo	39990	3c8f43720ecec2a87d9644e3cff9387c6ae28a793c3a5ecbec17507444f0aa69
@@ -10316,12 +10402,14 @@ F	usr/share/locale/lg/LC_MESSAGES/kio6.mo	144416	29903ee29a76a013f12e3c51827d88a
 F	usr/share/locale/lg/LC_MESSAGES/kxmlgui6.mo	26583	96442500a62121e8c62a5983a64651dd88b7bd7ec1233fe39f580a156fff7062
 L	usr/share/locale/lg/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/lt/LC_MESSAGES/Linux-PAM.mo	558	b48b9aa79dc3d4d135a0bba8f086504399e55be6b12ee53f04d694981752c12b
+F	usr/share/locale/lt/LC_MESSAGES/bash.mo	28770	4efc532846d2edf73498ba91fcb08cd951e9c05020c12812c55913d133ca711a
 F	usr/share/locale/lt/LC_MESSAGES/calamares-python.mo	10181	7632c4db097932afd4a6bb307f43c9877e8bc4c941546f5aea694df15fa1eca6
 F	usr/share/locale/lt/LC_MESSAGES/coreutils.mo	28220	497cdf536c59de40c2e3ef650d5f63fe17388f016afc6dfbccea4948fc068f5e
 F	usr/share/locale/lt/LC_MESSAGES/cracklib.mo	1848	d1d3d6b178aeac790970c26b64efa0541926ce044bdcc68aa8ff811f45e53c4a
 F	usr/share/locale/lt/LC_MESSAGES/dpkg.mo	32770	89aff5a67f6c3cd5be34e46148476b7dd19fa8ce61ebbf67dec824291ca2582d
 F	usr/share/locale/lt/LC_MESSAGES/findutils.mo	4320	250a65d98e7305fb40881f3106610f58c576ad241e25103e96a28e218dfb5cbb
 F	usr/share/locale/lt/LC_MESSAGES/glib20.mo	138448	c738441a888d0e342b016c98f2d887e2c7a4e28cc77412a7f8c0a3cd75e9ff74
+F	usr/share/locale/lt/LC_MESSAGES/grep.mo	1384	3585cdcfc28b90e4c281db42dc2d68be2b82edb748743df610819966e4af9190
 F	usr/share/locale/lt/LC_MESSAGES/grub.mo	94844	8262dff4c367b267413f29aab2cc93140b9553ce4f8fff56d1f73e0fa9896b0d
 F	usr/share/locale/lt/LC_MESSAGES/karchive6_qt.qm	40	3ea0f391f5fd0b463126c74c785adde49388657866def5c34704666005445bb5
 F	usr/share/locale/lt/LC_MESSAGES/kauth6_qt.qm	1969	89c0db23d5e2cd2043cee9b152d8da94ad8471e41ea3ee14df1c33ca2ff0b727
@@ -10517,6 +10605,7 @@ F	usr/share/locale/my/LC_MESSAGES/kparts6.mo	1643	e10ee1d7430eb4d775996293bf32ef
 F	usr/share/locale/my/LC_MESSAGES/kxmlgui6.mo	31984	2296484da52aacab0030ff7a94b709884a8442c39700cdb82216bc9bf615198a
 F	usr/share/locale/my/kf6_entry.desktop	1101	c8a122944f737c13fa8fc0d14df0ad1b769fe88dff86a39006e32bc5d879a3d7
 F	usr/share/locale/nb/LC_MESSAGES/Linux-PAM.mo	9290	3f6067e7f23c83ca82016d09224f85875e65ddfedacfa1d1166da69d7f095446
+F	usr/share/locale/nb/LC_MESSAGES/bash.mo	172246	08b3214f1f5b39fc690cb1bc709e3115b4ba5a7c69e3f0ce0fb03e29cb2096b6
 F	usr/share/locale/nb/LC_MESSAGES/calamares-python.mo	556	1be1b258d973700d72d4c6df2fdb455db08fa07a513912dcb58fdf0cd0b8e2b1
 F	usr/share/locale/nb/LC_MESSAGES/coreutils.mo	311991	70b753fc047565d589ff858b7fef24b05534da972d5b3968f15b586c60705332
 F	usr/share/locale/nb/LC_MESSAGES/cracklib.mo	1743	a91a5624611565f6051e1af4011c15a9cb496bba6b8aad2a56761c1a5c66b1b1
@@ -10525,6 +10614,7 @@ F	usr/share/locale/nb/LC_MESSAGES/findutils.mo	41565	8fd4daa1f696bc62f8527197eed
 F	usr/share/locale/nb/LC_MESSAGES/gettext-runtime.mo	7742	5aa9db3ae9e6cbffcd7bf5c7a5d2724b3ebd5ff86d4105f79dee17a97c3835b2
 F	usr/share/locale/nb/LC_MESSAGES/glib20.mo	98797	7e6b7639ed482d3de6d9215abf099fe9067d205141671d63ceeae672baba1ff5
 F	usr/share/locale/nb/LC_MESSAGES/gnupg2.mo	209618	fc88b1d4e4712a47bbf8aae2fb74b4d4d68ba344a67e57a2ed11d0d8745ce776
+F	usr/share/locale/nb/LC_MESSAGES/grep.mo	17727	9b5fe37d9f2530455b0804a6507618d7db3a9287e8ac8a6658858e66ba43d33b
 F	usr/share/locale/nb/LC_MESSAGES/grub.mo	118998	21fe103f4f1bf26a18819a2fe044bfa0d48a29d544384a3de493956c2694b705
 F	usr/share/locale/nb/LC_MESSAGES/kauth6_qt.qm	1817	e1f852424b62cbf402ef6e8e236daf497e17275a6da3ddf3774206df83208a98
 F	usr/share/locale/nb/LC_MESSAGES/kcodecs6_qt.qm	5806	078e3459db6478b0949c0a8ba126a21432e89953ad1f580a02f76b2f5e715768
@@ -10604,6 +10694,7 @@ F	usr/share/locale/ne/LC_MESSAGES/shadow.mo	25464	5ffd51d84aa43d44f236af51807c06
 F	usr/share/locale/ne/kf6_entry.desktop	2178	54fdd4cc3476f42f7b8cdeaadfee1bf3411db5de7000e64083a4c7b9ab0f310b
 F	usr/share/locale/nl/LC_MESSAGES/Linux-PAM.mo	9796	35bc08e99e49df5335178d243954ab2cdb01912663b4089c626166c9abc71a59
 F	usr/share/locale/nl/LC_MESSAGES/avahi.mo	16548	48971a82618c3af9417a6268309dcf3964f058838f9e581aa9650da9a52f9a6a
+F	usr/share/locale/nl/LC_MESSAGES/bash.mo	181276	275c5e1ee56af1a5268f9b86514d9225f4afb47d5d1508bc53283365c72a5e1f
 F	usr/share/locale/nl/LC_MESSAGES/calamares-python.mo	6186	f1eb7ca8029c3b525297899bd5f7ccb5ef01f0f680a71e98fde15b9a1533c589
 F	usr/share/locale/nl/LC_MESSAGES/coreutils.mo	358241	f2c8f7fcb095daf2e802b57fd8041bd70cdc7ca5fac29c75ccd9486d7cee8d32
 F	usr/share/locale/nl/LC_MESSAGES/cracklib.mo	1940	536b4e29039b84b46b4526ac6f75525aa31c239269975e1b933f6bd435592cae
@@ -10614,6 +10705,7 @@ F	usr/share/locale/nl/LC_MESSAGES/gettext-runtime.mo	7994	7f91eefe44045664ed331d
 F	usr/share/locale/nl/LC_MESSAGES/glib20.mo	89647	a2e711fb5d6c19634a63babf2fd7bc63ca516dbaf8625b7ebb140f6fe5e2b26e
 F	usr/share/locale/nl/LC_MESSAGES/gnupg2.mo	248765	70d7ef64811408271009e21a28e8665869e4912c546b1a985ed95769b0ad482a
 F	usr/share/locale/nl/LC_MESSAGES/gnutls30.mo	24388	dee62b664e287a1424d2dc1a68962c8b9bd7c21eccb5b298cee4fb084f01f776
+F	usr/share/locale/nl/LC_MESSAGES/grep.mo	18595	228d05822f7578bccc6987c17df6b2f572b3f5010decf593892816b884f42cee
 F	usr/share/locale/nl/LC_MESSAGES/grub.mo	119172	037b5c330807fac371fb95e7c9f3a6caaf8ae9130495b452f024e8afa6823ce6
 F	usr/share/locale/nl/LC_MESSAGES/karchive6_qt.qm	12532	5535da904fc4f8583a2d8e7d4626508654387398e9eeedb6c1028c301fc4e0bd
 F	usr/share/locale/nl/LC_MESSAGES/kauth6_qt.qm	1891	aa147d6ba22a628d1086f3993a5469feb439c03ada8d2a9202af55eee5f44d2a
@@ -10735,6 +10827,7 @@ F	usr/share/locale/pa/LC_MESSAGES/Linux-PAM.mo	14674	6e92439c5f0d6c03d178a9a3872
 F	usr/share/locale/pa/LC_MESSAGES/cracklib.mo	2653	a20b2f4c9dbbbfbcb90d9d297405f280ebef308b1f7abc6b583cb149f3f431e1
 F	usr/share/locale/pa/LC_MESSAGES/dpkg.mo	7735	d3c105fd1628cb04b313bffd557b0255fc13bb0c4321ee59fd53e527eb6b26eb
 F	usr/share/locale/pa/LC_MESSAGES/glib20.mo	164107	290ac763583be265fc54e5fe92ffdaf8c2dcf515d1cdc9e35dbc7d63f969f6ee
+F	usr/share/locale/pa/LC_MESSAGES/grep.mo	5084	ca8f364ea56123d866a726f87414b44a5cb6890b5850404abc67959c0e4cda6c
 F	usr/share/locale/pa/LC_MESSAGES/grub.mo	57713	cc509eb4509e308dc34d611742cf6a3109aa9ede8c77da826705a8f3c6344fb2
 F	usr/share/locale/pa/LC_MESSAGES/karchive6_qt.qm	1214	21507ac05839fb797cf46d08189f8ed7857022c958b6897e41b02c623ed7153e
 F	usr/share/locale/pa/LC_MESSAGES/kauth6_qt.qm	30	051b56b4ad935c3d8d6fe9bedb671747daedb3f9da62d4ff64b66b36fec28920
@@ -10766,6 +10859,7 @@ F	usr/share/locale/pa/LC_MESSAGES/systemd.mo	12452	dbce5eb78743a68bea4e5f9846a95
 F	usr/share/locale/pa/kf6_entry.desktop	2329	9253e9af4b7481a64dc29b69545c754025b0bb410d107d7105a07298d121fd88
 F	usr/share/locale/pl/LC_MESSAGES/Linux-PAM.mo	10424	45ac4de5032a9fe1288b863ef25b26f25319c9ee1f6d4835cbcaaa7bbb72ffe9
 F	usr/share/locale/pl/LC_MESSAGES/avahi.mo	17861	f0b01914825af3a9be00b214c4cc52ae3ce9f2a2a437aabc0019fb883b849e77
+F	usr/share/locale/pl/LC_MESSAGES/bash.mo	184164	126511d2dd25d7a4ec932e775a80906180721cff46baf9281220a7ba750ecdc2
 F	usr/share/locale/pl/LC_MESSAGES/calamares-python.mo	10123	62efc3f320e9700d1f760da2c0b0865011f3dd6218620ce8dbf394c81183bfe1
 F	usr/share/locale/pl/LC_MESSAGES/coreutils.mo	390859	9392ba2d9a5b8eb1cfe44f592ed84296b4ec113873a027fda98765e422e87f03
 F	usr/share/locale/pl/LC_MESSAGES/cracklib.mo	1751	4a367eb57e783d262db64015fa3dfc62cafe02a4a013c6114678904e04f735c3
@@ -10777,6 +10871,7 @@ F	usr/share/locale/pl/LC_MESSAGES/gettext-runtime.mo	8026	476fccb2597365b3807093
 F	usr/share/locale/pl/LC_MESSAGES/glib20.mo	145982	6251d06ec325d51c6c4827aaacf56897dd9ccf6061f5c26070e05aa44939c33f
 F	usr/share/locale/pl/LC_MESSAGES/gnupg2.mo	244577	fc274b099ce95e19bfcb16952176677496f7da1381efa7313463bd40bea984bb
 F	usr/share/locale/pl/LC_MESSAGES/gnutls30.mo	34025	a33a828ccdd60d01abe07e4c4004e4ba8a4924c23cd1fe68a55f050ea6c69dfc
+F	usr/share/locale/pl/LC_MESSAGES/grep.mo	18580	286291df6f65d16c7709626a698eed2f82bf5114de5c5c75a5a63032d574b6b2
 F	usr/share/locale/pl/LC_MESSAGES/grub.mo	140053	341e52b3c5131a5258e0dcfcbced96decd6666e4e98dcd07a9ffede52de7579d
 F	usr/share/locale/pl/LC_MESSAGES/karchive6_qt.qm	12832	892250ba9e7dbe229786a215cbcd1b05c1598e0669091d16b43356f45ae19c5c
 F	usr/share/locale/pl/LC_MESSAGES/kauth6_qt.qm	1939	22ebbf10b749972262a347d999a8161e43f7fe4a3579bbc86457a477ba3faf10
@@ -10833,6 +10928,7 @@ F	usr/share/locale/ps/LC_MESSAGES/kwindowsystem6_qt.qm	30	d00b474571208fd7987eba
 F	usr/share/locale/ps/LC_MESSAGES/kxmlgui6.mo	5414	3060f6d2c6cb519fe5d712b0b3ec7b5fd3595b4fc68494681059eb88fb1d58aa
 F	usr/share/locale/ps/kf6_entry.desktop	1816	73b2fc8e150b1cd79c171df0343dbf21c8971d69e65fabf192563eea7fb8d705
 F	usr/share/locale/pt/LC_MESSAGES/Linux-PAM.mo	10144	c0f9b56fca87b42afcd8aa28326a86e787d84588acc3b5d44c8a0508d7381d71
+F	usr/share/locale/pt/LC_MESSAGES/bash.mo	170400	05ec2ed9adf1f5960c6fa9be024871e06aeebbfa82f289601a5e872529de8cf2
 F	usr/share/locale/pt/LC_MESSAGES/coreutils.mo	372180	b1a8d4f85f86e1161af94bc30e5cafb4115e7726922fa01f6dc9e2cea6021e1c
 F	usr/share/locale/pt/LC_MESSAGES/cracklib.mo	1920	f37706ab41fa03f940c2adb9821b195adc89803af66c8e4a62c4648118a826a9
 F	usr/share/locale/pt/LC_MESSAGES/dpkg.mo	167947	db2836dff7efa0649c03cda77bb2398867f2f1397d0e70745b6b4702946f902e
@@ -10840,6 +10936,7 @@ F	usr/share/locale/pt/LC_MESSAGES/findutils.mo	30973	fd1e93313ecfa713a972494e872
 F	usr/share/locale/pt/LC_MESSAGES/gettext-runtime.mo	8027	875dcf67b165816483a0400e7c87f29dc4ad00e77a6a456abb71b78a90607962
 F	usr/share/locale/pt/LC_MESSAGES/glib20.mo	141896	1d2c7cdb1172e8b9ed0bb231e258c9623d03b61efcc1d5774faf24f86dbe6d02
 F	usr/share/locale/pt/LC_MESSAGES/gnupg2.mo	236054	aaaeb1dab6ad84525da3ab44ff89aaf3f5d4efecc2e5e8dbde7e3dac677e73c1
+F	usr/share/locale/pt/LC_MESSAGES/grep.mo	16154	b94917392b3fae1270f186f63eda91fd2a98c749de87ab7ed52e7431a9a20ca5
 F	usr/share/locale/pt/LC_MESSAGES/grub.mo	122438	c73e3bb6b828a4eaab8d5dfef1d17531a24548634a9d57b6ce6f24a96c1be086
 F	usr/share/locale/pt/LC_MESSAGES/karchive6_qt.qm	13066	ad59bb1ed1531d6bb50f941bb91ee39486c92fef3c11a653db42bc9bb7dc4f99
 F	usr/share/locale/pt/LC_MESSAGES/kauth6_qt.qm	1971	447acd752e2f3491f6f841ab65157dc06113a6412f810f47ea8667aa3eff4dbd
@@ -10879,6 +10976,7 @@ L	usr/share/locale/pt/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/pt/kf6_entry.desktop	2808	7be6c571dbc15df03adf9fbb331de21fd679762c6577f5900937571d27bcdcac
 F	usr/share/locale/pt_BR/LC_MESSAGES/Linux-PAM.mo	9981	dec7f32284c4c2fec05d5f554b2e006c599d61b58d29eda549af116f7e781e82
 F	usr/share/locale/pt_BR/LC_MESSAGES/avahi.mo	17347	fc9c872e62b303ba02d21f73a1e9fe729745049e409f660554b80217add46598
+F	usr/share/locale/pt_BR/LC_MESSAGES/bash.mo	173420	aa30b0dd482b020426c653e624498dd8534626fd5b2cfc77afc268ecc861cf71
 F	usr/share/locale/pt_BR/LC_MESSAGES/calamares-python.mo	10171	47f515459b1c11b31b4f9ac06a2261a89dd8eb8e60b8a93e1a7bc9b65cfcbb2a
 F	usr/share/locale/pt_BR/LC_MESSAGES/coreutils.mo	281633	9792e54601257f3a1d334b32eaeb12bcd5fa7e40fde3527641553a04e20a3ee6
 F	usr/share/locale/pt_BR/LC_MESSAGES/cracklib.mo	1816	50fc2c2915ce7128ef93f59990006dba8e375c28014324b2ec26fdeb3359f5e8
@@ -10888,6 +10986,7 @@ F	usr/share/locale/pt_BR/LC_MESSAGES/findutils.mo	42738	fcc2fe58bbb02bcfcd1b122f
 F	usr/share/locale/pt_BR/LC_MESSAGES/gettext-runtime.mo	8110	fb338a1d1fa81b9e3f78eb3f1c750fa6888bffd3d9fe42b66eddf40373b63636
 F	usr/share/locale/pt_BR/LC_MESSAGES/glib20.mo	141742	161ed7e521b3ee605c1dd91c424035d3484deb8e68b5fb9092d3e08c89f875b5
 F	usr/share/locale/pt_BR/LC_MESSAGES/gnutls30.mo	34575	a5caaa4e080d6917e1c7e3efa63d73289af6eb49dbfcc4a91742a787ca9aa4fc
+F	usr/share/locale/pt_BR/LC_MESSAGES/grep.mo	18629	21fdffb5af56e4b05493df73be32b0c505c3aa65c0c79f57850f114c9436faec
 F	usr/share/locale/pt_BR/LC_MESSAGES/grub.mo	81011	f93abd01ab5a9c0a13fb773b3dbd73ab13213ca4fb36a23bf2b8a14c7c4192a2
 F	usr/share/locale/pt_BR/LC_MESSAGES/kauth6_qt.qm	1956	f60311d8f184592ab50b19c86cb7bea0d2c5dba165317a49179cc50d4e6ff1c0
 F	usr/share/locale/pt_BR/LC_MESSAGES/kcodecs6_qt.qm	8210	5dcafb8abeb52cccc957479d4d7446bc17302a94c4691b21e3585704cfd2cfb3
@@ -10930,6 +11029,7 @@ F	usr/share/locale/pt_BR/kf6_entry.desktop	4235	be3d23c28d78020a08a092aac1e633c1
 F	usr/share/locale/pt_PT/LC_MESSAGES/calamares-python.mo	10192	7c1a05463a4285a77a69a1fe906d7735f8dc15858c1ccd6402032329cfffe8e6
 F	usr/share/locale/ro/LC_MESSAGES/Linux-PAM.mo	10688	58cbdc8f20d133013b1db4d428392596817f5a90a37ccfd14fe66b592e3be72e
 F	usr/share/locale/ro/LC_MESSAGES/avahi.mo	17054	d2e710b3dda4789ce6e05c21dfda3d75ac0267be0c608b32942a8331da8d3af4
+F	usr/share/locale/ro/LC_MESSAGES/bash.mo	190030	0990e15dbc77ecd3581ee708e8cfc1f799c634d9ae80a882e5a435b28ed2e000
 F	usr/share/locale/ro/LC_MESSAGES/calamares-python.mo	1478	8df4b2d025b0af0f6b3ebd786f6ccbddce0548733cadc4e7f0d224304af5dc07
 F	usr/share/locale/ro/LC_MESSAGES/coreutils.mo	405486	75e6f8b691b4e394373d2dcb936eb31dcffd779b0419415d1be62e1a41974e5a
 F	usr/share/locale/ro/LC_MESSAGES/cryptsetup.mo	132186	aecc6c3045e288e9abbb98be82134b3a021b22bbfa5a77d794d703207a532ee9
@@ -10939,6 +11039,7 @@ F	usr/share/locale/ro/LC_MESSAGES/gettext-runtime.mo	8389	a882017f5b9f90724e48aa
 F	usr/share/locale/ro/LC_MESSAGES/glib20.mo	144386	803cab4dabee85c81a474318c7980f38a3ad02c8948d10bc8312de00bbe4da3f
 F	usr/share/locale/ro/LC_MESSAGES/gnupg2.mo	82389	3c6aeefc1da28f906cc73200deb4b7af455c8cdad9a286f1b505b9886ef49b4e
 F	usr/share/locale/ro/LC_MESSAGES/gnutls30.mo	34968	b8d60cea3c150c3cee63bb04df0a50d0e6609dbde06d4ac2f93994c99b63036c
+F	usr/share/locale/ro/LC_MESSAGES/grep.mo	18888	61f1d5fd2defbf9e67397439a6f1dd2370bf1e96e232ab9970c3784680d501cb
 F	usr/share/locale/ro/LC_MESSAGES/grub.mo	148318	f0eceea86f2d260c223c7a0c75139b73cabcf61cec20afa0b6392151729f4eb9
 F	usr/share/locale/ro/LC_MESSAGES/karchive6_qt.qm	2030	d912f1cc37f450106e28862e36e7bb2eb8f7e498db4be8a11269f14576af318d
 F	usr/share/locale/ro/LC_MESSAGES/kauth6_qt.qm	1944	106d83699c25a7a535300e89b52c862f551af290e7039ce990bb5593901b8c97
@@ -10980,6 +11081,7 @@ L	usr/share/locale/ro/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/ro/kf6_entry.desktop	2505	7380724ebbc6babd02b24957a726a18883db85a96f74b182e73c42953303a6b4
 F	usr/share/locale/ru/LC_MESSAGES/Linux-PAM.mo	13446	d73b9e2b5f684457d5e39d0cd151313b700ebd933e81f2af2fe7325782a3cb10
 F	usr/share/locale/ru/LC_MESSAGES/avahi.mo	20792	ab01b43e533d5473fd455a18a2e759f0eb2188beda98ee496084893491c4cea0
+F	usr/share/locale/ru/LC_MESSAGES/bash.mo	128229	771054a542bd87f512d92b207b65e1de353021d97f06874d6e788510f128ec6a
 F	usr/share/locale/ru/LC_MESSAGES/calamares-python.mo	12143	48fe4157bda258d14999c2740ea8487acdafa9115a897c638dab9f1d222a52a1
 F	usr/share/locale/ru/LC_MESSAGES/coreutils.mo	421052	5fdfdf296edaa69d847c9ebbb42c3e59d0a88d05fd8d474141de128c85c88efa
 F	usr/share/locale/ru/LC_MESSAGES/cracklib.mo	2243	043b00e185104128e4862a79d534b354cc299f28e3a6a5c26ebd89cd20e8c9b6
@@ -10989,6 +11091,7 @@ F	usr/share/locale/ru/LC_MESSAGES/findutils.mo	54481	bb77e2de95dfab4fb950437b636
 F	usr/share/locale/ru/LC_MESSAGES/gettext-runtime.mo	10345	680f1a93307397bc46343fa7c1be1500a6139e335c8f54b1861ad6c6e9077b79
 F	usr/share/locale/ru/LC_MESSAGES/glib20.mo	185386	e67a6f83849c7ed5704e0544fc953f453b392c34e6204dab42b44e40a7586550
 F	usr/share/locale/ru/LC_MESSAGES/gnupg2.mo	289269	9a48271f4c2bf686f44c7a6acf60a3c977fd5d7be0b9cee5140ed598237ee98d
+F	usr/share/locale/ru/LC_MESSAGES/grep.mo	23405	669b109ee9f2d1bb558756ed82103451d2c574bdb2d4e7d277d208eff60e4fa6
 F	usr/share/locale/ru/LC_MESSAGES/grub.mo	158850	d1c595ba5fc676e25c8c78432856f4945a870a1309b8ce910877cd437c21f2be
 F	usr/share/locale/ru/LC_MESSAGES/karchive6_qt.qm	12880	9d9407285304bfbceb320b0ca2c7e87955a65d7b5f02ed1e7ad6294d8d9b4245
 F	usr/share/locale/ru/LC_MESSAGES/kauth6_qt.qm	2000	a49d6358a8506051c21bffbf69b93a2ca80f68cb5b4df72c8f5cba1194efaf37
@@ -11099,6 +11202,7 @@ F	usr/share/locale/si/LC_MESSAGES/systemd.mo	524	c506b70704c58e0d7ea7a31f05bcf65
 F	usr/share/locale/si/kf6_entry.desktop	1901	832e3e88ce77bdba2396227c5911b1478f2affe1ef2a30cc3acd21c1acbcef07
 F	usr/share/locale/sk/LC_MESSAGES/Linux-PAM.mo	10259	7fd6b97dc5669006dca245edc72e9e5226358dbeb88a12bb9459383feaaf5df6
 F	usr/share/locale/sk/LC_MESSAGES/avahi.mo	17434	db845d5baf2c42ea50580c6612c66903a6895949c16dc92401ddafa5cedea669
+F	usr/share/locale/sk/LC_MESSAGES/bash.mo	83429	9693acc0a58b619125a990eaca7415721fa60ccedd0306c7907db019cba7c0da
 F	usr/share/locale/sk/LC_MESSAGES/calamares-python.mo	5137	ac1ef2fb2a4528d13decea0e3fb5a501626db48c992edee76ca9f84a63a8ac19
 F	usr/share/locale/sk/LC_MESSAGES/coreutils.mo	64228	0d268fbc979ca871813c47e3036069a5ecaad56b6cdea1ad25fa2bd9a2a423c1
 F	usr/share/locale/sk/LC_MESSAGES/cracklib.mo	1828	1f492a1a442b837d0e19c0554821ff6974f735f7728c59fca5bb9a1266307e57
@@ -11107,6 +11211,7 @@ F	usr/share/locale/sk/LC_MESSAGES/findutils.mo	20465	ec905722a711cf7453e02fafe4e
 F	usr/share/locale/sk/LC_MESSAGES/gettext-runtime.mo	8275	d3bdc67c75dc902e4c69837af56e0b12bb90774890c6d0e61486ce00933ade46
 F	usr/share/locale/sk/LC_MESSAGES/glib20.mo	126718	9ad42d625c646da3e93e33b50a35603c2d7bc1e80f6dc09a2ad1bf7a29645462
 F	usr/share/locale/sk/LC_MESSAGES/gnupg2.mo	43653	66e60fae85871d6a1e0a10e3e45dc73b3992be0287e2d7b01e0ca8d7b7cd3d0c
+F	usr/share/locale/sk/LC_MESSAGES/grep.mo	18143	82cd16928a6eae07964077e293f1c7c75b7197bcb0db5318b344b332034f6724
 F	usr/share/locale/sk/LC_MESSAGES/karchive6_qt.qm	12009	48a30b6cf75dc006e0ed5b2cc8a3e1703ff426f147402ec1c17b9d414f3b5c83
 F	usr/share/locale/sk/LC_MESSAGES/kauth6_qt.qm	1765	9b2dc45eae1fb4467cfd17103304b4c3a3bd63e192b1fd69232cd69ce2ff62ae
 F	usr/share/locale/sk/LC_MESSAGES/kcodecs6_qt.qm	8318	f3da32f520a6c8df674224da0d8f72a67b731cc2c06f968653eee1bb9a01f802
@@ -11146,11 +11251,13 @@ L	usr/share/locale/sk/LC_TIME/coreutils.mo	../LC_MESSAGES/coreutils.mo
 F	usr/share/locale/sk/kf6_entry.desktop	2313	158e49c03a4aa476eab81a0e5444620a485ccdd7626520e1fb6d80bd47d46506
 F	usr/share/locale/sl/LC_MESSAGES/Linux-PAM.mo	10285	52499fd34de8482961217f36c689c73ed741a4e8567765957c7de16b1aae2fe2
 F	usr/share/locale/sl/LC_MESSAGES/avahi.mo	17219	9f1e5ae9507d8db34b215ddcdbd8f148bc29ede250515f6ece988ce5d8ee465b
+F	usr/share/locale/sl/LC_MESSAGES/bash.mo	80665	b84455cecc2066ac92bb14f3ee34ad44634e7bec8d1427231f00bd1752182978
 F	usr/share/locale/sl/LC_MESSAGES/calamares-python.mo	434	f9748f6079c032977d23f2c80b7ec0632a4a65729aa5536ae3cf6fdce38858dc
 F	usr/share/locale/sl/LC_MESSAGES/coreutils.mo	319582	87476d9a1cc88e2eab51c0104582f61723692dc157412235e19dc9096a1f5ff1
 F	usr/share/locale/sl/LC_MESSAGES/findutils.mo	30830	c274b870b2f74dff0b74befae0d90782742d1793fb007a6057dea689f2b28f4c
 F	usr/share/locale/sl/LC_MESSAGES/gettext-runtime.mo	5140	f9961b29db987fc424f6a10333f1913df61de87a1c773cbcfe5059e0abcbe05b
 F	usr/share/locale/sl/LC_MESSAGES/glib20.mo	138550	2091776240e3baf84269899a88e1f6811d068ffd456e7db9d1fb3a5b8ddd0eee
+F	usr/share/locale/sl/LC_MESSAGES/grep.mo	9965	74c46fbc5293dee0fee5df221864955cdd70dfce81d76e3d8f052491d431ca3a
 F	usr/share/locale/sl/LC_MESSAGES/grub.mo	87794	b9f892867acea5f96dbb50da0d44e35999d1b222e2f8da69d020672220ced19a
 F	usr/share/locale/sl/LC_MESSAGES/karchive6_qt.qm	12443	b134839bb8fa406567f5f19a876c43dd322ef79d92ddebff2253db1a35470513
 F	usr/share/locale/sl/LC_MESSAGES/kauth6_qt.qm	1886	616386569ac00bbeb1be3de909709aecb4291a34e43e973d3a91f7b274b122ff
@@ -11216,6 +11323,7 @@ F	usr/share/locale/sq/LC_MESSAGES/xkeyboard-config.mo	86570	3bb7c80d8f41f8384c09
 F	usr/share/locale/sq/kf6_entry.desktop	1885	204c800a15e20c463eb59814e12237dbcded3718b39d8a9765650b887e046264
 F	usr/share/locale/sr/LC_MESSAGES/Linux-PAM.mo	9013	75f734c5b17968db5eea8d7cd9ad88e59d9f480db75fc8b08c7f72a0ff2c60b0
 F	usr/share/locale/sr/LC_MESSAGES/avahi.mo	21702	23f26c020b52dcc390fd0dcd81e22d6318b86a6ca86fae9064a73e939cf5eb7a
+F	usr/share/locale/sr/LC_MESSAGES/bash.mo	232614	10a8c57bd369fa18bd252da44ccdd90979b966cfbcac56232cbb9655acc02462
 F	usr/share/locale/sr/LC_MESSAGES/calamares-python.mo	1683	5990d4462cf8f13e480fda1798ab16caa656c5da55a1ea6edfa25c11bb98455c
 F	usr/share/locale/sr/LC_MESSAGES/coreutils.mo	473419	2d5a2e08ae7e36c1a01dfe7ee3be94837b063de1b635bd4077d5e3b61b3da5d9
 F	usr/share/locale/sr/LC_MESSAGES/cryptsetup.mo	148854	225dcc062ab69fb042f022d807888aea3579a91af68c97bc52e9d0978065befc
@@ -11223,6 +11331,7 @@ F	usr/share/locale/sr/LC_MESSAGES/findutils.mo	54653	b5035c5ca6054bef84195c1a88c
 F	usr/share/locale/sr/LC_MESSAGES/gettext-runtime.mo	10058	f983d09c8f9a8d181fa8e87e1d9ddff72800ac3b9e0bce55dea0327b31f99c24
 F	usr/share/locale/sr/LC_MESSAGES/glib20.mo	175004	702ee29af0315a24e8449ceea1b8f67598754b137c5deeb64171bfc06e2fd6b6
 F	usr/share/locale/sr/LC_MESSAGES/gnutls30.mo	41709	cb3a3f572ef893b549e5d5cdc9e2fdaa40904cc1c266ebdf253b83beeaa0d074
+F	usr/share/locale/sr/LC_MESSAGES/grep.mo	21895	652b8ace88b2110fba2994329721ba60e723a1f21699ef36e749a51da9f8bcef
 F	usr/share/locale/sr/LC_MESSAGES/grub.mo	178532	dbc2d55b9fb1daffbe79e8fba9549a1a8bb5e28a1ff3adeaa2cfdcff8be665df
 F	usr/share/locale/sr/LC_MESSAGES/kauth6_qt.qm	1814	f88c07682d536c76727067d51a0378388b41ae6c31aa9f55a320e36569649596
 F	usr/share/locale/sr/LC_MESSAGES/kcodecs6_qt.qm	5986	933ab2868c24b18758ca8c130ecbf2b592ac1f072ad94f51dd4286eca9b2db70
@@ -11347,6 +11456,7 @@ F	usr/share/locale/sr@latin/LC_SCRIPTS/ki18n6/trapnakron.pmapc	1676208	4d48cbc55
 F	usr/share/locale/sr@latin/kf6_entry.desktop	3538	a69ccd524e19fd60ac16790c5aa094d40bf007569f0bee86295ed1a4b631560b
 F	usr/share/locale/sv/LC_MESSAGES/Linux-PAM.mo	10038	48b12c253695eab3f304eba77d71af02c8694461a8bfd8897196ed9b3079143c
 F	usr/share/locale/sv/LC_MESSAGES/avahi.mo	17014	8decd27d5f9760370e2dad6c0e9e693727fea88714db87f168f3b4b06b7360f8
+F	usr/share/locale/sv/LC_MESSAGES/bash.mo	176963	02a52aa9fb1182b3267d75c495e0c7b2bc1262fb914af6792f78b05a418f8519
 F	usr/share/locale/sv/LC_MESSAGES/calamares-python.mo	9592	7ee3f9e8712f9df1da64e8eaf37e0b060b3f6afd6c2ee8611b7c04e96bb8405b
 F	usr/share/locale/sv/LC_MESSAGES/coreutils.mo	370124	a4fd2cc99a13d17a6a296b2056b981588e5100f7bc2aa6f698ce63b316ac8e32
 F	usr/share/locale/sv/LC_MESSAGES/cryptsetup.mo	109168	cdb0ae4e6f704bcf3b2492c1bfda1dc6b9e41015fb2e136097849a5ef34d781b
@@ -11356,6 +11466,7 @@ F	usr/share/locale/sv/LC_MESSAGES/gettext-runtime.mo	7812	1e4e4e62831feb3147584d
 F	usr/share/locale/sv/LC_MESSAGES/glib20.mo	137658	a7dd77e78b14ee545c7e2c3faab44ec8f4fb3c2ffda4c0dc1a5f395d9b90586e
 F	usr/share/locale/sv/LC_MESSAGES/gnupg2.mo	131225	1f988fb0dfa8f23be07f7e8285d491a53d161a295b1d62015ab4112f1a8246d4
 F	usr/share/locale/sv/LC_MESSAGES/gnutls30.mo	33349	fc824a50c3279666d5d8e3c9ce50abf4f9decbd71b29824c5ce93c4c1288a471
+F	usr/share/locale/sv/LC_MESSAGES/grep.mo	17578	0bb38114df3b0e7679a2dc337887144830d38be394419d5a72511c3ac4b4584a
 F	usr/share/locale/sv/LC_MESSAGES/grub.mo	119048	903f1c5644457c082b3032976f8148ac7a5a4ccc82c5bd2c28b8e90b9dc34403
 F	usr/share/locale/sv/LC_MESSAGES/karchive6_qt.qm	11722	9f196733f5043d2389b0a8d7eb4429476ef2ef3841641d8f97a5dc487dc5481b
 F	usr/share/locale/sv/LC_MESSAGES/kauth6_qt.qm	1955	34f781aa34748d50a6d22b1d2274861cf878c7bb370f52093381c1566dc07540
@@ -11401,6 +11512,7 @@ F	usr/share/locale/ta/LC_MESSAGES/Linux-PAM.mo	10884	1acce54715d62ff36fd924d59ac
 F	usr/share/locale/ta/LC_MESSAGES/coreutils.mo	52070	e3e095716d00175c33f48460bf5898c4d3cbca0c49ceef38952418ba961f50a4
 F	usr/share/locale/ta/LC_MESSAGES/cracklib.mo	3132	fadabae7c3e46036eb1b14fdb32f3c35a50a013c7c56977b2bb3babe9ac8cb7e
 F	usr/share/locale/ta/LC_MESSAGES/glib20.mo	161163	38ebf11f4fe243895659488eaccc1e6bd7f95dc5d58bcefb6f353a1aa442168c
+F	usr/share/locale/ta/LC_MESSAGES/grep.mo	27372	bd0d937e595b092c7a01e77b482d606fb97a2b49e03f010a54d5735541cd7eb3
 F	usr/share/locale/ta/LC_MESSAGES/karchive6_qt.qm	1724	649f91fb5a8a3a39419f29bc6977307163c533905a6eb622e43b06723e313042
 F	usr/share/locale/ta/LC_MESSAGES/kauth6_qt.qm	30	d822801292e477d61724fdaba65d9894b6253ef0ecdd659f7e712875337d8691
 F	usr/share/locale/ta/LC_MESSAGES/kcodecs6_qt.qm	8470	e343a3d48cab27256960f933ba043b62a5e0afed77fbff3e6660314ea4c7d152
@@ -11476,6 +11588,7 @@ F	usr/share/locale/th/LC_MESSAGES/Linux-PAM.mo	482	cafd2625eed0270c48d50655d6c3c
 F	usr/share/locale/th/LC_MESSAGES/calamares-python.mo	370	34182179bc665aafa79858e03aaf41ce45b24b20255e3f4dbdb769624ed5eb6c
 F	usr/share/locale/th/LC_MESSAGES/dpkg.mo	249137	9f45cf42261366700bfa806d070e2a36d2d0d54c19bcf45c4c3d2326adb69db5
 F	usr/share/locale/th/LC_MESSAGES/glib20.mo	174848	bbc51283591d5410987b93a882b5153b0eac544965bcabbfd657dfa767725b87
+F	usr/share/locale/th/LC_MESSAGES/grep.mo	16494	2f709895b781842a4513ceb570a5bd06a9b62d265085c65ac0ecf2c9c442cc0a
 F	usr/share/locale/th/LC_MESSAGES/kauth6_qt.qm	23	d65fd8966b430f42ed9aa6d409ed2815a3f4fa6d01441d9246997a59e3cfbd43
 F	usr/share/locale/th/LC_MESSAGES/kcodecs6_qt.qm	23	d65fd8966b430f42ed9aa6d409ed2815a3f4fa6d01441d9246997a59e3cfbd43
 F	usr/share/locale/th/LC_MESSAGES/kconfig6_qt.qm	23	d65fd8966b430f42ed9aa6d409ed2815a3f4fa6d01441d9246997a59e3cfbd43
@@ -11508,6 +11621,7 @@ F	usr/share/locale/tok/LC_MESSAGES/kxmlgui6.mo	22947	5a263b517de2a9ba9fa1ee5cecc
 F	usr/share/locale/tok/kf6_entry.desktop	1136	5661092faa41916f53efa95d6db6e6ba2a28c71ad66469ed26e9cc86df964e10
 F	usr/share/locale/tr/LC_MESSAGES/Linux-PAM.mo	10133	981574c9397a56b7d2cf9bc6f6cab093b2a569665e28006517473b9c3e24cecf
 F	usr/share/locale/tr/LC_MESSAGES/avahi.mo	17181	3a479e300838ba63b3110c8845ddc0b12c8c0640e8e7adf3d3896c6b38fe1199
+F	usr/share/locale/tr/LC_MESSAGES/bash.mo	130291	5ea0317e7ebd02026d8240386558fbd38d6fe2e36557ad3d088cfe18a7f097f7
 F	usr/share/locale/tr/LC_MESSAGES/coreutils.mo	316686	6c73e6e38d66803e4308297769217d903daa6e14aade59af6032505db2c5ff91
 F	usr/share/locale/tr/LC_MESSAGES/cracklib.mo	2028	61d39543eb7565c3a41760094741929b88ca71296172ef27e08498ba3929fb56
 F	usr/share/locale/tr/LC_MESSAGES/dpkg.mo	128234	9aa2558319151d71b5b6da9bd20a5e059d8544e7b6bcf64992f33f569057ac8f
@@ -11515,6 +11629,7 @@ F	usr/share/locale/tr/LC_MESSAGES/findutils.mo	41764	dbba007a08643dec1fe80dd6ca2
 F	usr/share/locale/tr/LC_MESSAGES/gettext-runtime.mo	7869	b3f3020566df77ce1cf35867d3021ec9ca0fe0a874ce25bbddf788ea8dbf40b1
 F	usr/share/locale/tr/LC_MESSAGES/glib20.mo	139397	6e85a5c006dc3f6e2cad1a4c7571bdd99e2caa6da1941458f038ba3d829e66a1
 F	usr/share/locale/tr/LC_MESSAGES/gnupg2.mo	240603	65801f7cad56a8da6269ca06f31b4d0c5c85fdad48d0c133cb9d70eec588b469
+F	usr/share/locale/tr/LC_MESSAGES/grep.mo	17815	22bc3359a19b7c1291428833c8e006c0fac8bcbb7530d74605a1a87fb460453a
 F	usr/share/locale/tr/LC_MESSAGES/grub.mo	77716	d6d66311a805031064ca9a5ef5cb532cd69e638b130b8f4069370c9f68c32289
 F	usr/share/locale/tr/LC_MESSAGES/karchive6_qt.qm	11441	401771f60a128b11742b7730257100555ba2aee0ecc4768ca5bdbc6abee238c5
 F	usr/share/locale/tr/LC_MESSAGES/kauth6_qt.qm	1928	3ef24aaf3827849d1dae2d301a0e8136e5c3cea823c78d6e3a64ea698064ed43
@@ -11592,6 +11707,7 @@ F	usr/share/locale/ug/LC_MESSAGES/solid6_qt.qm	30	c7df17346e96780d6975dc6553e8f0
 F	usr/share/locale/ug/kf6_entry.desktop	1627	223de673aa248ff44bc5e07d0dd148ca329de7c3c2b960ee111f67bb6a6336a1
 F	usr/share/locale/uk/LC_MESSAGES/Linux-PAM.mo	13484	f8910308e552265e959bce54520c917c4d03c1bc2bec03be7e09c239bdcf1cdf
 F	usr/share/locale/uk/LC_MESSAGES/avahi.mo	21863	585ea7c6faff4f11fcef582c2ed223277a75d5093545cb12c99255a7bad06abf
+F	usr/share/locale/uk/LC_MESSAGES/bash.mo	237263	f6e967f47cf69b2ef901d6bcbd23d474d3459e9bc4fcc8b20e53a99160599537
 F	usr/share/locale/uk/LC_MESSAGES/calamares-python.mo	12880	c0893f949a98bcb4f0af94caa82ae560317d575dc0c70eaa661abbbdd41d44c7
 F	usr/share/locale/uk/LC_MESSAGES/coreutils.mo	493259	3b63c74cb1514ef055ddbdd72ca7cefc2b0f0ab4fd2824bf499ec63401eba606
 F	usr/share/locale/uk/LC_MESSAGES/cracklib.mo	2396	64ff530d4d3df007c175075f9381c68ae2277703265c58d6f2bd9ecc0f5b5da7
@@ -11602,6 +11718,7 @@ F	usr/share/locale/uk/LC_MESSAGES/gettext-runtime.mo	10300	b92f0be63c805f1c9618c
 F	usr/share/locale/uk/LC_MESSAGES/glib20.mo	183054	38ec25d0efdf09b4e822db8bf3b1fd6065aed78b3511cb0875b68ff0dcf18a5e
 F	usr/share/locale/uk/LC_MESSAGES/gnupg2.mo	294689	7e66f35c9a9ef367719719f49ed4a26bbfc82d681350cfc384ebef505993a047
 F	usr/share/locale/uk/LC_MESSAGES/gnutls30.mo	43946	c54cd58f5f1de7610e5897dcd8999f5c74e3cdf1d2595ad96df4541a7ad52521
+F	usr/share/locale/uk/LC_MESSAGES/grep.mo	23948	218b6585efbec9d18274452bb9a0fb59a968a6962a3ce810bdfaf3077d182ead
 F	usr/share/locale/uk/LC_MESSAGES/grub.mo	187098	2e08389d649a59fa99f96c851ba3006ae6d47dd0026ac660bcd33ab3022c24ff
 F	usr/share/locale/uk/LC_MESSAGES/karchive6_qt.qm	13139	b37a00e6d413f069358e43f246f310feddf9fff823304c89f0973e8c6bc46c52
 F	usr/share/locale/uk/LC_MESSAGES/kauth6_qt.qm	2058	cc017375a24c3628effeb526ab79cd2229ebf96ccd23942ffb51908773721dd9
@@ -11680,6 +11797,7 @@ F	usr/share/locale/uz@cyrillic/LC_MESSAGES/kwindowsystem6_qt.qm	32	bfb5b8be385d2
 F	usr/share/locale/uz@cyrillic/LC_MESSAGES/kxmlgui6.mo	4890	8cd95e58d6c9b8d779c9344949fdf677680e6e4603ae5701ae1f54a89427e95d
 F	usr/share/locale/uz@cyrillic/kf6_entry.desktop	3592	14b8b5921b9e3e347253ef653d9a6efcde9f52b8b61189737e43a4e26f7d2fce
 F	usr/share/locale/vi/LC_MESSAGES/Linux-PAM.mo	7349	54dfa890df92e299cc5c5cd4efeed9e43aac02bc527cb337f690ab03975cdb1d
+F	usr/share/locale/vi/LC_MESSAGES/bash.mo	133752	9bd7ff42447e8e64b6695d4fd0f9e4c66894767bf1579d6ba1b084cc044e30e0
 F	usr/share/locale/vi/LC_MESSAGES/calamares-python.mo	6925	449a03accd5a3646504de5ab9a40a61273352761c50acd71155d5cd0928d268f
 F	usr/share/locale/vi/LC_MESSAGES/coreutils.mo	289451	40d7d12883f1fdc2b9115b9294a9461bff019ae38413f4ad60e3aadb28bc70e4
 F	usr/share/locale/vi/LC_MESSAGES/cryptsetup.mo	53213	78e60f28be6cdd4690e2c58084fd36a7083db8a27fc858cda85c0327e6cf6777
@@ -11688,6 +11806,7 @@ F	usr/share/locale/vi/LC_MESSAGES/findutils.mo	33643	39e1a2bb9216ee25941eb13cfee
 F	usr/share/locale/vi/LC_MESSAGES/gettext-runtime.mo	8768	56b079f0ef41fa3ffa1600aded268c89335e3622e2d1f7cbc0a338abe1558795
 F	usr/share/locale/vi/LC_MESSAGES/glib20.mo	109755	0dac862e110ebb74f31a9b3674f7108da81349a7bc1ba9917b477eb6b7ed73cd
 F	usr/share/locale/vi/LC_MESSAGES/gnutls30.mo	26073	702177015ff3bef3abe54d8c8fac9ac559d61ee8f92cb1fd7dc191c41dc57e90
+F	usr/share/locale/vi/LC_MESSAGES/grep.mo	20096	06ac894316c70fd41b73e10097006744badc3c95202d2549872e2ca21a6cdd9b
 F	usr/share/locale/vi/LC_MESSAGES/grub.mo	152271	d1dd3dadf11e4ccf62c4c58e9abe650a9e8c81e851b4d6dc17c1fe80b84d9c22
 F	usr/share/locale/vi/LC_MESSAGES/kauth6_qt.qm	1914	943b78e8a4007379f8e6ff67edb77d856e614e2a17dda0a94324a0e803414c06
 F	usr/share/locale/vi/LC_MESSAGES/kcodecs6_qt.qm	23	3e0e32aacef25f828098b14bf76a9af2fe69aff0c2ea5f8440d2cbf3264eba50
@@ -11763,6 +11882,7 @@ F	usr/share/locale/yi/LC_MESSAGES/glib20.mo	15877	51c8c79caf3a90905961c664645fd6
 F	usr/share/locale/yo/LC_MESSAGES/Linux-PAM.mo	392	9d90ea5f7942f6a241acc613412f43379f83176e2e0582d59cf96b0480db9979
 F	usr/share/locale/zh_CN/LC_MESSAGES/Linux-PAM.mo	9065	43574872094814895a7b2709da5d1cc8de8c7060b8b8dfd644fb53369f0c4740
 F	usr/share/locale/zh_CN/LC_MESSAGES/avahi.mo	15737	d3a5544953d13281ff499c93558922e140c0406b4d4431877253ad92c636e6b0
+F	usr/share/locale/zh_CN/LC_MESSAGES/bash.mo	170166	8eaff54589dee4abd8cdee4dc6ac88bd824d3ee2a41142ece8a7e23ea2b9e041
 F	usr/share/locale/zh_CN/LC_MESSAGES/calamares-python.mo	8449	c80d485f24901bae18472686147f20c25007dffa809ef4d3c2b0ddd96f229c7f
 F	usr/share/locale/zh_CN/LC_MESSAGES/coreutils.mo	366945	ff09d2c40b932f75c4d04c54a914147138d0713371ed65cf1ab055ab567ee2e9
 F	usr/share/locale/zh_CN/LC_MESSAGES/cracklib.mo	1635	7f0218ae52ca4238202bb4909aeb1a16e11f0125a034f4d5b5cc1d55d1b340ed
@@ -11775,6 +11895,7 @@ F	usr/share/locale/zh_CN/LC_MESSAGES/gettext-runtime.mo	7669	f6f1940b1ff66270423
 F	usr/share/locale/zh_CN/LC_MESSAGES/glib20.mo	128373	5e11c1bf5bbf8343c7a9ebe0c3f91cd78c9c10d78c78e0808dbde8fb4c2b5f38
 F	usr/share/locale/zh_CN/LC_MESSAGES/gnupg2.mo	219623	916fb119c5fd37718fc352a7b8a16891ed9e56f65abb246c4d0a5ed1811a5ef9
 F	usr/share/locale/zh_CN/LC_MESSAGES/gnutls30.mo	22411	b19488ca0e3469cab1f6d7dce52a84f149e60f7ba41cb80cb1b2dc93ba4a12c5
+F	usr/share/locale/zh_CN/LC_MESSAGES/grep.mo	17367	bb749c82a4a80d6d89fba5f11301517539f52fbdd1d332c97341345d52f65c50
 F	usr/share/locale/zh_CN/LC_MESSAGES/grub.mo	130080	53bd1b30123c987d28056e183c904ce84042f5a0a0e59743bf39d5ee4ffab3fc
 F	usr/share/locale/zh_CN/LC_MESSAGES/karchive6_qt.qm	8116	135984ac00c0bf71930dc5f3fc55248809b2a220816cb3e7a0c2778f0ee2bdb9
 F	usr/share/locale/zh_CN/LC_MESSAGES/kauth6_qt.qm	1201	eeaf0abcd7fd1c29613fbdbaa8cc0e726f988b5c423f7827372f0f3276780340
@@ -11835,6 +11956,7 @@ F	usr/share/locale/zh_HK/LC_MESSAGES/shared-mime-info.mo	450	1c5fd3a9ed50368d3ee
 F	usr/share/locale/zh_HK/kf6_entry.desktop	3588	8ed912d210741c8ef7615252e110bf46945d858199ca8910b3abfa2c2d92cece
 F	usr/share/locale/zh_TW/LC_MESSAGES/Linux-PAM.mo	8841	f7923ad3fadd788f6ab15487e4df71a4d6706eb73757a11fb62534cc4999ee80
 F	usr/share/locale/zh_TW/LC_MESSAGES/avahi.mo	16045	ca27cb669ac5ac51cc1c886f848eb64ff3ec4f15f88162690c577f34d48df314
+F	usr/share/locale/zh_TW/LC_MESSAGES/bash.mo	168812	826dffea15b752abd1825370cd0a90ada8b73648a97a16d415874ee725af9169
 F	usr/share/locale/zh_TW/LC_MESSAGES/calamares-python.mo	9082	e391762d8beba4a41b59faccd68ca81640f6f88a38725986959d74c1a0693652
 F	usr/share/locale/zh_TW/LC_MESSAGES/coreutils.mo	255415	5017c3217337fe99247e8b585cd7a29b6ea58c32d0fe89c34c4e545645058cff
 F	usr/share/locale/zh_TW/LC_MESSAGES/cracklib.mo	1736	2a766c960a4de044911c7414b65ca351c8ed29f8302094381ae20bbd43428949
@@ -11843,6 +11965,7 @@ F	usr/share/locale/zh_TW/LC_MESSAGES/findutils.mo	16962	8fdc0f6cc0f104fcd5f45baa
 F	usr/share/locale/zh_TW/LC_MESSAGES/gettext-runtime.mo	7461	0ae200a38b096d6382d83130aa620564b62925b2b3ed13105dd3688240f4df9e
 F	usr/share/locale/zh_TW/LC_MESSAGES/glib20.mo	123273	d88503b1499413686f865337800ccce0a81acfaa2fabad075673eeaf96855ce4
 F	usr/share/locale/zh_TW/LC_MESSAGES/gnupg2.mo	174063	34f44a204696c478e20c5f3f595b7b9370cb98b1a15cacadd1b4b9772ba6b2bc
+F	usr/share/locale/zh_TW/LC_MESSAGES/grep.mo	17053	934658cec3352816649b263ccc1a0cb8be0bac43906e41873cf62e8367e9c9c8
 F	usr/share/locale/zh_TW/LC_MESSAGES/grub.mo	29235	926bdd43f87c3b4d1e688c7e8fd6dfd9a748dc332d63e7dacb75cc8e053ce71a
 F	usr/share/locale/zh_TW/LC_MESSAGES/karchive6_qt.qm	7912	4ac257f6dc907d399572a338c96b386829c419aac0a6e6ee8b435ce2ce6263e8
 F	usr/share/locale/zh_TW/LC_MESSAGES/kauth6_qt.qm	1237	eac244c20500659903f2ff2642a8763199797031e3a7b557bf4e398bb6e2d786
@@ -12141,6 +12264,8 @@ F	usr/share/man/man1/base32.1.gz	1003	8b9b118623ca75b8c514ac47a93a688b4c5b99ced7
 F	usr/share/man/man1/base64.1.gz	1003	b9d47e2596a2ce946349816945a15572c31eb59bfebb700195f81a5492509501
 F	usr/share/man/man1/basename.1.gz	975	c2262aca9aa7ecc14b2981ed2a2d108f7cd7010348c15cef7b9f62260d76c331
 F	usr/share/man/man1/basenc.1.gz	1353	7b6587f20077e347703c4976d2413a78606ac5bf8f7e706be3e32829efd44260
+F	usr/share/man/man1/bash.1.gz	97471	3ca7a67df55bd2f80a2de111f8d44df359f7a795573aaaadce09a52a22bcedeb
+F	usr/share/man/man1/bashbug.1.gz	804	d36c9dc712a5ef4a713ec01c42bf2e0cceb04e770c995e06c75ed13a72256136
 F	usr/share/man/man1/busctl.1.gz	5414	636cfe5f61361a9249d604c2098e1570d8d4e859aab8eccce4049e693fac7ef6
 L	usr/share/man/man1/c_rehash.1ssl.gz	openssl-rehash.1ssl.gz
 L	usr/share/man/man1/ca.1ssl.gz	openssl-cmds.1ssl.gz
@@ -12158,6 +12283,7 @@ F	usr/share/man/man1/chrt.1.gz	2365	5f59eb1ab3a07b881044b7c5bf03cfb0186d189e5eff
 F	usr/share/man/man1/chsh.1.gz	1319	f7f33cd1712226f544984ee534f7b197085cd43c4824bfd82bd55a4971e56b5d
 L	usr/share/man/man1/ciphers.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/cksum.1.gz	1473	2d53d9a863fa215222b1e5931b883597c8ee3a074287ff57acd15cff1cd23bf1
+F	usr/share/man/man1/clear_console.1.gz	1194	775fad1890881fcdafcf29fa08bb3ad28cf7aba2c8c18830158c783ff2679861
 L	usr/share/man/man1/cmp.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/cms.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/comm.1.gz	1121	d92c6cada73be063cf614ec678aa14bdc6ce37602fb657ea9c854934875de36b
@@ -12211,6 +12337,7 @@ F	usr/share/man/man1/du.1.gz	2294	306135367e11085fe0c08c22bd5c6193f3904540253981
 L	usr/share/man/man1/ec.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/echo.1.gz	1120	dfce83be6a22d2cf59eab27dda5178c670cf734af8fe8e61ad8b058f1e8d90ac
 L	usr/share/man/man1/ecparam.1ssl.gz	openssl-cmds.1ssl.gz
+L	usr/share/man/man1/egrep.1.gz	grep.1.gz
 L	usr/share/man/man1/enc.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/engine.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/env.1.gz	1789	fb6172949c72f72b49c4a85dd1586040866f31cc5bf58afcebaf297b9b6d7676
@@ -12231,6 +12358,7 @@ F	usr/share/man/man1/fc-pattern.1.gz	818	1fbb299621f96dc175e9bada3ae03dcb9618666
 F	usr/share/man/man1/fc-query.1.gz	869	1c9b4763dac7260ef7b135379c9b0f3f4ff6e546e8b0b46a3b7172a43b9ce811
 F	usr/share/man/man1/fc-scan.1.gz	711	21119cba52903801380a711e14c3a9d4e858e30c27da3596229707d5e8218784
 F	usr/share/man/man1/fc-validate.1.gz	753	c58941a5e7e5609dc1bebed33d68702084a3b4196515477724375871e9d532a8
+L	usr/share/man/man1/fgrep.1.gz	grep.1.gz
 F	usr/share/man/man1/find.1.gz	24833	601aa677d537d8a33d58d387f90d3ba1f2de38a79474f49d5199fc26ed257d52
 F	usr/share/man/man1/flock.1.gz	3030	8e0cc74f6a8c28e1106ead25c1a16db33d6d8fcc0c1b4d99f4804797cebe319b
 F	usr/share/man/man1/fmt.1.gz	1075	3f0862e69e784d0cf37488f7eda70987ed56e025165bc348e4880b8b9aa63c3d
@@ -12257,6 +12385,7 @@ F	usr/share/man/man1/gpg-preset-passphrase.1.gz	1348	ed36ec9416349e2139d8ad48159
 F	usr/share/man/man1/gpg.1.gz	56529	34b0572086e2688a2f887153ca61244bfc5b21642c27689bdcd133726e38ee91
 F	usr/share/man/man1/gpgconf.1.gz	9196	a7dc2123074330dcd61a3c7dba6321081723eda65c6df6c6a1d560595d35b3b8
 F	usr/share/man/man1/gpgsm.1.gz	13557	4111ef79c2d4e68f05799e45038c3eda119dc3d16a59e526ff4054ec4a7c8690
+F	usr/share/man/man1/grep.1.gz	10950	6510c69ed6b3a2b4f3ca64e4eee5ee067e0f3d4b824c72665d8aa3f4e75c1a33
 F	usr/share/man/man1/gresource.1.gz	998	de7b90b5416394e02401b3e8df005a6801869945b37e404e1591602b2da5697a
 F	usr/share/man/man1/groups.1.gz	770	6a8abf778fa55e74b1d0d183d475577d626cb2fd7e4c398f51c97d353053e5f0
 F	usr/share/man/man1/grub-editenv.1.gz	709	7fafa93313927636b71df725c6b31d04cb3383c49955fe24b629eb22f1da2996
@@ -12433,12 +12562,14 @@ F	usr/share/man/man1/pygettext3.13.1.gz	1682	684639ab11c6ef167164237d6448749703e
 L	usr/share/man/man1/python3.1.gz	python3.13.1.gz
 F	usr/share/man/man1/python3.13.1.gz	8725	c9743f9abca770c496d1422c61d9347b681e2a006e35119c8820d34a3c242f96
 L	usr/share/man/man1/rand.1ssl.gz	openssl-cmds.1ssl.gz
+F	usr/share/man/man1/rbash.1.gz	155	475cfdafaad64655b18a25b28f286241b3371aa3d131da0a10553a20c272ed8c
 F	usr/share/man/man1/readlink.1.gz	1018	72c97b01e2029769787757efd73dad200ca514db755f5caaa4990fa338528fa9
 F	usr/share/man/man1/realpath.1.gz	994	efd5cb100479d979f9e448ed68370f9b2dd3c175845011654a63bb918caa3737
 L	usr/share/man/man1/rehash.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/rename.ul.1.gz	1965	b52ea3d5ea02d1c4ea5a05ddfd824d6616bc78a48f768f520a839bc6cc907233
 L	usr/share/man/man1/req.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/rev.1.gz	903	2fdfa6ca7fe0017db7e9143678722c99dfb5da769e91f821d711b3a61830859f
+L	usr/share/man/man1/rgrep.1.gz	grep.1.gz
 F	usr/share/man/man1/rm.1.gz	1722	634951e3552cd843a596fc96bde2e2b304515bd9063118e621be904d7b2ad21f
 F	usr/share/man/man1/rmdir.1.gz	833	23d5f8351aeee90e33b3a5f422fea3cec18c50d16676ddc0fb72d78e79a3cfbe
 F	usr/share/man/man1/rrsync.1.gz	2474	27ef50c99a39b21463530a772a7efcf647911984ae579014e7d68e817fd0e6ac
@@ -12913,6 +13044,7 @@ L	usr/share/man/man7/SM2.7ssl.gz	EVP_PKEY-SM2.7ssl.gz
 F	usr/share/man/man7/X25519.7ssl.gz	1744	e9503b2174e826e6488918ced61671c313f8952278144e2b32f951281fdd8621
 L	usr/share/man/man7/X448.7ssl.gz	X25519.7ssl.gz
 F	usr/share/man/man7/asymmetric-key.7.gz	3609	423aecbfa1791b4714704b6cd71ce9b37473ede45d351ebe82abf4947ed30caa
+F	usr/share/man/man7/bash-builtins.7.gz	508	dacf8379c9a1d56a7f8f4ddb330c60ca0444d82a63eea55755db7cc29312b0a3
 F	usr/share/man/man7/bio.7ssl.gz	2415	d1ca2c127683e1e424e63fe196d682631d74aeeb8bf518033c230a18e4af7e05
 F	usr/share/man/man7/bootup.7.gz	4705	c091a4306f633aa6f2391f144c9c50c6c14073e8f6e2e0ed2729c70eaaba84be
 L	usr/share/man/man7/crypto.7ssl.gz	ossl-guide-libcrypto-introduction.7ssl.gz
@@ -13772,6 +13904,7 @@ L	usr/share/maven-repo/org/gnu/gettext/libintl/0.23.1/libintl-0.23.1.jar	../../.
 F	usr/share/maven-repo/org/gnu/gettext/libintl/0.23.1/libintl-0.23.1.pom	609	5fe9ea88f6a6770072dda94276ae6bb7cce9c09e3b5b3f19fa395c7c764a29cf
 L	usr/share/maven-repo/org/gnu/gettext/libintl/debian/libintl-debian.jar	../../../../../../java/libintl-0.23.1.jar
 F	usr/share/maven-repo/org/gnu/gettext/libintl/debian/libintl-debian.pom	609	3a3a55bc5a13a4a8a1a2280dd4b5a860a7eb82b88caa170810eeffe3db955df5
+F	usr/share/menu/bash	194	1e862c7883df7a31e995769e90b4e6b87399a70f2cad6b2ce95fd865975286aa
 F	usr/share/menu/dash	108	c8bdff923cdb32fc55c80c70546c344e22444dfdccdea6280d9c4c6fa25c7c38
 F	usr/share/mime/packages/freedesktop.org.xml	2488673	dacfd65f815c094da7a23ebb8b00d26501e32c7c885dfe0cb2dd685c94ae9f57
 F	usr/share/mime/packages/io.systemd.xml	1903	a16475ac20a577be69dcfcdbd97a04a92339728cedc581444dd6cca9ab90c6f5
