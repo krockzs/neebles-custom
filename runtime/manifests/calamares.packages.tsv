@@ -7,6 +7,7 @@ ca-certificates	20250419	all	ca-certificates_20250419_all.deb	ef590f89563aa4b46c
 calamares	3.3.14-1	amd64	calamares_3.3.14-1_amd64.deb	8e124c35d726dca93d90880f8a7dc55e6fc5cf5efb7d8ad2234b86d9188af801
 calamares-settings-debian	13.0.13-1	all	calamares-settings-debian_13.0.13-1_all.deb	70e4b052609817c9cac65ea8e8cffe5b87666b58d65d731e686523c36cd227aa
 coreutils	9.7-3	amd64	coreutils_9.7-3_amd64.deb	1299ab6f9389a288eb2f5f3dd222c26cc777b9a2d5ecb6ee4cbd340cebcdada2
+cracklib-runtime	2.9.6-5.2+b1	amd64	cracklib-runtime_2.9.6-5.2+b1_amd64.deb	cfafd7c436357dc8fc0b6c6701c8764cf36b8e2b239cd56b2f16a3d1207a53d6
 cryptsetup	2:2.7.5-2	amd64	cryptsetup_2%3a2.7.5-2_amd64.deb	916ff5b1336f67dbaf763039529c3a0e10d2b839ef11463cde13a405ba49bcd4
 cryptsetup-bin	2:2.7.5-2	amd64	cryptsetup-bin_2%3a2.7.5-2_amd64.deb	b77b192cf1c35f96da02134300bb227ab92c49eec2444268049fa1ce84fb9bc7
 dash	0.5.12-12	amd64	dash_0.5.12-12_amd64.deb	a8902cb6d8650134764a25fb80aec8589d858ef71ece1680a62e84816c37bb04
@@ -28,6 +29,7 @@ dpkg	1.22.22	amd64	dpkg_1.22.22_amd64.deb	3e800c6d75e8e709007ed1c356e5fa8509a75c
 e2fsprogs	1.47.2-3+b12	amd64	e2fsprogs_1.47.2-3+b12_amd64.deb	e9e638eb3e22b5f14d01ce0b28aa512a5a22fcc0e70d1c733444579b67ea236b
 exfatprogs	1.2.9-1+deb13u1	amd64	exfatprogs_1.2.9-1+deb13u1_amd64.deb	b48c77643a13fa6e33d362b993a251c6528cfec158b772b1d115df59117be32f
 fdisk	2.41.5-0+deb13u1	amd64	fdisk_2.41.5-0+deb13u1_amd64.deb	7f37094ca3f63c3a07b4431532b0bcc4aa64291e75c48cabebf41bf42ad706b1
+file	1:5.46-5	amd64	file_5.46-5_amd64.deb	5b980b02a7d91aab9cb50c65ac7e059678a36d36ed626ec52506442f4501a1a7
 findutils	4.10.0-3	amd64	findutils_4.10.0-3_amd64.deb	3edf02b016456b6a98cefdbab99c5ce6f829b786f63affe970badea221aecfc7
 fontconfig	2.15.0-2.3	amd64	fontconfig_2.15.0-2.3_amd64.deb	09794b188e042c90b4a89fcb5afeb276bc231b74ddf8a3efbbc7dfb6f0eac4cb
 fontconfig-config	2.15.0-2.3	amd64	fontconfig-config_2.15.0-2.3_amd64.deb	0475c00d02660c07a15085051818625331bb502e053242106aaaa1f2ddb41225
@@ -44,6 +46,7 @@ gpgconf	2.4.7-21+deb13u1+b5	amd64	gpgconf_2.4.7-21+deb13u1+b5_amd64.deb	14668f3f
 gpgsm	2.4.7-21+deb13u1+b5	amd64	gpgsm_2.4.7-21+deb13u1+b5_amd64.deb	092f4675a1810ca7b51a1d53595f9e0c3ab65210c15805749e91030769e2301b
 grep	3.11-4	amd64	grep_3.11-4_amd64.deb	2d78ed07d86a530ebf538f05cb2415f37c8daf908596bc32fc2563cc7e88c55a
 grub-common	2.12-9+deb13u2	amd64	grub-common_2.12-9+deb13u2_amd64.deb	a59d34a52e98450165ffc05b75886e139ad77b9d851d25b11eaa973cbdcb3bdd
+gzip	1.13-1+deb13u1	amd64	gzip_1.13-1+deb13u1_amd64.deb	74cf12212beee4ab8d473bdc0107abf9e8cef737492198e2f4944a19f142b0ac
 init-system-helpers	1.69~deb13u1	all	init-system-helpers_1.69~deb13u1_all.deb	addf78073e1cbc5a5508937e11d2571055e29835e00ee8fab52a66775649378f
 kded6	6.13.0-1	amd64	kded6_6.13.0-1_amd64.deb	e7e704c56418ac3f28844565fcdfd1f65072b21c87b468c39fef0d924c6dc70c
 keyutils	1.6.3-6	amd64	keyutils_1.6.3-6_amd64.deb	1ea627932e5ea824b208b8426a918dec7fbf3073a369d19e82e994fbc5f9f151
@@ -232,6 +235,8 @@ libltdl7	2.5.4-4	amd64	libltdl7_2.5.4-4_amd64.deb	ab38167fc5aba8d133309fa98ca0a8
 liblz4-1	1.10.0-4	amd64	liblz4-1_1.10.0-4_amd64.deb	c31ec4c7c82755a38b2f3fe066fc0c5518cc91a601a268fbcd19bdacb1f22e1e
 liblzma5	5.8.1-1+deb13u1	amd64	liblzma5_5.8.1-1+deb13u1_amd64.deb	1cfcc6e0dc36f438a79b6e2189facdb9d150b08f57d190a60e01c98075c7f896
 liblzo2-2	2.10-3+b1	amd64	liblzo2-2_2.10-3+b1_amd64.deb	f3032201fe2928a87e13f05ce256ff3ac2a7860c7e594dc51ae6d7348a4466ce
+libmagic-mgc	1:5.46-5	amd64	libmagic-mgc_5.46-5_amd64.deb	1368da7c4c7dd10fb2f9ee3ed8a70801650c0c1d249a4076af15e2ddfbb14b46
+libmagic1t64	1:5.46-5	amd64	libmagic1t64_5.46-5_amd64.deb	53f653873216b135570b42c423ea93825c008ac464780b4578e80ee424237a4e
 libmbedcrypto16	3.6.6-0.1~deb13u1	amd64	libmbedcrypto16_3.6.6-0.1~deb13u1_amd64.deb	b38baf2ecaca7b28b3005d34b8108ee9b17681426b20662813995e939aea6dfa
 libmd0	1.1.0-2+b1	amd64	libmd0_1.1.0-2+b1_amd64.deb	7244ec3839b61fac0c1884fe08aaa040f26e8f1f35f1f5d3482eacefd30d1b44
 libmd4c0	0.5.2-2+b1	amd64	libmd4c0_0.5.2-2+b1_amd64.deb	0bd88d7ce2bda0626836267c02beb1ddf89e99eae26bd5c717ce5601faa075a9
@@ -462,6 +467,7 @@ python3.13-minimal	3.13.5-2+deb13u5	amd64	python3.13-minimal_3.13.5-2+deb13u5_am
 qml-module-qtquick-window2	5.15.15+dfsg-3	amd64	qml-module-qtquick-window2_5.15.15+dfsg-3_amd64.deb	9707fbb9248b02aa09e57fb45b7897519075bea57aa8d0fb0e6dd215377156d1
 qml-module-qtquick2	5.15.15+dfsg-3	amd64	qml-module-qtquick2_5.15.15+dfsg-3_amd64.deb	2f38605a7f9121c4d23c0ab8108452d8059388aae666e38f849a5f4ccb90b60f
 qml6-module-org-kde-kirigami	6.13.0-2	amd64	qml6-module-org-kde-kirigami_6.13.0-2_amd64.deb	b987188e58ce0a5f9b90e8a31fc3256ca50e014437ed62678ecda6ea1d9f28c4
+qml6-module-qt-labs-folderlistmodel	6.8.2+dfsg-7	amd64	qml6-module-qt-labs-folderlistmodel_6.8.2+dfsg-7_amd64.deb	d9918756cb5449dd71d6e3f6aa70e69a9e24c5d44a851f0dec7e131a2f70dbe3
 qml6-module-qt-labs-qmlmodels	6.8.2+dfsg-7	amd64	qml6-module-qt-labs-qmlmodels_6.8.2+dfsg-7_amd64.deb	3cedee6b9cc014443a2526326177fcceefd6033db4743f32a629d82342795f32
 qml6-module-qtmultimedia	6.8.2-8	amd64	qml6-module-qtmultimedia_6.8.2-8_amd64.deb	22558e645ea7fc10be7fbdf3c2f2a635319499160c88ff953538d51345a0883f
 qml6-module-qtqml	6.8.2+dfsg-7	amd64	qml6-module-qtqml_6.8.2+dfsg-7_amd64.deb	d46a9a1f9ed30cd859133d1c43663af96018ea38b3a29aa050d42274ceb83eae

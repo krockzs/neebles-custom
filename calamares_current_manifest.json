@@ -11,8 +11,8 @@
       "path": "packages/SHA256SUMS",
       "type": "file",
       "mode": "0o664",
-      "size": 51394,
-      "sha256": "da0def2d0a2325ebda8dbb44c977c26856598ae70a6b3fc523eff846bc1b0b28"
+      "size": 51519,
+      "sha256": "ed17941f361674b509b6d3f952c3caa0c46e08aa45046d4f5f13de2dbe7f0a93"
     },
     {
       "path": "packages/adduser_3.152_all.deb",
@@ -3298,6 +3298,13 @@
       "sha256": "b987188e58ce0a5f9b90e8a31fc3256ca50e014437ed62678ecda6ea1d9f28c4"
     },
     {
+      "path": "packages/qml6-module-qt-labs-folderlistmodel_6.8.2+dfsg-7_amd64.deb",
+      "type": "file",
+      "mode": "0o644",
+      "size": 46688,
+      "sha256": "d9918756cb5449dd71d6e3f6aa70e69a9e24c5d44a851f0dec7e131a2f70dbe3"
+    },
+    {
       "path": "packages/qml6-module-qt-labs-qmlmodels_6.8.2+dfsg-7_amd64.deb",
       "type": "file",
       "mode": "0o644",
@@ -3835,7 +3842,7 @@
       "type": "file",
       "mode": "0o644",
       "size": 821,
-      "sha256": "161f2ee9e279814c725ece5b8e4ad61c623b43a2dd51815e643cbcd1398627a1"
+      "sha256": "cebce242383dceb036cbbeacc476556dffddd1c164b9d67734fae3e18323c32e"
     },
     {
       "path": "rootfs/etc/calamares/branding/neebles/neebles-logo.png",
@@ -11545,7 +11552,7 @@
       "type": "file",
       "mode": "0o755",
       "size": 7623,
-      "sha256": "4591eb6448b5dc9a5631ea6c4f337be0984ec902c9691d08cc7433ec9111e31f"
+      "sha256": "8c5955e0dcc01a134c3a1811ce32013e964bce86d9477677b68ef48a1952d8f5"
     },
     {
       "path": "rootfs/usr/lib/os-prober",
@@ -25273,6 +25280,19 @@
       "sha256": "0c608f37f3eee52c8903fe0112f858c9f90df79058a1cef04489c9d7a954e960"
     },
     {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libQt6LabsFolderListModel.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libQt6LabsFolderListModel.so.6.8.2"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libQt6LabsFolderListModel.so.6.8.2",
+      "type": "file",
+      "mode": "0o644",
+      "size": 110096,
+      "sha256": "986ce323882c748b91cc14f1ba28a468425814a6a9fb6c2471deb18b30897731"
+    },
+    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libQt6LabsQmlModels.so.6",
       "type": "symlink",
       "mode": "0o777",
@@ -30887,6 +30907,32 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs",
       "type": "dir",
       "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so",
+      "type": "file",
+      "mode": "0o644",
+      "size": 18920,
+      "sha256": "04677076aa13855838e1209dd8519b903d41e46efa7c014bf0c647e6b0c0971d"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel/plugins.qmltypes",
+      "type": "file",
+      "mode": "0o644",
+      "size": 6215,
+      "sha256": "b75299121ae08065fbf38601079b5477da2dc640a695f95c8ef5f8ec9fae1d8f"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel/qmldir",
+      "type": "file",
+      "mode": "0o644",
+      "size": 258,
+      "sha256": "cb1d4c91ab43d52ca6dde5aae5a70c0c89811c132f77c69dc98b8820a147cd3a"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels",
@@ -62114,6 +62160,25 @@
       "sha256": "9b9ef851f0e58ab8379d1dd15d736fda505182076b3b7565366059c79ce431f3"
     },
     {
+      "path": "rootfs/usr/share/doc/qml6-module-qt-labs-folderlistmodel",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/qml6-module-qt-labs-folderlistmodel/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3755,
+      "sha256": "a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4"
+    },
+    {
+      "path": "rootfs/usr/share/doc/qml6-module-qt-labs-folderlistmodel/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 35491,
+      "sha256": "899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af"
+    },
+    {
       "path": "rootfs/usr/share/doc/qml6-module-qt-labs-qmlmodels",
       "type": "dir",
       "mode": "0o755"
@@ -72713,6 +72778,13 @@
       "mode": "0o644",
       "size": 235,
       "sha256": "a04b78d10d79314b4dda7979e0ddd4571b1943803eaeae046bdbb5f073c01d63"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/qml6-module-qt-labs-folderlistmodel",
+      "type": "file",
+      "mode": "0o644",
+      "size": 279,
+      "sha256": "eb2dc16dadb5845f8c81f55e07637a707040eb69784ae9e7934a8904622afb5c"
     },
     {
       "path": "rootfs/usr/share/lintian/overrides/qml6-module-qt-labs-qmlmodels",

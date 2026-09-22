@@ -24,7 +24,7 @@ F	etc/calamares/branding/debian/debian-logo.png	29455	4efad2b1263aee39423ed6c676
 F	etc/calamares/branding/debian/show.qml	1641	3e4a0b498d818af4e2e4f62f6962444cc2de8885cd0de5520dbc587271337137
 F	etc/calamares/branding/debian/slide1.png	45258	9993950f2b6c56197d1105f89db85917d5d2ced35423976e4ed896bf1a56124e
 F	etc/calamares/branding/debian/welcome.png	31352	5f5721364f349b636114879bd0fe5d6ab9562246970de3ef444841481df39c3b
-F	etc/calamares/branding/neebles/branding.desc	821	161f2ee9e279814c725ece5b8e4ad61c623b43a2dd51815e643cbcd1398627a1
+F	etc/calamares/branding/neebles/branding.desc	821	cebce242383dceb036cbbeacc476556dffddd1c164b9d67734fae3e18323c32e
 F	etc/calamares/branding/neebles/neebles-logo.png	26384	1cceebfc8f1ef00b618239807ee31504a725bdae606c6d0902abd7a77ca94158
 F	etc/calamares/branding/neebles/show.local.qml	940	5473709c9ad580da53cb937bf4d768b9a56cadf1e64ed6dfa11f88b1784b913f
 F	etc/calamares/branding/neebles/show.qml	8354	387b207bd7eddf2f5f87e0889589f9931e3cc51574664044a1cd0c1ccbe2c27c
@@ -43,9 +43,10 @@ F	etc/calamares/modules/mount.conf	1402	849ffdc7b3cd2a5e9aaa23fc3228d529fe58573a
 F	etc/calamares/modules/packages.conf	217	d2635268eeb74264e555b96de369c3899aaccb5d30e86a2bfab7600227403097
 F	etc/calamares/modules/shellprocess.conf	146	45df19812c581980eb0c73bdd479df9c263930e3e5165be02d2c4c1a9c61f7cd
 F	etc/calamares/modules/unpackfs.conf	125	8313d4cd7b0e3c887458216af613bfb44add32c0537e4db009dc99eaba0a227a
-F	etc/calamares/modules/users.conf	475	2a9987322c4fb0fad5d99f48b96ce98a6d0f140fc33c00282a9f60caa2f34b15
+F	etc/calamares/modules/users.conf	497	b8b729e7c263006d79fc724f331bb07ff55922920c27eba3cb046a9c6ad76806
 F	etc/calamares/modules/welcome.conf	296	7a6266f3e0a88f72e715e58768084e8f14917ea2bcfe0e0db21373505dd3be9b
 F	etc/calamares/settings.conf	3913	335d94de386e42f8ec93c4f93a8d8f7692e2adaf95538eaf877d19c2fa2fecf9
+F	etc/cracklib/cracklib.conf	1816	364088c9fd0a5f7df138687dd2d05aed38fb24ecae1792cf06f6e55ab5d244b9
 F	etc/cron.d/e2scrub_all	188	ec90578ad9633826c39b2e2e95b236d31b53d9fe85e97a3b30a85e52a8aa95af
 F	etc/cron.daily/dpkg	123	9f2fdd4b4e7706dda74e8e443e1e1da0fbbb19c62a58e230e90d648b69177c35
 F	etc/debconf.conf	2967	0d0e7109df366b0e963add08e218d62afb516218deeb3b5aa9259b821efb569c
@@ -132,10 +133,13 @@ F	etc/ld.so.conf	34	d4b198c463418b493208485def26a6f4c57279467b9dfa491b70433cedb6
 F	etc/ld.so.conf.d/libc.conf	44	90d4c7e43e7661cd116010eb9f50ad5817e43162df344bd1ad10898851b15d41
 F	etc/ld.so.conf.d/x86_64-linux-gnu.conf	100	f03e4740e6922b4f4a1181cd696b52f62f9f10d003740a8940f7121795c59c98
 F	etc/libaudit.conf	191	d48318c90620fde96cb6a8e6eb1eb64663b21200f9d1d053f9e3b4fce24a2543
+F	etc/logcheck/ignore.d.paranoid/cracklib-runtime	182	4121e729ee7d55fa71af358d737e744dffa9825a2a25973082233b892effd2c1
 F	etc/logcheck/ignore.d.server/gpg-agent	1347	f59a06afb08f4b108dd15c71b363f3f6c8dc3a7c48f52c0cfddf007020175295
 F	etc/login.defs	5939	fbb7c9b77f020799f40dad0c6ec27f6b441120447ded71202b7cf79a6d634077
 F	etc/logrotate.d/alternatives	120	edd383958ce315a642cdfa6aa3fbe2779aa5c674b305fe910449b90cee594c58
 F	etc/logrotate.d/dpkg	112	e4103352545278e47a88b2ca2f2d3681ca474d400d8057ba6ac4f18d71c32042
+F	etc/magic	111	58219ec4bfe06d84640b4e86341feb3099cb078146c9eee73ec55152819df247
+F	etc/magic.mime	111	58219ec4bfe06d84640b4e86341feb3099cb078146c9eee73ec55152819df247
 F	etc/mime.types	78282	db27e73f7ffc7779ef8196bc36bba4e11142f09c7c210e1e42d221d28cb90901
 F	etc/mke2fs.conf	813	c998d64f9b58c2235186f8ee75ba602d1fdb2991d94695fd687ab0e8096b6727
 L	etc/modules-load.d/modules.conf	../modules
@@ -605,6 +609,7 @@ F	usr/bin/fc-query	14648	1fcffad5abed5d6c2a2927639c62a577c58fad74ba9dfc5bf5a9284
 F	usr/bin/fc-scan	14648	4e791262a7febc6b54410aebe4cd08fc9ece935e167d0b0c943933acc6fce1b6
 F	usr/bin/fc-validate	14648	14005d1c94c39d91aeb62268f7e19a5318ee246fdd562d2745970bc1aac1fc62
 F	usr/bin/fgrep	41	f1bdb63da98989d55e56cef651139f70448d4c8f6ea40bb02610be439e29bf0c
+F	usr/bin/file	27200	879067e624a6547de9e2a8492378ca2db500e066d71a34764ad9fe0d4eac953d
 F	usr/bin/find	233040	91b75e72c495e68dd6aab198c2fd6c458fd51a2dc361045ee31f8e657417de26
 F	usr/bin/findmnt	102296	598a23e36910f5cf7a99dfe83b6b29b54dae26ec73faa82fb097c0d5ddc36334
 F	usr/bin/flock	35288	231d0d5879ff18acd8edcedb791be807cc7507df4dcfd7a17269d54bbeef21e1
@@ -651,6 +656,9 @@ F	usr/bin/grub-render-label	785448	b02d0fa12248e51e7e7a3de6a8acdf361640263ab03a7
 F	usr/bin/grub-script-check	126440	37bf28c5b9c2ba20b141378030b73af38e6d66de77b500b07dc8874bde04e057
 F	usr/bin/grub-syslinux2cfg	732696	d6dfddb2f1828c6a2fa986f9e1a61dd2dd066f4d06e0fe37384ef6e553a115c7
 F	usr/bin/gsettings	31040	b4e4cd74990fc4536edf4f256b909bff348e797a39107d17acb587ac3d5aebdb
+F	usr/bin/gunzip	2335	852a4855a13856f24fb2c43be3476b45adb8d48ae5d8e9bc28e9dbd3750e6b1b
+F	usr/bin/gzexe	6469	0d7b5975a939c2a8f90497f162b2c51de81d704c4ba02995edffc60644c98ee3
+F	usr/bin/gzip	102200	748e292cdaae29c1dbd3b6407086a27d5062331deb48d2da613d3912347cea5b
 F	usr/bin/hardlink	63976	86a868c9029abdf3ae3a53534c390415f7f4ddc42a4759c187f8715f3791d8da
 F	usr/bin/head	51656	d75b123e441ed3bd503eb3dc45b716c861fcbf5c2228ac302a50bc45f6346f6b
 F	usr/bin/hostid	43432	7b8ac8b7b27f199b84bbbfbb47f84160535e9d0fc78fc28953ffff436a256642
@@ -870,6 +878,7 @@ F	usr/bin/uclampset	72072	4f65eb10ea52b8c48da285d4ea50434c4215c27a86896d2529d1a0
 F	usr/bin/udevadm	629368	127e7ed8d7d67d37ea040d6d0b241c70753a715a9852506db9385c2fba0adcc5
 F	usr/bin/umount	55688	3f3046ef1cdc5134eb0b7ac586c6fea3bcea22aa6614830a14e274f3905b6cd5
 F	usr/bin/uname	43464	458ea035850a5802a46ceb931e2864f9649a9030f43342156c54768f7ffddb3e
+L	usr/bin/uncompress	gunzip
 F	usr/bin/unexpand	47560	1e9b51c41b9b9402be376eb04b66c70a3010d3589b47341ddea9fb4af17e1401
 F	usr/bin/uniq	55752	97ff5eaefce9fe14c9f6a9efff83d2d0f75484f8b04e00c687923ae045f2ba7f
 F	usr/bin/unlink	43432	9a4436291a1130f3345cafb03b0bf09f387fbb54b358e3175faa5e44ef193a59
@@ -899,7 +908,17 @@ F	usr/bin/xkbprint	97032	880b105a55696102fa31a94df9da1997f17a1598c194eef7875bfc7
 F	usr/bin/xkbvleds	23896	9227045eb8d0b78055369e6a562b35d5f504f4b16185f49e59434846ef0c5bce
 F	usr/bin/xkbwatch	23960	b1ad2ef73cec5a2088ac9038e76637395480ecb0a349ef478fc5a80ae674194b
 F	usr/bin/yes	43432	a9e13c3959ab1d0958a96ad49515556cb04d14e83f3e34fdbb9e6d53de7e6a0a
+F	usr/bin/zcat	1973	315569eed21318914bf6d7ab10130caece2decb813a447b34ede5e9b204b9a23
+F	usr/bin/zcmp	1678	2a433fe9999c3159b9619d8a1bd086ddb6c6f0c5e45112e64570e7bca8e3ff25
+F	usr/bin/zdiff	6436	e68c8d136b9e26c8a2a294282da47ec414acea777b6e9b266ddfdaa11fc331f2
 F	usr/bin/zdump	26840	9468f69aa5d9da6099b68a4a36edfe4fba20867c7803bdb6854ad73a98d73555
+F	usr/bin/zegrep	29	67ee7fadec7ea53b4c1f8cfc3c81427b29c0b1381e80b55642617620c84d0bcc
+F	usr/bin/zfgrep	29	87ab5f4c7cb344e409d614d1a69cc156b3b1053d6ae0b59d8e2c2131f3e63e5a
+F	usr/bin/zforce	2076	828b4c63a1388527cad5ee38b5b1143953de6eb30116fda5e3bc80fdd675814e
+F	usr/bin/zgrep	8199	3604de2fcef4bcc90dc8551a12a99c19013981951a9a85d54286c86c682fc378
+F	usr/bin/zless	2434	c5743e1ea6794112058fa98a3d97c51e787184d2e5d79e838975202d37e1eb71
+F	usr/bin/zmore	1837	97199c0b1b05141e7f66e344dc62874a74605d1748c5d2e4897f4f0c65345416
+F	usr/bin/znew	4862	a7af2d46be5a6fba4e23c9c776e355ad603d2836b8251bb085e3997eb0ba5b8f
 F	usr/include/libcalamares/Branding.h	10553	3ac541a6147dd1fd581ab781e581e5dda33931d9141b58d38b35d584da8cc76e
 F	usr/include/libcalamares/CalamaresAbout.h	917	e3f4c9eeb75d3773be4f0403e69b40919540ab1692595f9942818dda30149320
 F	usr/include/libcalamares/CalamaresConfig.h	1102	d23d983f599e5fe287f1ba07c3c60976c909164acafc4eb1fa59b96ce9f74393
@@ -1022,6 +1041,7 @@ F	usr/lib/cryptsetup/scripts/decrypt_ssl	347	4a527a377db8eb7247d3bba512fdf31d0d6
 F	usr/lib/cryptsetup/scripts/passdev	14648	b2420cf5263914b45c4c428b84f12bdc6a88ff93efbc7822389e10031d521ee6
 F	usr/lib/dbus-1.0/dbus-daemon-launch-helper	51272	5a20f18fced2e5e95dc6a72281fdc885632ffd2dc927b36a7214b646d4b99bb5
 L	usr/lib/environment.d/99-environment.conf	/etc/environment
+F	usr/lib/file/magic.mgc	10353312	23e4e113bd1e43940d079f9f8a9a105ce7b99321c917623808701eac99cb81af
 F	usr/lib/gnupg/dirmngr_ldap	93104	a948ecc26c3bc603bd31b1f58d3fc740b625873d38b67977529b6ea5bcb1ab2a
 F	usr/lib/gnupg/gpg-check-pattern	100880	c9c5e51695c271e52b0948837e87c02e6036a0b87dc20e045754e28b4182487a
 F	usr/lib/gnupg/gpg-preset-passphrase	76368	16508dfe6953c403907b67511fe9bc995a399ec3926181505d6a92180262bee7
@@ -1061,7 +1081,7 @@ F	usr/lib/mime/packages/tar	321	ec726cb9277a944c859b295af44683e3b9844236c063de3f
 F	usr/lib/mime/packages/util-linux	90	8c2a3124292211ce117712858ad06a036675a7f7d8f578e5b84267b1196c1665
 F	usr/lib/modprobe.d/fbdev-blacklist.conf	390	e99b6166cf309aa1cbbd296d9fbf93af567148c7316c8d5d7a057cf3e85113ea
 F	usr/lib/modprobe.d/systemd.conf	821	e5a3958cbd3684b63f3cada6604469cc56f727b106d5524daf5aefa6935a48ce
-F	usr/lib/neebles/neebles-calamares-slides	7623	4591eb6448b5dc9a5631ea6c4f337be0984ec902c9691d08cc7433ec9111e31f
+F	usr/lib/neebles/neebles-calamares-slides	7623	8c5955e0dcc01a134c3a1811ce32013e964bce86d9477677b68ef48a1952d8f5
 F	usr/lib/os-prober/newns	14552	671f19b78522b7f2544737ca06cab3eb3fc46ad48d982ab87c5c1a67b188e00a
 F	usr/lib/os-probes/50mounted-tests	2085	22714ed8a929e046f0110272cc3f522ee83d4bb1f14e76ceb2e7e404dcc065ed
 F	usr/lib/os-probes/init/10filesystems	1158	b0168b1b8671c326ac6543aa7625b98d8a8adbfaa736db9df83d605ce9004748
@@ -2915,6 +2935,8 @@ L	usr/lib/x86_64-linux-gnu/libQt6EglFsKmsSupport.so.6	libQt6EglFsKmsSupport.so.6
 F	usr/lib/x86_64-linux-gnu/libQt6EglFsKmsSupport.so.6.8.2	145792	9d60f85a11e2ff81d292671daef65cd4f118fb722bb1d85bc3fabc3f50a0d516
 L	usr/lib/x86_64-linux-gnu/libQt6Gui.so.6	libQt6Gui.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.8.2	8523512	0c608f37f3eee52c8903fe0112f858c9f90df79058a1cef04489c9d7a954e960
+L	usr/lib/x86_64-linux-gnu/libQt6LabsFolderListModel.so.6	libQt6LabsFolderListModel.so.6.8.2
+F	usr/lib/x86_64-linux-gnu/libQt6LabsFolderListModel.so.6.8.2	110096	986ce323882c748b91cc14f1ba28a468425814a6a9fb6c2471deb18b30897731
 L	usr/lib/x86_64-linux-gnu/libQt6LabsQmlModels.so.6	libQt6LabsQmlModels.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6LabsQmlModels.so.6.8.2	197008	03dee4614c4fc63775fbb89c38b808c3bd2b7a824eb9a49b1d6325cf990e8f04
 L	usr/lib/x86_64-linux-gnu/libQt6Multimedia.so.6	libQt6Multimedia.so.6.8.2
@@ -3287,6 +3309,8 @@ F	usr/lib/x86_64-linux-gnu/liblzma.so.5.8.1	198832	01e05a4b5268805a10a2414a8904f
 L	usr/lib/x86_64-linux-gnu/liblzo2.so.2	liblzo2.so.2.0.0
 F	usr/lib/x86_64-linux-gnu/liblzo2.so.2.0.0	145320	c5425e5594b9f73641796b7a311b55ee679773f840c5f1a211f5eea6fa35775b
 F	usr/lib/x86_64-linux-gnu/libm.so.6	977112	6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3
+L	usr/lib/x86_64-linux-gnu/libmagic.so.1	libmagic.so.1.0.0
+F	usr/lib/x86_64-linux-gnu/libmagic.so.1.0.0	182504	325da9f3233b9e19d7695b767b0f8b4489a77b7c7ef941109c833cc2a55e8e57
 L	usr/lib/x86_64-linux-gnu/libmbedcrypto.so.16	libmbedcrypto.so.3.6.6
 F	usr/lib/x86_64-linux-gnu/libmbedcrypto.so.3.6.6	624880	d0fa156bfb6e7cd2d0ea0f8c164dfe50815b128fc4def6c44aa8a2f5d6ec85ef
 L	usr/lib/x86_64-linux-gnu/libmd.so.0	libmd.so.0.1.0
@@ -3725,6 +3749,9 @@ F	usr/lib/x86_64-linux-gnu/qt6/plugins/wayland-shell-integration/libwl-shell-plu
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/wayland-shell-integration/libxdg-shell.so	105680	366ad86fc1a39b60cb93552c47896bfa922381d1cd3f3101ff91b9d8d0bb6e42
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so	51664	e730a2e5af5fdc9ccb59b19b73861750bb48eb97cde2a857b1d21fa8a404312b
 F	usr/lib/x86_64-linux-gnu/qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so	76240	34cf125141218ca6ca91f6eed81977fe1a5739011eb9837a807becfc43b58a06
+F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so	18920	04677076aa13855838e1209dd8519b903d41e46efa7c014bf0c647e6b0c0971d
+F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel/plugins.qmltypes	6215	b75299121ae08065fbf38601079b5477da2dc640a695f95c8ef5f8ec9fae1d8f
+F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/folderlistmodel/qmldir	258	cb1d4c91ab43d52ca6dde5aae5a70c0c89811c132f77c69dc98b8820a147cd3a
 F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels/liblabsmodelsplugin.so	18912	197ebfbd461e928eaa25a7c21df46dfdf7f635aeead947d778c543a9cea84947
 F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels/plugins.qmltypes	15147	f11281566fdfb75573dbbc9f3f71065c0ce97f408e7a80baafb9d2056fd9a54f
 F	usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels/qmldir	227	8ae287ed00333bfacc893a2d12c9d7238cd4e3b87ebdb5f6922ac5120f0f6ab8
@@ -4446,6 +4473,11 @@ F	usr/sbin/chgpasswd	68016	a70f5278cdd61914df5426ad09dabc53bb16dbebb574ee538a033
 F	usr/sbin/chmem	72072	517b003cd5be4b91f9397b44fb60b85789b107897f20e881c28428a9fe3176b6
 F	usr/sbin/chpasswd	97368	58131b1a88b30a8ae483661ac3b8dbecd8601c41c9e8355a13e887d53c97b319
 F	usr/sbin/chroot	51624	019aa72e5412a6b0efdd6d94135acbc15ffbd37f7a5fb5ac47a9ef1c515c6c3e
+F	usr/sbin/cracklib-check	14416	3b6ccaa107f64d44d797166d118f4c6b62587185ff8d864ee2042cd2b208e36d
+F	usr/sbin/cracklib-format	231	8cbaffde3d639519b77ccd9c218a12c594ad0da453cf37b2f79a23db2bf11dc8
+F	usr/sbin/cracklib-packer	14416	c4d515dccb32ec05e8a21829ea326eae0476e34e3a9b47f383abedd5b16f2db8
+F	usr/sbin/cracklib-unpacker	14416	bf168a2c59b95201ec44c0c7487790bd5b52e20e284af6561b7f61893ccc7c83
+F	usr/sbin/create-cracklib-dict	990	7f0691c00d8cea3ac2f69c7a5e7b2f97eaddab2d792ef4e969f6bab544314dcc
 F	usr/sbin/cryptdisks_start	1544	6dd067812d332fa0f01fb7a645b6a9fa659642c8794b7e8f0432a800c6c3ec03
 F	usr/sbin/cryptdisks_stop	844	56b6c322d78025083d3040112c2ac16fec3a5a160c91fd56e728588a67e8568e
 F	usr/sbin/cryptsetup	243488	e405724161d3f1062bfaed6615c81e2b6d202af03d9905cc05918d021af5b098
@@ -4586,6 +4618,7 @@ F	usr/sbin/unix_chkpwd	43256	bc46bfe74e6eb2b884982f59458c3471bb17351836647f63f1d
 F	usr/sbin/unix_update	43256	11209748619367c025975d13fd58594dfd92ef5855f50897a84ae6ecfcca083a
 F	usr/sbin/update-ca-certificates	5672	2cb06c85b5f01c4f6b72c3983d9f66d44aac0a7ac997ee55e7e429aedbc3934d
 F	usr/sbin/update-catalog	9393	65b6aed63e68b8ef975c03736fbb6d6dcb4d34287a7054effd70bfe447790674
+F	usr/sbin/update-cracklib	1182	d27b77e4169d05540c2a4fbfd409f7123fdc771f34eba79ba4fb4258ec5f96ed
 F	usr/sbin/update-passwd	39416	524cc01225dd013ca5ca001a4673955eb3543d807733f8b63b70a275dc4213ee
 F	usr/sbin/update-rc.d	18147	9a85792c1ee2714d34ad2f0dac9becd987cbaedbfe25519dede7378e6c9ebbf1
 F	usr/sbin/update-shells	4066	5dc1c9d0187c6b8b89a64968b5439c37375a0a0889d31ea679990f109df985ca
@@ -5298,6 +5331,8 @@ F	usr/share/binfmts/python3.13	74	e334a9c1a08f364b56440419b0295d486012c19efd45cf
 F	usr/share/bug/cryptsetup	763	f37bf028f730fcad3c4369da63eb285752fab214ab5ef9af790d493d0829d75e
 F	usr/share/bug/cryptsetup-bin	763	f37bf028f730fcad3c4369da63eb285752fab214ab5ef9af790d493d0829d75e
 F	usr/share/bug/dbus/control	46	6331122eb1d70a38c06e98b3151114111fd0a8820776656265570a12c693dec3
+F	usr/share/bug/file/control	16	c7184cb6aa619a440a3d535c298aa1604659a811aeedd7ce1a665dd2d203bc2d
+F	usr/share/bug/file/presubj	595	7b22d304bc13e3d023a66fe4ecf91065e09d0804096ade6f907e588ac047aae0
 F	usr/share/bug/grub-common/presubj	1112	7d74a717e22593d859775580361d27ea561e8a6d98253040ca00867a2ade16fe
 F	usr/share/bug/grub-common/script	1768	c2253f4ed09fbf03764ab479f7b982433da8f0388be930795d1327e9e6b3eb2c
 F	usr/share/bug/init-system-helpers/control	24	c0306308b3e8655628cca8238616b8750ab7003201bdd68937a4739fe087ce5c
@@ -5316,6 +5351,8 @@ F	usr/share/bug/libglvnd0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6f
 F	usr/share/bug/libglx-mesa0/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/libglx-mesa0/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
 F	usr/share/bug/libglx0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
+F	usr/share/bug/libmagic1t64/control	16	c7184cb6aa619a440a3d535c298aa1604659a811aeedd7ce1a665dd2d203bc2d
+F	usr/share/bug/libmagic1t64/presubj	778	e415a01f1e956a57a7a5cba190f54d3cbbaf02770bde03ffd2119a9109c299eb
 F	usr/share/bug/libopengl0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/libvdpau1	553	62ef379a02f7caf68115b035d9ff307e1f985f134db6e3a9b2ec4b6cec7fa673
 F	usr/share/bug/media-types/presubj	548	40ca64c14041a61aba24773d54467a4f9409d3772118348477b2578025ee99bb
@@ -5572,6 +5609,7 @@ F	usr/share/debhelper/autoscripts/prerm-xmlcatalog	81	99b2145ce8632c697a2f6a5189
 F	usr/share/debianutils/shells	42	184fd1ac95af5ad460ee875e9fddb4975e8720ee7d805d964c68d125573537be
 F	usr/share/debianutils/shells.d/bash	50	999107ef5f119f2d28b0d1a1e62530204b1d85fcae2534df811e2a13211e0c70
 F	usr/share/debianutils/shells.d/dash	14	2080d33b239fbbab0b52f5c3ebade4dcdb94e5771ab44c573183365ec7ddd75f
+F	usr/share/dict/cracklib-small	492822	a209692299ff87431db030aa9996c1e51e286f32ce567d78f600d5ae7068ec7f
 F	usr/share/doc/HTML/ca/kioworker6/data/index.cache.bz2	1735	940a33661615171ef4ee041102642cfb49403d6f7415a52de22198be5343d946
 F	usr/share/doc/HTML/ca/kioworker6/data/index.docbook	2196	a331a824099fc6940113fe02d6cc8f87e0dbe18bf6f545691d194b4d0e44c5c7
 F	usr/share/doc/HTML/ca/kioworker6/file/index.cache.bz2	1166	7d28afe5e3940a84ecb3a0429f0a54df24532a11bee694c86f61797fe8f3b404
@@ -5907,6 +5945,11 @@ F	usr/share/doc/coreutils/TODO.gz	3381	c8b2cd236e2ea01e0944160ab19c3ee92db0d18e8
 F	usr/share/doc/coreutils/changelog.Debian.gz	2014	531c0cecb16bda4388c4bb8aff0f3dce75d1517330320877f78d079a077ead0b
 F	usr/share/doc/coreutils/changelog.gz	154902	67bb588aa755762dde99da0ff3f9a45a856f4151479ba59212af5d6347ba41ff
 F	usr/share/doc/coreutils/copyright	5572	3a63d4b11a7ba4c1c17175072ea28e07b0f80c7bc1ca042b27431fe65a14755b
+F	usr/share/doc/cracklib-runtime/changelog.Debian.amd64.gz	234	06f8e078c0fc6b3cbec78b4ddfaf8435013943f936334080b2ae2c236bcaafb2
+F	usr/share/doc/cracklib-runtime/changelog.Debian.gz	1440	9367adac699ed6dc375ea495ba728207e402a26c5229a4d0ee8be794d7adcf64
+F	usr/share/doc/cracklib-runtime/changelog.gz	2493	8e3a80667bae5c82225a49a84850a877eba48e4601a4d7e07de0eced61c7a816
+F	usr/share/doc/cracklib-runtime/copyright	1607	c4974987a368aa934184d1f176236df13e3dba9d5a9baf1b1a175c399093a615
+F	usr/share/doc/cracklib-runtime/cracklib-runtime.html	9725	73e40075326f82ff9a228f10836be25f9ad3b92ba24428e9f4d25661589250c5
 F	usr/share/doc/cryptsetup/AUTHORS	137	012a99c581df2f922c8996d25fb19b13eba7776bb7ceb6b79f97c31208845820
 F	usr/share/doc/cryptsetup/FAQ.md.gz	50723	ff2007a4df050dcfefd82779de9be99013bed09c8030de510e41ed9a4aa7feb7
 F	usr/share/doc/cryptsetup/Keyring.txt	3899	2c0d86a2aed9303024e50b724c6da522f35590f9dc4360508cf86c5e8760f230
@@ -6082,6 +6125,10 @@ F	usr/share/doc/fdisk/NEWS.Debian.gz	465	ef07ba8b9e6bcc88029a15494ae958dd1195ab7
 F	usr/share/doc/fdisk/changelog.Debian.gz	13776	723b33e732fb7dd33535f656015165d334f6acbb7ec42ebe1e83377c15140353
 F	usr/share/doc/fdisk/changelog.gz	113	7d1164ec23c4068457ccf5c3437b81a883e429b94bc301638c1863e58f0dedb2
 F	usr/share/doc/fdisk/copyright	30341	56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6
+F	usr/share/doc/file/README.Debian	980	35c3103f50128c2778811b76288fc13f90a6f03f3dfd485cb3b304f2f9a5bb2c
+F	usr/share/doc/file/changelog.Debian.gz	1879	54e51ff3a3a539fce379e0bb177d26abebf3fc3155cc390facd653bf19212c5d
+F	usr/share/doc/file/changelog.gz	20258	af9328cd797ba9d2e029195b8b88c15b7a1c87b242042d4b4c1455f2ff4deab6
+F	usr/share/doc/file/copyright	6668	6d62c7146de297f172d68e3c4ad4c0d4c995a3b888ccfe5957bf5c9a39d47c6b
 F	usr/share/doc/findutils/NEWS.gz	32783	68679947128d2151965dfabe88695d422a9b147f83af0a6411b77764511da185
 F	usr/share/doc/findutils/README.gz	2279	e01964032d8763f92a9218b967e0931952f3956d7ac65ae5487974c0755575ce
 F	usr/share/doc/findutils/TODO	2860	a730e0cfe11e233069b56626e2240c6cb1add4f4365862558a3d445a6e4fc501
@@ -6201,6 +6248,12 @@ F	usr/share/doc/grub-common/changelog.Debian.gz	16079	72bbc1599766a256a2a7a51ec9
 F	usr/share/doc/grub-common/changelog.gz	289390	671885190ee93e53824838526659774c804d1ab779c7459c9cc24de08b591f2a
 F	usr/share/doc/grub-common/copyright	22963	bd3b5f8b4b6f3592bb1b597c6fb4557516db1a3a51a8c0ade5eb1e0dd09a7e1e
 F	usr/share/doc/grub-common/examples/grub.cfg	1705	e6927d56820b619ea93ce3a94906d73fb44e1b1844f0d18460e56695a2ccea40
+F	usr/share/doc/gzip/NEWS.gz	9676	f130507ca8a70ed40f76bbdba15b991d4554d687d66d99904448c3b8695114a8
+F	usr/share/doc/gzip/README.gz	2780	21d88e8c2560c825dec3b5b9a2332c8b12109909dc1dd6a1a4c059db2263d0d5
+F	usr/share/doc/gzip/TODO	3467	38c15ded8ea1f9aaa0a1f496d7fbbdcc17503a69405336c6e3f2c2bdbd8fbe27
+F	usr/share/doc/gzip/changelog.Debian.gz	1534	ce918850eb69b2f66acbb9b77c7eea7504e2f4a423f4bbc1c5990d828ff49648
+F	usr/share/doc/gzip/changelog.gz	39533	86ea3f09674c817ae17f6e7fad492fc892a4e5d6a7cabac9f767a4f4c4d0bb7f
+F	usr/share/doc/gzip/copyright	2895	02c197fa26ad056ed2382bb8c3e6323d47edfda4539f727b4ab3f4dbf64ac413
 F	usr/share/doc/init-system-helpers/README.invoke-rc.d.gz	2365	f984bf9ff3e6dcf2d7ce0518aff8fbf597319e3c5ee9bcdc5bf914cd97a797fa
 F	usr/share/doc/init-system-helpers/README.policy-rc.d.gz	1835	20800cca32394d24175ebf3e373e7750b9f91f1e311e614d0e98f8f4ea8a0b9f
 F	usr/share/doc/init-system-helpers/changelog.gz	3552	40f4b7e990efe2629c666e7955547c06d86a3441023522f4631d0244762e10d0
@@ -6763,6 +6816,13 @@ F	usr/share/doc/liblzo2-2/changelog.Debian.amd64.gz	231	45cd1336c49a38953c3eeab1
 F	usr/share/doc/liblzo2-2/changelog.Debian.gz	801	632e618f2c0064ad87153971a03c04f4971eea4ccf0426cf994ae40ab38b0414
 F	usr/share/doc/liblzo2-2/changelog.gz	4681	843efde9644e296b5e5271ab92044c58653fffd8f30566fda294409ff4826ac6
 F	usr/share/doc/liblzo2-2/copyright	1286	67f612aaf8ba7dc7dc8d0dd8b67745dee8b87d97cb388768da2cd8b902175479
+F	usr/share/doc/libmagic-mgc/README.Debian	362	585c87bdda485b7d00a2962e34437048cf7f9ca6d61a53a815debc9d89b62b52
+F	usr/share/doc/libmagic-mgc/changelog.Debian.gz	1881	c49bc3eb8b3550f9809393d31a1e904d335f397f8be91bc0e0a92950b86c44e1
+F	usr/share/doc/libmagic-mgc/changelog.gz	20258	af9328cd797ba9d2e029195b8b88c15b7a1c87b242042d4b4c1455f2ff4deab6
+F	usr/share/doc/libmagic-mgc/copyright	6668	6d62c7146de297f172d68e3c4ad4c0d4c995a3b888ccfe5957bf5c9a39d47c6b
+F	usr/share/doc/libmagic1t64/changelog.Debian.gz	1883	6440a604d7d4789fd88763bc4e43286e0281ca7e342af181f61e7acbff88d0ff
+F	usr/share/doc/libmagic1t64/changelog.gz	20258	af9328cd797ba9d2e029195b8b88c15b7a1c87b242042d4b4c1455f2ff4deab6
+F	usr/share/doc/libmagic1t64/copyright	6668	6d62c7146de297f172d68e3c4ad4c0d4c995a3b888ccfe5957bf5c9a39d47c6b
 F	usr/share/doc/libmbedcrypto16/changelog.Debian.gz	3244	5eada13dbefcec5c73b1969945b2ea651393c0f4f94d4510545a73973717d414
 F	usr/share/doc/libmbedcrypto16/changelog.gz	117479	77e41e7e42142f64085ec8261f4d681d691e8f37c88c7fef92e6dd0155cb48e3
 F	usr/share/doc/libmbedcrypto16/copyright	2052	446042a6d62055e5617c220129b03063deff1a2b595ac29d9d10a9058cc10981
@@ -7543,6 +7603,8 @@ F	usr/share/doc/qml-module-qtquick2/changelog.Debian.gz	3994	3cba5eea3998ef78def
 F	usr/share/doc/qml-module-qtquick2/copyright	44601	5efc270a798372057f7ee88c14cf4a7cb41289607f2a15a5c5aa7d26809eddd0
 F	usr/share/doc/qml6-module-org-kde-kirigami/changelog.Debian.gz	3695	5a97d0b3719df351c92da44058d8fddd7fcaa7e94428d80206e43b4c184b81be
 F	usr/share/doc/qml6-module-org-kde-kirigami/copyright	10546	9b9ef851f0e58ab8379d1dd15d736fda505182076b3b7565366059c79ce431f3
+F	usr/share/doc/qml6-module-qt-labs-folderlistmodel/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
+F	usr/share/doc/qml6-module-qt-labs-folderlistmodel/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qt-labs-qmlmodels/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qt-labs-qmlmodels/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtmultimedia/changelog.Debian.gz	3236	bcb673c355cd148549ac0e0b81f6407272d1986bf4663967849c1da698a344ae
@@ -7766,6 +7828,7 @@ F	usr/share/doc/zlib1g/changelog.Debian.gz	1508	c631c3743056aea5d6c114efc27fc9f5
 F	usr/share/doc/zlib1g/changelog.gz	29508	a697e1cefca8aa7ad377a5a46b941f7ccb8c15686d781f74c923c7ecf46afd5b
 F	usr/share/doc/zlib1g/copyright	2927	9e5b96d63773a5d177ba264254390f792be07e41748ebd94730981c6cac31cc6
 F	usr/share/doc-base/base-passwd.users-and-groups	423	159902a0284dbbcc039824ebab914948f8a803280fa2b67742b8f7fd40c50250
+F	usr/share/doc-base/cracklib-runtime.cracklib-runtime	432	11dcdb15986f3daeb96fbe39db470ec9837be1dc465257976b656731abaf9d01
 F	usr/share/doc-base/findutils.findutils	323	83026123456c2f7c1cc44196701180752a65423ade28344ef277cf577b12faa6
 F	usr/share/doc-base/fontconfig.fontconfig-user	560	6407dfe8c19a767d5f3e4abc97790aa3d23f8e81cdd175a4c2881de046a8934a
 F	usr/share/doc-base/libcrack2.libcrack2	541	6ddc9556a67ad35e077c44f962c2c1e26d6c9065cbe3b9ce558a15619831504c
@@ -7779,6 +7842,7 @@ F	usr/share/dpkg/ostable	1880	c5f0d533e607acf9150c78fd373996cb094dfef210e181f627
 F	usr/share/dpkg/sh/dpkg-error.sh	3228	d4d4fd7712da692dbb21a10795f7e62046c90b506338768b5a93cf9f1897f528
 F	usr/share/dpkg/tupletable	2729	4f1e48cb205df7b58a52d4d8a52bc5a06838965ba1fa1595545c3cca7a41b3b4
 F	usr/share/drirc.d/00-mesa-defaults.conf	74857	47d92a9ea932d92a14e01d5936b24812112e207127749f0d92dd7ce0cf4e9132
+L	usr/share/file/magic.mgc	../../lib/file/magic.mgc
 F	usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf	213	7dae5045441ce7ab4ce9ee0ccbee84e2ae90daee9cfd2ac64cd887ee85c528df
 F	usr/share/fontconfig/conf.avail/09-autohint-if-no-hinting.conf	717	f04d1737c2a85925a6294f4b966597d03a30c9e4c551c7a8c270eaad514b2689
 F	usr/share/fontconfig/conf.avail/10-autohint.conf	630	9ae4308a18941969ea42f5881c202be052fe12da3fb1fb4fc4b940642ec74db0
@@ -7886,6 +7950,7 @@ F	usr/share/info/gnupg.info-2.gz	92559	f486fdb2271c7abed991dd88181692867c318e72e
 F	usr/share/info/gnupg.info-3.gz	1827	121ddbb7ec93064d5a5a50341572086b7bcdc6d9fca7c0836c29b4617a57c368
 F	usr/share/info/gnupg.info.gz	2919	c823b8626a5094e00229367a99b5633c87fe030f4a09c8e67c10d5e8c1c67919
 F	usr/share/info/grep.info.gz	34984	76666a8f3a878e5ca9fa5f9e618b7ac703216bb635500d7b1fec41ac9b99f0b1
+F	usr/share/info/gzip.info.gz	15713	96dafaf98b1ea77b9a957adc77022895080db113da7f80f924803b4ad873d5de
 F	usr/share/info/rluserman.info.gz	26693	161d3684da4ce2047c416ef67c935711b353f2479da6769f0dc0a73099795f20
 F	usr/share/info/sed.info.gz	56008	ee8b4b7c5d8ee3b4262c0b4c835b8db1958964398496b6a9bf11bae33123f239
 F	usr/share/initramfs-tools/hooks/btrfs	701	695a9e48c9af29c0e3802ce0defaab3e20fb5b36a561397174cf215ffafc60f5
@@ -8917,6 +8982,7 @@ F	usr/share/lintian/overrides/libkf6wallet6	152	2c66608b5385f1486e0c22fe6c00363b
 F	usr/share/lintian/overrides/libkrb5-3	63	9cdb010e14118fbbfa0f598e2f795a8112ceaa7704cfacb73f61c858ec7fc2be
 F	usr/share/lintian/overrides/libkrb5support0	132	5e3a70fcdde7b54d17fc8f490ccc3c0c3925fbad8036bac8463c90cba4bf1575
 F	usr/share/lintian/overrides/libllvm19	122	80cc22c475ce4eb023439b956592462d47ac4b1b2e86e59431292e3e52b7f653
+F	usr/share/lintian/overrides/libmagic1t64	58	e00a44fc1aab8477c509e1ee3b2b7d6f9a217826d6c2cd9f6fb3054a1fd7c41a
 F	usr/share/lintian/overrides/libmount1	90	ff1461ab0f7d14354a3bf594d4867eeb3fcbf34c9ddf37c6cbb23a5ae7bca916
 F	usr/share/lintian/overrides/libmpg123-0t64	192	b96a68a541a91c273cb9e23c14b9ffc0811f22c7704e32268c15f97226637c5a
 F	usr/share/lintian/overrides/libmtdev1t64	58	8a8472ccd168ac8e3d875efa9d6e01fa2dd3f7ba58f7c67aa262297a0f7e819e
@@ -8992,6 +9058,7 @@ F	usr/share/lintian/overrides/procps	80	752fdc77027228144ffaf069ef048d8f3e125732
 F	usr/share/lintian/overrides/python3	91	17391c6b1531d52e4eed2e4a3a3b753c9b49ea4f383567e7ab13701c2a1ba419
 F	usr/share/lintian/overrides/python3.13	461	c9a9e98a25e25acb9c52f02a1eb8aa01d524ddbbb827b19155143e6177aa8204
 F	usr/share/lintian/overrides/python3.13-minimal	235	a04b78d10d79314b4dda7979e0ddd4571b1943803eaeae046bdbb5f073c01d63
+F	usr/share/lintian/overrides/qml6-module-qt-labs-folderlistmodel	279	eb2dc16dadb5845f8c81f55e07637a707040eb69784ae9e7934a8904622afb5c
 F	usr/share/lintian/overrides/qml6-module-qt-labs-qmlmodels	249	442c4904964c5052b36a00beba6760bc7efd838052019483d60c65ac91aac00b
 F	usr/share/lintian/overrides/qml6-module-qtmultimedia	241	9632ddab0123dfaaf3511e16bfeff6a8dfb2141fe2268b6ee0d3286d0a502ddc
 F	usr/share/lintian/overrides/qml6-module-qtquick-layouts	242	9c5d2a48d6320c48cca965d4982d78dec118f8bdba08313816651ee2d880b0e5
@@ -12807,6 +12874,7 @@ F	usr/share/man/man1/fc-query.1.gz	869	1c9b4763dac7260ef7b135379c9b0f3f4ff6e546e
 F	usr/share/man/man1/fc-scan.1.gz	711	21119cba52903801380a711e14c3a9d4e858e30c27da3596229707d5e8218784
 F	usr/share/man/man1/fc-validate.1.gz	753	c58941a5e7e5609dc1bebed33d68702084a3b4196515477724375871e9d532a8
 L	usr/share/man/man1/fgrep.1.gz	grep.1.gz
+F	usr/share/man/man1/file.1.gz	8860	7cef83cc744a8af5342336922d90ad0fdc3f103422b74f1a1475739090db8104
 F	usr/share/man/man1/find.1.gz	24833	601aa677d537d8a33d58d387f90d3ba1f2de38a79474f49d5199fc26ed257d52
 F	usr/share/man/man1/flock.1.gz	3030	8e0cc74f6a8c28e1106ead25c1a16db33d6d8fcc0c1b4d99f4804797cebe319b
 F	usr/share/man/man1/fmt.1.gz	1075	3f0862e69e784d0cf37488f7eda70987ed56e025165bc348e4880b8b9aa63c3d
@@ -12855,6 +12923,9 @@ F	usr/share/man/man1/grub-render-label.1.gz	714	8bda9d0a0e1e0dbe2f0ca6a314167710
 F	usr/share/man/man1/grub-script-check.1.gz	546	a6db2beeeed8b212826f11959cbbb52df206b273fce19aaa201a23e72374ba8b
 F	usr/share/man/man1/grub-syslinux2cfg.1.gz	805	ae88cd6976ddf3cdc80681a2788272760d09e0be72d6d4cb9a601b5448cb63fa
 F	usr/share/man/man1/gsettings.1.gz	1512	98e1fdb7572fb848387ea17b08ba08ccae9b96801d9c735e8e978f9345a524c5
+L	usr/share/man/man1/gunzip.1.gz	gzip.1.gz
+F	usr/share/man/man1/gzexe.1.gz	760	bbf348e30c6776041a8d284be12b6ed8d4298a09e9f0ecd63cca644a4658c9eb
+F	usr/share/man/man1/gzip.1.gz	6372	807da4b43df20a8613df227219c73feed65db829478ed203f6c37b9b64bed320
 F	usr/share/man/man1/hardlink.1.gz	3682	ea1f50d6f62030f0ae4ea7fddbd5de85b2cab7c883c1b253c183a355d8abd288
 F	usr/share/man/man1/head.1.gz	1118	f44e80cd0de933652743e2d456f39fc6760717cd5dc6c7148c04715df9c8e3df
 F	usr/share/man/man1/hostid.1.gz	695	08bd5bef1721a7694aee54e263d99cad53c70dbea6df7d708cb5fd6cdeba5f54
@@ -13127,6 +13198,7 @@ F	usr/share/man/man1/tty.1.gz	720	7f1c87db076be9d6401156ec3ce4f66c86e69cbf6cdc68
 F	usr/share/man/man1/tzselect.1.gz	1165	1cd78837dba577698f3060b2610873ff1cea8de753315c571a8e233b9dda8658
 F	usr/share/man/man1/uclampset.1.gz	2126	0704c7617de0af551336ecbccc8577c2a868f5e03460dda871fa0de8ba8c284f
 F	usr/share/man/man1/uname.1.gz	910	d4df846c11b8cbed1214efe8fc7d343624f1798f937a87a4cdbb42a067e6fb11
+L	usr/share/man/man1/uncompress.1.gz	gunzip.1.gz
 F	usr/share/man/man1/unexpand.1.gz	1046	180a50978656cf2381be9de6db728c464cdec6274e0da2055c14192bafb3e799
 F	usr/share/man/man1/uniq.1.gz	1319	3bdeb89d5ba546861a9161dd7c492177a548b32d9977010bb33b6880538ea06c
 F	usr/share/man/man1/unlink.1.gz	682	ed5979ee8ca12ea7c21c1a990b406224e028d224151d0dbe13904b0fc0f7852b
@@ -13156,6 +13228,16 @@ F	usr/share/man/man1/xkbprint.1.gz	1379	060f31eff410f4c54178783e0abd00d34ff65291
 F	usr/share/man/man1/xkbvleds.1.gz	1152	580822f2cd9afba3fdde11a7333c190f0a86b0b742d27e62cb715622776be353
 F	usr/share/man/man1/xkbwatch.1.gz	971	6e91a2da2d1c7f9ce596a0350c503a4ab3fc12fc9fe48410078a34af57ac3f02
 F	usr/share/man/man1/yes.1.gz	699	ed86d8e574c2f4418080ccadec25d0dbb4c3fe1d3f80c945238e6c9e9459a64a
+L	usr/share/man/man1/zcat.1.gz	gzip.1.gz
+L	usr/share/man/man1/zcmp.1.gz	zdiff.1.gz
+F	usr/share/man/man1/zdiff.1.gz	460	f99b44d77e65bd51f8f89474cf397ef254c7e97fa7cc5fd24efe7a3477c493ca
+L	usr/share/man/man1/zegrep.1.gz	zgrep.1.gz
+L	usr/share/man/man1/zfgrep.1.gz	zgrep.1.gz
+F	usr/share/man/man1/zforce.1.gz	388	db5fa26dee791b142452c49febd2dbad5b694c3a4790c8ca3a37299ef591fe24
+F	usr/share/man/man1/zgrep.1.gz	605	1c8634e6b8a57893689d60ec14196451b719ac7f986e66a6a9b054507daae635
+F	usr/share/man/man1/zless.1.gz	1009	87516b165c7173f8772083d0c9905abd4fe9e5cefdf8933930cdce6797b8103f
+F	usr/share/man/man1/zmore.1.gz	1663	92a26e05223a030b35faf853f2ea30492c72a609de9097c60e166b577ed25670
+F	usr/share/man/man1/znew.1.gz	586	857d6b89b667bcd7df1011b8e8985ff277eb5b678908ef66286232d0fa821904
 F	usr/share/man/man2/btrfs-ioctl.2.gz	6916	5e8b4e789ad54df32740acf6df37c1af7108e3e44591f2f7475802d5bc27bd2d
 F	usr/share/man/man3/bind_textdomain_codeset.3.gz	1282	5230c8674383c419f0e64b25486ca17ae73007b15db148ceec0458b2271b8acf
 F	usr/share/man/man3/bindtextdomain.3.gz	1282	7da671a31be0ca194b69f2a9aff6bd483b2b4044da817fb781b9091ac0cbc708
@@ -13234,6 +13316,7 @@ F	usr/share/man/man5/logind.conf.5.gz	5910	ea07a25f93283fc429bc0b6128813edaad911
 L	usr/share/man/man5/logind.conf.d.5.gz	logind.conf.5.gz
 F	usr/share/man/man5/machine-id.5.gz	3385	37ccc54f5e538c76a57dedff959b8fcbcf58e9a0d8e899e8f07071faf7282cd0
 F	usr/share/man/man5/machine-info.5.gz	1993	bddeb21003b5ccd37f59ca6c7b69e726f002226fc72b96076258cc1738b8020c
+F	usr/share/man/man5/magic.5.gz	8287	56edd969aeba9fb49b182433dc8fba75c7871dfce49ab6f8b4df786d82fa923b
 F	usr/share/man/man5/mke2fs.conf.5.gz	5602	a1ab03c77133b03e2b964989ba1ee319f98d62b7ec8fc0e3b6df1a11fd2b2db3
 F	usr/share/man/man5/modules-load.d.5.gz	1804	7f00660321abe9f027df51136d5763d0c0fb2471d6112fcbe1cde637a85bd01a
 F	usr/share/man/man5/namespace.conf.5.gz	3010	577753ef5939fe822c50c05915f48b18949f8d1083e242a50496e7a8f9e6c4c6
@@ -13627,6 +13710,11 @@ F	usr/share/man/man8/chgpasswd.8.gz	2756	0d22b89389286f9b4854c79ba784f939c59531e
 F	usr/share/man/man8/chmem.8.gz	2037	f9b9c29d7cfd2314a925393b8e7f61d86341dadaaed22dcc125aea63d3f7e259
 F	usr/share/man/man8/chpasswd.8.gz	2413	95738797ea4eb053fc8c611f1e9de4253133fa8aadf229f7e518e5629b1c01a6
 F	usr/share/man/man8/chroot.8.gz	972	e7fde1b2d58eaa7b1a664ff0f38a44759f96192c7a6765a62fbdf737215c1325
+F	usr/share/man/man8/cracklib-check.8.gz	386	51e9cb1a5749d3c48eb07f369e4c0c75580891fb65ed477cd8b17a5c5fa09c47
+F	usr/share/man/man8/cracklib-format.8.gz	1550	1bd66842488dd6965fbdb0f5036bfbf5f397ea4c1793cd490fea97f2d8e61406
+L	usr/share/man/man8/cracklib-packer.8.gz	cracklib-format.8.gz
+L	usr/share/man/man8/cracklib-unpacker.8.gz	cracklib-format.8.gz
+F	usr/share/man/man8/create-cracklib-dict.8.gz	469	14a823552cfd063620f4b7275400e6c24146a150361e9c67414ee8f108032c85
 F	usr/share/man/man8/cryptdisks_start.8.gz	832	c6417f15aa4b0e822c4f6f66ed63e3b8d619de847d8302aff6008577c46e1321
 F	usr/share/man/man8/cryptdisks_stop.8.gz	742	0832604db68761a51ce7d40b0680db616820419b06392c77ac0a6b64efe28271
 F	usr/share/man/man8/cryptsetup-benchmark.8.gz	2908	a6e8ba6e20b6211c012a5ed7fb7877cbbf834831765b6895e0c2238e005a6496
@@ -14025,6 +14113,7 @@ F	usr/share/man/man8/unix_chkpwd.8.gz	867	216e96e2bafffb3e52665081d4660e8b530ed5
 F	usr/share/man/man8/unix_update.8.gz	877	cc82b392ba9fd37107b75d2569d37f9d6cf6e9556c2976afe89fbac691cf82fc
 F	usr/share/man/man8/update-ca-certificates.8.gz	1472	91bb8938856acea975ad0e42b70d86c600e3e0c4755d172fd7688fe7aad61dd5
 F	usr/share/man/man8/update-catalog.8.gz	1107	1950642c41b68c49a5bdb095d61616ff06b66e102a62f74f0f53d2a7c55a3fd1
+F	usr/share/man/man8/update-cracklib.8.gz	623	955c8a931754cb54b0546b8ea7088f87d7bc3eac24c0122706c262fb2155b093
 F	usr/share/man/man8/update-passwd.8.gz	1338	2e538cb9378ce43238906afc1c14f0ede08df42e097d648b7e413ed41f1b7f60
 F	usr/share/man/man8/update-rc.d.8.gz	2561	dbafbc2d4a0bbcff5fabcf74ace1cb18187e328268b8275285f5c5505b01fc54
 F	usr/share/man/man8/update-shells.8.gz	460	facff1d66cc20a753c897c8a4ceab113b7b0778034490e438c562e0ae022b350
@@ -14359,6 +14448,8 @@ F	usr/share/menu/dash	108	c8bdff923cdb32fc55c80c70546c344e22444dfdccdea6280d9c4c
 F	usr/share/mime/packages/freedesktop.org.xml	2488673	dacfd65f815c094da7a23ebb8b00d26501e32c7c885dfe0cb2dd685c94ae9f57
 F	usr/share/mime/packages/io.systemd.xml	1903	a16475ac20a577be69dcfcdbd97a04a92339728cedc581444dd6cca9ab90c6f5
 F	usr/share/mime/packages/kde6.xml	221568	5dbc8ab417f5485513c9d0a11293c9646b4d674da87407b26475e0bc9839537a
+L	usr/share/misc/magic	../file/magic
+L	usr/share/misc/magic.mgc	../../lib/file/magic.mgc
 F	usr/share/os-prober/common.sh	6706	154be223dcf2c6926eb60778986a24662671e98ddf4ab009145648c884d84b19
 F	usr/share/pam/common-account	1175	8657819f898333b2ff09e8bb4fcc6ffabb02acd015411d0ec89f28a70e672537
 F	usr/share/pam/common-account.md5sums	107	8e2e9985399c29f44638f97acc1b71f9b2b946cfedb21ead16a54cd12c25992a
@@ -15420,3 +15511,7 @@ F	usr/share/zsh/vendor-completions/_systemd-tmpfiles	1521	c02667edc0854b888e68f3
 F	usr/share/zsh/vendor-completions/_timedatectl	2211	5db4b5158961fca1568645f8a47080939da6e35e6d4eec5c6928bf003729d115
 F	usr/share/zsh/vendor-completions/_udevadm	9837	674d650e409d9f197688d25d0ddd7339b19f62adc0e3cf49236104442358584c
 F	usr/share/zsh/vendor-completions/_varlinkctl	2267	426fc6211b85606030f5cc52f851e4b8dc29471af79766d72c79d4376ee32017
+F	var/cache/cracklib/cracklib_dict.hwm	1024	6787c3ee0d1f03e47a6cfc6d639fb89575ef5e28bbb0c8b2ccdc2876b0713669
+F	var/cache/cracklib/cracklib_dict.pwd	245161	c5de5d3ab2fa1e8d1bec21ab2937dfff48e59493fc9af2d7835968516e1d1f68
+F	var/cache/cracklib/cracklib_dict.pwi	12896	7fabf3751149bae4104b400b916b674fac3749c138fec9e9a63cfe8bde6d6044
+F	var/cache/cracklib/src-dicts	32	0be770b4a85fe7c8d864a5776f3e0ab81426184d477dd576087a24132add0227
