@@ -133,6 +133,7 @@ F	etc/security/time.conf	2179	6802adfc8efc6168f87e98e960fa7d15e516a295fef7a6472e
 F	etc/selinux/semanage.conf	2065	920e2adfc551a81617764f0f07ae25919b53f48556bf83e82fb909bc96d73921
 F	etc/sensors.d/.placeholder	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 F	etc/sensors3.conf	10749	628447dcfa3bfbe4c3df9f0885dcbe93a757b82d5dc91369da5139864a969663
+F	etc/sgml/xml-core.cat	45	3c46704b553c4b55ce928ffe89badfcfd08a02f0e6558211dfd57d9ae1e72aa4
 F	etc/skel/.bash_logout	220	26882b79471c25f945c970f8233d8ce29d54e9d5eedcd2884f88affa84a18f56
 F	etc/skel/.bashrc	3526	afae8986f549c6403410e029f9cce7983311512d04b1f02af02e4ce0af0dd2bf
 F	etc/skel/.profile	807	28b4a453b68dde64f814e94bab14ee651f4f162e15dd9920490aa1d49f05d2a4
@@ -519,6 +520,7 @@ F	usr/bin/debconf-escape	668	b1e81e2ac04c2a6c286514f2f410c57b9ac6188ed33ed558722
 F	usr/bin/debconf-set-selections	3216	1f32e8a3daba11364b8f4ca795e1fad83b688f02ab27df8066f5c552d1070f98
 F	usr/bin/debconf-show	1825	314fa1730e1efe15db17307848e7a53e450d0093009b6f1596cd3fe0ffec1b67
 F	usr/bin/df	109488	b0151157177079180b1e104c8c13962cf60dee40f8a415102aca57ac61998a69
+F	usr/bin/dh_installxmlcatalogs	9444	f222c6ae1aa29ced0d69da2b2e375f1b8dcd356ee8cb5f641e012333f39928e5
 F	usr/bin/diff	163440	ae8ef59bc4039e56ce184b6cd55e87526aceb72940e2c16a88113b2ae745613b
 F	usr/bin/diff3	72848	f6ec23f585fe131b71f0b4f69cad3d7c6785e742a17fe22f417b46fef5535f07
 F	usr/bin/dir	158632	8116c93774202ad783b0728842a5f7eea736503bb64956e3b8f0c700b7f76405
@@ -656,7 +658,11 @@ F	usr/bin/piconv	8360	0ddc062a05a184cc3f89338a44437364a29811b420f3660c13915bddfd
 L	usr/bin/pidof	../sbin/killall5
 F	usr/bin/pidwait	39344	23bb9ae1e4b5ab7e11558429d1ba2bba77b757da52cfc780382c668342b500b3
 F	usr/bin/pinky	59848	2a777f5dfd547927e8cbee4523de1a710eba70dd123c52263da955f73b678d0c
+F	usr/bin/pkaction	18816	f5564aa4a3477d1e0896a669e9ae1c9406196b9de8840551ec91935e260e2d59
+F	usr/bin/pkcheck	27008	a4ecb75097732358260d744ac099a4db7c41d5a1123205828161a941b321ffd7
+F	usr/bin/pkexec	30952	32d409cbe0b61cd296661aa22df89d0c2af5b1fbc789a84f0cf529e491243757
 L	usr/bin/pkill	pgrep
+F	usr/bin/pkttyagent	18816	5ab1273ef86c646a4868e831470216610ec28261a2fb1b25746682b9ff2241fa
 F	usr/bin/pl2pm	4536	a974fb9e86c76778a249d47d521e6fa1847c331ba3eea6e240a37b1c44dd6a1d
 F	usr/bin/pldd	22904	6758f3ad520d944938ed995210eefc281307c1f77e729aa5217d3a473c41be67
 F	usr/bin/pmap	35160	10c54e840b591d3bf310c87291e837a537c084560931fcef754f4baac9ee6c7c
@@ -677,6 +683,7 @@ F	usr/bin/ptargrep	4395	0bca747354107929ecefbab2a8128923763bfa622124e20a1194c7f8
 F	usr/bin/ptx	63976	4ad329af0c827f032df7c57dc32f5852fa1eb4f81460da2abfbcc4c1198197e8
 F	usr/bin/pwd	43432	ab8c0b70942a4310d6b03b434aacf911527640d842a97e477abfb4d624d6c990
 F	usr/bin/pwdx	14648	768b673b47eb7b14039553c5d779b91b950fdd2b22ac0f36d810c9555bd26756
+L	usr/bin/qdbus6	../lib/qt6/bin/qdbus
 L	usr/bin/rbash	bash
 F	usr/bin/readlink	55720	1dcaf494f4dec175292b1684b3e978d18a4c3c703c52f81606d9e8eea30eb6db
 F	usr/bin/realpath	55752	43708156c6862ae153685c621c4b9c601ae3f77fefa737cf2f47f3a0f5afaf24
@@ -1054,6 +1061,7 @@ F	usr/lib/mime/packages/tar	321	ec726cb9277a944c859b295af44683e3b9844236c063de3f
 F	usr/lib/mime/packages/util-linux	90	8c2a3124292211ce117712858ad06a036675a7f7d8f578e5b84267b1196c1665
 F	usr/lib/modprobe.d/systemd.conf	821	e5a3958cbd3684b63f3cada6604469cc56f727b106d5524daf5aefa6935a48ce
 F	usr/lib/os-release	286	e249e69c32d81350fdd6b05ac5575255f14e380ba14b8454acea14e49f088bfa
+F	usr/lib/pam.d/polkit-1	270	bc30e80027e6cd3d29900f2f8d46f4137c7c5dc06e0dffc34d5ef586476e5bfb
 F	usr/lib/pam.d/systemd-user	364	78e3e88bd7c242228040dcbcdbae383109508b89a4848b187de77db2520a22ab
 F	usr/lib/pcrlock.d/350-action-efi-application.pcrlock	494	55004b7ef5f4fe64f43cc13a711636501f8ea84c86c446bbea7b042e2e9b0522
 F	usr/lib/pcrlock.d/400-secureboot-separator.pcrlock.d/300-0x00000000.pcrlock	494	007b066ad19fa0ee1234f5c6cd61d946b7e6a64c019b6587ade089ae5c7cfae8
@@ -1068,6 +1076,10 @@ F	usr/lib/pcrlock.d/850-sysinit.pcrlock	495	eda4752d3f7e02804b92e17bf72a457af77a
 F	usr/lib/pcrlock.d/900-ready.pcrlock	495	2c35c52cf253995502b19e74ad2c9e6e58afb65d0218d0dc30d28f6ff829296e
 F	usr/lib/pcrlock.d/950-shutdown.pcrlock	495	aef5af16b60d905e5c1d47641533386a6110d21b96a45e2a25ec7b0c64d713dd
 F	usr/lib/pcrlock.d/990-final.pcrlock	495	e4f9a9605dfd34b4e2c3db841150da52251f1ccf6b9189b5e78c425ac53033e0
+L	usr/lib/policykit-1/polkit-agent-helper-1	../polkit-1/polkit-agent-helper-1
+F	usr/lib/polkit-1/polkit-agent-helper-1	18744	afb16200991dea0f84074bfc0f9f7edd2095bb55ac0558ed347c6ae5f872a5ae
+F	usr/lib/polkit-1/polkitd	129704	1137d506d88e30d4ec0ac7a8ae709e10c53aa1ffed578bd9233ef44ba13c3fa9
+F	usr/lib/qt6/bin/qdbus	76536	b8ef95b005de964e5cfb977ff408a48e2473104f831a803261f31ea002d0723f
 L	usr/lib/ssl/cert.pem	/etc/ssl/certs/ca-certificates.crt
 L	usr/lib/ssl/certs	/etc/ssl/certs
 F	usr/lib/ssl/misc/CA.pl	13397	56b4f814b0414bf11f12b82d099986b8802f33ee7fbdf8345efc29e8d09918e4
@@ -1209,6 +1221,7 @@ F	usr/lib/systemd/system/nss-lookup.target	562	2a2268ca516d4a014e4c14373f31db046
 F	usr/lib/systemd/system/nss-user-lookup.target	521	1b81937b5bd8b93651515ecd7431ea9c8d46ac083545d89ec34361e3b0a5bf8e
 F	usr/lib/systemd/system/pam_namespace.service	331	260c2fecb726b0345692939f8ac5812342d440ccd4e75b7abcecb35d390ba1bd
 F	usr/lib/systemd/system/paths.target	407	8e9ecbb6edeefaeba7134cbf3cc4a17e8e904be7ce6d06840588d7dc3d53ec2b
+F	usr/lib/systemd/system/polkit.service	795	33a1ec8e16691b76e71e023f7b1d4ac8a995e95a0e88d39ba920dd586bcf8cd0
 F	usr/lib/systemd/system/poweroff.target	607	79ee7eac473582df352270dfba069904b9e202f8bb887304e672113aadf35843
 F	usr/lib/systemd/system/printer.target	433	caa896019059440cbe65b51158fedfd47030481f4096ae8d263b121b4ea13a91
 F	usr/lib/systemd/system/proc-sys-fs-binfmt_misc.automount	760	843e118f58505de400d64bb7754017d83d5a1bebd87f4f1720e2461b58d21e48
@@ -1481,6 +1494,7 @@ F	usr/lib/systemd/user/timers.target	453	664a530864df1f13f13b6a7faf556e7b421b808
 F	usr/lib/systemd/user/xdg-desktop-autostart.target	477	b252b6346dede256eab63e28240477e4df4b2f7309ef9ee0d6d0adc80354161d
 F	usr/lib/sysusers.d/basic.conf	1693	3a03f4babbd4ea96e1fa96b83c3640f3a59194c5546695526d0d968f0b0893e3
 F	usr/lib/sysusers.d/dbus.conf	224	2bbbd944502e431abf91762f370c6a6867608d5523beb0d1f5b2f853156f1b9a
+F	usr/lib/sysusers.d/polkit.conf	31	98957a871d9eb781cd17faafbc4c78d0d2df0511f05d00fea4e82b92b19b6d89
 F	usr/lib/sysusers.d/systemd-journal.conf	314	5adaf2b31e29c259e0c8e1c40dd8da8620cde4e60f1d204aea92a0f46047524b
 F	usr/lib/sysusers.d/systemd-network.conf	342	6c53c35556f400960df50c179d673df6b7529aed2e5005220f7c58df294be2de
 F	usr/lib/tmpfiles.d/20-systemd-shell-extra.conf	431	2239913f1b4d343818aef1ba684219c46c3e291c89b1cf2dec1bb2f5e1ff29f6
@@ -1494,6 +1508,7 @@ F	usr/lib/tmpfiles.d/journal-nocow.conf	1097	b0cfe7fb70a62747fd4002a8c5945f7b2a1
 F	usr/lib/tmpfiles.d/legacy.conf	1044	a086b68cd53960cb4419aac07c360a9f4f6491871415811d20e77441e0ea8893
 F	usr/lib/tmpfiles.d/libselinux1.conf	112	bb7c285a572a99cd0691bc27fb7754b0f696563dc0e954f039e6d9a5cef761f6
 F	usr/lib/tmpfiles.d/passwd.conf	239	1a3b927102b44454eb4c47e4fe659de2f5283f364ba27408329a54d4ad47e310
+F	usr/lib/tmpfiles.d/polkit-tmpfiles.conf	46	2b53053611d7624fc77dcda534c04f2a2746362812a905e0cb4a9d5dfa31df46
 F	usr/lib/tmpfiles.d/provision.conf	852	dbb85f57c2e24e703d2cc103b21634a4b53aa4d0f58dac59af74a3f12cddc73a
 F	usr/lib/tmpfiles.d/sudo.conf	27	eed7eb9d7ddaccb3ae13d3225de1302a96754938fea4dc305c43b64cbcb5d0bc
 F	usr/lib/tmpfiles.d/systemd-network.conf	598	4e60ef3d3cc3466ebab75561d70f6e58b7e22cc0a2b7e7e3dfbd083d24b988b6
@@ -1911,6 +1926,8 @@ L	usr/lib/x86_64-linux-gnu/libQt6WlShellIntegration.so.6	libQt6WlShellIntegratio
 F	usr/lib/x86_64-linux-gnu/libQt6WlShellIntegration.so.6.8.2	146400	7f99414e8aa4dd7739ff60bae647dd180e2989d71f4482f01957ecc8a00decb7
 L	usr/lib/x86_64-linux-gnu/libQt6XcbQpa.so.6	libQt6XcbQpa.so.6.8.2
 F	usr/lib/x86_64-linux-gnu/libQt6XcbQpa.so.6.8.2	684328	41a987e598872c69e22f75149d78b210c773e92430d5af0d7015e1eae8f40cfd
+L	usr/lib/x86_64-linux-gnu/libQt6Xml.so.6	libQt6Xml.so.6.8.2
+F	usr/lib/x86_64-linux-gnu/libQt6Xml.so.6.8.2	165984	3dee8a9d16bb76384c131475be7b932e0fc1ab8cbba913512001ec5a45dda802
 L	usr/lib/x86_64-linux-gnu/libSM.so.6	libSM.so.6.0.1
 F	usr/lib/x86_64-linux-gnu/libSM.so.6.0.1	39120	8bacaea082b2ce4284bff87ab3c2aa9852d97b38e088206394665788d9e7f1b2
 L	usr/lib/x86_64-linux-gnu/libX11-xcb.so.1	libX11-xcb.so.1.0.0
@@ -3895,6 +3912,7 @@ L	usr/lib64/ld-linux-x86-64.so.2	../lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
 F	usr/libexec/coreutils/libstdbuf.so	14328	cea1139c8af14a7a28a8c057c18140dec0985e707c43b64510682a2ba4b21c6b
 F	usr/libexec/dpkg/dpkg-db-backup	2546	fba28643afbd3f3cba56ce0ee9825271b233185f8fc4c9afca3e0eeaa04f10be
 F	usr/libexec/dpkg/dpkg-db-keeper	1568	ded97714d3da01e1b056eaff60a7235f089ccddffd2c3b4b7934013a8383647b
+L	usr/libexec/polkit-agent-helper-1	../lib/polkit-1/polkit-agent-helper-1
 F	usr/libexec/sudo/audit_json.so	30984	453ff6b3e1fbcc08970e3292936f24bba1787eeccf4db60e8f48c06d617620eb
 F	usr/libexec/sudo/group_file.so	14384	e3c4db80d7c568f4ffa05c46cda1017f560a58201186d25671679bac0847cd14
 L	usr/libexec/sudo/libsudo_util.so	libsudo_util.so.0.0.0
@@ -3938,6 +3956,7 @@ F	usr/sbin/grpunconv	59672	c9b48bbd8dbf4128ab066a085efc95d6a7599e0cc5d9f463cfaec
 L	usr/sbin/halt	../bin/systemctl
 F	usr/sbin/iconvconfig	31128	7603ae51cced63c78ad4892b2b1dbf0911d153e2910086c7bc42606f889ce637
 L	usr/sbin/init	../lib/systemd/systemd
+F	usr/sbin/install-sgmlcatalog	4551	d6c48b4e38a4b715c803c866ad129cae1f57031aead230070b9c13f650d2ae3f
 F	usr/sbin/installkernel	2711	c2bae1b6effce70935ef82dacacb8dfe994eb9e16c50b9e7765c35372d932be2
 F	usr/sbin/invoke-rc.d	16517	1d389fa6f6297e77b2ba1d2df4a6ec60f4d4d37815b727889f38ba602e713f77
 F	usr/sbin/isosize	35208	a6815d8730514baf56c7ffb2590beb4bb1d8688aa92a2d2de1f97add021dbd3f
@@ -3983,9 +4002,11 @@ L	usr/sbin/telinit	../bin/systemctl
 F	usr/sbin/unix_chkpwd	43256	bc46bfe74e6eb2b884982f59458c3471bb17351836647f63f1d2513c2cf2a5a1
 F	usr/sbin/unix_update	43256	11209748619367c025975d13fd58594dfd92ef5855f50897a84ae6ecfcca083a
 F	usr/sbin/update-ca-certificates	5672	2cb06c85b5f01c4f6b72c3983d9f66d44aac0a7ac997ee55e7e429aedbc3934d
+F	usr/sbin/update-catalog	9393	65b6aed63e68b8ef975c03736fbb6d6dcb4d34287a7054effd70bfe447790674
 F	usr/sbin/update-passwd	39416	524cc01225dd013ca5ca001a4673955eb3543d807733f8b63b70a275dc4213ee
 F	usr/sbin/update-rc.d	18147	9a85792c1ee2714d34ad2f0dac9becd987cbaedbfe25519dede7378e6c9ebbf1
 F	usr/sbin/update-shells	4066	5dc1c9d0187c6b8b89a64968b5439c37375a0a0889d31ea679990f109df985ca
+F	usr/sbin/update-xmlcatalog	17284	66a7ee901314863c9f2f3e6bd891af9bf73a216ad97ce9bf998311284102ea1f
 F	usr/sbin/useradd	159640	3fd1735eb46d2cc6067c509b11c7e7bf1e9dca2ea53f0947bf4f3b1fa93b4225
 F	usr/sbin/userdel	113728	453acfe8d99b41df6af93e0379070c8c859683190b150b4b00c9259166e5c4cb
 F	usr/sbin/usermod	147192	09991129a30399f7847dfde884002e3454ad5d66c53c446a7789e94a74534058
@@ -4603,6 +4624,8 @@ F	usr/share/bug/libglx0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf
 F	usr/share/bug/libopengl0/control	38	97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2
 F	usr/share/bug/mesa-libgallium/control	44	929f2f85f8c3c683fc47c0ad160834826587a77a36b027d00e6ad948bae8b21f
 F	usr/share/bug/mesa-libgallium/script	448	e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587
+F	usr/share/bug/pkexec/control	62	34d2780a15b2ea4d6bb7587a0f1fe7c5cda0e2c4c0729e58d05f4c498054fdcc
+F	usr/share/bug/polkitd/control	62	34d2780a15b2ea4d6bb7587a0f1fe7c5cda0e2c4c0729e58d05f4c498054fdcc
 F	usr/share/bug/procps/presubj	166	dce8e278f33a583a4152deb52c8f375e81ffd29e29c32b56f628001d89731449
 F	usr/share/bug/systemd/control	92	1a21d1a7d8c205a58d0661569e8fc7aedc240b1cbf2a23509b21370a87a88e18
 F	usr/share/bug/systemd/presubj	448	bfe52e4273f655d1535ac962aa433cca17a03bf8f5cdec40dca3215d811fee49
@@ -4785,6 +4808,7 @@ F	usr/share/common-licenses/MPL-2.0	16726	fab3dd6bdab226f1c08630b1dd917e11fcb4ec
 F	usr/share/common-licenses/OFL-1.1	4599	1d361a8f8e8ce6e68457dcd93fb56e162e6baa3bbb7e7573a290d44399f6b57e
 L	usr/share/dbus-1/services/org.freedesktop.systemd1.service	../system-services/org.freedesktop.systemd1.service
 F	usr/share/dbus-1/session.conf	3561	206f009ddcf909422f3651c687b4623a5780fb7486c6d650e5332f57c00d6be1
+F	usr/share/dbus-1/system-services/org.freedesktop.PolicyKit1.service	130	baed12288339ed4b1df90f017beb8af07b56eba1b2edc4a60914880c13617af1
 F	usr/share/dbus-1/system-services/org.freedesktop.hostname1.service	432	b3bed9d69c469af707e9ee8f136cf234a2ee50b63544a4d782d205097ef980f5
 F	usr/share/dbus-1/system-services/org.freedesktop.locale1.service	463	6b3e6b3596a7c0bbb3b354aeec11ac03b351af4462bf7711c20c8f770a7e18f8
 F	usr/share/dbus-1/system-services/org.freedesktop.login1.service	461	b587e7aa8272f22a8e94c283781ff11730352cd23c2dfcf6109863ea15da9b10
@@ -4792,6 +4816,7 @@ F	usr/share/dbus-1/system-services/org.freedesktop.network1.service	465	2b6ff324
 F	usr/share/dbus-1/system-services/org.freedesktop.systemd1.service	412	eac6205bbfde5563ebdd74f9d420db2d19b1fd2fadc7bc47ae8d55845a8bb82d
 F	usr/share/dbus-1/system-services/org.freedesktop.timedate1.service	467	0f3891c48db89bfaff72f50ab239b0a500a651a14998ce25d50373bd33d17ec9
 F	usr/share/dbus-1/system.conf	5807	c0a02340950ce376ccee26d58df2c77466c534dcd368b3486b4b6a60d3741f6b
+F	usr/share/dbus-1/system.d/org.freedesktop.PolicyKit1.conf	638	28067ad27702251ba38d9794738cb81e18ce2151d26b3d103a33b4107c2f9877
 F	usr/share/dbus-1/system.d/org.freedesktop.hostname1.conf	994	98e7eb579288791e01081e75b577baf904ff7eb921afa6738158b86e97d034a7
 F	usr/share/dbus-1/system.d/org.freedesktop.locale1.conf	984	9702f64ef33e68a78d9d1cf852b37c1e64cbde16d2eda96ecbf950c03865e6b3
 F	usr/share/dbus-1/system.d/org.freedesktop.login1.conf	17553	8c12da23940f6ea80495e47a4d0bf9eece02374ed3a9d1e663932afd0271d46d
@@ -4804,6 +4829,9 @@ F	usr/share/debconf/confmodule.sh	2736	2e8d6e49e5c3d7b45914f2b39d2a15c4f53f6d698
 F	usr/share/debconf/debconf.conf	414	2ed2f1e25211c95ae120cecfff540e33a533c03bb2793504c3d692b0b034c2dd
 F	usr/share/debconf/fix_db.pl	2011	c93e407ce5b26da82b2e630b9f7e12af7e9b77ff2475ffbc9c999c6d7963b764
 F	usr/share/debconf/frontend	2515	200c5c0f4c7ad7770e6bb192e14b5d7d668a698d661595f5836e04a365b85293
+F	usr/share/debhelper/autoscripts/postinst-xmlcatalog	60	2bafe56deae9d23112ac157839a20b888dbd48006ab22087fb56172d126f6421
+F	usr/share/debhelper/autoscripts/postrm-xmlcatalog	68	3b10a76850c573a474df72ec48b5a91803fd47617c2c776432867de124348392
+F	usr/share/debhelper/autoscripts/prerm-xmlcatalog	81	99b2145ce8632c697a2f6a5189391895c1570c0f8d728783fe95cfd906dc5740
 F	usr/share/debianutils/shells	42	184fd1ac95af5ad460ee875e9fddb4975e8720ee7d805d964c68d125573537be
 F	usr/share/debianutils/shells.d/bash	50	999107ef5f119f2d28b0d1a1e62530204b1d85fcae2534df811e2a13211e0c70
 F	usr/share/debianutils/shells.d/dash	14	2080d33b239fbbab0b52f5c3ebade4dcdb94e5771ab44c573183365ec7ddd75f
@@ -6063,6 +6091,8 @@ F	usr/share/doc/libqt6widgets6/changelog.Debian.gz	8899	041f04559476e8d33bfc17dd
 F	usr/share/doc/libqt6widgets6/copyright	134315	f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d
 F	usr/share/doc/libqt6wlshellintegration6/changelog.Debian.gz	2158	799412cfb12121af474095e0a09d72a7efee7c186ea1ad3dd842a928be01cdeb
 F	usr/share/doc/libqt6wlshellintegration6/copyright	14808	465c6e85b01f4c6acc3da2f56e0cc737c35b364ccfbea6b68df7c45154da6231
+F	usr/share/doc/libqt6xml6/changelog.Debian.gz	8899	041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b
+F	usr/share/doc/libqt6xml6/copyright	134315	f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d
 F	usr/share/doc/librtmp1/changelog.Debian.amd64.gz	241	2f17799f8b7522cec8537fff51c906ed1bdc3beacd7213328b4d987eb6085be3
 F	usr/share/doc/librtmp1/changelog.Debian.gz	926	484b435b3ac4ce0c3f1d74dafcd6d425e4ee3891606325bbc79c95b3ac96f4e1
 F	usr/share/doc/librtmp1/changelog.gz	4237	372bb94f8da9aa9e8f6835efed992da1303d7ee35f3d43fd68447573b93265ee
@@ -6355,6 +6385,16 @@ F	usr/share/doc/perl/README.Debian	1392	e6e6e8c0dd63ad4fe55cb5796e1d4af9548518d3
 F	usr/share/doc/perl/changelog.Debian.gz	6711	14a7f4a4d168a2fcb847cb3362de5450665e84571f8c0d77a967ad63959538a0
 F	usr/share/doc/perl/changelog.gz	1264	94a13bdf441f11af25c83a430dbe3bc67977275efec412256c9564df540e0b0a
 F	usr/share/doc/perl/copyright	109644	8adf04cb72ca0719dee8fdb8d711768548d10373905eac21e8a640881c230257
+F	usr/share/doc/pkexec/NEWS.Debian.gz	781	cdcfea0dec50e197d581c5ec7097b227b7f05b6f87737b2078d0e90cba2f8e58
+F	usr/share/doc/pkexec/changelog.Debian.gz	9140	b8299ca8a269afd758e8b29f22f3ded0bbcc9b8363deae55840807b980c471e6
+F	usr/share/doc/pkexec/copyright	2300	c1713f05db482f2f07d9f35d15338cdd6239db6fc132ee56d15f7e6e1988859e
+F	usr/share/doc/polkitd/NEWS.Debian.gz	781	cdcfea0dec50e197d581c5ec7097b227b7f05b6f87737b2078d0e90cba2f8e58
+F	usr/share/doc/polkitd/NEWS.md.gz	15594	c4dcccef2431596056b56a310f69247bf23826e2a47cd2d1e4fa03ad6cc0107c
+F	usr/share/doc/polkitd/README.md	2471	ab8c178c9d00f68c8472c94a82aae531fc5a310a45b68b6a25988299cdb224f6
+F	usr/share/doc/polkitd/changelog.Debian.gz	9140	392a96e7d1335cf51788c0934024a99c6f074de39741f341542f129b012ca1d4
+F	usr/share/doc/polkitd/copyright	2300	c1713f05db482f2f07d9f35d15338cdd6239db6fc132ee56d15f7e6e1988859e
+F	usr/share/doc/polkitd/examples/50-local-allow.rules	774	b9e08107b66d4b0c73ae614645de63f78aebf8b6f6c67e3a4d80c22131f2638b
+F	usr/share/doc/polkitd/examples/50-local-deny.rules	917	b8fe6d75cb556234e42331af677442641e28302660aabefbf8e2c0d8a8aa8c67
 F	usr/share/doc/procps/FAQ.gz	2199	bed3a9c8f235c8ef08f9d2cf776a760028c720902f1390a2c8f5e895c564cdcb
 F	usr/share/doc/procps/NEWS.Debian.gz	233	f3aa459649b228f0bc0e1b521c985e255836023c8e892194ce42830322fe7fca
 F	usr/share/doc/procps/README.Debian	1059	f72e687ac1c7650fc649b3ca95f9de4b9e1d743322aa1f1247b662acf9c42494
@@ -6362,6 +6402,8 @@ F	usr/share/doc/procps/bugs.md	3426	01c2558f362cfc7b7ec12fafcaa9f3b874aae1340a79
 F	usr/share/doc/procps/changelog.Debian.gz	3569	c396603910ec5b17918084a695bf7c10c2db71c69aa9371706c658efcf50356c
 F	usr/share/doc/procps/changelog.gz	14253	b0602a1e29b8d69e2fde60127114fbdf64e4106f9e9614da6b9e3179fd2b3abe
 F	usr/share/doc/procps/copyright	3974	90a66617c36d83068b52bbb77cbfef1234f526bfa287156d9d05f7df4d339539
+F	usr/share/doc/qdbus-qt6/changelog.Debian.gz	3291	b3ad22a7b723a389a83cf1abe64022011df459f47b04720b3982dfa5d8158636
+F	usr/share/doc/qdbus-qt6/copyright	12116	19f63572c25ea82c0aa0567fef197753ee716c91ca3db74c6e86ea5544bd6d79
 F	usr/share/doc/qml6-module-qt-labs-qmlmodels/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
 F	usr/share/doc/qml6-module-qt-labs-qmlmodels/copyright	35491	899d36b0633e24e20c2ceef0c97f213e193a87d1ba5396997c649a77897bd9af
 F	usr/share/doc/qml6-module-qtqml-models/changelog.Debian.gz	3755	a20543a3566ae44eb8f71a68529cab99578d399eb56cadf05f82e6b30efd10b4
@@ -6404,6 +6446,13 @@ F	usr/share/doc/sed/changelog.gz	43857	35916b426dd07f8bf0be905164763bef6ee6b33ec
 F	usr/share/doc/sed/copyright	8618	719320e425e8e6da53a55e0fcfa2f2ed9b1332cea16abd65321bd651b2a88568
 F	usr/share/doc/sed/examples/dc.sed	8758	009111ee47e7c2dadfc2aa8793d9d5772f059124fa80c0b9f6bff2a31a44ad6d
 F	usr/share/doc/sed/sedfaq.txt.gz	56527	25d2d2e4b84e90c4e09684c93a07ba0695b21ccc23360ece4509eacedf6fb7b8
+F	usr/share/doc/sgml-base/README.Debian	1518	47dba909302ab8352bea622a8f4cd5e0e79f5724073597710d46326066492201
+F	usr/share/doc/sgml-base/TODO	1553	ef30f70278dd08b604e654a7faa88a2ebbd2ec03460d5fa44c4efbf46f4eb4a5
+F	usr/share/doc/sgml-base/changelog.gz	903	cabc01d184f04362c1577195316fd78802eefe9c13d89c7bc1c3453631d4f204
+F	usr/share/doc/sgml-base/copyright	1291	dd54c039d628f8397d1ed19f418b35281ff419b88d3822dc23e3dc409e2a7fe3
+F	usr/share/doc/sgml-base/examples/postinst	1031	07d40ad223c924a05d65d383dc456ecbf9554eb1871db7f5143c9629db0b2bb4
+F	usr/share/doc/sgml-base/examples/postrm	754	3fd992838d14256ad143a077e9c6ade681d5bd42f00b97e4fc95ce0902140969
+F	usr/share/doc/sgml-base/examples/prerm	793	472d606db6d52e4bd6b0360e7aefb122bcb01a1d5899f017a39479bf7af821a3
 F	usr/share/doc/shared-mime-info/NEWS.gz	15573	ad59e9f8713a6fa718f905a1c71c69299aa81da662fd3d4083077bf8f47633a1
 F	usr/share/doc/shared-mime-info/README.md	1131	3b87431e20d0062df6f8e9c5188fcef48d66dc474a7934e390c7058cd242a40e
 F	usr/share/doc/shared-mime-info/changelog.Debian.amd64.gz	253	0aa3018c79fcb1bc13757d5057b26bdf9d4fad91d46abe0fe3b0fa95daab00a6
@@ -6539,6 +6588,14 @@ F	usr/share/doc/xkb-data/README.Debian	2538	11899778b7095efc2be32bcab5172bea11ac
 F	usr/share/doc/xkb-data/changelog.Debian.gz	1135	64369a3dfe4f89201f63b011ec2ff7e9f0aff954f30627ada8c75153d62ef53a
 F	usr/share/doc/xkb-data/changelog.gz	70	e008a46f2ffc4b03dfe149a360d9e9f862f794c36161bdaf09c6971eac999443
 F	usr/share/doc/xkb-data/copyright	9933	648621d1a2180678818eb393565849bbc8b332cc521c21e009d948ea5541b3c3
+F	usr/share/doc/xml-core/README.Debian	2130	ac55bb216502a25d7b5f85feaf752633ec4cb1a19d00ff4955268b90418ab892
+F	usr/share/doc/xml-core/TODO	1428	bad23eeb015b7c3e69079d808d02f1c5fe89731ce5cb2d591572a108aa59bd3f
+F	usr/share/doc/xml-core/changelog.gz	844	f52e30dd4d83d8d7d91f6ff24a0ec0993e76b8a9a20a8226ad2be327e90eb614
+F	usr/share/doc/xml-core/copyright	1488	3ade07a2a247fa2855938f2dfe3c17b0aa4b0b894e554a4ec358157dc5ca033b
+F	usr/share/doc/xml-core/examples/foo.postinst	1259	f2ec91a59a3316dec687abb1d52554905388a4d7115a730933dcf18e637ddc30
+F	usr/share/doc/xml-core/examples/foo.postrm	726	252ba993107b7c564efdf1decaef1e43b0c16ae0a71e94ae1f8a95065148f185
+F	usr/share/doc/xml-core/examples/foo.prerm	1105	67ecdb1ae105f9b120f9b8a9aa7575fdb6a604708973c184e9af8e9d9670e305
+F	usr/share/doc/xml-core/examples/foo.xmlcatalogs	231	3cd3be20bd54782e8e7d15c7eeb965c6edf1dc63bb9def435900cdd67c1a543b
 F	usr/share/doc/zlib1g/changelog.Debian.amd64.gz	238	55b56c3a523dc79e97cad05e0b9afbb2309cd9e738f636fd39e5f9c5776deb69
 F	usr/share/doc/zlib1g/changelog.Debian.gz	1508	c631c3743056aea5d6c114efc27fc9f53f32a75d3f33767f4d244746e8fa153a
 F	usr/share/doc/zlib1g/changelog.gz	29508	a697e1cefca8aa7ad377a5a46b941f7ccb8c15686d781f74c923c7ecf46afd5b
@@ -7524,6 +7581,7 @@ F	usr/share/lintian/overrides/libqt6quickshapes6	248	baf76bcb89e82a1e6430e0535a2
 F	usr/share/lintian/overrides/libqt6quicktemplates2-6	253	3ccba7fdd6e9b3b2181de34c460c277b696e4db9255216aea35f384f88330ae1
 F	usr/share/lintian/overrides/libqt6widgets6	237	77aaa060534cde34c68ca5e9ffdfcf492d3c7bc25f3bebdac1f8174dcc5e34f2
 F	usr/share/lintian/overrides/libqt6wlshellintegration6	257	08c3e9e44796471ab917c64b389e23f97344211033147e9f408b205293499f5b
+F	usr/share/lintian/overrides/libqt6xml6	233	117a09b8437bf9223c5b0cba3890a7a1dbd8612a6a6044f7c09132c6d66fb058
 F	usr/share/lintian/overrides/libsmartcols1	98	265d92e3412aa121486fdf9c474bab83d26380809d16fb17f69027c6d81f987b
 F	usr/share/lintian/overrides/libssl3t64	54	418ab624307a41fdee3c70f79632449caad9b6407c2d63ad06443a80852622c4
 F	usr/share/lintian/overrides/libsystemd-shared	181	591db1e50be660004c884f179d39bb93c962f20fceacee074d911fa69b0c297c
@@ -7536,16 +7594,19 @@ F	usr/share/lintian/overrides/openssl	160	f7e7408eaeff69d64c13596d78116d2e1ac1bc
 F	usr/share/lintian/overrides/passwd	360	6353b1cbf1d0bb27dbb21bad36d9c820e4a64dc4398a50db31591f8a5099f8d0
 F	usr/share/lintian/overrides/perl	161	762641607c409bb85a6a4ff551f7972a8524cd7e76c331b2ec1168bddc64104e
 F	usr/share/lintian/overrides/perl-base	322	e7ed95d783a7227c30adecc3ebc6d02dde987e5ef56d8b453e8302bdf888a5ad
+F	usr/share/lintian/overrides/polkitd	588	6baf0103111f24ba1478f2bc7257ab4b4a81d79909836c31e5f469c5f84ae709
 F	usr/share/lintian/overrides/procps	80	752fdc77027228144ffaf069ef048d8f3e1257324bd36a1bf94b1c8e4ebf6dde
 F	usr/share/lintian/overrides/qml6-module-qt-labs-qmlmodels	249	442c4904964c5052b36a00beba6760bc7efd838052019483d60c65ac91aac00b
 F	usr/share/lintian/overrides/qml6-module-qtquick-effects	242	4a671db288007eeb6864545478684db11ebe6c1c51c4dd9af81ed9b341c6f7a2
 F	usr/share/lintian/overrides/qml6-module-qtquick-layouts	242	9c5d2a48d6320c48cca965d4982d78dec118f8bdba08313816651ee2d880b0e5
 F	usr/share/lintian/overrides/qt6-wayland	361	d1d34e4cae148cae05671a9d4fc469d7cd15b2ed2555da8619981c41194c5112
+F	usr/share/lintian/overrides/sgml-base	396	3f53de327a68e1c6d89c2b9b2ce3e87c8d897bb21f5d2f2d89d5e98432f34774
 F	usr/share/lintian/overrides/sudo	650	14aab0936133766a8a9bec752e78bae821e8e6e7bd111d99ce13615e421922e0
 F	usr/share/lintian/overrides/systemd	589	73a56d29a17a69f0bb35236cefbecf3aac2c09884d245f3c82b9b78258b5cc27
 F	usr/share/lintian/overrides/systemd-sysv	38	16f69d426a688bf6ca162dd93d039bb2253ffd22286915ab18a09bb810caee36
 F	usr/share/lintian/overrides/util-linux	106	53839df0da52d086f7d2ed940fd693d839ff8cc8fbfbc02c9dcd5dcb177e30ec
 F	usr/share/lintian/overrides/x11-common	123	e0f5ca3e889620c995d03b9f941791e34fdf9aff7bb9f8446586163cb09de8e7
+F	usr/share/lintian/overrides/xml-core	329	fb8141b7cfaecd3e8d6aae995de6a0321611c924a0dac5c112c584a93df29d41
 F	usr/share/lintian/profiles/dpkg/main.profile	270	d8d3386a25eaa491d7054830ed31a67e3fb0946f036d1b557310700e5911dafc
 F	usr/share/locale/ab/LC_MESSAGES/gdk-pixbuf.mo	1016	b7f515f008b1dcc5f8ae58c6bb2e2d44a79a6b3f09ee9800b97dd2accfa14bd0
 F	usr/share/locale/af/LC_MESSAGES/Linux-PAM.mo	494	527c0287ea439be4062bae9bd2cd30df268e9e7c1310019a73ecc885825bd4b2
@@ -7703,6 +7764,7 @@ F	usr/share/locale/cs/LC_MESSAGES/ki18n6.mo	8004	9c13c24adaf4a7eb7d9ab7e6e282011
 F	usr/share/locale/cs/LC_MESSAGES/libapt-pkg7.0.mo	34674	980e35087a7d087f549a6908cc49a24c8002f89850342004f5cdb00f01bc6bb0
 F	usr/share/locale/cs/LC_MESSAGES/libidn2.mo	6694	4ddaa5ced0cbefa96720251bfedef22052887b2f26f96cfb456eb03af19e8739
 F	usr/share/locale/cs/LC_MESSAGES/libkpackage6.mo	6267	deaf7884699321243d03aff60f655fe23be8bf86681121a031b7206164ba9369
+F	usr/share/locale/cs/LC_MESSAGES/polkit-1.mo	5306	7a3325034eaa9bcdd50804e0974c58a8ad0feec80e67ac21a8b1f5130b38110e
 F	usr/share/locale/cs/LC_MESSAGES/sed.mo	15966	50f6e6ba5ab7414d5a3af4cc3b0e979adbfab54e5e711931854236d285ecda3f
 F	usr/share/locale/cs/LC_MESSAGES/shadow.mo	65007	d751ca00e81643cd2d260f5100d520a192b7e407e650d8966cf22e77bedf23e2
 F	usr/share/locale/cs/LC_MESSAGES/shared-mime-info.mo	36683	9a370100e0cb9e49531a02c63238e489839ab2bf2024aa23b361fdaf99f6d408
@@ -7736,6 +7798,7 @@ F	usr/share/locale/da/LC_MESSAGES/ki18n6.mo	7923	f9d19dbd010be94743d38654342b73c
 F	usr/share/locale/da/LC_MESSAGES/libapt-pkg7.0.mo	29500	89a4b9d0b5e3caf4720edea461e76321d4a6a3fcb93d44dc25454a4284c0d004
 F	usr/share/locale/da/LC_MESSAGES/libidn2.mo	4754	597a459c0cc2143e2a06fbc26dd43e7888a042a77fa24c4960c7da23cbd1b387
 F	usr/share/locale/da/LC_MESSAGES/libkpackage6.mo	6120	baeff7030ef5f9f9f344d9600e5cd28b70b626a3fc7c82a392db9b75d73f71ca
+F	usr/share/locale/da/LC_MESSAGES/polkit-1.mo	4843	91adade49b697f9ff47653ca0de13f43033f75d349c12c6fd8187df397d197d8
 F	usr/share/locale/da/LC_MESSAGES/sed.mo	12214	900b4893c6a467767328276f571c3535091ee905f7ae1bba8d9b398dea285baa
 F	usr/share/locale/da/LC_MESSAGES/shadow.mo	58588	9e371b034ef777ce14d6c95eab69c073eef37d74be7b1535cef8a49c96bb99a0
 F	usr/share/locale/da/LC_MESSAGES/shared-mime-info.mo	39599	9ff26ad108efea6b55f634413d8b5a5d8a5afd21bb1784a309cf4271099205c8
@@ -7763,6 +7826,7 @@ F	usr/share/locale/de/LC_MESSAGES/ki18n6.mo	7957	a6b3b4bd191bdd09714c4ee5d03ee42
 F	usr/share/locale/de/LC_MESSAGES/libapt-pkg7.0.mo	37416	539953d8a9d4d01cb6191ecdf2769dc578fef3b0a8ee561c87ce2b393d66cc73
 F	usr/share/locale/de/LC_MESSAGES/libidn2.mo	6883	464a6b04b4d0004edba66fed7a0a1e32f9c9a57666cc9faaaedf81cfff971118
 F	usr/share/locale/de/LC_MESSAGES/libkpackage6.mo	7237	d735ed6566b784de1df4d401963cf3b9d9390b5a79c9dd36fea1cdc8d3b7b9dc
+F	usr/share/locale/de/LC_MESSAGES/polkit-1.mo	5267	df91c22f0e9fbc3468f20863b332dbc0d3dcb21119744442d4112eceee3c7aad
 F	usr/share/locale/de/LC_MESSAGES/procps-ng.mo	78634	ab4d622f0d7b260aa2a4168a962665175bc7346e3500b1708723251b48d12802
 F	usr/share/locale/de/LC_MESSAGES/sed.mo	15493	860c8eecb97133405bf365f39b3c44eb8aaf37df74d594d05e2050da5abd0627
 F	usr/share/locale/de/LC_MESSAGES/shadow.mo	64287	aabb6b58ee20ce65008151476ad27b1a992fc4a699be03be605ec78c2ca7d762
@@ -8032,6 +8096,7 @@ F	usr/share/locale/hi/LC_MESSAGES/karchive6_qt.qm	11409	0db04174e03bd86e987c4cb8
 F	usr/share/locale/hi/LC_MESSAGES/kcoreaddons6_qt.qm	6632	f4e3136d7e30ec2dbbcea954c0fd69e0966df14ac14080b79844031da01d3dcc
 F	usr/share/locale/hi/LC_MESSAGES/ki18n6.mo	8467	80dde28c3ef3cec1b4e11a81f086a962e4f3b9c627ed5fa64aed3285d8b5f9ff
 F	usr/share/locale/hi/LC_MESSAGES/libkpackage6.mo	9944	785417496f8a981ca8c211d08e896303b19c7de3d515658db6f6e40dcd8d527e
+F	usr/share/locale/hi/LC_MESSAGES/polkit-1.mo	7405	bef0611255e2f61e7d37fd9cf0ba6dcaadd9863dbe3dfda9f7c1047282b857d1
 F	usr/share/locale/hi/LC_MESSAGES/shared-mime-info.mo	437	a409b24e76e7033a0e2593eaa61fa495c34bf8362a036af405dd1fbdbc582ec5
 F	usr/share/locale/hi/LC_MESSAGES/systemd.mo	49860	a472f710cce5b057ae9916e1ea6be96cf2642a806fcf64729b7d16c86332af06
 F	usr/share/locale/hne/LC_MESSAGES/kcoreaddons6_qt.qm	24	92a9fa3222fd8eb71ebd4e410171c3afed09d0877d1c9de9672cec5f47892f56
@@ -8046,6 +8111,7 @@ F	usr/share/locale/hr/LC_MESSAGES/grep.mo	18223	7ab6ec65b7770043f0572f0fd10dd38b
 F	usr/share/locale/hr/LC_MESSAGES/kcoreaddons6_qt.qm	41	0467a097fe9c7190d7054e02b6fc1ec87ad3e3039613134475d6eb6a722f9204
 F	usr/share/locale/hr/LC_MESSAGES/ki18n6.mo	2923	1a8ba62d9bfe0b2e1071c081fa7256d12d6912e5a66ae81cc566e99fe2aae9b4
 F	usr/share/locale/hr/LC_MESSAGES/libidn2.mo	1079	46c340f4428095ff1a78bdc99684fe66d5d9d6173c0b529524be425471d9db7f
+F	usr/share/locale/hr/LC_MESSAGES/polkit-1.mo	4974	1c7a69f48d024c52195386143acf46e6caad13906596a4c9215fa4f96366cc37
 F	usr/share/locale/hr/LC_MESSAGES/sed.mo	16218	091fb34437b526249a703732b58a8d7d955ba63020fbbffe5b7a00d48931e5fc
 F	usr/share/locale/hr/LC_MESSAGES/shared-mime-info.mo	43687	7c6f66e8a528da86d26d8d72b9629a3229e0e8a49f56e74b869a8d33110b690d
 F	usr/share/locale/hr/LC_MESSAGES/sudo.mo	25768	b1ec011ebd0ad6ba7baaef12ad3f70b14047a43b3a709120fc8991ec1e35f102
@@ -8071,6 +8137,7 @@ F	usr/share/locale/hu/LC_MESSAGES/ki18n6.mo	7954	cfe495969e4061d55d9a8b85421a363
 F	usr/share/locale/hu/LC_MESSAGES/libapt-pkg7.0.mo	29666	fdc15f7fc2ff2e80d9c663aee790643f98dbfc497e538835c00a5e3804338463
 F	usr/share/locale/hu/LC_MESSAGES/libidn2.mo	5273	0a5d0d7c14baad7f295c233a1aca9a3abce99eee6482416eedf0095cf033bf18
 F	usr/share/locale/hu/LC_MESSAGES/libkpackage6.mo	7186	b2e487cdf929f230a7f1ee6bb22742a539aba2e3942b7a68f0f73d85d6f8af6f
+F	usr/share/locale/hu/LC_MESSAGES/polkit-1.mo	5565	4734772da691f68ae1ddd8086aaecb324ec83bed92ce183be1055ccef33cf76b
 F	usr/share/locale/hu/LC_MESSAGES/sed.mo	12957	62bdb8c4c3d858f7cb4141561a7df7200ed55d679b65d49c8c03c3d9a1716e09
 F	usr/share/locale/hu/LC_MESSAGES/shadow.mo	16898	74c88450881b115d525b721c962caa4eb3626070175c72311117f3642e92eb13
 F	usr/share/locale/hu/LC_MESSAGES/shared-mime-info.mo	40531	f53ccb15d3bfc26abb5cfb2206a3d005c35ed43da07e50c7bba0751714c5bc12
@@ -8106,6 +8173,7 @@ F	usr/share/locale/id/LC_MESSAGES/kcoreaddons6_qt.qm	6629	eb2ba5e75c2ccd8f6f6978
 F	usr/share/locale/id/LC_MESSAGES/ki18n6.mo	7887	14557389edcab598ec486a263984b04b4b7ecfaa359a054dc89caae6456750e6
 F	usr/share/locale/id/LC_MESSAGES/libidn2.mo	6326	793b58eb487a4aa331b73bdb3b8ea70f60199c7e59b12f14e1abeb5b87e529ff
 F	usr/share/locale/id/LC_MESSAGES/libkpackage6.mo	6756	5373a1cc07a6412e0198ddc079273c077f0b3afdac7e7bf391e5e82261956008
+F	usr/share/locale/id/LC_MESSAGES/polkit-1.mo	4846	03a656312130965693abdc829381644cf7619cc98f57912c28ebf6fe9c5be9df
 F	usr/share/locale/id/LC_MESSAGES/sed.mo	15499	de9d54de298fc0d17e148aad312a58c0360ea4635c820dbd4ce672e634788fe7
 F	usr/share/locale/id/LC_MESSAGES/shadow.mo	14392	580edefcf57e296726b15629dffe35170bab727097c27ce9850d2d56e453bb1d
 F	usr/share/locale/id/LC_MESSAGES/shared-mime-info.mo	39731	297e9bcd9563874cd9f0d2baebdff503153ad758447b380ddcbb20352294bfc3
@@ -8141,6 +8209,7 @@ F	usr/share/locale/it/LC_MESSAGES/ki18n6.mo	7912	dc52a5ddbf89b1c3f943b333af4fae3
 F	usr/share/locale/it/LC_MESSAGES/libapt-pkg7.0.mo	35269	aef153ecb682a0f5769335b1fbb60ca4c1030a3422a564b0f7dd4f503ce79680
 F	usr/share/locale/it/LC_MESSAGES/libidn2.mo	933	d1feff112892359e7e70901a2ee252a5b26c3fea62555f42dbe82aae61d621f2
 F	usr/share/locale/it/LC_MESSAGES/libkpackage6.mo	7246	ed6d9ae36a6dbc874b4b692dff41091ea3fc30c09753d845a35ce387547d1e49
+F	usr/share/locale/it/LC_MESSAGES/polkit-1.mo	5291	db48034a029499dd17261c76e630128e51ed429c7e40d2b8de7704465fcaa37d
 F	usr/share/locale/it/LC_MESSAGES/sed.mo	15140	a7311de9e749ade9d262143edf2aab793c49e871b47df0ffbae1c6d5acad0936
 F	usr/share/locale/it/LC_MESSAGES/shadow.mo	19160	b22df39a7754adac609717b288d665966281e6a8f88554351130966377cdf318
 F	usr/share/locale/it/LC_MESSAGES/shared-mime-info.mo	51185	0e3063b9946d17cb0b6a8804bd69a1e01f437aa9ea162d4229200f998f41d2d3
@@ -8190,6 +8259,7 @@ F	usr/share/locale/ka/LC_MESSAGES/kcoreaddons6_qt.qm	9644	d41ff921376d695b6c206b
 F	usr/share/locale/ka/LC_MESSAGES/ki18n6.mo	8006	72919b434b0cd97329edf6e28bfa5bef54445cb424c54d8bc721b09774e2e3db
 F	usr/share/locale/ka/LC_MESSAGES/libidn2.mo	9743	87704024f7f6920b10e0d112b5dcce7dedb22d5a1c48d98860587567033720c7
 F	usr/share/locale/ka/LC_MESSAGES/libkpackage6.mo	10041	d93bce25ff4582a5ac5bdb79cd3978671267fc06f4f0dfc113406b0756ec1a04
+F	usr/share/locale/ka/LC_MESSAGES/polkit-1.mo	7237	13ecbd1558d570a207e254f4195ac99fe069e0575edb1e03b4b30a3ca099f64a
 F	usr/share/locale/ka/LC_MESSAGES/procps-ng.mo	51544	55da726b6c1e613cf825e60773d23e87246140e18fb598f0484c64c6fc7a8814
 F	usr/share/locale/ka/LC_MESSAGES/sed.mo	22339	21fd276823e98465400d9ab1edb5b842709c8da4970df4ef400d6f535dedeae1
 F	usr/share/locale/ka/LC_MESSAGES/shadow.mo	122598	7cdf849a8c22e3507ca5ec13b08362c282a619596b80746674e4cf5016f7fc90
@@ -8386,6 +8456,7 @@ F	usr/share/locale/nl/LC_MESSAGES/ki18n6.mo	7934	e9a1afde8472dd728712679c57d76ff
 F	usr/share/locale/nl/LC_MESSAGES/libapt-pkg7.0.mo	36068	ba8a3b0a950adcf6dab2c7b8d4872a7c1a8e0f627d2e5c57bf54453158628c74
 F	usr/share/locale/nl/LC_MESSAGES/libidn2.mo	6606	6c99c3db8f866a267dc481f0ec5ceb802f00d12ff70851926217b9db04151695
 F	usr/share/locale/nl/LC_MESSAGES/libkpackage6.mo	7100	1f56eb8a59f624e8eff43cefc20715796c2ae93e7387c6464ad2b32f312c559d
+F	usr/share/locale/nl/LC_MESSAGES/polkit-1.mo	5010	6d5a67aafa774d7606a4861f25127bcb7224ce3061044aeda1850df387e4c15c
 F	usr/share/locale/nl/LC_MESSAGES/sed.mo	15769	9ba9c73333727e831c2f8d36d9d2c47853902a82d91682d8cfcc0a097f8cf56b
 F	usr/share/locale/nl/LC_MESSAGES/shadow.mo	83492	642cd333f33160a5a9f6dedbdd400c4b4c1389a1bf041be314eacc0d04d5a803
 F	usr/share/locale/nl/LC_MESSAGES/shared-mime-info.mo	43203	5268d3a997d7b7c79571d39df05b34aa824118e5e6d580ccdcf4adbd1cfc1278
@@ -8404,6 +8475,7 @@ F	usr/share/locale/nn/LC_MESSAGES/kcoreaddons6_qt.qm	8756	1a5c7e005912a5733c16be
 F	usr/share/locale/nn/LC_MESSAGES/ki18n6.mo	8056	a6db0f9e32ab1cd8a9102593570d86b6a5fee6f9edb73faeb2391e0012d66e45
 F	usr/share/locale/nn/LC_MESSAGES/libapt-pkg7.0.mo	11507	63bf46bfa9374d2ac2eb5a4785942cff1e0b4321efe077b328b754caeaa4b027
 F	usr/share/locale/nn/LC_MESSAGES/libkpackage6.mo	6918	8a48ba72b297cfef1f3ab5f0131de558afbb5f04570bed0606f670641aec70ac
+F	usr/share/locale/nn/LC_MESSAGES/polkit-1.mo	4858	b9cd7f1934c41e05c30183a47c33e25df6245b1fcc571b66396bed281c1b65ac
 F	usr/share/locale/nn/LC_MESSAGES/shadow.mo	11360	40f270c14eb8ff3d34307f3947e685d025c47694406c7e63eb2691b1b70fa623
 F	usr/share/locale/nn/LC_MESSAGES/shared-mime-info.mo	24066	1b560b96ddba0338f75d72885d66ffd9c8e1e7986f24e04c79a685db1726202a
 F	usr/share/locale/nn/LC_MESSAGES/sudo.mo	3017	63f4fc09ce1292bd525fdeaae14158311fc0b6e710bf7a6aa3f4cc0186690bd5
@@ -8449,6 +8521,7 @@ F	usr/share/locale/pl/LC_MESSAGES/ki18n6.mo	7971	1c10b82b3ba71f8d5b7d389475895bd
 F	usr/share/locale/pl/LC_MESSAGES/libapt-pkg7.0.mo	35624	257cf59ee52ba1d05d9c387ee3a273777a16dc189aa9960ec5d68203624794ed
 F	usr/share/locale/pl/LC_MESSAGES/libidn2.mo	6722	72f51c569a4bba5d61d7bb54777753e53391d8191cf6a2b351d41351bd56ca6b
 F	usr/share/locale/pl/LC_MESSAGES/libkpackage6.mo	7023	bc9e1fbb377e6f0307113cc2da6f2b4c077208c541eb2611430746aa56279fd7
+F	usr/share/locale/pl/LC_MESSAGES/polkit-1.mo	5783	014c577bc843e376691b5bd92d4f70d0ecf59767b90123e1d96b4f5f74e662ae
 F	usr/share/locale/pl/LC_MESSAGES/procps-ng.mo	99983	0f7e7fc3bfc4229e8fe812353856208ffba970533d5c5ecfeac1c6f90d796d11
 F	usr/share/locale/pl/LC_MESSAGES/sed.mo	16280	fb4b3e24bf414263b153564cba324723997335102028424f087a7a8b5c26a829
 F	usr/share/locale/pl/LC_MESSAGES/shadow.mo	17248	be48ef771cbf82d227749d2b6cae9d00e9b13e1662513899f118721cd5d6eea8
@@ -8476,6 +8549,7 @@ F	usr/share/locale/pt/LC_MESSAGES/kcoreaddons6_qt.qm	7229	6a01456514514831cc4556
 F	usr/share/locale/pt/LC_MESSAGES/ki18n6.mo	13904	2ab27cad2f7af92afecf52dc96fbd8f1338ef4514cf9ce97bad6d85f8d629961
 F	usr/share/locale/pt/LC_MESSAGES/libapt-pkg7.0.mo	23947	8b0feea1a734ecda77dc0260e36ce834bbf8459424e6341b1648ba44529e2546
 F	usr/share/locale/pt/LC_MESSAGES/libkpackage6.mo	6629	94983ccfcfa268f86d8769470fd981ba967e851b4bfdeb197b4950ac70cba8b3
+F	usr/share/locale/pt/LC_MESSAGES/polkit-1.mo	5346	883518c377299aba9b21d0dcacddca744628f4d985ffe61aff56765f6c9196e6
 F	usr/share/locale/pt/LC_MESSAGES/sed.mo	14760	ecc9ee41e5c86190ddecd3c0f91a9b601270f91c41326670ccbf1831b6cfd541
 F	usr/share/locale/pt/LC_MESSAGES/shadow.mo	62327	42cc2f3b07a370677c87b0ac3b1eaa69e08170da403ef2e2fd25a8477075cd69
 F	usr/share/locale/pt/LC_MESSAGES/shared-mime-info.mo	35825	c0e07ac20fc0c2641cd05c03a06058fa9d8a1985636246a5b1b62d88c5cc6d64
@@ -8500,6 +8574,7 @@ F	usr/share/locale/pt_BR/LC_MESSAGES/ki18n6.mo	7942	a3bf0dd9ff5974063d07ea327400
 F	usr/share/locale/pt_BR/LC_MESSAGES/libapt-pkg7.0.mo	35817	70889f4ff17b66e991d0a5c771edf70b2d7aabd2e89fd9dd4a3f4027a0688316
 F	usr/share/locale/pt_BR/LC_MESSAGES/libidn2.mo	6728	c3fdcc34e3bb2550fb87f752d703b24d9d8847e291239bbfca118b1018debeb7
 F	usr/share/locale/pt_BR/LC_MESSAGES/libkpackage6.mo	7152	657c13d3923249552fdf01fe7818984af52ef25900339fcc6b976faa3ad7924d
+F	usr/share/locale/pt_BR/LC_MESSAGES/polkit-1.mo	5476	ce1d96021aac71a29eca58919a135501efabb25bad685df29a5ddff4edffed3a
 F	usr/share/locale/pt_BR/LC_MESSAGES/procps-ng.mo	78613	fd89c372eb33475ff3c7c118367338ee570b5d35c4959f63335f8190fd4a62e2
 F	usr/share/locale/pt_BR/LC_MESSAGES/sed.mo	15397	0889415ac4320b8b29d857dc312fdd461a70d86cef0718033e928b9e2235f9dd
 F	usr/share/locale/pt_BR/LC_MESSAGES/shadow.mo	53495	dfd2fc04e33682d05415d0efe408be368c4487482c40c7b8b3c93603da9e6d47
@@ -8527,6 +8602,7 @@ F	usr/share/locale/ro/LC_MESSAGES/ki18n6.mo	7950	0d549f4ff1c6abd8aa6a20932931e98
 F	usr/share/locale/ro/LC_MESSAGES/libapt-pkg7.0.mo	37951	955e0c0fdf69c787b6de6e35667570e7bcf7d77c52276c9ba2ee654d7123e215
 F	usr/share/locale/ro/LC_MESSAGES/libidn2.mo	6851	849851626841c6ca53605deb6c491b781f9a4c03da01e5b22b39b431c3635d8d
 F	usr/share/locale/ro/LC_MESSAGES/libkpackage6.mo	552	e15b6efabd190152a7ee8d057d9ee579a5ba658c632a20f2d675863997996fd7
+F	usr/share/locale/ro/LC_MESSAGES/polkit-1.mo	5160	666096455ac31a96c9f83b79f51e0037d71c7522cafcda2fda190701d3d26919
 F	usr/share/locale/ro/LC_MESSAGES/procps-ng.mo	105584	ef19f4c06205fa4016eb7b9ce50388c0de7335d649570e9776ccc4ad8ee3ffba
 F	usr/share/locale/ro/LC_MESSAGES/sed.mo	16752	cac641318f56d80218057a729d3d0b7cae4a4956dff7706694e4cbd15b9b7f0d
 F	usr/share/locale/ro/LC_MESSAGES/shadow.mo	86777	e71eeb485d6003262f469d21f6931475b0a83bce922af99f383b2b1197f0eade
@@ -8553,6 +8629,7 @@ F	usr/share/locale/ru/LC_MESSAGES/ki18n6.mo	8194	a47c846ca2af09c6fe2e3c9d79fcc10
 F	usr/share/locale/ru/LC_MESSAGES/libapt-pkg7.0.mo	46145	fa706cb9d31a6ed6ec610111c6ddfe4e4a391d10c25f7e11322667df4674c96c
 F	usr/share/locale/ru/LC_MESSAGES/libidn2.mo	8305	15d202b9ec7b0b56bd5e39b7ecea9d58150bc2239191270cd5cba539bc7df102
 F	usr/share/locale/ru/LC_MESSAGES/libkpackage6.mo	8776	f8295e92e164a6a1fb65179b7fd3c99a2ce868ec3287b3b023ea1fce67f9abca
+F	usr/share/locale/ru/LC_MESSAGES/polkit-1.mo	6525	0e9af1daa8ed609c5685e45b03a650723b14cabe3f2f26d7a983556005fbeacc
 F	usr/share/locale/ru/LC_MESSAGES/sed.mo	19474	96c2be68124049c09dc34d103e49334336aa274b47217773e7877506b8be2653
 F	usr/share/locale/ru/LC_MESSAGES/shadow.mo	84062	9670d7c6ff7479ba772fab11cfc78be20cf2c7c678ac35e57f938c6ae7452228
 F	usr/share/locale/ru/LC_MESSAGES/shared-mime-info.mo	63213	b64a30a709790df99417e39fbcc8d53b1b942c14aee661b7598ee934c3487f23
@@ -8590,6 +8667,7 @@ F	usr/share/locale/sk/LC_MESSAGES/kcoreaddons6_qt.qm	6875	4798e658f6a2be0d944b80
 F	usr/share/locale/sk/LC_MESSAGES/ki18n6.mo	7950	07463887f119e905ca2de1789582d9f093292f15ea905e3b5e4abf5257a81353
 F	usr/share/locale/sk/LC_MESSAGES/libapt-pkg7.0.mo	23560	9eb8c33a4a82d056d3592505b4b44fa3717fb92c6a72ebf6d5e5185ee09f1948
 F	usr/share/locale/sk/LC_MESSAGES/libkpackage6.mo	6254	31ebd1ed28ff2f3edab64b23ac8ed8a5c1d549a30625db99206865f3c7fc4ae7
+F	usr/share/locale/sk/LC_MESSAGES/polkit-1.mo	5366	8d645e8cf9a650df27a214e107c61df749e1c5ece83d18cce59cc38ac5d9f53d
 F	usr/share/locale/sk/LC_MESSAGES/sed.mo	16064	79f00e70da3c7c302f4033a21947a5a47b268f29a6225fa49e2c884f265b2248
 F	usr/share/locale/sk/LC_MESSAGES/shadow.mo	40520	ee3fc8d069c9b2ebd50022f8683ccd412f2adcea3ea86cddff2a9dfd4cdf57e0
 F	usr/share/locale/sk/LC_MESSAGES/shared-mime-info.mo	38467	76c314f06107bf2a742251940ff0becab35c9846bb79b12cec7caff1d7751764
@@ -8611,6 +8689,7 @@ F	usr/share/locale/sl/LC_MESSAGES/kcoreaddons6_qt.qm	10891	8c034712a3ac901296e12
 F	usr/share/locale/sl/LC_MESSAGES/ki18n6.mo	7972	0d347ca6fedc9efd9c1e6a5845d42fd52f6bfe0c647dc97ff20813f94057c2d1
 F	usr/share/locale/sl/LC_MESSAGES/libapt-pkg7.0.mo	23211	c31c459e0aaad22e1fa0d9e6f8458c4f7a4f8124e70fbb5e582c6f361ec0a2d1
 F	usr/share/locale/sl/LC_MESSAGES/libkpackage6.mo	6973	1f6d92e5db41711bd60efe172947e1e0a3276438900e613baea9b00cb4b1fcf3
+F	usr/share/locale/sl/LC_MESSAGES/polkit-1.mo	5239	bcc51445c784bb7be621d4504e0f69f5801e5990b5b2cfaf4f33b93eb107fbe4
 F	usr/share/locale/sl/LC_MESSAGES/sed.mo	8282	fe5400ede4e0e80902581f1e052fe680c53ca47ca12f2d030f8db33628b7757e
 F	usr/share/locale/sl/LC_MESSAGES/shared-mime-info.mo	43822	d95e5b6b4af16cdd11d96225277bc26946040860e0b0ae45ad14d330fbae14eb
 F	usr/share/locale/sl/LC_MESSAGES/sudo.mo	16463	282b2b5aca117f6ec17d9d6b3509c72def15c14208f399e864140afa5a9156f2
@@ -8689,6 +8768,7 @@ F	usr/share/locale/sv/LC_MESSAGES/ki18n6.mo	7953	5b079c1e16fe16e800594a5c0bb17a6
 F	usr/share/locale/sv/LC_MESSAGES/libapt-pkg7.0.mo	33778	0822b2ff79046a9f01b2ff5c450c467e63f296ffe260a70a7b2cfb9cb899bc4b
 F	usr/share/locale/sv/LC_MESSAGES/libidn2.mo	6511	94de30bcb7bd5f630910c2255322520dd920b48a750d1a5dedfc880ef3583937
 F	usr/share/locale/sv/LC_MESSAGES/libkpackage6.mo	6992	f1d8582d255f0653250108dc1013d8cd2405fca609ee407152c2d4ba3c392218
+F	usr/share/locale/sv/LC_MESSAGES/polkit-1.mo	5165	f2b4d68f505ce6e35e20cde6b960eaee342a04d012ce814c822a510132743929
 F	usr/share/locale/sv/LC_MESSAGES/procps-ng.mo	97284	6450fd34e6f9f62e6dae6a4ef3a9604f23a711ba9c46192f8a82d86c6811c5f2
 F	usr/share/locale/sv/LC_MESSAGES/sed.mo	15526	ad0f0a0cc87b642826236b6e3cb1cdf51f4b886be67b7f22e9227ebd4b3a09a2
 F	usr/share/locale/sv/LC_MESSAGES/shadow.mo	51065	0e121dcd8c4839711c0af86a1448d474a5b1066c1596b13b812e1462c7f27988
@@ -8750,6 +8830,7 @@ F	usr/share/locale/tr/LC_MESSAGES/kcoreaddons6_qt.qm	8500	4eef4c42f6a631ae842e7e
 F	usr/share/locale/tr/LC_MESSAGES/ki18n6.mo	7982	e42c04e5fe3421d3d536205f54bd17196b8c1a3856a69fc28da404fdd90416f9
 F	usr/share/locale/tr/LC_MESSAGES/libapt-pkg7.0.mo	34217	5ede6e7be8c55ede8debfa6efcce0cb78545db3c40ef906eb3dde42b5ee779f6
 F	usr/share/locale/tr/LC_MESSAGES/libkpackage6.mo	6758	7db4c97a2ba3068f001cb5fcf7e618581cedcf7c2664ce9dd3f3ce91a167cead
+F	usr/share/locale/tr/LC_MESSAGES/polkit-1.mo	5331	63e7669531b4e3d85ca65a8321dbb2c744645da83f5b9ebe2a63e587589b7ffb
 F	usr/share/locale/tr/LC_MESSAGES/sed.mo	15586	d7d39f5546f48ccb068ef0342f147647fecf08dc9b86043c92609d3565e90d3e
 F	usr/share/locale/tr/LC_MESSAGES/shadow.mo	18589	4eabf3a93a902fe274ab5fdb43af29176e3bc5a871e5d52bf125c4acfb63dd19
 F	usr/share/locale/tr/LC_MESSAGES/shared-mime-info.mo	43999	6a93360270bb50d11913cce58e820d7ca71dbc292d277cfc8dafe51c22fb9a02
@@ -8783,6 +8864,7 @@ F	usr/share/locale/uk/LC_MESSAGES/ki18n6.mo	8050	dc756510a78d6adc987af2fc88b975a
 F	usr/share/locale/uk/LC_MESSAGES/libapt-pkg7.0.mo	29357	09d8c84ea7f26a422e6f8384840509487766fb329af1f4605398327bbb4c76f7
 F	usr/share/locale/uk/LC_MESSAGES/libidn2.mo	8398	12a67e86eba6016ba8bf97f31d11560ad5184e7af9f5e8329f6e105d95b6d501
 F	usr/share/locale/uk/LC_MESSAGES/libkpackage6.mo	8822	bfc4d2b3b8deb313abb677454e4f1937de38450d9aadeb3f1c2898642c5b04bb
+F	usr/share/locale/uk/LC_MESSAGES/polkit-1.mo	6499	ad584c49292c521132ff2937733ce1256e9da9481f5ba8a209ce152d65e2dd08
 F	usr/share/locale/uk/LC_MESSAGES/procps-ng.mo	128374	dbd355e82e64f27a0e5cbc8fd6d3dc1d554e6f1c281e33b56bae315e6138c0ff
 F	usr/share/locale/uk/LC_MESSAGES/sed.mo	19956	f84cbc14a9dff989c2b2ee0cc6d0b0f85f1bff71ee53f33667d3f8b61186e8b6
 F	usr/share/locale/uk/LC_MESSAGES/shadow.mo	98708	82a6c0c0594e9374872dbd037cc26f7f30358b15b07de30d220232258737c296
@@ -8853,6 +8935,7 @@ F	usr/share/locale/zh_CN/LC_MESSAGES/ki18n6.mo	8006	c828ee5663a44bf997d7c8d59187
 F	usr/share/locale/zh_CN/LC_MESSAGES/libapt-pkg7.0.mo	32897	8e5ef0edf8332583ddc5ae74ba42a6ce900221cffd236c5c5c4a0ddb0639ab20
 F	usr/share/locale/zh_CN/LC_MESSAGES/libidn2.mo	6322	bfb667e9e047b5e4587897be81e23f264650657d07169166d9cdc7fa37d93adf
 F	usr/share/locale/zh_CN/LC_MESSAGES/libkpackage6.mo	6643	60d64a69a0c7f3cc7984b025d8f283bbcf560d7cfc932e10771114235829aa14
+F	usr/share/locale/zh_CN/LC_MESSAGES/polkit-1.mo	4663	d994b9589608b1a9b35b2c9f704df4e89123f6ba70e35fc82ee72c6c9df03ed4
 F	usr/share/locale/zh_CN/LC_MESSAGES/procps-ng.mo	12985	96187aba70b93d7c6a8811a6faf3396b068522d22b0e3f1636261a8b16779862
 F	usr/share/locale/zh_CN/LC_MESSAGES/sed.mo	14265	84735b847c8cb71634d717845c78e0194b13dc6de6fcbf940c3e273e604c532e
 F	usr/share/locale/zh_CN/LC_MESSAGES/shadow.mo	66763	3620a35bcd89c6f642f27f3ed5fb4282c60350e78e963ac49c78ea1a6d3a5d54
@@ -8883,6 +8966,7 @@ F	usr/share/locale/zh_TW/LC_MESSAGES/kcoreaddons6_qt.qm	7564	85270dce76b9d2f6e23
 F	usr/share/locale/zh_TW/LC_MESSAGES/ki18n6.mo	7924	2960ae08de3bf1396ab7b52facd8610dfffcc4d8dd1008c0b4eb917585734382
 F	usr/share/locale/zh_TW/LC_MESSAGES/libapt-pkg7.0.mo	13910	725ac7a178f3f2b78d465812d84618af387049bcc2a414ca64a07ff3f06ae8f9
 F	usr/share/locale/zh_TW/LC_MESSAGES/libkpackage6.mo	6717	16ca2edb693b64315e5fb031d54d9e0d0b69691e9ac987730bc3048ee39a12fb
+F	usr/share/locale/zh_TW/LC_MESSAGES/polkit-1.mo	4736	decb3a1999a825c7e9f387e18ebb9c2d7ff1f2ac6e2a5a78e9bfa8638b2d1e3b
 F	usr/share/locale/zh_TW/LC_MESSAGES/sed.mo	14836	93bd57a0c64e3bec4c59c1c66521dabce26adaedfb7280a4842991c066b25f4d
 F	usr/share/locale/zh_TW/LC_MESSAGES/shadow.mo	62720	6b58878a1cf46c14167ada2c271131c6b8bb1c63906a264c4a6dcf0fbc3fd678
 F	usr/share/locale/zh_TW/LC_MESSAGES/shared-mime-info.mo	39853	92cf4cdc4bb4c0519e5da005f7b2b9a66271d776becb93f71cd617f0c06b9cf7
@@ -9251,6 +9335,7 @@ F	usr/share/man/man1/debconf-show.1.gz	1307	5a4041c5c31d81f596a17da71b7a34316edc
 F	usr/share/man/man1/debconf.1.gz	1641	af10cfb7a02251a2d0bfb713200093cd4848c68a7c4bdbb2631d5fda74607ff2
 F	usr/share/man/man1/df.1.gz	1868	ee84eff63af074ec3156541507d29a758a9324f07672e50b261022c32c5a107d
 L	usr/share/man/man1/dgst.1ssl.gz	openssl-cmds.1ssl.gz
+F	usr/share/man/man1/dh_installxmlcatalogs.1.gz	3115	90ab1a4039f032cddc169969724d70312557f19e6e1d7a90feb7bd4f2036ce72
 L	usr/share/man/man1/dhparam.1ssl.gz	openssl-cmds.1ssl.gz
 F	usr/share/man/man1/diff.1.gz	2658	c516e40b681570605f2edf6f58710e503ca4daa476e04e7f5133865022148445
 F	usr/share/man/man1/diff3.1.gz	1360	33c5fe859904e160b497726c6fead710a2c8a01ec7902c7ff9e7aa6b3444c87d
@@ -9595,13 +9680,17 @@ F	usr/share/man/man1/pgrep.1.gz	3186	b5db504cae3f6fc38a9b8558db2a6e9e5a3bb2a270a
 F	usr/share/man/man1/piconv.1.gz	2303	bdd12e7d8a60d4b3465e707e722b15955b634b7e4321533a6b56b46ec4e4e817
 L	usr/share/man/man1/pidwait.1.gz	pgrep.1.gz
 F	usr/share/man/man1/pinky.1.gz	935	3f2acd3683b26cb1d7fa3e3c25e8806d86a02398aaa7109b99514cbc8527ee4f
+F	usr/share/man/man1/pkaction.1.gz	987	ef99396de0dd22d76bfece4b5dbb5bf5ad1811efdb5a69b60b26f5ada3297739
+F	usr/share/man/man1/pkcheck.1.gz	2154	a7733d280b0f4eded4675f4568bfa176d9c87b4df9181decae0221f9e76f9039
 L	usr/share/man/man1/pkcs12.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/pkcs7.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/pkcs8.1ssl.gz	openssl-cmds.1ssl.gz
+F	usr/share/man/man1/pkexec.1.gz	2947	762f1e4635b7fc6622e6d95214f3656e9ad166f8e639bfce9dafeda91454c722
 L	usr/share/man/man1/pkey.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/pkeyparam.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/pkeyutl.1ssl.gz	openssl-cmds.1ssl.gz
 L	usr/share/man/man1/pkill.1.gz	pgrep.1.gz
+F	usr/share/man/man1/pkttyagent.1.gz	1482	5dbc2f344efc7a5d5edb142efa764aedd4cbb1d50be6d4dab3b57ffbf047b8fd
 F	usr/share/man/man1/pl2pm.1.gz	1133	06667cd8f217a26b893a27e9d68080779901b5904551bec072f038241420f34a
 F	usr/share/man/man1/pmap.1.gz	1178	2a22f6f4799f6c1a9fd396430a69af7eec33e23834fd0abf5e6ba769b6da6c75
 F	usr/share/man/man1/pod2html.1.gz	2405	39d23a20557429cdd2b58e72fa2e35f6e966c7709f89bb3239b58678ad80381c
@@ -10257,6 +10346,7 @@ L	usr/share/man/man8/grpconv.8.gz	pwconv.8.gz
 L	usr/share/man/man8/grpunconv.8.gz	pwconv.8.gz
 L	usr/share/man/man8/halt.8.gz	poweroff.8.gz
 L	usr/share/man/man8/i386.8.gz	setarch.8.gz
+F	usr/share/man/man8/install-sgmlcatalog.8.gz	540	74e8a2d9729ab928ff2c381d53e0602f6e691122463f3e23b738ecd2db921646
 F	usr/share/man/man8/installkernel.8.gz	449	8c5dc728d348ed01ce9b4fd0aca56b3a28afe50f597e8291d3e8f12ff182092f
 F	usr/share/man/man8/invoke-rc.d.8.gz	2782	55a5077a1d573c282b17c88274af2d34f3fe2408e2b0428f7b7f4ca88cfd066e
 F	usr/share/man/man8/isosize.8.gz	1167	150ffa34fc6a072a53ffa80bb2e11218df6eb5605db092798d9b36b8f1fab801
@@ -10327,6 +10417,8 @@ F	usr/share/man/man8/pam_xauth.8.gz	2242	19fcf7a4ba0eff8441a3ebe1745258b2af785a1
 F	usr/share/man/man8/partx.8.gz	2526	4168bbd7268b4b47038eee4b746f03ea197a92078942229da382dc19e307f04d
 F	usr/share/man/man8/pidof.8.gz	2062	f7cfed0a7928f0c32ef557ff94db850612298786ff70e56db1c4e2cafa0a2c80
 F	usr/share/man/man8/pivot_root.8.gz	1508	8f93ed7e0e4bc46ff7c872af841b2f4cdd944c2120c39fe93ea53531e13799b5
+F	usr/share/man/man8/polkit.8.gz	8503	84de26af5586887fe51b114af65680ac0fdfbd6206e92724b595d7a341b201cb
+F	usr/share/man/man8/polkitd.8.gz	988	c33b001572375bdf2b3d7b1489850456bdda16e054797a87be9d51aca950c130
 F	usr/share/man/man8/poweroff.8.gz	1261	90baa7402469549256b338840aa4aec23a1f71a62fc44ed18cd4726a7202c046
 F	usr/share/man/man8/pwck.8.gz	2335	fc92df7fb535f0786793d608a08dc92d5014994fa5faea8969397e2b115829d8
 F	usr/share/man/man8/pwconv.8.gz	2130	0277e8178b37d4741c5cedb7a217fd393f1a3315d213d9955e284ddf32bf605a
@@ -10495,9 +10587,11 @@ F	usr/share/man/man8/umount.8.gz	4356	0f5b8c7bfb057fa546e9cebbc064a01b98736e4c6d
 F	usr/share/man/man8/unix_chkpwd.8.gz	867	216e96e2bafffb3e52665081d4660e8b530ed532d8cb3ae02b2d791247e03daf
 F	usr/share/man/man8/unix_update.8.gz	877	cc82b392ba9fd37107b75d2569d37f9d6cf6e9556c2976afe89fbac691cf82fc
 F	usr/share/man/man8/update-ca-certificates.8.gz	1472	91bb8938856acea975ad0e42b70d86c600e3e0c4755d172fd7688fe7aad61dd5
+F	usr/share/man/man8/update-catalog.8.gz	1107	1950642c41b68c49a5bdb095d61616ff06b66e102a62f74f0f53d2a7c55a3fd1
 F	usr/share/man/man8/update-passwd.8.gz	1338	2e538cb9378ce43238906afc1c14f0ede08df42e097d648b7e413ed41f1b7f60
 F	usr/share/man/man8/update-rc.d.8.gz	2561	dbafbc2d4a0bbcff5fabcf74ace1cb18187e328268b8275285f5c5505b01fc54
 F	usr/share/man/man8/update-shells.8.gz	460	facff1d66cc20a753c897c8a4ceab113b7b0778034490e438c562e0ae022b350
+F	usr/share/man/man8/update-xmlcatalog.8.gz	2819	227fd9f668518a51dda766968d1a5b037ea3b30c1cc4ed7f329c8ffe8d05ab6a
 F	usr/share/man/man8/useradd.8.gz	6726	059f7a846ee8271aa2c709af531395bf3ee466c7ae2519f7558070f3132721da
 F	usr/share/man/man8/userdel.8.gz	3162	2ce630b5a2048137005ca31697e48d3166ff2400dec6601b589a246da811af0f
 F	usr/share/man/man8/usermod.8.gz	4644	c32d565af1234ac3b24a9ad2dc240859a8d1ebbae521f12c9717f642e64aec8e
@@ -12303,6 +12397,7 @@ F	usr/share/perl5/Debian/AdduserCommon.pm	17054	cebffd7d51af1b07bcef4e79b21a6078
 F	usr/share/perl5/Debian/AdduserLogging.pm	7225	61f70264cc9bc1ca895df9eb56f37c1ff8f8b598f8560b963ae9e4afa68bf930
 F	usr/share/perl5/Debian/AdduserRetvalues.pm	3114	c702a5ca3c6770b3b5db79c14fb60953503948b830dd368614db6d9da3447c0d
 F	usr/share/perl5/Debian/DebConf/Client/ConfModule.pm	636	dc37ba89da3474451abb2d2eb6a1d992d04c4585d2a8621c5de630ef65295079
+F	usr/share/perl5/Debian/Debhelper/Sequence/xml_core.pm	139	db6f73445ed7681fd02ef09456a3537ddc0ac36129ac32f8865b2702103d9e78
 F	usr/share/perl5/Error.pm	29839	d001384b2e3993b00565941252303d5ac640281399d879f36e6198c23ae6a102
 F	usr/share/perl5/Error/Simple.pm	3788	c50b80f8be893d3f6bf45576d052b49ead84aa768d2bb136a54254f57c53b240
 F	usr/share/perl5/Git.pm	48007	20fd3a9ab88a2f06543a532dd973a308bf3592940c9ba524fbc3b0ba4a2fd690
@@ -12321,9 +12416,12 @@ F	usr/share/polkit-1/actions/org.freedesktop.hostname1.policy	4160	d5c9355ebf31a
 F	usr/share/polkit-1/actions/org.freedesktop.locale1.policy	1902	bc502d176f5cdf8a11159ec6ad242d4ae53c52e9d0782a9814898d8c51cc3828
 F	usr/share/polkit-1/actions/org.freedesktop.login1.policy	25154	b2c416657bac00b38e66d37a3c4a541bdd0000d06aabe0a5f6e94580ea4c7807
 F	usr/share/polkit-1/actions/org.freedesktop.network1.policy	10975	cdfd0719922861c7762e2ad2cb7035c9293a7b65df873db62ad60b7f7465d033
+F	usr/share/polkit-1/actions/org.freedesktop.policykit.policy	5982	ef8d3dbd10c0c6223239bcdab57700444e0904f6368a8df41abbbcdf11c3caad
 F	usr/share/polkit-1/actions/org.freedesktop.systemd1.policy	4385	05b867df07111f0693828fce4db65e6d14d653244952f7a598f4a4b600164d3b
 F	usr/share/polkit-1/actions/org.freedesktop.timedate1.policy	3104	e369f5176cd8a272df31b6eab5b24702c6491d20d5e02bb0a2144b8f5e69d3dd
 F	usr/share/polkit-1/actions/org.freedesktop.timesync1.policy	1342	d545cfcf0ae8fc7a79281a8aa093009275dafb81c0d5231a99d8f9e454ecb3ce
+F	usr/share/polkit-1/policyconfig-1.dtd	881	b04b003079b9e755b980da1d5b8ba353acd27d2aa0784dc19f6293448c83bf57
+F	usr/share/polkit-1/rules.d/50-default.rules	325	29f073ed9a8a6996b62f718e2bec962d5c84d311d23bb874830b4f9887eeabbf
 F	usr/share/polkit-1/rules.d/systemd-networkd.rules	527	f199e386a9297858331b00df07ed0b0ee5fcf4bea67f6c0bccc8a92b7e310bbd
 F	usr/share/qlogging-categories6/karchive.categories	179	b16c0d1e4be3939445405c07d2e2745c7299443a5a56d1b4075618f69933a12a
 F	usr/share/qlogging-categories6/karchive.renamecategories	131	b23b8adadb48d7fd522b3884bc6f0c1ae89de3837fe5d3fdb817207a4896cea1
@@ -12616,10 +12714,21 @@ F	usr/share/qt6/translations/qtwebsockets_pl.qm	7599	4af915de2133ab4e936b4ac485c
 F	usr/share/qt6/translations/qtwebsockets_ru.qm	9562	6c6e2e9914f25bad087d82f5a0438bfaa9b8b965bcb15e6f1f69d7ff22e69e0d
 F	usr/share/qt6/translations/qtwebsockets_uk.qm	9160	9734a5dffb889911a5d9a6eb4ea8f81e5f78e48329ce2747e935bcdf7688d999
 F	usr/share/qt6/translations/qtwebsockets_zh_CN.qm	6220	238fc979cee020c7e0cd9a07fdb14cbb1e8f00b6d5b4ee31fa7abf9abb446e29
+F	usr/share/sgml-base/catalog.centralized	331	26aa2cf3b20538b1ca0bb56d13fa8b414a6691a071ac84c5216d65c5181b4b0d
+F	usr/share/sgml-base/catalog.super	335	660f36a3389875d1f2924bf3918e89909570a8ea8ba0310c1d9c27911e9343c4
+F	usr/share/sgml-base/transitional.cat	354	f109b09b8793eb59736c7ba2e12ca4bcf6c91f03d784c29a7d057ae3f6609ca2
+F	usr/share/sgml/dtd/xml-core/catalog	947	6f0755523a6d0f2f8f6a61cf564ca673bdd5808f040acfb2c80e6e619d1fa605
+L	usr/share/sgml/dtd/xml-core/catalog.dtd	../../../xml/schema/xml-core/catalog.dtd
 F	usr/share/systemd/kbd-model-map	3854	4852eb51ba552df14d7a313281084576264b2a110ac4911bec32ed34ba593261
 F	usr/share/systemd/language-fallback-map	218	df256be45479f419f5671ad5fd99a647017f31a6319b670c72fc2660d5f78c9d
 F	usr/share/util-linux/logcheck/ignore.d.server/util-linux	155	3d25dc26469558ee0720665c24a7e68bb7231771b1ce72384f834285648783e9
+F	usr/share/xml-core/catalog.footer	11	39f7130d91d685f8e543ec1502f9e36ba377978f1be39f5595022669e2aa312c
+F	usr/share/xml-core/catalog.header	202	2b25e4dba8b8a2fabb1a91e2f928634d923cd0bdb73e99dc88cc1c4501de2a37
 F	usr/share/xml/fontconfig/fonts.dtd	8254	76afafd572f6194858eef6d28389505d591d8d2a026da46568046554a87c207f
+F	usr/share/xml/polkit-1/catalog.xml	374	3bcc3363915032a6b02ac043aaa127d33bd74948de4594d0843e5b93bc8a9a2e
+F	usr/share/xml/schema/xml-core/catalog.dtd	3843	007a47a8f3d7698d64293e8e774455ee4d9d6c0a322e02f29b3806e9c03ed61f
+F	usr/share/xml/schema/xml-core/catalog.xml	777	47401aef197be8d76ddbd17ecaa0e6f5d89036303f3190bbb305cf81f0bc6175
+F	usr/share/xml/schema/xml-core/tr9401.dtd	4316	99d475b3e099fc1c4f6be367256b3330a407e058de05563692d23fb9fdfd3e03
 F	usr/share/zsh/vendor-completions/_busctl	10565	4d8f969c0e4ab8c44237ec44390f3555c7dd5dd1939e806ec9a612eb946911ad
 F	usr/share/zsh/vendor-completions/_curl	16308	2a02e2cfd6553c48f10e9465036ebdc3a08dd6f60328009ae532c6c7f9f2db6c
 F	usr/share/zsh/vendor-completions/_hostnamectl	2835	2bb44c6fe3c8d4ba29dfbe8ec8db0060ac63c9e062e2c18b740ae4f532e09082

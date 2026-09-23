@@ -95827,11 +95827,969 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/etc/polkit-1",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/polkit-1/rules.d",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/sgml",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/sgml/xml-core.cat",
+      "type": "file",
+      "mode": "0o644",
+      "size": 45,
+      "sha256": "3c46704b553c4b55ce928ffe89badfcfd08a02f0e6558211dfd57d9ae1e72aa4"
+    },
+    {
+      "path": "rootfs/etc/xml",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/bin/dh_installxmlcatalogs",
+      "type": "file",
+      "mode": "0o755",
+      "size": 9444,
+      "sha256": "f222c6ae1aa29ced0d69da2b2e375f1b8dcd356ee8cb5f641e012333f39928e5"
+    },
+    {
+      "path": "rootfs/usr/bin/pkaction",
+      "type": "file",
+      "mode": "0o755",
+      "size": 18816,
+      "sha256": "f5564aa4a3477d1e0896a669e9ae1c9406196b9de8840551ec91935e260e2d59"
+    },
+    {
+      "path": "rootfs/usr/bin/pkcheck",
+      "type": "file",
+      "mode": "0o755",
+      "size": 27008,
+      "sha256": "a4ecb75097732358260d744ac099a4db7c41d5a1123205828161a941b321ffd7"
+    },
+    {
+      "path": "rootfs/usr/bin/pkexec",
+      "type": "file",
+      "mode": "0o4755",
+      "size": 30952,
+      "sha256": "32d409cbe0b61cd296661aa22df89d0c2af5b1fbc789a84f0cf529e491243757"
+    },
+    {
+      "path": "rootfs/usr/bin/pkttyagent",
+      "type": "file",
+      "mode": "0o755",
+      "size": 18816,
+      "sha256": "5ab1273ef86c646a4868e831470216610ec28261a2fb1b25746682b9ff2241fa"
+    },
+    {
+      "path": "rootfs/usr/bin/qdbus6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../lib/qt6/bin/qdbus"
+    },
+    {
+      "path": "rootfs/usr/lib/pam.d/polkit-1",
+      "type": "file",
+      "mode": "0o644",
+      "size": 270,
+      "sha256": "bc30e80027e6cd3d29900f2f8d46f4137c7c5dc06e0dffc34d5ef586476e5bfb"
+    },
+    {
+      "path": "rootfs/usr/lib/policykit-1",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/policykit-1/polkit-agent-helper-1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../polkit-1/polkit-agent-helper-1"
+    },
+    {
+      "path": "rootfs/usr/lib/polkit-1",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/polkit-1/polkit-agent-helper-1",
+      "type": "file",
+      "mode": "0o755",
+      "size": 18744,
+      "sha256": "afb16200991dea0f84074bfc0f9f7edd2095bb55ac0558ed347c6ae5f872a5ae"
+    },
+    {
+      "path": "rootfs/usr/lib/polkit-1/polkitd",
+      "type": "file",
+      "mode": "0o755",
+      "size": 129704,
+      "sha256": "1137d506d88e30d4ec0ac7a8ae709e10c53aa1ffed578bd9233ef44ba13c3fa9"
+    },
+    {
+      "path": "rootfs/usr/lib/qt6",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/qt6/bin",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/qt6/bin/qdbus",
+      "type": "file",
+      "mode": "0o755",
+      "size": 76536,
+      "sha256": "b8ef95b005de964e5cfb977ff408a48e2473104f831a803261f31ea002d0723f"
+    },
+    {
+      "path": "rootfs/usr/lib/systemd/system/polkit.service",
+      "type": "file",
+      "mode": "0o644",
+      "size": 795,
+      "sha256": "33a1ec8e16691b76e71e023f7b1d4ac8a995e95a0e88d39ba920dd586bcf8cd0"
+    },
+    {
+      "path": "rootfs/usr/lib/sysusers.d/polkit.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 31,
+      "sha256": "98957a871d9eb781cd17faafbc4c78d0d2df0511f05d00fea4e82b92b19b6d89"
+    },
+    {
+      "path": "rootfs/usr/lib/tmpfiles.d/polkit-tmpfiles.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 46,
+      "sha256": "2b53053611d7624fc77dcda534c04f2a2746362812a905e0cb4a9d5dfa31df46"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libQt6Xml.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libQt6Xml.so.6.8.2"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libQt6Xml.so.6.8.2",
+      "type": "file",
+      "mode": "0o644",
+      "size": 165984,
+      "sha256": "3dee8a9d16bb76384c131475be7b932e0fc1ab8cbba913512001ec5a45dda802"
+    },
+    {
+      "path": "rootfs/usr/libexec/polkit-agent-helper-1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../lib/polkit-1/polkit-agent-helper-1"
+    },
+    {
+      "path": "rootfs/usr/sbin/install-sgmlcatalog",
+      "type": "file",
+      "mode": "0o755",
+      "size": 4551,
+      "sha256": "d6c48b4e38a4b715c803c866ad129cae1f57031aead230070b9c13f650d2ae3f"
+    },
+    {
+      "path": "rootfs/usr/sbin/update-catalog",
+      "type": "file",
+      "mode": "0o755",
+      "size": 9393,
+      "sha256": "65b6aed63e68b8ef975c03736fbb6d6dcb4d34287a7054effd70bfe447790674"
+    },
+    {
+      "path": "rootfs/usr/sbin/update-xmlcatalog",
+      "type": "file",
+      "mode": "0o755",
+      "size": 17284,
+      "sha256": "66a7ee901314863c9f2f3e6bd891af9bf73a216ad97ce9bf998311284102ea1f"
+    },
+    {
+      "path": "rootfs/usr/share/bug/pkexec",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/bug/pkexec/control",
+      "type": "file",
+      "mode": "0o644",
+      "size": 62,
+      "sha256": "34d2780a15b2ea4d6bb7587a0f1fe7c5cda0e2c4c0729e58d05f4c498054fdcc"
+    },
+    {
+      "path": "rootfs/usr/share/bug/polkitd",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/bug/polkitd/control",
+      "type": "file",
+      "mode": "0o644",
+      "size": 62,
+      "sha256": "34d2780a15b2ea4d6bb7587a0f1fe7c5cda0e2c4c0729e58d05f4c498054fdcc"
+    },
+    {
+      "path": "rootfs/usr/share/dbus-1/system-services/org.freedesktop.PolicyKit1.service",
+      "type": "file",
+      "mode": "0o644",
+      "size": 130,
+      "sha256": "baed12288339ed4b1df90f017beb8af07b56eba1b2edc4a60914880c13617af1"
+    },
+    {
+      "path": "rootfs/usr/share/dbus-1/system.d/org.freedesktop.PolicyKit1.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 638,
+      "sha256": "28067ad27702251ba38d9794738cb81e18ce2151d26b3d103a33b4107c2f9877"
+    },
+    {
+      "path": "rootfs/usr/share/debhelper",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/debhelper/autoscripts",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/debhelper/autoscripts/postinst-xmlcatalog",
+      "type": "file",
+      "mode": "0o644",
+      "size": 60,
+      "sha256": "2bafe56deae9d23112ac157839a20b888dbd48006ab22087fb56172d126f6421"
+    },
+    {
+      "path": "rootfs/usr/share/debhelper/autoscripts/postrm-xmlcatalog",
+      "type": "file",
+      "mode": "0o644",
+      "size": 68,
+      "sha256": "3b10a76850c573a474df72ec48b5a91803fd47617c2c776432867de124348392"
+    },
+    {
+      "path": "rootfs/usr/share/debhelper/autoscripts/prerm-xmlcatalog",
+      "type": "file",
+      "mode": "0o644",
+      "size": 81,
+      "sha256": "99b2145ce8632c697a2f6a5189391895c1570c0f8d728783fe95cfd906dc5740"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libqt6xml6",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libqt6xml6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 8899,
+      "sha256": "041f04559476e8d33bfc17ddf376c2816876488b30778b644e27936ed1ec925b"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libqt6xml6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 134315,
+      "sha256": "f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d"
+    },
+    {
+      "path": "rootfs/usr/share/doc/pkexec",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/pkexec/NEWS.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 781,
+      "sha256": "cdcfea0dec50e197d581c5ec7097b227b7f05b6f87737b2078d0e90cba2f8e58"
+    },
+    {
+      "path": "rootfs/usr/share/doc/pkexec/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 9140,
+      "sha256": "b8299ca8a269afd758e8b29f22f3ded0bbcc9b8363deae55840807b980c471e6"
+    },
+    {
+      "path": "rootfs/usr/share/doc/pkexec/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2300,
+      "sha256": "c1713f05db482f2f07d9f35d15338cdd6239db6fc132ee56d15f7e6e1988859e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/NEWS.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 781,
+      "sha256": "cdcfea0dec50e197d581c5ec7097b227b7f05b6f87737b2078d0e90cba2f8e58"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/NEWS.md.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 15594,
+      "sha256": "c4dcccef2431596056b56a310f69247bf23826e2a47cd2d1e4fa03ad6cc0107c"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/README.md",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2471,
+      "sha256": "ab8c178c9d00f68c8472c94a82aae531fc5a310a45b68b6a25988299cdb224f6"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 9140,
+      "sha256": "392a96e7d1335cf51788c0934024a99c6f074de39741f341542f129b012ca1d4"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2300,
+      "sha256": "c1713f05db482f2f07d9f35d15338cdd6239db6fc132ee56d15f7e6e1988859e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/examples",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/examples/50-local-allow.rules",
+      "type": "file",
+      "mode": "0o644",
+      "size": 774,
+      "sha256": "b9e08107b66d4b0c73ae614645de63f78aebf8b6f6c67e3a4d80c22131f2638b"
+    },
+    {
+      "path": "rootfs/usr/share/doc/polkitd/examples/50-local-deny.rules",
+      "type": "file",
+      "mode": "0o644",
+      "size": 917,
+      "sha256": "b8fe6d75cb556234e42331af677442641e28302660aabefbf8e2c0d8a8aa8c67"
+    },
+    {
+      "path": "rootfs/usr/share/doc/qdbus-qt6",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/qdbus-qt6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3291,
+      "sha256": "b3ad22a7b723a389a83cf1abe64022011df459f47b04720b3982dfa5d8158636"
+    },
+    {
+      "path": "rootfs/usr/share/doc/qdbus-qt6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 12116,
+      "sha256": "19f63572c25ea82c0aa0567fef197753ee716c91ca3db74c6e86ea5544bd6d79"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/README.Debian",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1518,
+      "sha256": "47dba909302ab8352bea622a8f4cd5e0e79f5724073597710d46326066492201"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/TODO",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1553,
+      "sha256": "ef30f70278dd08b604e654a7faa88a2ebbd2ec03460d5fa44c4efbf46f4eb4a5"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 903,
+      "sha256": "cabc01d184f04362c1577195316fd78802eefe9c13d89c7bc1c3453631d4f204"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1291,
+      "sha256": "dd54c039d628f8397d1ed19f418b35281ff419b88d3822dc23e3dc409e2a7fe3"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/examples",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/examples/postinst",
+      "type": "file",
+      "mode": "0o755",
+      "size": 1031,
+      "sha256": "07d40ad223c924a05d65d383dc456ecbf9554eb1871db7f5143c9629db0b2bb4"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/examples/postrm",
+      "type": "file",
+      "mode": "0o755",
+      "size": 754,
+      "sha256": "3fd992838d14256ad143a077e9c6ade681d5bd42f00b97e4fc95ce0902140969"
+    },
+    {
+      "path": "rootfs/usr/share/doc/sgml-base/examples/prerm",
+      "type": "file",
+      "mode": "0o755",
+      "size": 793,
+      "sha256": "472d606db6d52e4bd6b0360e7aefb122bcb01a1d5899f017a39479bf7af821a3"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/README.Debian",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2130,
+      "sha256": "ac55bb216502a25d7b5f85feaf752633ec4cb1a19d00ff4955268b90418ab892"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/TODO",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1428,
+      "sha256": "bad23eeb015b7c3e69079d808d02f1c5fe89731ce5cb2d591572a108aa59bd3f"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 844,
+      "sha256": "f52e30dd4d83d8d7d91f6ff24a0ec0993e76b8a9a20a8226ad2be327e90eb614"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1488,
+      "sha256": "3ade07a2a247fa2855938f2dfe3c17b0aa4b0b894e554a4ec358157dc5ca033b"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/examples",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/examples/foo.postinst",
+      "type": "file",
+      "mode": "0o755",
+      "size": 1259,
+      "sha256": "f2ec91a59a3316dec687abb1d52554905388a4d7115a730933dcf18e637ddc30"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/examples/foo.postrm",
+      "type": "file",
+      "mode": "0o755",
+      "size": 726,
+      "sha256": "252ba993107b7c564efdf1decaef1e43b0c16ae0a71e94ae1f8a95065148f185"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/examples/foo.prerm",
+      "type": "file",
+      "mode": "0o755",
+      "size": 1105,
+      "sha256": "67ecdb1ae105f9b120f9b8a9aa7575fdb6a604708973c184e9af8e9d9670e305"
+    },
+    {
+      "path": "rootfs/usr/share/doc/xml-core/examples/foo.xmlcatalogs",
+      "type": "file",
+      "mode": "0o644",
+      "size": 231,
+      "sha256": "3cd3be20bd54782e8e7d15c7eeb965c6edf1dc63bb9def435900cdd67c1a543b"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/libqt6xml6",
+      "type": "file",
+      "mode": "0o644",
+      "size": 233,
+      "sha256": "117a09b8437bf9223c5b0cba3890a7a1dbd8612a6a6044f7c09132c6d66fb058"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/polkitd",
+      "type": "file",
+      "mode": "0o644",
+      "size": 588,
+      "sha256": "6baf0103111f24ba1478f2bc7257ab4b4a81d79909836c31e5f469c5f84ae709"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/sgml-base",
+      "type": "file",
+      "mode": "0o644",
+      "size": 396,
+      "sha256": "3f53de327a68e1c6d89c2b9b2ce3e87c8d897bb21f5d2f2d89d5e98432f34774"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/xml-core",
+      "type": "file",
+      "mode": "0o644",
+      "size": 329,
+      "sha256": "fb8141b7cfaecd3e8d6aae995de6a0321611c924a0dac5c112c584a93df29d41"
+    },
+    {
+      "path": "rootfs/usr/share/locale/cs/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5306,
+      "sha256": "7a3325034eaa9bcdd50804e0974c58a8ad0feec80e67ac21a8b1f5130b38110e"
+    },
+    {
+      "path": "rootfs/usr/share/locale/da/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4843,
+      "sha256": "91adade49b697f9ff47653ca0de13f43033f75d349c12c6fd8187df397d197d8"
+    },
+    {
+      "path": "rootfs/usr/share/locale/de/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5267,
+      "sha256": "df91c22f0e9fbc3468f20863b332dbc0d3dcb21119744442d4112eceee3c7aad"
+    },
+    {
+      "path": "rootfs/usr/share/locale/hi/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 7405,
+      "sha256": "bef0611255e2f61e7d37fd9cf0ba6dcaadd9863dbe3dfda9f7c1047282b857d1"
+    },
+    {
+      "path": "rootfs/usr/share/locale/hr/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4974,
+      "sha256": "1c7a69f48d024c52195386143acf46e6caad13906596a4c9215fa4f96366cc37"
+    },
+    {
+      "path": "rootfs/usr/share/locale/hu/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5565,
+      "sha256": "4734772da691f68ae1ddd8086aaecb324ec83bed92ce183be1055ccef33cf76b"
+    },
+    {
+      "path": "rootfs/usr/share/locale/id/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4846,
+      "sha256": "03a656312130965693abdc829381644cf7619cc98f57912c28ebf6fe9c5be9df"
+    },
+    {
+      "path": "rootfs/usr/share/locale/it/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5291,
+      "sha256": "db48034a029499dd17261c76e630128e51ed429c7e40d2b8de7704465fcaa37d"
+    },
+    {
+      "path": "rootfs/usr/share/locale/ka/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 7237,
+      "sha256": "13ecbd1558d570a207e254f4195ac99fe069e0575edb1e03b4b30a3ca099f64a"
+    },
+    {
+      "path": "rootfs/usr/share/locale/nl/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5010,
+      "sha256": "6d5a67aafa774d7606a4861f25127bcb7224ce3061044aeda1850df387e4c15c"
+    },
+    {
+      "path": "rootfs/usr/share/locale/nn/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4858,
+      "sha256": "b9cd7f1934c41e05c30183a47c33e25df6245b1fcc571b66396bed281c1b65ac"
+    },
+    {
+      "path": "rootfs/usr/share/locale/pl/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5783,
+      "sha256": "014c577bc843e376691b5bd92d4f70d0ecf59767b90123e1d96b4f5f74e662ae"
+    },
+    {
+      "path": "rootfs/usr/share/locale/pt/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5346,
+      "sha256": "883518c377299aba9b21d0dcacddca744628f4d985ffe61aff56765f6c9196e6"
+    },
+    {
+      "path": "rootfs/usr/share/locale/pt_BR/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5476,
+      "sha256": "ce1d96021aac71a29eca58919a135501efabb25bad685df29a5ddff4edffed3a"
+    },
+    {
+      "path": "rootfs/usr/share/locale/ro/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5160,
+      "sha256": "666096455ac31a96c9f83b79f51e0037d71c7522cafcda2fda190701d3d26919"
+    },
+    {
+      "path": "rootfs/usr/share/locale/ru/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 6525,
+      "sha256": "0e9af1daa8ed609c5685e45b03a650723b14cabe3f2f26d7a983556005fbeacc"
+    },
+    {
+      "path": "rootfs/usr/share/locale/sk/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5366,
+      "sha256": "8d645e8cf9a650df27a214e107c61df749e1c5ece83d18cce59cc38ac5d9f53d"
+    },
+    {
+      "path": "rootfs/usr/share/locale/sl/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5239,
+      "sha256": "bcc51445c784bb7be621d4504e0f69f5801e5990b5b2cfaf4f33b93eb107fbe4"
+    },
+    {
+      "path": "rootfs/usr/share/locale/sv/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5165,
+      "sha256": "f2b4d68f505ce6e35e20cde6b960eaee342a04d012ce814c822a510132743929"
+    },
+    {
+      "path": "rootfs/usr/share/locale/tr/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5331,
+      "sha256": "63e7669531b4e3d85ca65a8321dbb2c744645da83f5b9ebe2a63e587589b7ffb"
+    },
+    {
+      "path": "rootfs/usr/share/locale/uk/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 6499,
+      "sha256": "ad584c49292c521132ff2937733ce1256e9da9481f5ba8a209ce152d65e2dd08"
+    },
+    {
+      "path": "rootfs/usr/share/locale/zh_CN/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4663,
+      "sha256": "d994b9589608b1a9b35b2c9f704df4e89123f6ba70e35fc82ee72c6c9df03ed4"
+    },
+    {
+      "path": "rootfs/usr/share/locale/zh_TW/LC_MESSAGES/polkit-1.mo",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4736,
+      "sha256": "decb3a1999a825c7e9f387e18ebb9c2d7ff1f2ac6e2a5a78e9bfa8638b2d1e3b"
+    },
+    {
+      "path": "rootfs/usr/share/man/man1/dh_installxmlcatalogs.1.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3115,
+      "sha256": "90ab1a4039f032cddc169969724d70312557f19e6e1d7a90feb7bd4f2036ce72"
+    },
+    {
+      "path": "rootfs/usr/share/man/man1/pkaction.1.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 987,
+      "sha256": "ef99396de0dd22d76bfece4b5dbb5bf5ad1811efdb5a69b60b26f5ada3297739"
+    },
+    {
+      "path": "rootfs/usr/share/man/man1/pkcheck.1.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2154,
+      "sha256": "a7733d280b0f4eded4675f4568bfa176d9c87b4df9181decae0221f9e76f9039"
+    },
+    {
+      "path": "rootfs/usr/share/man/man1/pkexec.1.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2947,
+      "sha256": "762f1e4635b7fc6622e6d95214f3656e9ad166f8e639bfce9dafeda91454c722"
+    },
+    {
+      "path": "rootfs/usr/share/man/man1/pkttyagent.1.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1482,
+      "sha256": "5dbc2f344efc7a5d5edb142efa764aedd4cbb1d50be6d4dab3b57ffbf047b8fd"
+    },
+    {
+      "path": "rootfs/usr/share/man/man8/install-sgmlcatalog.8.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 540,
+      "sha256": "74e8a2d9729ab928ff2c381d53e0602f6e691122463f3e23b738ecd2db921646"
+    },
+    {
+      "path": "rootfs/usr/share/man/man8/polkit.8.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 8503,
+      "sha256": "84de26af5586887fe51b114af65680ac0fdfbd6206e92724b595d7a341b201cb"
+    },
+    {
+      "path": "rootfs/usr/share/man/man8/polkitd.8.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 988,
+      "sha256": "c33b001572375bdf2b3d7b1489850456bdda16e054797a87be9d51aca950c130"
+    },
+    {
+      "path": "rootfs/usr/share/man/man8/update-catalog.8.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1107,
+      "sha256": "1950642c41b68c49a5bdb095d61616ff06b66e102a62f74f0f53d2a7c55a3fd1"
+    },
+    {
+      "path": "rootfs/usr/share/man/man8/update-xmlcatalog.8.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2819,
+      "sha256": "227fd9f668518a51dda766968d1a5b037ea3b30c1cc4ed7f329c8ffe8d05ab6a"
+    },
+    {
+      "path": "rootfs/usr/share/perl5/Debian/Debhelper",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/perl5/Debian/Debhelper/Sequence",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/perl5/Debian/Debhelper/Sequence/xml_core.pm",
+      "type": "file",
+      "mode": "0o644",
+      "size": 139,
+      "sha256": "db6f73445ed7681fd02ef09456a3537ddc0ac36129ac32f8865b2702103d9e78"
+    },
+    {
+      "path": "rootfs/usr/share/polkit-1/actions/org.freedesktop.policykit.policy",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5982,
+      "sha256": "ef8d3dbd10c0c6223239bcdab57700444e0904f6368a8df41abbbcdf11c3caad"
+    },
+    {
+      "path": "rootfs/usr/share/polkit-1/policyconfig-1.dtd",
+      "type": "file",
+      "mode": "0o644",
+      "size": 881,
+      "sha256": "b04b003079b9e755b980da1d5b8ba353acd27d2aa0784dc19f6293448c83bf57"
+    },
+    {
+      "path": "rootfs/usr/share/polkit-1/rules.d/50-default.rules",
+      "type": "file",
+      "mode": "0o644",
+      "size": 325,
+      "sha256": "29f073ed9a8a6996b62f718e2bec962d5c84d311d23bb874830b4f9887eeabbf"
+    },
+    {
+      "path": "rootfs/usr/share/sgml",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml-base",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml-base/catalog.centralized",
+      "type": "file",
+      "mode": "0o644",
+      "size": 331,
+      "sha256": "26aa2cf3b20538b1ca0bb56d13fa8b414a6691a071ac84c5216d65c5181b4b0d"
+    },
+    {
+      "path": "rootfs/usr/share/sgml-base/catalog.super",
+      "type": "file",
+      "mode": "0o644",
+      "size": 335,
+      "sha256": "660f36a3389875d1f2924bf3918e89909570a8ea8ba0310c1d9c27911e9343c4"
+    },
+    {
+      "path": "rootfs/usr/share/sgml-base/transitional.cat",
+      "type": "file",
+      "mode": "0o644",
+      "size": 354,
+      "sha256": "f109b09b8793eb59736c7ba2e12ca4bcf6c91f03d784c29a7d057ae3f6609ca2"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/declaration",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/dtd",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/dtd/xml-core",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/dtd/xml-core/catalog",
+      "type": "file",
+      "mode": "0o644",
+      "size": 947,
+      "sha256": "6f0755523a6d0f2f8f6a61cf564ca673bdd5808f040acfb2c80e6e619d1fa605"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/dtd/xml-core/catalog.dtd",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../../../xml/schema/xml-core/catalog.dtd"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/entities",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/misc",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/sgml/stylesheet",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml-core",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml-core/catalog.footer",
+      "type": "file",
+      "mode": "0o644",
+      "size": 11,
+      "sha256": "39f7130d91d685f8e543ec1502f9e36ba377978f1be39f5595022669e2aa312c"
+    },
+    {
+      "path": "rootfs/usr/share/xml-core/catalog.header",
+      "type": "file",
+      "mode": "0o644",
+      "size": 202,
+      "sha256": "2b25e4dba8b8a2fabb1a91e2f928634d923cd0bdb73e99dc88cc1c4501de2a37"
+    },
+    {
+      "path": "rootfs/usr/share/xml/declaration",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/entities",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/misc",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/polkit-1",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/polkit-1/catalog.xml",
+      "type": "file",
+      "mode": "0o644",
+      "size": 374,
+      "sha256": "3bcc3363915032a6b02ac043aaa127d33bd74948de4594d0843e5b93bc8a9a2e"
+    },
+    {
+      "path": "rootfs/usr/share/xml/schema",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/schema/xml-core",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/schema/xml-core/catalog.dtd",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3843,
+      "sha256": "007a47a8f3d7698d64293e8e774455ee4d9d6c0a322e02f29b3806e9c03ed61f"
+    },
+    {
+      "path": "rootfs/usr/share/xml/schema/xml-core/catalog.xml",
+      "type": "file",
+      "mode": "0o644",
+      "size": 777,
+      "sha256": "47401aef197be8d76ddbd17ecaa0e6f5d89036303f3190bbb305cf81f0bc6175"
+    },
+    {
+      "path": "rootfs/usr/share/xml/schema/xml-core/tr9401.dtd",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4316,
+      "sha256": "99d475b3e099fc1c4f6be367256b3330a407e058de05563692d23fb9fdfd3e03"
+    },
+    {
+      "path": "rootfs/var/lib/sgml-base",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/var/lib/xml-core",
+      "type": "dir",
+      "mode": "0o755"
+    },
+    {
       "path": "packages/SHA256SUMS",
       "type": "file",
       "mode": "0o664",
-      "size": 24448,
-      "sha256": "b1d115d46db27bfbf34589bd6f7fd6e92cbe91d7123ed4a226e0ebb650b246fc"
+      "size": 28534,
+      "sha256": "69dfa8a566c4d93c73b2b6c7193f78d4609fa6fe73665880c9d958bb6e78c217"
     },
     {
       "path": "packages/adduser_3.152_all.deb",
@@ -97757,6 +98715,48 @@
       "mode": "0o644",
       "size": 88892,
       "sha256": "015be740d6236ad114582dea500c1d907f29e16d6db00566ca32fb68d71ac90d"
+    },
+    {
+      "path": "packages/libqt6xml6_6.8.2+dfsg-9+deb13u2_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 85968,
+      "sha256": "6ba7668e09150684cf98578862ac1c507583495db4581e5eda301dd210c71c4e"
+    },
+    {
+      "path": "packages/pkexec_126-2_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 24908,
+      "sha256": "04e7b9595d8e96ac6bd64b3f92cce00fdd3ae5546b3adf86d30b1b3b1b801314"
+    },
+    {
+      "path": "packages/polkitd_126-2_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 122468,
+      "sha256": "d5a9482759b4f7379eb0d83f7afb49b315165adcfd38ebb00512bb27b7cc5d74"
+    },
+    {
+      "path": "packages/qdbus-qt6_6.8.2-5_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 32208,
+      "sha256": "e36943dc759beade5f1724f706be1e35c53af0daefb4d9f819b5f5e4b69907e2"
+    },
+    {
+      "path": "packages/sgml-base_1.31+nmu1_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 10868,
+      "sha256": "a355b832d9f0f4dc9eca1a661080db5dc118e6c435f107a5c4dd201d7af59ba8"
+    },
+    {
+      "path": "packages/xml-core_0.19_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 20088,
+      "sha256": "079ec5e10b1c49aa23a6c53ae8e55e33aec121d1c87a131d2172bdabc3f4030e"
     }
   ]
 }
