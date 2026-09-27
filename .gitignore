@@ -1,0 +1,4 @@
+# Local materialized Esbirro workspace
+/build_deps/
+/build_sysroot_6.8.2/
+/scripts/__pycache__/
