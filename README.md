@@ -1,5 +1,7 @@
 # N.E.E.B.L.E.S. CUSTOM
 
+**Current integration status: Point 8 GREEN / CLOSED. Boss contract CLOSED.**
+
 N.E.E.B.L.E.S. CUSTOM is the certified domestic runtime, construction-material and portability repository of the N.E.E.B.L.E.S. ecosystem.
 
 It isolates runtime material from the Linux installation used to build or execute the project.
@@ -29,7 +31,7 @@ Runtime ELF files may be normalized so their dependency lookup remains relocatab
 
 ## Module material world
 
-CUSTOM owns the canonical shared source territory for future module material:
+CUSTOM owns the canonical shared source territory for module material:
 
 ```text
 runtime/modules/packages/
@@ -133,6 +135,8 @@ An empty construction namespace is valid.
 
 Real module declarations are introduced only when the corresponding module integration stage begins.
 
+Point 9 is now the next integration front. Test Module may be introduced there as real module material, but it must adapt to the closed Boss contract rather than redefine CUSTOM, Esbirro or Boss architecture.
+
 ## Esbirro portability
 
 The portable Esbirro development laboratory lives below:
@@ -155,6 +159,8 @@ python3 portable/esbirro/restore-workspace.py
 
 The repository is authoritative.
 
+Point 8 did not require changes to the CUSTOM material model, portable Esbirro laboratory or controlled Qt 6.8.2 world. The final Boss audit reused the existing CUSTOM-controlled material and confirmed that no second domestic execution engine or host-derived authority was needed.
+
 ## Architectural boundary
 
 CUSTOM and Esbirro own module construction, domestication and certification semantics.
@@ -166,3 +172,50 @@ Lifecycle does not domesticate runtimes.
 Lifecycle does not validate module technology.
 
 Boss governs generic execution and explicit authority; it does not become the owner of CUSTOM construction semantics.
+
+
+## Point 8 continuity
+
+Point 8 globally certified the Boss contract without requiring source changes in N.E.E.B.L.E.S. CUSTOM.
+
+The Point 7 ownership model remains canonical:
+
+```text
+CUSTOM
+    -> certified domestic material
+    -> module package membership
+    -> module material integrity
+    -> domestic construction declarations
+    -> controlled Esbirro / world Modules material
+
+OS
+    -> platform authority semantics
+
+BUILD
+    -> image-side materialization and external recovery
+
+Boss
+    -> governed generic execution and explicit authority consumption
+```
+
+The Esbirro census remains:
+
+```text
+34 unique spells
+42 spell insertions
+250 declarative cases
+```
+
+Point 8 added no new spell and no second domestic-construction engine. `boss.workspace_execution` remains the generic governed execution primitive.
+
+## Current handoff
+
+```text
+POINT 7 CUSTOM V2               GREEN / CLOSED
+POINT 8 BOSS FINAL GATE         GREEN / CLOSED
+BOSS CONTRACT                   CLOSED
+CUSTOM SOURCE CHANGE IN POINT 8 NONE REQUIRED
+TEST MODULE                     NEXT: POINT 9 ADAPTATION
+```
+
+Test Module may be unfrozen when Point 9 begins. Its material, package membership, integrity manifest and construction declaration must adapt to the existing CUSTOM/Esbirro contract; it does not become an architecture driver.
