@@ -1,0 +1,81 @@
+{
+  "schema": "1",
+  "name": "neebles-domestic-construction",
+  "subject": "test-module",
+  "steps": [
+    {
+      "id": "init",
+      "world": "boss.git",
+      "writable": [
+        {
+          "authority": "neebles.domestic_workspace",
+          "source": "/opt/neebles-build/modules",
+          "destination": "/work/modules"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/work/modules",
+      "arguments": [
+        "init",
+        "/work/modules/test-module"
+      ]
+    },
+    {
+      "id": "fetch",
+      "world": "boss.git",
+      "readonly": [
+        "system.dns_resolver_config"
+      ],
+      "writable": [
+        {
+          "authority": "neebles.domestic_workspace",
+          "source": "/opt/neebles-build/modules",
+          "destination": "/work/modules"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/work/modules",
+      "arguments": [
+        "-C",
+        "/work/modules/test-module",
+        "fetch",
+        "--depth",
+        "1",
+        "https://github.com/krockzs/neebles-test-module.git",
+        "845f4ba193233f4614035b31b9e9cdd60fe3c117"
+      ]
+    },
+    {
+      "id": "checkout",
+      "world": "boss.git",
+      "writable": [
+        {
+          "authority": "neebles.domestic_workspace",
+          "source": "/opt/neebles-build/modules",
+          "destination": "/work/modules"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/work/modules",
+      "arguments": [
+        "-C",
+        "/work/modules/test-module",
+        "checkout",
+        "--detach",
+        "845f4ba193233f4614035b31b9e9cdd60fe3c117"
+      ]
+    }
+  ]
+}
