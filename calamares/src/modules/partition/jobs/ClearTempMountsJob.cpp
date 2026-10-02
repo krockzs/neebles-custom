@@ -45,9 +45,12 @@ Calamares::JobResult
 ClearTempMountsJob::exec()
 {
     Logger::Once o;
-    // Fetch a list of current mounts to Calamares temporary directories.
+    // Fetch current mounts from both the legacy Calamares temporary namespace
+    // and the N.E.E.B.L.E.S.-owned installer target namespace.
     using MtabInfo = Calamares::Partition::MtabInfo;
     auto targetMounts = MtabInfo::fromMtabFilteredByPrefix( QStringLiteral( "/tmp/calamares-" ) );
+    targetMounts.append(
+        MtabInfo::fromMtabFilteredByPrefix( QStringLiteral( "/run/neebles/calamares/target/" ) ) );
 
     if ( targetMounts.isEmpty() )
     {

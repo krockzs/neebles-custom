@@ -74945,7 +74945,7 @@
       "type": "file",
       "mode": "0o644",
       "size": 14328,
-      "sha256": "88a785edfa73af6727fcea089e008cbfbb253cd77c2532d7577e8f2c4cafc805"
+      "sha256": "559f85ec4a7c95bb663101a045c9da717046fafd599f77599537c53eacbda0cc"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libproxy.so.1",
@@ -80727,7 +80727,7 @@
       "type": "file",
       "mode": "0o644",
       "size": 55208,
-      "sha256": "ca5c681cb332fb373975f2fff8e47ba65323783a3ae2c4f8aa4d152720f140fd"
+      "sha256": "e6385ff7785e9003d6085c8f4f1db7215c6c847bc6088f3151ce6af41841b546"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so",

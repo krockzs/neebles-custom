@@ -141,9 +141,21 @@ No partitioning logic, filesystem behavior, disk operations, partition calculati
 
 ## Slideshow integration used by N.E.E.B.L.E.S. OS
 
-The Calamares source changes above are only one part of the N.E.E.B.L.E.S. installer integration.
+The Calamares source tree is only one part of the N.E.E.B.L.E.S. installer.
 
-N.E.E.B.L.E.S. OS also provides a custom slideshow runtime in the `neebles-os` repository. That runtime can progressively replace locally bundled slides with remote media while Calamares is running.
+The executable slideshow helper used by the certified Calamares runtime is conserved by N.E.E.B.L.E.S. CUSTOM under:
+
+```text
+runtime/calamares/rootfs/usr/lib/neebles/neebles-calamares-slides
+```
+
+N.E.E.B.L.E.S. BUILD transports that certified helper into the productive Calamares domestic runtime under:
+
+```text
+/opt/neebles-build/calamares/rootfs/usr/lib/neebles/neebles-calamares-slides
+```
+
+N.E.E.B.L.E.S. OS remains the authority for mutable remote slideshow content.
 
 Remote slideshow assets are maintained under:
 
@@ -151,68 +163,294 @@ Remote slideshow assets are maintained under:
 neebles-os/calamares/slides/
 ```
 
-The current runtime supports:
+The runtime supports:
 
 - PNG, JPG and JPEG images;
 - MP4 video;
 - numeric slots from 1 to 20;
 - progressive preparation during installation;
-- protection of the currently active slot so it is not replaced while being displayed;
+- protection of the currently active slot;
 - temporary-file downloads followed by atomic replacement;
-- local fallback content when the network or remote assets are unavailable;
-- independent remote updates without rebuilding the ISO.
+- local fallback content when remote content is unavailable;
+- remote content replacement without rebuilding the ISO.
 
-The corresponding runtime implementation is integrated into the OS build as:
+A change to mutable remote media does not by itself require rebuilding the certified Calamares runtime.
 
-```text
-config/includes.chroot/usr/lib/neebles/neebles-calamares-slides
-```
-
-This slideshow system is **N.E.E.B.L.E.S. OS integration code**, not part of upstream Calamares. It is documented and maintained in `krockzs/neebles-os` rather than in the upstream Calamares source tree.
+A change to the slideshow helper implementation does require the corresponding CUSTOM runtime material and manifests to be updated before BUILD transports it again.
 
 ## Scope of the Changes
 
-The N.E.E.B.L.E.S. modifications are intentionally narrow.
+The original N.E.E.B.L.E.S. Calamares baseline was intentionally narrow and consisted of keyboard configuration behavior, locale/timezone presentation assets and partition-view theme adaptation.
 
-The project does **not** attempt to redesign Calamares, replace its architecture, or present Calamares as N.E.E.B.L.E.S.-authored software.
+The current downstream tree also contains installer reliability and runtime-integration changes introduced during the N.E.E.B.L.E.S. domestic-runtime work.
 
-The current downstream source changes are limited to:
-
-```text
-Keyboard configuration behavior
-Locale/timezone presentation assets
-Partition-view text colors
-```
-
-The wider N.E.E.B.L.E.S. OS integration additionally supplies its own branding, configuration, build-time integration and remote slideshow runtime outside this source repository.
-
-Where possible, distribution-specific behavior should remain isolated so differences from upstream can be reviewed, rebuilt, and rebased cleanly.
-
-## Relationship With `neebles-os`
-
-This repository contains the **modified Calamares source code**.
-
-The `neebles-os` repository contains the N.E.E.B.L.E.S. OS build configuration, the compiled Calamares components currently injected into the OS build, and the N.E.E.B.L.E.S.-specific installer runtime integrations such as the remote slideshow system.
-
-Repository responsibilities are therefore separated:
+The currently relevant additional source changes include:
 
 ```text
-neebles-calamares
-    Modified Calamares source
-    Development
-    Recompilation
-    Traceability
-
-neebles-os
-    N.E.E.B.L.E.S. OS build configuration
-    Installer configuration
-    Branding and OS assets
-    Remote image/video slideshow runtime
-    Runtime integration
-    Compiled installer modules used by the current build
+src/libcalamaresui/ViewManager.cpp
+src/modules/finished/Config.cpp
+src/modules/finished/FinishedViewStep.cpp
+src/modules/mount/main.py
+src/modules/partition/jobs/ClearTempMountsJob.cpp
 ```
 
-This separation allows the OS build to remain reproducible while preserving the exact modified source from which its Calamares components originate.
+These changes provide:
+
+- suppression of Back and Next controls when Calamares reaches its final page;
+- explicit disabling of the final-page Next state;
+- reboot through the system logind D-Bus interface with the configured shell command retained as fallback;
+- Calamares target mounts under `/run/neebles/calamares/target`;
+- cleanup support for both the current target-mount location and the historical temporary mount location.
+
+The partition cleanup change affects temporary installer mount cleanup. It does not change disk-layout calculation or partition-selection semantics.
+
+Distribution-specific configuration, branding, productive overlays and domestic runtime material remain outside the upstream Calamares architecture and are maintained by the corresponding N.E.E.B.L.E.S. authorities.
+
+## Relationship With N.E.E.B.L.E.S. CUSTOM, BUILD and OS
+
+The current installer architecture separates source, certified material, productive materialization and mutable OS content.
+
+```text
+N.E.E.B.L.E.S. CUSTOM
+    Canonical modified Calamares source
+    Certified Calamares packages
+    Certified Calamares rootfs
+    Calamares manifests
+    Build-support material required for reproducible recompilation
+
+N.E.E.B.L.E.S. BUILD
+    Materializes the productive domestic runtime
+    Transports certified CUSTOM material
+    Applies productive ownership and privilege semantics
+    Applies installer configuration overlays required by the Live system
+
+N.E.E.B.L.E.S. OS
+    Owns operating-system integration
+    Owns mutable remote slideshow content
+    Supplies the wider Live and installed-system environment
+```
+
+The productive Calamares runtime is materialized by BUILD at:
+
+```text
+/opt/neebles-build/calamares/
+├── packages/
+└── rootfs/
+```
+
+CUSTOM and BUILD are not expected to be byte-for-byte identical in every metadata field.
+
+CUSTOM conserves and certifies source material.
+
+BUILD may apply productive ownership, permissions and explicitly defined configuration overlays.
+
+Content that is expected to remain identical is verified by size and SHA256 before the build is considered statically closed.
+
+## Reproducible N.E.E.B.L.E.S. Calamares Build
+
+The canonical source tree is:
+
+```text
+/home/thomyorke/NEEBLES/neebles-custom/calamares
+```
+
+The current build tree is:
+
+```text
+/home/thomyorke/NEEBLES/neebles-build/build-tools/calamares-current-build
+```
+
+The build directory must be writable by the normal development user.
+
+CMake configuration and compilation are performed without elevated privileges.
+
+Elevated privileges are reserved for operations that genuinely require writing productive BUILD material or preserving root-owned runtime metadata.
+
+### KPMcore ABI requirement
+
+The productive N.E.E.B.L.E.S. Calamares runtime currently provides:
+
+```text
+libkpmcore.so.12
+libkpmcore.so.24.12.3
+```
+
+The Calamares partition module must therefore link against SONAME:
+
+```text
+libkpmcore.so.12
+```
+
+A host build against a newer KPMcore SONAME is not acceptable even when compilation succeeds.
+
+The isolated development material is stored under:
+
+```text
+neebles-custom/build_deps/kpmcore12/rootfs
+```
+
+It is assembled from the Debian Trixie development package:
+
+```text
+libkpmcore-dev 24.12.3-2
+```
+
+and the corresponding certified runtime package:
+
+```text
+libkpmcore12 24.12.3-2
+```
+
+The development package provides the KPMcore headers and CMake package metadata.
+
+The runtime package provides the actual ABI-12 shared library used by the linker.
+
+Additional host development dependencies discovered during the current rebuild include:
+
+```text
+libkf6i18n-dev
+libkf6widgetsaddons-dev
+```
+
+### Clean configuration
+
+Remove an obsolete or root-owned build directory before reconfiguration:
+
+```text
+sudo rm -rf neebles-build/build-tools/calamares-current-build
+mkdir -p neebles-build/build-tools/calamares-current-build
+```
+
+Configure against the isolated KPMcore 12 SDK:
+
+```text
+cmake \
+    -S neebles-custom/calamares \
+    -B neebles-build/build-tools/calamares-current-build \
+    -G Ninja \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DWITH_QT6=ON \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_SCHEMA_TESTING=OFF \
+    -DKPMcore_DIR:PATH=/home/thomyorke/NEEBLES/neebles-custom/build_deps/kpmcore12/rootfs/usr/lib/x86_64-linux-gnu/cmake/KPMcore
+```
+
+A valid configuration must complete both the configure and generation phases and must discover the partition module.
+
+### Compilation
+
+```text
+cmake --build \
+    neebles-build/build-tools/calamares-current-build \
+    --parallel 16
+```
+
+For an ABI-sensitive partition-only rebuild:
+
+```text
+cmake --build \
+    neebles-build/build-tools/calamares-current-build \
+    --target calamares_viewmodule_partition \
+    --parallel 16
+```
+
+The resulting partition module must be checked before it is accepted:
+
+```text
+readelf -d neebles-build/build-tools/calamares-current-build/src/modules/partition/libcalamares_viewmodule_partition.so
+```
+
+The required dependency is:
+
+```text
+NEEDED libkpmcore.so.12
+```
+
+A result that depends on a different KPMcore SONAME must not be copied into CUSTOM or BUILD.
+
+## Certified Calamares Material
+
+The canonical certified runtime is conserved under:
+
+```text
+neebles-custom/runtime/calamares/
+├── packages/
+└── rootfs/
+```
+
+The current locally modified runtime artifacts include:
+
+```text
+rootfs/usr/lib/neebles/neebles-calamares-slides
+rootfs/usr/lib/x86_64-linux-gnu/libcalamaresui.so.3.3.14
+rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/finished/libcalamares_viewmodule_finished.so
+rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/partition/libcalamares_viewmodule_partition.so
+rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/mount/main.py
+```
+
+After replacing runtime material, both the physical corpus and its manifests must be updated and validated.
+
+The current manifest files are:
+
+```text
+calamares_current_manifest.json
+runtime/manifests/calamares.rootfs.tsv
+runtime/manifests/calamares.packages.tsv
+```
+
+Temporary build directories such as a rootfs-local `work/` tree are not certified runtime material and must never be included in these manifests.
+
+## Transport Into BUILD
+
+BUILD materializes the certified runtime under:
+
+```text
+neebles-build/config/includes.chroot/opt/neebles-build/calamares/
+├── packages/
+└── rootfs/
+```
+
+Certified binary and script content that is transported from CUSTOM must be checked by SHA256 and size.
+
+BUILD owns productive filesystem metadata and may therefore use root ownership even when the corresponding conserved CUSTOM material is user-owned.
+
+BUILD also owns productive Calamares configuration overlays.
+
+Examples include:
+
+```text
+config/includes.chroot/etc/calamares/
+config/includes.chroot/opt/neebles-build/calamares/rootfs/etc/calamares/
+```
+
+These configuration overlays must not be replaced by a blind rootfs synchronization.
+
+The productive `finished.conf` currently uses:
+
+```yaml
+---
+restartNowMode: user-checked
+restartNowCommand: "systemctl -i reboot"
+```
+
+## Static Acceptance Gate
+
+Before a Calamares build is considered statically closed, verify:
+
+- source changes pass `git diff --check`;
+- the clean build succeeds;
+- the partition module requires `libkpmcore.so.12`;
+- changed runtime artifacts are materialized into CUSTOM;
+- CUSTOM runtime manifests describe the current physical corpus;
+- no temporary work tree is included in the certified runtime;
+- the current manifest contains no stale entries;
+- transported BUILD artifacts match certified content by SHA256 and size;
+- BUILD retains intended productive ownership and configuration overlays;
+- no stale artifact SHA remains referenced by productive scripts or checks.
+
+Static closure is not the same as runtime acceptance.
+
+Final runtime acceptance requires testing the generated Live system and confirming installer navigation, slideshow behavior, mount cleanup, final-page behavior, reboot and successful boot of the installed system.
 
 ## Repository Relationship
 

@@ -27,7 +27,7 @@ FinishedViewStep::FinishedViewStep( QObject* parent )
     connect( jq, &Calamares::JobQueue::failed, m_config, &Config::onInstallationFailed );
     connect( jq, &Calamares::JobQueue::failed, m_widget, &FinishedPage::onInstallationFailed );
 
-    emit nextStatusChanged( true );
+    emit nextStatusChanged( false );
 }
 
 

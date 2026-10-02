@@ -11551,8 +11551,8 @@
       "path": "rootfs/usr/lib/neebles/neebles-calamares-slides",
       "type": "file",
       "mode": "0o755",
-      "size": 7623,
-      "sha256": "8c5955e0dcc01a134c3a1811ce32013e964bce86d9477677b68ef48a1952d8f5"
+      "size": 13702,
+      "sha256": "b36f60343259c3a67adff44e2706b6f370957e7e1d3f723d887ceb2f36a25600"
     },
     {
       "path": "rootfs/usr/lib/os-prober",
@@ -21068,9 +21068,9 @@
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/finished/libcalamares_viewmodule_finished.so",
       "type": "file",
-      "mode": "0o644",
-      "size": 86056,
-      "sha256": "e4dcf04eca20af265d3c286ba7791d1b68ddb876622498fc0f37a5049f285d37"
+      "mode": "0o755",
+      "size": 2208872,
+      "sha256": "566604c98da5bb1331cbf2a5219059d7d2f155e80b93db4482ef8824ff0cba2e"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/finished/module.desc",
@@ -21543,8 +21543,8 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/mount/main.py",
       "type": "file",
       "mode": "0o644",
-      "size": 16501,
-      "sha256": "3bb0b534844cac76035b8b0519d2e439dfa03aa05ccbd93be10426786fbe11cb"
+      "size": 16679,
+      "sha256": "7aa944eddae2afab2aa60921fb8c91ba6c57b49a4a032cf15152837e4094bfd5"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/mount/module.desc",
@@ -21727,9 +21727,9 @@
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/partition/libcalamares_viewmodule_partition.so",
       "type": "file",
-      "mode": "0o644",
-      "size": 27214424,
-      "sha256": "bd0b0b9914e26d95115d993ef199a11c38af19c7060db5fc300809787a52ce8d"
+      "mode": "0o755",
+      "size": 28427216,
+      "sha256": "a9a764247ab17519fb1a01469ff0ec7b7e4353c0fdd2d012f075531b84084a90"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/partition/module.desc",
@@ -26334,9 +26334,9 @@
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libcalamaresui.so.3.3.14",
       "type": "file",
-      "mode": "0o644",
-      "size": 585416,
-      "sha256": "685edd7c81ebad59fabef63024b8a0657973f251d21e95d5ef2eaba0517073af"
+      "mode": "0o755",
+      "size": 14603488,
+      "sha256": "db7be456940fcc920dcc7cf2d3f0d177d650ebd1183449e2bad967486da040fb"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libcanberra-0.30",

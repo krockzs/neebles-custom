@@ -113,7 +113,30 @@ Config::doRestart( bool restartAnyway )
              << "force restart?" << restartAnyway;
     if ( restartNowMode() != RestartMode::Never && restartAnyway )
     {
-        cDebug() << Logger::SubEntry << "Running restart command" << m_restartNowCommand;
+        cDebug() << Logger::SubEntry << "Requesting host restart through logind";
+
+        QDBusInterface login1(
+            "org.freedesktop.login1",
+            "/org/freedesktop/login1",
+            "org.freedesktop.login1.Manager",
+            QDBusConnection::systemBus() );
+
+        if ( login1.isValid() )
+        {
+            QDBusReply< void > reply = login1.call( "Reboot", true );
+            if ( reply.isValid() )
+            {
+                return;
+            }
+
+            cWarning() << "Host restart through logind failed:" << reply.error().message();
+        }
+        else
+        {
+            cWarning() << "Could not access org.freedesktop.login1 for host restart";
+        }
+
+        cWarning() << "Falling back to configured restart command" << m_restartNowCommand;
         QProcess::execute( "/bin/sh", { "-c", m_restartNowCommand } );
     }
 }
