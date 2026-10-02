@@ -50,7 +50,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-test-module.git",
-        "e5bd6a8c5ef13cc8a25f129ac105bb88bb37111c"
+        "4765494bb53fc2051075103bef04eeea0476e700"
       ]
     },
     {
@@ -74,7 +74,7 @@
         "/work/modules/test-module",
         "checkout",
         "--detach",
-        "e5bd6a8c5ef13cc8a25f129ac105bb88bb37111c"
+        "4765494bb53fc2051075103bef04eeea0476e700"
       ]
     }
   ]
