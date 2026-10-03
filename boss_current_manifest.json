@@ -95920,7 +95920,7 @@
     {
       "path": "rootfs/usr/lib/polkit-1/polkit-agent-helper-1",
       "type": "file",
-      "mode": "0o755",
+      "mode": "0o4755",
       "size": 18744,
       "sha256": "afb16200991dea0f84074bfc0f9f7edd2095bb55ac0558ed347c6ae5f872a5ae"
     },

@@ -19,6 +19,31 @@ It isolates runtime material from the Linux installation used to build or execut
 - controlled development sysroots
 - portable Esbirro laboratory snapshots
 
+## Effective installed metadata
+
+CUSTOM manifests describe the certified effective filesystem state of domestic material.
+
+For each manifest entry, `mode` represents the mode that the file or directory must have in the effective installed runtime. It is not necessarily the raw mode stored inside an upstream package payload.
+
+This distinction is intentional. A Debian package may ship a file with one payload mode and establish a different effective runtime mode from its maintainer scripts during package configuration. When N.E.E.B.L.E.S. domesticates that package by extracting controlled material rather than executing the original package installation transaction, CUSTOM preserves the effective installed metadata explicitly in its manifest.
+
+Therefore:
+
+```text
+package payload metadata
+    != necessarily
+certified effective installed metadata
+
+CUSTOM manifest mode
+    = certified effective installed runtime mode
+```
+
+Consumers and materializers must not infer privileged runtime modes from the raw package archive alone.
+
+A materializer must verify declared file integrity before applying manifest-declared metadata. A file whose type, size, SHA256 or symlink target does not match the certified manifest must not receive privileged metadata.
+
+CUSTOM remains the canonical owner of this metadata truth. BUILD may materialize it, but BUILD must not maintain an independent hard-coded permission truth for the same domestic corpus.
+
 ## Boss runtime
 
 The canonical Boss runtime lives below:

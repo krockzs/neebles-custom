@@ -3909,8 +3909,8 @@
       "path": "rootfs/etc/calamares/modules/finished.conf",
       "type": "file",
       "mode": "0o644",
-      "size": 93,
-      "sha256": "c9fa3b555c22735852b7d07ca38dcc3e4604c64142cf474b84d8c2d32b230e2a"
+      "size": 74,
+      "sha256": "19903804d8767a5550be5f8864056982d5c30389e70a67a66b57f2fdb9dcf1a5"
     },
     {
       "path": "rootfs/etc/calamares/modules/fstab.conf",
@@ -3993,8 +3993,8 @@
       "path": "rootfs/etc/calamares/settings.conf",
       "type": "file",
       "mode": "0o644",
-      "size": 3913,
-      "sha256": "335d94de386e42f8ec93c4f93a8d8f7692e2adaf95538eaf877d19c2fa2fecf9"
+      "size": 3951,
+      "sha256": "592401d26b5d7743e2d3d75338a096c61a7c6caf9a4064bd4a82e6878dea6917"
     },
     {
       "path": "rootfs/etc/cracklib",
@@ -9069,7 +9069,7 @@
     {
       "path": "rootfs/usr/bin/pkexec",
       "type": "file",
-      "mode": "0o755",
+      "mode": "0o4755",
       "size": 30952,
       "sha256": "32d409cbe0b61cd296661aa22df89d0c2af5b1fbc789a84f0cf529e491243757"
     },
@@ -11854,7 +11854,7 @@
     {
       "path": "rootfs/usr/lib/polkit-1/polkit-agent-helper-1",
       "type": "file",
-      "mode": "0o755",
+      "mode": "0o4755",
       "size": 18744,
       "sha256": "afb16200991dea0f84074bfc0f9f7edd2095bb55ac0558ed347c6ae5f872a5ae"
     },
