@@ -5728,7 +5728,7 @@
       "path": "rootfs/etc/ssl/certs/988a38cb.0",
       "type": "symlink",
       "mode": "0o777",
-      "target": "NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem"
+      "target": "NetLock_Arany_=Class_Gold=_F\u0151tan\u00fas\u00edtv\u00e1ny.pem"
     },
     {
       "path": "rootfs/etc/ssl/certs/9b46e03d.0",
@@ -6319,10 +6319,10 @@
       "target": "/usr/share/ca-certificates/mozilla/NAVER_Global_Root_Certification_Authority.crt"
     },
     {
-      "path": "rootfs/etc/ssl/certs/NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem",
+      "path": "rootfs/etc/ssl/certs/NetLock_Arany_=Class_Gold=_F\u0151tan\u00fas\u00edtv\u00e1ny.pem",
       "type": "symlink",
       "mode": "0o777",
-      "target": "/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt"
+      "target": "/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_F\u0151tan\u00fas\u00edtv\u00e1ny.crt"
     },
     {
       "path": "rootfs/etc/ssl/certs/OISTE_WISeKey_Global_Root_GB_CA.pem",
@@ -26335,8 +26335,8 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libcalamaresui.so.3.3.14",
       "type": "file",
       "mode": "0o755",
-      "size": 742688,
-      "sha256": "7bc69621270f4723675247caff114709a31322f976fd433ab0e366b0ea33f190"
+      "size": 748192,
+      "sha256": "903cbd75258092999caf873d9e6159986604e88cbce66a95b6ba813169710e18"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libcanberra-0.30",
@@ -43701,7 +43701,7 @@
       "sha256": "9848c94859f83e48defe0b25a0f4347480b56ea2bb3336fe6d4dcf00d0d6031d"
     },
     {
-      "path": "rootfs/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt",
+      "path": "rootfs/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_F\u0151tan\u00fas\u00edtv\u00e1ny.crt",
       "type": "file",
       "mode": "0o644",
       "size": 1476,

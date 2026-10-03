@@ -93,6 +93,13 @@ libkf6config-dev-bin         6.13.0-2
 libkf6i18nlocaledata6        6.13.0-1
 libkf6i18nqml6               6.13.0-1
 gettext                      0.23.1-2
+python3-dev                  3.13.5-1
+python3.13-dev               3.13.5-2+deb13u5
+libpython3-dev               3.13.5-1
+libpython3.13-dev            3.13.5-2+deb13u5
+pybind11-dev                 2.13.6-2
+libexpat1-dev                2.8.3-1~deb13u1
+zlib1g-dev                   1:1.3.dfsg+really1.3.1-1+b1
 ```
 
 Ubuntu/Kubuntu KF6 6.24 and host Qt 6.10 material must never be mixed into this controlled sysroot.
@@ -106,7 +113,7 @@ Ubuntu/Kubuntu KF6 6.24 and host Qt 6.10 material must never be mixed into this 
 ### Configure
 
 ```text
-sudo chroot build_sysroot_6.8.2 /usr/bin/env LANG=C.UTF-8 LC_ALL=C.UTF-8 /usr/bin/cmake -S /work/calamares-neebles-source -B /work/calamares-neebles-build -G Unix\ Makefiles -DCMAKE_BUILD_TYPE=Release -DWITH_QT6=ON
+sudo chroot build_sysroot_6.8.2 /usr/bin/env LANG=C.UTF-8 LC_ALL=C.UTF-8 /usr/bin/cmake -S /work/calamares-neebles-source -B /work/calamares-neebles-build -G Unix\ Makefiles -DCMAKE_BUILD_TYPE=Release -DWITH_QT6=ON -DWITH_PYTHON=ON -DWITH_PYBIND11=ON
 ```
 
 Required configuration gate:
@@ -115,7 +122,13 @@ Required configuration gate:
 Configuring done
 Generating done
 Build files have been written to:
+WITH_PYTHON:BOOL=ON
+WITH_PYBIND11:BOOL=ON
 ```
+
+Python is a mandatory Calamares runtime interface in N.E.E.B.L.E.S.
+
+A configure that silently disables Python is a hard failure.
 
 ### Build
 
@@ -167,6 +180,18 @@ Qt_6.10 absent
 Any Qt_6.10 requirement is a hard failure.
 
 Any build-tree RUNPATH is a hard failure.
+
+### Mandatory Python interface gate
+
+The controlled build must additionally prove:
+
+- staged `usr/lib/libcalamares.so.3.3.14` has `NEEDED libpython3.13.so.1.0`
+- staged `usr/lib/libcalamaresui.so.3.3.14` does not contain `Python modules are not supported in this version of Calamares.`
+- `PythonJobModule` is compiled as part of `libcalamaresui`
+
+Python development material belongs to the controlled Debian Trixie laboratory.
+
+Host Python development packages are never build authority.
 
 ### Productive publication
 

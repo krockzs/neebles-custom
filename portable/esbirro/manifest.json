@@ -6,25 +6,25 @@
     {
       "name": "build_deps",
       "archive": "portable/esbirro/snapshots/build_deps.tar.zst",
-      "sha256": "fb74d2ee991097f0c00e1bd41d18191fd1363c3b670dccbb63530a4644cfba8e",
-      "archive_bytes": 599661552,
+      "sha256": "bc9a0964d15db85962f1499399ef004ae87e2a855f67130e9fd3406bb52a0abb",
+      "archive_bytes": 619083655,
       "source_stats": {
-        "files": 773,
-        "directories": 151,
+        "files": 795,
+        "directories": 152,
         "symlinks": 2,
-        "bytes": 760623132
+        "bytes": 780146524
       }
     },
     {
       "name": "build_sysroot_6.8.2",
       "archive": "portable/esbirro/snapshots/build_sysroot_6.8.2.tar.zst",
-      "sha256": "4e0922e75095293f7b345dd8881e10413d37f0baa28b602123e582e1ed1b9f8f",
-      "archive_bytes": 577834578,
+      "sha256": "515fa2e586f2e4a395c24f1ec366fea2dbd2c1fee775e801d5e146b6ec0a41a1",
+      "archive_bytes": 617322267,
       "source_stats": {
-        "files": 34272,
-        "directories": 4397,
-        "symlinks": 2045,
-        "bytes": 1590469387
+        "files": 40201,
+        "directories": 5658,
+        "symlinks": 2081,
+        "bytes": 1745323071
       }
     }
   ],
