@@ -1,6 +1,7 @@
 from pathlib import Path
 import hashlib
 import json
+import os
 import subprocess
 
 custom = Path(__file__).resolve().parents[2]
@@ -50,19 +51,23 @@ for item in manifest["workspace"]:
             + str(archive)
         )
 
+    tar_command = [
+        "tar",
+        "--zstd",
+        "--acls",
+        "--xattrs",
+        "--numeric-owner",
+        "-xpf",
+        archive,
+        "-C",
+        custom,
+    ]
+
+    if os.geteuid() != 0:
+        tar_command.insert(0, "sudo")
+
     result = subprocess.run(
-        [
-            "sudo",
-            "tar",
-            "--zstd",
-            "--acls",
-            "--xattrs",
-            "--numeric-owner",
-            "-xpf",
-            archive,
-            "-C",
-            custom,
-        ]
+        tar_command
     )
 
     if result.returncode != 0:
