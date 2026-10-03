@@ -1,30 +1,30 @@
 {
   "schema": 1,
-  "created": "2026-09-27T05:40:23.336416+00:00",
+  "created": "2026-10-03T00:19:05.238962+00:00",
   "purpose": "Portable Esbirro development environment. A clean clone of neebles-custom must contain everything needed to recover this laboratory.",
   "workspace": [
     {
       "name": "build_deps",
       "archive": "portable/esbirro/snapshots/build_deps.tar.zst",
-      "sha256": "d36a8e291cfeab1af42296f70871b795d5fb48006de53eaf5673e112dd15907f",
-      "archive_bytes": 595592126,
+      "sha256": "fb74d2ee991097f0c00e1bd41d18191fd1363c3b670dccbb63530a4644cfba8e",
+      "archive_bytes": 599661552,
       "source_stats": {
-        "files": 606,
-        "directories": 8,
-        "symlinks": 0,
-        "bytes": 753027572
+        "files": 773,
+        "directories": 151,
+        "symlinks": 2,
+        "bytes": 760623132
       }
     },
     {
       "name": "build_sysroot_6.8.2",
       "archive": "portable/esbirro/snapshots/build_sysroot_6.8.2.tar.zst",
-      "sha256": "210fc693655b48525cdcbc207e829f162ee6c9b77dc1ae38139045b370ff8d44",
-      "archive_bytes": 464739048,
+      "sha256": "4e0922e75095293f7b345dd8881e10413d37f0baa28b602123e582e1ed1b9f8f",
+      "archive_bytes": 577834578,
       "source_stats": {
-        "files": 26097,
-        "directories": 2982,
-        "symlinks": 1983,
-        "bytes": 1353047314
+        "files": 34272,
+        "directories": 4397,
+        "symlinks": 2045,
+        "bytes": 1590469387
       }
     }
   ],

@@ -21069,8 +21069,8 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/finished/libcalamares_viewmodule_finished.so",
       "type": "file",
       "mode": "0o755",
-      "size": 2208872,
-      "sha256": "566604c98da5bb1331cbf2a5219059d7d2f155e80b93db4482ef8824ff0cba2e"
+      "size": 112872,
+      "sha256": "db9bd250bad7e99fff1763fd3ba1852f0d1cee7b2d355dcf6caff01a151507d2"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/finished/module.desc",
@@ -21728,8 +21728,8 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/partition/libcalamares_viewmodule_partition.so",
       "type": "file",
       "mode": "0o755",
-      "size": 28427216,
-      "sha256": "a9a764247ab17519fb1a01469ff0ec7b7e4353c0fdd2d012f075531b84084a90"
+      "size": 1494064,
+      "sha256": "49e9450b4b47c4534af16b0e3e8eff152f92450972e7c09b7c4bd42bf2d5d573"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/partition/module.desc",
@@ -26335,8 +26335,8 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libcalamaresui.so.3.3.14",
       "type": "file",
       "mode": "0o755",
-      "size": 14603488,
-      "sha256": "db7be456940fcc920dcc7cf2d3f0d177d650ebd1183449e2bad967486da040fb"
+      "size": 742688,
+      "sha256": "7bc69621270f4723675247caff114709a31322f976fd433ab0e366b0ea33f190"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libcanberra-0.30",
