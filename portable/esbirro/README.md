@@ -1,253 +1,409 @@
-# Esbirro Portable Workspace
+# N.E.E.B.L.E.S. Esbirro Portable Workspace
 
-This directory preserves the development laboratory used by
-the N.E.E.B.L.E.S. domestic authority and Esbirro work.
+Esbirro is the controlled domestic engineering and certification authority of the N.E.E.B.L.E.S. ecosystem.
 
-The repository is authoritative.
+This directory preserves the portable development laboratory used to create, certify and restore controlled worlds, runtime material and construction authority.
 
-Downloads, temporary directories and machine-local state
-must never be required to continue development.
+> **The repository is authoritative. The host is not authoritative. Downloads is not authoritative. Successful compilation alone is not certification.**
 
-## Snapshots
+---
 
+# Dual-life model
+
+Esbirro intentionally lives in two contexts.
+
+```text
+Esbirro outside the running OS
+    -> invents / certifies new worlds
+    -> gains new spells
+    -> gains new authorities
+    -> prepares domestic material
+    -> restores controlled laboratories
+    -> performs controlled builds
+    -> certifies outputs
+
+Esbirro inside the N.E.E.B.L.E.S. ecosystem
+    -> supplies already-certified material/worlds
+    -> serves Boss Construction
+    -> serves Boss domestic runtime
+    -> serves Calamares controlled material
+```
+
+The authority is one.
+
+The deployment/use contexts are two.
+
+This is what allows Esbirro to evolve without forcing Boss to gain a language-specific branch for every future module or technology.
+
+---
+
+# Portable snapshots
+
+Current portable laboratory snapshots include:
+
+```text
 build_deps.tar.zst
-
-Exact dependency workspace snapshot.
-
 build_sysroot_6.8.2.tar.zst
+```
 
-Exact Qt 6.8.2 development sysroot and laboratory snapshot.
+`build_deps.tar.zst` preserves the controlled dependency workspace.
 
-## Historical external material
+`build_sysroot_6.8.2.tar.zst` preserves the controlled Qt 6.8.2 development sysroot/laboratory.
 
-archive/downloads-neebles.tar.zst
+Historical external material may be preserved under:
 
-Preserves N.E.E.B.L.E.S. material that previously existed
-outside the repositories in Downloads.
+```text
+archive/
+```
 
-Downloads is therefore not an authoritative project location.
+but historical material does not regain architectural authority merely because it was archived.
 
-## Restore
+---
 
-Run:
+# Restore
 
+Canonical restore entrypoint:
+
+```text
 python3 portable/esbirro/restore-workspace.py
+```
 
-The restore tool verifies SHA-256 before extraction.
+The restore path verifies SHA256 before extraction.
 
-## Deprecated material
+A restored workspace must match the portable manifest.
 
-Historical private-runtime source found inside old sysroot work
-copies is preserved only as part of the exact sysroot snapshot.
+---
 
-It is not restored into the canonical Boss source tree and
-does not regain architectural authority.
+# Authority model
 
-## Controlled Calamares Qt 6.8.2 rebuild
+Esbirro does not grant runtime permission merely because a binary exists.
 
-This procedure is the canonical rebuild path for the N.E.E.B.L.E.S. Calamares ELF artifacts.
+It participates in the broader N.E.E.B.L.E.S. law:
 
-The host distribution is never a build authority.
+```text
+material exists
+    !=
+authority is granted
+```
 
-Do not compile Calamares against host Qt, host KDE Frameworks or uncontrolled host development packages.
+Esbirro certifies controlled material/world truth.
 
-The controlled development world is:
+OS owns platform AuthoritySupply.
+
+Boss authenticates supplied authority and creates explicit grants.
+
+---
+
+# Worlds
+
+A world is a declarative identity for a controlled execution/runtime environment.
+
+Examples include Boss infrastructure worlds and module worlds.
+
+Current module example:
+
+```text
+modules.python3.13-tk
+```
+
+A world may describe:
+
+- executable;
+- native library paths;
+- runtime paths;
+- other future categories.
+
+The consuming Boss code resolves the world generically.
+
+Boss must not need:
+
+```text
+boss.python
+boss.node
+boss.java
+```
+
+merely because new module technologies appear.
+
+---
+
+# Construction powers
+
+Domestic Construction is declarative.
+
+CUSTOM stores declarations under:
+
+```text
+runtime/construction/
+```
+
+A step may declare:
+
+```text
+runtime_authority
+world
+execution
+session
+readonly
+dynamic_readonly
+writable
+mounts
+chdir
+arguments
+```
+
+These are construction facts.
+
+Boss executes them through its generic workspace capability.
+
+Esbirro/CUSTOM owns the construction declaration truth; Lifecycle does not become Esbirro.
+
+---
+
+## Execution modes
+
+Construction supports explicit execution modes:
+
+```text
+foreground
+persistent
+```
+
+`foreground` is appropriate for finite build/setup steps.
+
+`persistent` is appropriate for a long-lived runtime that must continue after Lifecycle returns.
+
+Persistent execution is a generic Boss execution behavior, not a Test Module special case.
+
+---
+
+## Session authority
+
+Construction may request:
+
+```text
+session: true
+```
+
+That request does not mean "inherit host environment".
+
+It means Boss must obtain the certified desktop-session interface from OS authority and project only authorized resources such as:
+
+- desktop UID/GID;
+- session bus;
+- X11 socket;
+- Wayland socket;
+- Xauthority file;
+- runtime directory metadata.
+
+The runtime is then entered under the intended desktop identity.
+
+---
+
+## Dynamic read-only authority
+
+Construction can request a strict dynamic subpath from a supplied authority.
+
+Conceptually:
+
+```text
+authority root
+    + validated source subpath
+    -> exact read-only projection
+```
+
+This avoids hardcoding individual module install directories inside Boss.
+
+---
+
+# Runtime manifests
+
+Domestic runtime manifests expose worlds to generic consumers.
+
+Boss runtime manifests are built during Boss release from Boss world contracts and the pinned CUSTOM rootfs.
+
+Module runtime manifests may live directly in CUSTOM when they describe the shared module material authority.
+
+The important rule is:
+
+```text
+world identity
+    -> declarative material mapping
+    -> generic resolver
+```
+
+not:
+
+```text
+technology name
+    -> Boss source branch
+```
+
+---
+
+# Module material powers
+
+CUSTOM/Esbirro currently supports a shared module material model.
+
+```text
+runtime/modules/packages/
+runtime/modules/rootfs/
+runtime/manifests/modules/
+```
+
+Two distinct truths are preserved:
+
+```text
+membership
+    -> <module_id>.packages.tsv
+
+integrity
+    -> <module_id>.manifest.json
+```
+
+These contracts must not be collapsed.
+
+The package pool is shared and cumulative.
+
+Uninstall does not erase unrelated or reusable domestic package material.
+
+---
+
+# Current Test Module world
+
+The current reference module uses:
+
+```text
+47 certified DEBs
+modules.python3.13-tk
+```
+
+The world includes Python 3.13, native libraries, Tcl/Tk and graphical dependencies needed by the current reference runtime.
+
+This does not make Python/Tk an Esbirro law.
+
+It is one certified world.
+
+Future modules may request different worlds.
+
+---
+
+# Boss infrastructure worlds
+
+Boss-owned infrastructure tools remain Boss worlds.
+
+Examples include:
+
+```text
+boss.git
+boss.setpriv
+```
+
+The physical executable is drawn from the certified Boss domestic runtime.
+
+Host executable discovery is not a fallback authority.
+
+`boss.setpriv` is used by session-aware workspace execution to enter the certified desktop identity before the boundary command executes.
+
+---
+
+# Controlled Qt 6.8.2 world
+
+The controlled Qt 6.8.2 sysroot remains the build authority for current N.E.E.B.L.E.S. Qt consumers.
+
+Do not compile against arbitrary host Qt/KF development packages.
+
+Current controlled development territory:
 
 ```text
 build_deps/
 build_sysroot_6.8.2/
 ```
 
-The productive runtime remains:
+Host Qt 6.10 material must not leak into controlled Qt 6.8.2 outputs.
 
-```text
-runtime/calamares/packages/
-runtime/calamares/rootfs/
-```
+---
 
-### Controlled dependency provenance
+## Calamares controlled rebuild
 
-Development packages must be acquired through the controlled Debian Trixie APT state:
-
-```text
-build_deps/apt-etc/sources.list
-build_deps/apt-state/
-build_deps/apt-cache/
-```
-
-Never use an unconstrained host apt download for this laboratory.
-
-The controlled Calamares development closure established during the Qt 6.8.2 repair includes:
-
-```text
-libyaml-cpp-dev              0.8.0+dfsg-7
-libkf6coreaddons-dev         6.13.0-1
-extra-cmake-modules          6.13.0-1
-libxkbcommon-dev             1.7.0-2
-libkpmcore-dev               24.12.3-2
-libkf6i18n-dev               6.13.0-1
-libkf6config-dev             6.13.0-2
-libkf6widgetsaddons-dev      6.13.0-1
-libkf6configqml6             6.13.0-2
-libkf6config-dev-bin         6.13.0-2
-libkf6i18nlocaledata6        6.13.0-1
-libkf6i18nqml6               6.13.0-1
-gettext                      0.23.1-2
-python3-dev                  3.13.5-1
-python3.13-dev               3.13.5-2+deb13u5
-libpython3-dev               3.13.5-1
-libpython3.13-dev            3.13.5-2+deb13u5
-pybind11-dev                 2.13.6-2
-libexpat1-dev                2.8.3-1~deb13u1
-zlib1g-dev                   1:1.3.dfsg+really1.3.1-1+b1
-```
-
-Ubuntu/Kubuntu KF6 6.24 and host Qt 6.10 material must never be mixed into this controlled sysroot.
-
-### Canonical controlled source
+Canonical source:
 
 ```text
 /work/calamares-neebles-source
 ```
 
-### Configure
+Configure/build/install must happen inside the controlled sysroot.
+
+Publication candidates must come from a DESTDIR install stage, not directly from a CMake build tree.
+
+Required gates include:
+
+- Qt 6.8 symbols where applicable;
+- no Qt 6.10 dependency;
+- no build-tree RUNPATH leak;
+- expected Python 3.13 interface;
+- certified final metadata.
+
+Only exact certified artifacts are published into the productive Calamares rootfs.
+
+---
+
+# Boss Qt consumers
+
+The same construction law applies to Boss Qt outputs.
+
+Protected order:
 
 ```text
-sudo chroot build_sysroot_6.8.2 /usr/bin/env LANG=C.UTF-8 LC_ALL=C.UTF-8 /usr/bin/cmake -S /work/calamares-neebles-source -B /work/calamares-neebles-build -G Unix\ Makefiles -DCMAKE_BUILD_TYPE=Release -DWITH_QT6=ON -DWITH_PYTHON=ON -DWITH_PYBIND11=ON
+controlled Boss source projection
+    -> controlled CMake configure/build
+    -> DESTDIR install
+    -> installed artifact audit
+    -> release materialization
+    -> domestic transformation
+    -> final release verification
 ```
 
-Required configuration gate:
+This applies to components such as:
+
+- Boss UI;
+- Installer;
+- auth agent where applicable;
+- Launcher plugin;
+- Tray Host.
+
+A successful build-tree executable is not release authority.
+
+---
+
+# Rust boundary
+
+Boss Rust release binaries are built by the Boss release workflow with the pinned Rust toolchain.
+
+Current release policy uses:
 
 ```text
-Configuring done
-Generating done
-Build files have been written to:
-WITH_PYTHON:BOOL=ON
-WITH_PYBIND11:BOOL=ON
+Rust 1.98.1
+cargo build --release --locked --bins
 ```
 
-Python is a mandatory Calamares runtime interface in N.E.E.B.L.E.S.
+The static bootstrap runtime resolver is built for musl.
 
-A configure that silently disables Python is a hard failure.
+Rust source compilation does not occur "inside Esbirro" merely because Esbirro supplies the controlled Qt/material world.
 
-### Build
+Keep those authorities distinct.
+
+---
+
+# Portable seal
+
+Whenever controlled laboratory material changes, regenerate the corresponding snapshots and update:
 
 ```text
-sudo chroot build_sysroot_6.8.2 /usr/bin/env LANG=C.UTF-8 LC_ALL=C.UTF-8 /usr/bin/cmake --build /work/calamares-neebles-build -j 12
+portable/esbirro/manifest.json
 ```
 
-The build must complete to 100 percent.
-
-### Install stage
-
-Never publish ELF files directly from the CMake build tree.
-
-The build tree may contain a temporary RUNPATH such as:
-
-```text
-/work/calamares-neebles-build
-```
-
-Create a DESTDIR stage first:
-
-```text
-sudo rm -rf build_sysroot_6.8.2/work/calamares-neebles-stage
-sudo chroot build_sysroot_6.8.2 /usr/bin/env DESTDIR=/work/calamares-neebles-stage /usr/bin/cmake --install /work/calamares-neebles-build
-```
-
-Only staged artifacts are candidates for productive publication.
-
-### Mandatory ELF gate
-
-The three N.E.E.B.L.E.S. Calamares artifacts are:
-
-```text
-usr/lib/libcalamaresui.so.3.3.14
-usr/lib/calamares/modules/finished/libcalamares_viewmodule_finished.so
-usr/lib/calamares/modules/partition/libcalamares_viewmodule_partition.so
-```
-
-Inspect every staged ELF with readelf before publication.
-
-Required:
-
-```text
-Qt_6.8 present where applicable
-Qt_6.10 absent
-/work/calamares-neebles-build absent from RUNPATH and RPATH
-```
-
-Any Qt_6.10 requirement is a hard failure.
-
-Any build-tree RUNPATH is a hard failure.
-
-### Mandatory Python interface gate
-
-The controlled build must additionally prove:
-
-- staged `usr/lib/libcalamares.so.3.3.14` has `NEEDED libpython3.13.so.1.0`
-- staged `usr/lib/libcalamaresui.so.3.3.14` does not contain `Python modules are not supported in this version of Calamares.`
-- `PythonJobModule` is compiled as part of `libcalamaresui`
-
-Python development material belongs to the controlled Debian Trixie laboratory.
-
-Host Python development packages are never build authority.
-
-### Productive publication
-
-Publish only the three certified staged ELF artifacts into:
-
-```text
-runtime/calamares/rootfs/usr/lib/x86_64-linux-gnu/libcalamaresui.so.3.3.14
-runtime/calamares/rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/finished/libcalamares_viewmodule_finished.so
-runtime/calamares/rootfs/usr/lib/x86_64-linux-gnu/calamares/modules/partition/libcalamares_viewmodule_partition.so
-```
-
-Required productive metadata:
-
-```text
-owner root:root
-mode 0755
-```
-
-Never replace the complete runtime/calamares/rootfs with the install stage.
-
-### Integrity manifests
-
-After productive ELF publication update both integrity authorities:
-
-```text
-runtime/manifests/calamares.rootfs.tsv
-calamares_current_manifest.json
-```
-
-calamares.rootfs.tsv describes rootfs material.
-
-calamares_current_manifest.json describes the complete Calamares corpus and must preserve both packages and rootfs.
-
-Never regenerate calamares_current_manifest.json from rootfs alone.
-
-The final manifest gate must verify:
-
-```text
-component = calamares
-version = 1.0
-complete package membership preserved
-packages/SHA256SUMS preserved
-new ELF SHA256 values present
-superseded ELF SHA256 values absent
-```
-
-### Portable laboratory seal
-
-Whenever build_deps or build_sysroot_6.8.2 changes, regenerate:
-
-```text
-portable/esbirro/snapshots/build_deps.tar.zst
-portable/esbirro/snapshots/build_sysroot_6.8.2.tar.zst
-```
-
-Then update portable/esbirro/manifest.json for each workspace:
+including:
 
 ```text
 sha256
@@ -258,73 +414,117 @@ source_stats.symlinks
 source_stats.bytes
 ```
 
-A changed laboratory with stale snapshot SHA256 metadata is not a closed N.E.E.B.L.E.S. state.
+A changed workspace with stale snapshot metadata is not a closed state.
 
-### Absolute rebuild law
+---
 
-```text
-controlled dependencies
--> controlled Qt 6.8.2 sysroot
--> configure
--> build
--> DESTDIR install stage
--> Qt and RUNPATH audit
--> publish exact ELF artifacts
--> regenerate integrity manifests
--> regenerate portable snapshots
--> update snapshot SHA256 metadata
--> materialize BUILD
--> real Live acceptance
-```
-
-The repository is authoritative.
-Downloads is not authoritative.
-The host is not authoritative.
-A successful compilation alone is not certification.
-
-
-## Boss Tray certification checkpoint — 2026-10-04
-
-The Tray repair reinforced, rather than relaxed, Esbirro law.
-
-The current accepted construction sequence for the Qt Tray Host is:
+# Absolute construction law
 
 ```text
-controlled Boss source projection
-    -> controlled Qt 6.8.2 CMake configure/build
-    -> CMake install through DESTDIR
-    -> installed-ELF audit
-    -> release input
-    -> domestic ELF transformation
-    -> final client-data ELF verification
+controlled source
+    -> controlled dependencies/world
+    -> configure
+    -> build
+    -> install/stage
+    -> integrity / ELF / runtime audit
+    -> publish exact certified material
+    -> regenerate manifests when material changes
+    -> seal portable workspace when laboratory changes
+    -> materialize consuming system
+    -> real runtime acceptance
 ```
 
-A successful CMake build is not sufficient publication authority. The CMake build-tree ELF must not be used directly as the release payload.
+---
 
-The 1.0.21 workflow source has therefore been prepared so the Tray Host release input comes from the DESTDIR-installed artifact. The final release verifier has also been extended to inspect the domestic Tray ELF inside `client-data.tar.gz`.
+# Esbirro and Boss
 
-The controlled installed artifact showed no build-tree path leak. Its final domestic form uses the canonical interpreter and runtime library roots below:
+Esbirro does not become Lifecycle.
+
+Lifecycle does not talk directly to an "Esbirro daemon".
+
+Instead:
 
 ```text
-/opt/neebles/client/runtime/boss/rootfs
+Esbirro/CUSTOM prepares certified declarations/worlds/material
+    -> Boss reads declarative authority
+    -> Boss performs generic governed execution
 ```
 
-The Rust Boss backend change for Tray StatusNotifierItem behavior was built with the official Boss release command `cargo build --release --locked --bins` and completed successfully. Rust release build success is compile evidence only; Plasma interaction remains a runtime acceptance gate.
+That separation is deliberate.
 
-### Protected Launcher continuity
+---
 
-The previously repaired Launcher sequence remains authoritative:
+# Esbirro and Calamares
+
+Calamares consumes controlled Esbirro build/runtime material.
+
+Calamares does not become Boss.
+
+Boss does not become Calamares.
+
+Both can depend on the same controlled domestic authority without collapsing their architectures.
+
+---
+
+# Adding a new world
+
+The intended pattern for future work is:
 
 ```text
-Build Plasma launcher plugin
-    -> DESTDIR install
-    -> certify-launcher-plugin-stage.py
-    -> release-work/launcher-plugin-install
-    -> materialize release
+1. define the required world/material outside Boss
+2. domesticate and certify exact dependencies
+3. publish declarative world/runtime truth
+4. expose required authority through existing generic contracts
+5. add/adjust module Construction declaration
+6. test through Boss generic execution
+7. only add a new Boss capability if the required HOW is genuinely new
 ```
 
-Do not reorder or bypass that chain while integrating Tray changes.
+A new module technology alone is not sufficient reason to modify Boss.
 
-### Current stop point
+---
 
-Do not cut Boss 1.0.22 from this checkpoint. Resume with final integration, Plasma runtime acceptance and Test Module Point 10 in the next session.
+# Adding a new authority
+
+New authorities must be explicit, narrow and auditable.
+
+Before introducing one, answer:
+
+- who owns its semantics?
+- what exact source/root can it expose?
+- read-only or writable?
+- static or dynamic subpath?
+- who supplies the descriptor?
+- who authenticates it?
+- who grants it?
+- which generic consumer needs it?
+
+Do not smuggle authority through host environment or filesystem presence.
+
+---
+
+# Current release boundary
+
+Latest published Boss:
+
+```text
+1.0.22
+```
+
+Next Boss release:
+
+```text
+1.0.23
+```
+
+Before 1.0.23 is cut, the new CUSTOM revision must contain the current certified material/declarations and be pinned immutably by the Boss release workflow.
+
+Fresh Live remains the final system acceptance frontier.
+
+---
+
+# Final law
+
+Esbirro exists so N.E.E.B.L.E.S. can keep growing new worlds, tools and technologies **without turning Boss into a pile of technology-specific branches**.
+
+> **Esbirro domesticates and certifies. CUSTOM preserves the truth. OS supplies platform authority. Boss governs generic execution. BUILD materializes the system.**
