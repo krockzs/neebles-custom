@@ -1,6 +1,6 @@
 # N.E.E.B.L.E.S. CUSTOM
 
-**Current integration status: Point 8 GREEN / CLOSED. Boss contract CLOSED.**
+**Current integration status: Point 8 GREEN / CLOSED. Boss contract CLOSED. Point 10 dynamic Test Module integration IN PROGRESS.**
 
 N.E.E.B.L.E.S. CUSTOM is the certified domestic runtime, construction-material and portability repository of the N.E.E.B.L.E.S. ecosystem.
 
@@ -186,6 +186,105 @@ The repository is authoritative.
 
 Point 8 did not require changes to the CUSTOM material model, portable Esbirro laboratory or controlled Qt 6.8.2 world. The final Boss audit reused the existing CUSTOM-controlled material and confirmed that no second domestic execution engine or host-derived authority was needed.
 
+## Filesystem boundary continuity
+
+The 2026-10-03 Live validation exposed an OS-side filesystem-boundary defect while Boss consumed CUSTOM domestic material.
+
+The failure occurred when an explicitly authorized external file such as:
+
+```text
+/etc/resolv.conf
+```
+
+had to be projected into a destination that did not yet exist inside the domestic runtime.
+
+The previous OS boundary provider attempted to manufacture that destination by copying the complete domestic top-level directory into a temporary staging tree. For `/etc/resolv.conf`, this meant traversing the full domestic `/etc`.
+
+That behavior was invalid for the N.E.E.B.L.E.S. authority model because the domestic corpus can legitimately contain root-only material such as:
+
+```text
+/etc/sudoers.d/README
+/etc/ssl/private
+```
+
+A normal user must not need read access to unrelated domestic material merely to receive one explicitly authorized external file.
+
+The corrected OS provider no longer copies domestic top-level trees.
+
+For an existing domestic top-level whose requested destination leaf does not yet exist, the provider now composes a temporary overlay:
+
+```text
+domestic top-level
+    -> --overlay-src
+
+temporary writable overlay
+    -> --tmp-overlay
+
+authorized external resource
+    -> explicit bind onto the requested destination
+```
+
+For `/etc/resolv.conf`, the effective shape is conceptually:
+
+```text
+CUSTOM domestic rootfs /etc
+    -> overlay lower source
+
+temporary /etc overlay
+    -> transient mountpoint creation
+
+host /etc/resolv.conf
+    -> explicit read-only authority grant
+    -> /etc/resolv.conf inside the boundary
+```
+
+The fix is owned by N.E.E.B.L.E.S. OS, not CUSTOM.
+
+Canonical OS fix commit:
+
+```text
+b3bd0896cdf5b03ee79f485ebdbe39b49362ed43
+Fix filesystem boundary mountpoint staging
+```
+
+The important ownership rule remains unchanged:
+
+```text
+CUSTOM
+    -> owns certified domestic material truth
+
+OS
+    -> owns platform filesystem-boundary implementation
+    -> projects explicitly supplied authority
+
+Boss
+    -> consumes authority generically
+    -> does not copy or reinterpret CUSTOM material
+```
+
+This fix required no mutation of the CUSTOM domestic corpus, package manifests, effective installed metadata, Esbirro snapshots or controlled construction worlds.
+
+The Live validation confirmed the corrected chain:
+
+```text
+AuthoritySupply
+    -> platform.filesystem_boundary
+    -> OS boundary provider
+    -> domestic boss.git / boss.curl
+    -> GitHub registry resolution
+    -> Test Module discovery
+```
+
+The architectural law is therefore explicit:
+
+```text
+authority by mount composition
+    !=
+authority by domestic-tree duplication
+```
+
+A boundary consumer must never duplicate a domestic directory merely to create a missing mountpoint.
+
 ## Architectural boundary
 
 CUSTOM and Esbirro own module construction, domestication and certification semantics.
@@ -236,11 +335,21 @@ Point 8 added no new spell and no second domestic-construction engine. `boss.wor
 ## Current handoff
 
 ```text
-POINT 7 CUSTOM V2               GREEN / CLOSED
-POINT 8 BOSS FINAL GATE         GREEN / CLOSED
-BOSS CONTRACT                   CLOSED
-CUSTOM SOURCE CHANGE IN POINT 8 NONE REQUIRED
-TEST MODULE                     NEXT: POINT 9 ADAPTATION
+POINT 7 CUSTOM V2                    GREEN / CLOSED
+POINT 8 BOSS FINAL GATE              GREEN / CLOSED
+POINT 9 TEST MODULE ADAPTATION       CLOSED / INTEGRATED
+POINT 10 DYNAMIC CERTIFICATION       IN PROGRESS
+BOSS CONTRACT                        CLOSED
+CUSTOM MATERIAL MODEL                UNCHANGED
+OS FILESYSTEM BOUNDARY FIX           GREEN / VALIDATED IN LIVE
+TEST MODULE INSTALLATION             GREEN
+TEST MODULE DYNAMIC SURFACES         IN PROGRESS
 ```
 
-Test Module may be unfrozen when Point 9 begins. Its material, package membership, integrity manifest and construction declaration must adapt to the existing CUSTOM/Esbirro contract; it does not become an architecture driver.
+Test Module has already adapted to the existing CUSTOM/Esbirro contract and remains a consumer/template of the closed Boss architecture.
+
+Its installation path has now been validated in Live through the real remote registry and CUSTOM preinstall flow.
+
+The current dynamic certification front is no longer a CUSTOM redesign task. Remaining work belongs to runtime/surface integration such as module runtime registration, tray-provider execution, launcher projection, UI/config surfaces and shared state synchronization.
+
+CUSTOM must remain stable unless new evidence shows a defect in its own certified material truth, package membership, material integrity or construction declarations.
