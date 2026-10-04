@@ -1,6 +1,6 @@
 # N.E.E.B.L.E.S. CUSTOM
 
-**Current integration status: Point 8 GREEN / CLOSED. Boss contract CLOSED. Point 10 dynamic Test Module integration IN PROGRESS.**
+**Current integration status (2026-10-04): Point 8 GREEN / CLOSED; Boss contract CLOSED; Point 9 Test Module adaptation GREEN / CLOSED; Point 10 full dynamic Test Module certification PAUSED at the current handoff while Tray behavior is prepared for the next Boss release.**
 
 N.E.E.B.L.E.S. CUSTOM is the certified domestic runtime, construction-material and portability repository of the N.E.E.B.L.E.S. ecosystem.
 
@@ -353,3 +353,32 @@ Its installation path has now been validated in Live through the real remote reg
 The current dynamic certification front is no longer a CUSTOM redesign task. Remaining work belongs to runtime/surface integration such as module runtime registration, tray-provider execution, launcher projection, UI/config surfaces and shared state synchronization.
 
 CUSTOM must remain stable unless new evidence shows a defect in its own certified material truth, package membership, material integrity or construction declarations.
+
+
+## Current checkpoint — 2026-10-04
+
+CUSTOM remains the build/runtime material authority and Esbirro laboratory owner. The current source documentation baseline includes the filesystem-boundary continuity repair documented in commit:
+
+```text
+338c7a5a7  docs(custom): document filesystem boundary overlay fix
+```
+
+The corresponding canonical provider implementation belongs to N.E.E.B.L.E.S. OS, not CUSTOM. CUSTOM records the construction/runtime law and preserves the controlled world used to certify consumers.
+
+### Boss Tray controlled evidence
+
+The current controlled Qt 6.8.2 workspace was used to compile the modified Boss Tray Host from synchronized Boss source. The build completed and produced a new ELF. That ELF was then installed through CMake `DESTDIR`, not published directly from the CMake build tree.
+
+The installed artifact passed the current gate:
+
+- valid x86-64 PIE ELF;
+- ORIGIN-relative installed RUNPATH;
+- no controlled build-tree path leak;
+- final domestic transformation produced the canonical `/opt/neebles/client/runtime/boss/rootfs` interpreter and library search paths;
+- the new final Tray verifier accepted the domestic ELF after client-data packaging semantics were reproduced.
+
+This is construction/certification evidence, not a claim that the new click/dismiss behavior has already been accepted in Plasma.
+
+### Release boundary
+
+Boss **1.0.21** remains the published release. The next release and the resumed full Test Module certification are intentionally deferred to the next work session.

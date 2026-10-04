@@ -281,3 +281,50 @@ The repository is authoritative.
 Downloads is not authoritative.
 The host is not authoritative.
 A successful compilation alone is not certification.
+
+
+## Boss Tray certification checkpoint — 2026-10-04
+
+The Tray repair reinforced, rather than relaxed, Esbirro law.
+
+The current accepted construction sequence for the Qt Tray Host is:
+
+```text
+controlled Boss source projection
+    -> controlled Qt 6.8.2 CMake configure/build
+    -> CMake install through DESTDIR
+    -> installed-ELF audit
+    -> release input
+    -> domestic ELF transformation
+    -> final client-data ELF verification
+```
+
+A successful CMake build is not sufficient publication authority. The CMake build-tree ELF must not be used directly as the release payload.
+
+The 1.0.21 workflow source has therefore been prepared so the Tray Host release input comes from the DESTDIR-installed artifact. The final release verifier has also been extended to inspect the domestic Tray ELF inside `client-data.tar.gz`.
+
+The controlled installed artifact showed no build-tree path leak. Its final domestic form uses the canonical interpreter and runtime library roots below:
+
+```text
+/opt/neebles/client/runtime/boss/rootfs
+```
+
+The Rust Boss backend change for Tray StatusNotifierItem behavior was built with the official Boss release command `cargo build --release --locked --bins` and completed successfully. Rust release build success is compile evidence only; Plasma interaction remains a runtime acceptance gate.
+
+### Protected Launcher continuity
+
+The previously repaired Launcher sequence remains authoritative:
+
+```text
+Build Plasma launcher plugin
+    -> DESTDIR install
+    -> certify-launcher-plugin-stage.py
+    -> release-work/launcher-plugin-install
+    -> materialize release
+```
+
+Do not reorder or bypass that chain while integrating Tray changes.
+
+### Current stop point
+
+Do not cut Boss 1.0.22 from this checkpoint. Resume with final integration, Plasma runtime acceptance and Test Module Point 10 in the next session.
