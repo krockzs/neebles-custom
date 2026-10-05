@@ -113,6 +113,32 @@
         "--intent",
         "open"
       ]
+    },
+    {
+      "id": "tray-provider",
+      "runtime_authority": "modules.runtime",
+      "world": "modules.python3.13-tk",
+      "execution": "persistent",
+      "session": true,
+      "dynamic_readonly": [
+        {
+          "authority": "modules.installed_runtime",
+          "source": "/opt/neebles/modules/test-module",
+          "destination": "/opt/neebles/modules/test-module"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/opt/neebles/modules/test-module",
+      "arguments": [
+        "/opt/neebles/modules/test-module/tray/tray-provider.py"
+      ],
+      "session_readonly": [
+        "neebles/tray.sock"
+      ]
     }
   ]
 }

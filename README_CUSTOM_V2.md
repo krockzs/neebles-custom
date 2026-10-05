@@ -2,11 +2,63 @@
 
 **Module domestic-material authority**
 
-**Current integration status (2026-10-05):** **Point 1 CLOSED / GREEN.** CUSTOM V2 now represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. The legacy productive shared module-rootfs model is retired. **Point 2 remains pending. No new Boss release is claimed here.**
+**Current integration status (2026-10-05):** **Point 1 CLOSED / GREEN. Point 2 CLOSED / GREEN at source level.** CUSTOM V2 represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. Point 2 additionally certifies persistent Tray behavior through module-owned Construction using the same generic runtime/material authority model. The legacy productive shared module-rootfs model and direct host-provider execution model are retired. **Fresh Live and installed-system acceptance remain pending. No new Boss release is claimed here.**
 
 CUSTOM V2 is the certified domestic material, world and module-construction truth for N.E.E.B.L.E.S. modules.
 
 > **CUSTOM V2 declares and certifies WHAT module material exists. Boss governs HOW that certified material is authenticated, bound to an installed module and executed.**
+
+---
+
+# Point 2 — governed persistent module behavior
+
+Point 2 does **not** change the ownership boundary between CUSTOM V2 and Boss.
+
+CUSTOM V2 remains declarative material/construction truth.
+
+```text
+module manifest
+    -> tray.construction_step
+
+CUSTOM V2 Construction
+    -> step id
+    -> runtime_authority
+    -> world
+    -> execution mode
+    -> session requirement
+    -> exact readonly/session resources
+    -> arguments
+```
+
+For the current Test Module reference:
+
+```text
+tray.construction_step    tray-provider
+runtime_authority         modules.runtime
+world                     modules.python3.13-tk
+execution                 persistent
+session                   true
+session_readonly          neebles/tray.sock
+```
+
+`modules.python3.13-tk` was already certified material. Point 2 does not require rebuilding Python/Tk merely because Tray now consumes that world correctly.
+
+The productive flow is:
+
+```text
+module declares Tray Construction identity
+    -> Boss authenticates declaration
+    -> modules.runtime creates RuntimeLease
+    -> Essential + module delta compose
+    -> certified world resolves
+    -> exact session authorities are granted
+    -> Workspace executes generically
+    -> provider lives for the governed process lifetime
+```
+
+CUSTOM V2 does not teach Boss Python, Tk, Node, Qt or any future module technology.
+
+The Tray socket is a session-local resource. Its readonly projection is authorized by the desktop-session authority family; Construction requests the relative resource but does not manufacture authority.
 
 ---
 
@@ -221,15 +273,29 @@ init
 fetch
 checkout
 open-runtime
+tray-provider
 ```
 
-The first three remain finite Boss-runtime construction steps. `open-runtime` uses:
+The first three remain finite Boss-runtime construction steps.
+
+`open-runtime` uses:
 
 ```text
 runtime_authority: modules.runtime
 world: modules.python3.13-tk
 execution: persistent
 session: true
+```
+
+`tray-provider` uses the same certified runtime authority/world model:
+
+```text
+runtime_authority: modules.runtime
+world: modules.python3.13-tk
+execution: persistent
+session: true
+session_readonly:
+    neebles/tray.sock
 ```
 
 The module declares the WHAT. Boss supplies the generic HOW.
@@ -413,9 +479,9 @@ A successful compilation alone is not certification.
 
 ---
 
-# Point 1 closure and Point 2 boundary
+# Point 1 and Point 2 closure
 
-Point 1 is **CLOSED / GREEN**.
+Point 1 and Point 2 are **CLOSED / GREEN at source level**.
 
 The architecture now fixed is:
 
@@ -426,16 +492,19 @@ CUSTOM V2 Essential + module delta truth
     -> persistent MaterialBinding
     -> modules.runtime
     -> ephemeral RuntimeLease
+    -> certified world
+    -> exact session authority
     -> generic Workspace
+    -> governed persistent execution
 ```
 
-Point 1 intentionally removed the productive legacy bridge based on a persistent shared rootfs/shared mutable runtime manifest.
+Point 1 removed the productive legacy bridge based on a persistent shared rootfs/shared mutable runtime manifest.
 
-**Point 2 remains pending.** Before moving fully into Point 2, documentation and repository cleanup/audit are completed and the intended source state is committed/pushed.
+Point 2 removed direct host Tray-provider execution and bound persistent Tray birth to module-owned Construction, `modules.runtime`, RuntimeLease, desktop-session authority and governed process ownership.
 
-Release preparation/publication occurs after Point 2 closes. This README does not invent a next release number.
+Release preparation/publication follows this source closure.
 
-Fresh Live remains a later integrated acceptance gate and is not falsely claimed by Point 1.
+Fresh Live and installed-system acceptance remain separate later gates and are not falsely claimed by source certification.
 
 ---
 
