@@ -1,5 +1,7 @@
 # N.E.E.B.L.E.S. Esbirro Portable Workspace
 
+**Current integration status (2026-10-05):** Point 1 module-material architecture closed and certified. Esbirro now documents the explicit CUSTOM classic / CUSTOM V2 boundary and the Essential + module-delta material model. **Point 2 remains pending; no new release is claimed here.**
+
 Esbirro is the controlled domestic engineering and certification authority of the N.E.E.B.L.E.S. ecosystem.
 
 This directory preserves the portable development laboratory used to create, certify and restore controlled worlds, runtime material and construction authority.
@@ -218,13 +220,23 @@ This avoids hardcoding individual module install directories inside Boss.
 
 # Runtime manifests
 
-Domestic runtime manifests expose worlds to generic consumers.
+Domestic runtime manifests expose named worlds to generic consumers.
 
-Boss runtime manifests are built during Boss release from Boss world contracts and the pinned CUSTOM rootfs.
+Boss infrastructure runtime manifests remain part of the classic Boss release material path.
 
-Module runtime manifests may live directly in CUSTOM when they describe the shared module material authority.
+Module runtime truth belongs to CUSTOM V2. For module execution, the important relationship is now:
 
-The important rule is:
+```text
+world identity
+    -> authenticated CUSTOM V2 runtime manifest payload
+    -> persistent Boss MaterialBinding for the installed module
+    -> fresh Boss RuntimeLease
+    -> generic resolver / Workspace
+```
+
+Esbirro certifies the declarations and material that make this possible; Esbirro does not own the runtime lease lifetime.
+
+The permanent rule remains:
 
 ```text
 world identity
@@ -243,29 +255,53 @@ technology name
 
 # Module material powers
 
-CUSTOM/Esbirro currently supports a shared module material model.
+Module domestic material belongs to **CUSTOM V2**, not to CUSTOM classic.
+
+The current certified source layout is:
 
 ```text
-runtime/modules/packages/
-runtime/modules/rootfs/
-runtime/manifests/modules/
+runtime/modules/packages/essentials/*.deb
+runtime/modules/packages/*.deb
+runtime/manifests/modules/essentials.packages.tsv
+runtime/manifests/modules/essentials.manifest.json
+runtime/manifests/modules/<module_id>.packages.tsv
+runtime/manifests/modules/<module_id>.manifest.json
+runtime/modules/domestic-runtime.json
 ```
 
-Two distinct truths are preserved:
+Two material layers are intentionally distinct:
 
 ```text
-membership
-    -> <module_id>.packages.tsv
+Essential
+    -> global reusable base required by module runtimes
+    -> not a fake module
 
-integrity
-    -> <module_id>.manifest.json
+module delta
+    -> only material specific to the consuming module
+    -> must not re-own Essential merely because it needs it
 ```
 
-These contracts must not be collapsed.
+Membership and integrity remain separate truths:
 
-The package pool is shared and cumulative.
+```text
+package membership
+    -> *.packages.tsv
 
-Uninstall does not erase unrelated or reusable domestic package material.
+material integrity
+    -> *.manifest.json
+```
+
+The source `.deb` arsenal is cumulative and reusable. The productive user system preserves verified package pools, **not** one persistent composed rootfs.
+
+Esbirro/CUSTOM V2 certifies material truth. Boss Preinstall authenticates and caches it. Boss MaterialBinding persists which certified truth belongs to the installed module. Boss RuntimeLease composes Essential + module delta only for the lifetime of an execution.
+
+The following model is obsolete and must not return:
+
+```text
+runtime/modules/rootfs/ as one productive persistent shared module rootfs
+    -> published to /opt/neebles-build/modules/rootfs
+    -> mutable shared domestic-runtime.json
+```
 
 ---
 
@@ -274,17 +310,25 @@ Uninstall does not erase unrelated or reusable domestic package material.
 The current reference module uses:
 
 ```text
-47 certified DEBs
-modules.python3.13-tk
+world: modules.python3.13-tk
+Essential layer: 59 certified DEBs
+Test Module delta: 32 certified DEBs
 ```
 
-The world includes Python 3.13, native libraries, Tcl/Tk and graphical dependencies needed by the current reference runtime.
+Physical certification during Point 1 observed:
 
-This does not make Python/Tk an Esbirro law.
+```text
+Essential material entries       3538
+Test Module delta entries        2210
+compatible overlap               16 directories
+file/symlink collisions          0
+```
 
-It is one certified world.
+The combined Essential + Test Module material executed Python 3.13.5 and `_tkinter` / Tcl 8.6 with no unresolved ELF dependencies in the certification path.
 
-Future modules may request different worlds.
+This does **not** make Python/Tk an Esbirro law. It is one certified world and one reference module delta.
+
+Future modules may consume the same Essential material, extend it through a different delta, or use entirely different worlds without requiring technology-specific branches in Boss.
 
 ---
 
@@ -438,31 +482,41 @@ controlled source
 
 # Esbirro and Boss
 
-Esbirro does not become Lifecycle.
+Esbirro does not become Lifecycle, MaterialBinding or RuntimeLease.
 
 Lifecycle does not talk directly to an "Esbirro daemon".
 
 Instead:
 
 ```text
-Esbirro/CUSTOM prepares certified declarations/worlds/material
-    -> Boss reads declarative authority
-    -> Boss performs generic governed execution
+Esbirro / CUSTOM classic
+    -> certifies Boss/Calamares controlled material where applicable
+
+Esbirro / CUSTOM V2
+    -> certifies module Essential + delta + manifests/worlds/declarations
+
+Boss
+    -> authenticates declared authority
+    -> persists installed module material identity through MaterialBinding
+    -> creates ephemeral RuntimeLease when modules.runtime executes
+    -> performs generic governed execution
 ```
 
-That separation is deliberate.
+That separation is deliberate. Material certification authority and runtime ownership remain distinct.
 
 ---
 
 # Esbirro and Calamares
 
-Calamares consumes controlled Esbirro build/runtime material.
+Calamares consumes **CUSTOM classic** controlled build/runtime material.
 
 Calamares does not become Boss.
 
 Boss does not become Calamares.
 
-Both can depend on the same controlled domestic authority without collapsing their architectures.
+CUSTOM V2 module material must not be confused with the classic Calamares/Boss corpus merely because both are domesticated through Esbirro-controlled processes.
+
+The controlled Qt 6.8.2 laboratory and classic Calamares path remain unchanged by Point 1.
 
 ---
 
@@ -503,23 +557,25 @@ Do not smuggle authority through host environment or filesystem presence.
 
 ---
 
-# Current release boundary
+# Current integration boundary
 
-Latest published Boss:
-
-```text
-1.0.22
-```
-
-Next Boss release:
+Point 1 is closed for the module-material architecture:
 
 ```text
-1.0.23
+Essential global layer
+    + module delta
+    -> permanent verified DEB pools
+    -> persistent Boss MaterialBinding
+    -> ephemeral per-execution RuntimeLease
 ```
 
-Before 1.0.23 is cut, the new CUSTOM revision must contain the current certified material/declarations and be pinned immutably by the Boss release workflow.
+The previous shared persistent module-rootfs model is no longer authoritative.
 
-Fresh Live remains the final system acceptance frontier.
+**Point 2 remains pending.** Repository cleanup/audit and documentation are completed before the project moves fully into Point 2. Release preparation/publication comes only after Point 2 closes.
+
+No "next Boss release" number is asserted by this README. Version/release truth must be read from the repository again when the release phase actually begins.
+
+Fresh Live remains a later integrated system-acceptance frontier; Point 1 source/material certification does not falsely claim it.
 
 ---
 

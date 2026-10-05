@@ -3,13 +3,6 @@
   "version": "1.2.0",
   "entries": [
     {
-      "path": "packages/debconf_1.5.91_all.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 121088,
-      "sha256": "1ddc7e6c5925f748eefb7ca811d98e049f18c158bb21fbc7e122262ce6011e49"
-    },
-    {
       "path": "packages/fontconfig-config_2.15.0-2.3_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -31,39 +24,11 @@
       "sha256": "3003e98a5debfdeadc7040a7f715fe9fe6fb67f68deacf6049b54e30f07fc014"
     },
     {
-      "path": "packages/gcc-14-base_14.2.0-19_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 49432,
-      "sha256": "5b6825de4263824b78c4c51f6476414f3b4e89c2ab63e81dc8b9b5501e867cf6"
-    },
-    {
       "path": "packages/libbrotli1_1.1.0-2+b7_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 306624,
       "sha256": "0fb79f88db210afbd69282ab9649e525f393ec6950ca34da1a6b359250b8d7db"
-    },
-    {
-      "path": "packages/libbz2-1.0_1.0.8-6_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 37912,
-      "sha256": "cba4cda04244b5e481bb15524bc3c983a7d1b6f330013b9b381706a2fcb65310"
-    },
-    {
-      "path": "packages/libc6_2.41-12+deb13u4_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 2846580,
-      "sha256": "967aa62605721081c3eb2a17650611a792aa802d76a6511d1840242623d204c9"
-    },
-    {
-      "path": "packages/libdb5.3t64_5.3.28+dfsg2-9_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 703676,
-      "sha256": "18d02510ee78b67e4504ba050176797a200ff24214a7cd318082ab60ad7bf3fc"
     },
     {
       "path": "packages/libexpat1_2.8.3-1~deb13u1_amd64.deb",
@@ -92,20 +57,6 @@
       "mode": "0o664",
       "size": 452308,
       "sha256": "e4947f3291528f03d574f2b01d5c5fc45c58c47480f32888a5cdf0f231ab584e"
-    },
-    {
-      "path": "packages/libgcc-s1_14.2.0-19_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 72772,
-      "sha256": "3c71917b490d1a17aed43196a2787a256ecf060526cdb20216a74bedc061b150"
-    },
-    {
-      "path": "packages/liblzma5_5.8.1-1+deb13u1_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 309492,
-      "sha256": "1cfcc6e0dc36f438a79b6e2189facdb9d150b08f57d190a60e01c98075c7f896"
     },
     {
       "path": "packages/libncursesw6_6.5+20250216-2_amd64.deb",
@@ -143,20 +94,6 @@
       "sha256": "eeadf2b5e755c9f183883feea2d9b5b28560284275d5f54d3e55d0923b1d0967"
     },
     {
-      "path": "packages/libsqlite3-0_3.46.1-7+deb13u2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 914584,
-      "sha256": "0a459adaffd901109f7811ab65f58e7a957b4907d05539cf3d1184efdcde0468"
-    },
-    {
-      "path": "packages/libssl3t64_3.5.7-1~deb13u2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 2453872,
-      "sha256": "916f7f40b34a06e6ebfaefcdab331bff458328411da672598f126a760472467d"
-    },
-    {
       "path": "packages/libtcl8.6_8.6.16+dfsg-1_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -164,25 +101,11 @@
       "sha256": "7cfa070ca822e572a91bf1719f6ac7d9b464dc8da4142ea68cbd31aeac2fc52a"
     },
     {
-      "path": "packages/libtinfo6_6.5+20250216-2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 348380,
-      "sha256": "8b9f6a7983e9418564e48a627518de4c03917b56efe68d7f3e93bd8fffa1cc10"
-    },
-    {
       "path": "packages/libtk8.6_8.6.16-1_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 793192,
       "sha256": "1241ce0b77475093756dd1ac8063f4d8de90e64146583c3a8fc47802627456ef"
-    },
-    {
-      "path": "packages/libuuid1_2.41.5-0+deb13u1_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 37848,
-      "sha256": "c1bf4c4c3ff48c57fabf93307dfb56996b60cfa33927afc4158b5db36fb2721e"
     },
     {
       "path": "packages/libx11-6_1.8.12-1_amd64.deb",
@@ -248,13 +171,6 @@
       "sha256": "302d4a97800429fa0d67ae2e0e8e3adc1228b12d25d3d3cca6c9d24eeff40a6c"
     },
     {
-      "path": "packages/libzstd1_1.5.7+dfsg-1_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 303836,
-      "sha256": "2f6a2aeacfc925eba8b00ac9139bc4bfccf8cacb09eb93de067074b26948eef9"
-    },
-    {
       "path": "packages/lsb-base_11.6_all.deb",
       "type": "file",
       "mode": "0o664",
@@ -274,13 +190,6 @@
       "mode": "0o664",
       "size": 12436,
       "sha256": "76bafa92947ebd37b0a6f9ec6570412041f56edebc1c66d323731216d318471e"
-    },
-    {
-      "path": "packages/openssl-provider-legacy_3.5.7-1~deb13u2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 316132,
-      "sha256": "f155c8191ae6d41da73d792f4182680aeafeb85c3dd223934ee9fdd115c4f1fa"
     },
     {
       "path": "packages/python3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
@@ -304,13 +213,6 @@
       "sha256": "f77e8aa0bf0de618f11cb0b21658a4ed60f177d63b3cf26d7fc3706b6d0eaaa9"
     },
     {
-      "path": "packages/sysvinit-utils_3.14-4_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 34060,
-      "sha256": "c7e957360dff89675b491e501b00047cf750695178cabab167c92fc260d358ec"
-    },
-    {
       "path": "packages/tzdata_2026c-0+deb13u1_all.deb",
       "type": "file",
       "mode": "0o664",
@@ -325,13 +227,6 @@
       "sha256": "57a981938506b26dc552f19cafeaa8c04e9b59dc7508509151f8507a9d4e5f24"
     },
     {
-      "path": "packages/zlib1g_1.3.dfsg+really1.3.1-1+b1_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 88892,
-      "sha256": "015be740d6236ad114582dea500c1d907f29e16d6db00566ca32fb68d71ac90d"
-    },
-    {
       "path": "rootfs/etc",
       "type": "dir",
       "mode": "0o755"
@@ -342,26 +237,9 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/var",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/etc/X11",
       "type": "dir",
       "mode": "0o755"
-    },
-    {
-      "path": "rootfs/etc/apt",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/etc/debconf.conf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2967,
-      "sha256": "0d0e7109df366b0e963add08e218d62afb516218deeb3b5aa9259b821efb569c"
     },
     {
       "path": "rootfs/etc/ethertypes",
@@ -377,11 +255,6 @@
     },
     {
       "path": "rootfs/etc/init.d",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/etc/ld.so.conf.d",
       "type": "dir",
       "mode": "0o755"
     },
@@ -434,22 +307,7 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/lib64",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/sbin",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/var/cache",
       "type": "dir",
       "mode": "0o755"
     },
@@ -502,11 +360,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/etc/apt/apt.conf.d",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/etc/fonts/conf.avail",
       "type": "dir",
       "mode": "0o755"
@@ -531,13 +384,6 @@
       "sha256": "f3970ef5cc93144c5e91108aeb5cb64aa36a10de26bba0104ada8e2fb1fd7e17"
     },
     {
-      "path": "rootfs/etc/ld.so.conf.d/x86_64-linux-gnu.conf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 100,
-      "sha256": "f03e4740e6922b4f4a1181cd696b52f62f9f10d003740a8940f7121795c59c98"
-    },
-    {
       "path": "rootfs/etc/python3.13/sitecustomize.py",
       "type": "file",
       "mode": "0o644",
@@ -549,61 +395,6 @@
       "type": "symlink",
       "mode": "0o777",
       "target": "."
-    },
-    {
-      "path": "rootfs/usr/bin/debconf",
-      "type": "file",
-      "mode": "0o755",
-      "size": 2870,
-      "sha256": "d5beef1820da2445e173c90ba14c535f566db12cd7de0cb3d4385a6aa4bcd8e3"
-    },
-    {
-      "path": "rootfs/usr/bin/debconf-apt-progress",
-      "type": "file",
-      "mode": "0o755",
-      "size": 11846,
-      "sha256": "ab24031d661b531961bab055a344c97d66ded2718c9a4c48ddbe0392273897e0"
-    },
-    {
-      "path": "rootfs/usr/bin/debconf-communicate",
-      "type": "file",
-      "mode": "0o755",
-      "size": 623,
-      "sha256": "95dd9cc45752692e9288eed9abf9d0bbd22bb78ffe59a78cbfcbe96cffefbba5"
-    },
-    {
-      "path": "rootfs/usr/bin/debconf-copydb",
-      "type": "file",
-      "mode": "0o755",
-      "size": 1718,
-      "sha256": "02f27a04a3485f487e654051a4e72a806e9aff40ccf87934f896f59c29fd6db2"
-    },
-    {
-      "path": "rootfs/usr/bin/debconf-escape",
-      "type": "file",
-      "mode": "0o755",
-      "size": 668,
-      "sha256": "b1e81e2ac04c2a6c286514f2f410c57b9ac6188ed33ed558722f3bc252e93e87"
-    },
-    {
-      "path": "rootfs/usr/bin/debconf-set-selections",
-      "type": "file",
-      "mode": "0o755",
-      "size": 3216,
-      "sha256": "1f32e8a3daba11364b8f4ca795e1fad83b688f02ab27df8066f5c552d1070f98"
-    },
-    {
-      "path": "rootfs/usr/bin/debconf-show",
-      "type": "file",
-      "mode": "0o755",
-      "size": 1825,
-      "sha256": "314fa1730e1efe15db17307848e7a53e450d0093009b6f1596cd3fe0ffec1b67"
-    },
-    {
-      "path": "rootfs/usr/bin/pidof",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "../sbin/killall5"
     },
     {
       "path": "rootfs/usr/bin/python3.13",
@@ -628,16 +419,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/lib/init",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/lsb",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/lib/python3.13",
       "type": "dir",
       "mode": "0o755"
@@ -653,46 +434,7 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/lib64/ld-linux-x86-64.so.2",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "../lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
-    },
-    {
-      "path": "rootfs/usr/sbin/dpkg-preconfigure",
-      "type": "file",
-      "mode": "0o755",
-      "size": 4563,
-      "sha256": "39577985ac160864db65d2efe65e411941010fd3facb5c6e07e9c5da26998fea"
-    },
-    {
-      "path": "rootfs/usr/sbin/dpkg-reconfigure",
-      "type": "file",
-      "mode": "0o755",
-      "size": 4536,
-      "sha256": "8a7869c4c3efd0aa83a32e873b5bad435cc954080bb2490e605eb84096902343"
-    },
-    {
-      "path": "rootfs/usr/sbin/fstab-decode",
-      "type": "file",
-      "mode": "0o755",
-      "size": 14576,
-      "sha256": "07c47084f62da68c97bc15452d26f79acc4bb7b018e1d998d9a64207680a4948"
-    },
-    {
-      "path": "rootfs/usr/sbin/killall5",
-      "type": "file",
-      "mode": "0o755",
-      "size": 26944,
-      "sha256": "52f885ecfb5ca918ea6c3a9c850437a5d9dd008b7eec9a316e9fe3f7b1a2c0fb"
-    },
-    {
       "path": "rootfs/usr/share/X11",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/bash-completion",
       "type": "dir",
       "mode": "0o755"
     },
@@ -703,11 +445,6 @@
     },
     {
       "path": "rootfs/usr/share/bug",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/debconf",
       "type": "dir",
       "mode": "0o755"
     },
@@ -747,16 +484,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/perl5",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/pixmaps",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/readline",
       "type": "dir",
       "mode": "0o755"
@@ -773,11 +500,6 @@
     },
     {
       "path": "rootfs/usr/share/zoneinfo",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/var/cache/debconf",
       "type": "dir",
       "mode": "0o755"
     },
@@ -843,13 +565,6 @@
       "mode": "0o644",
       "size": 166,
       "sha256": "e1e8fccc5299746efba8d7550ac0cf19002659ee298c53c8591ee6e3efcc7220"
-    },
-    {
-      "path": "rootfs/etc/apt/apt.conf.d/70debconf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 182,
-      "sha256": "db749e19baf3b72ca2c157c70c52522cae23d94bc8b2dc5793fd43d427445367"
     },
     {
       "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf",
@@ -1140,32 +855,6 @@
       "mode": "0o644",
       "size": 54,
       "sha256": "10f7fd39c493a458d54cc84ed3711a2510d853c2f6396384a6a40e2dab1a60d2"
-    },
-    {
-      "path": "rootfs/usr/lib/init/init-d-script",
-      "type": "file",
-      "mode": "0o755",
-      "size": 7042,
-      "sha256": "65986dbe41ea4af4efba1f931db219dcea8ada1e0d457dcc1f452fe854f215cb"
-    },
-    {
-      "path": "rootfs/usr/lib/init/vars.sh",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1358,
-      "sha256": "a35cfcac3e119e5488bf093f3dc8213b2f10e7668a460665b884760e823e5eef"
-    },
-    {
-      "path": "rootfs/usr/lib/lsb/init-functions",
-      "type": "file",
-      "mode": "0o644",
-      "size": 11329,
-      "sha256": "f58bfadf2419d6036a2c7440e574c3c3e7a35aea380375f6ab1b590d64e5e952"
-    },
-    {
-      "path": "rootfs/usr/lib/lsb/init-functions.d",
-      "type": "dir",
-      "mode": "0o755"
     },
     {
       "path": "rootfs/usr/lib/python3.13/EXTERNALLY-MANAGED",
@@ -2442,30 +2131,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/engines-3",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
-      "type": "file",
-      "mode": "0o755",
-      "size": 225672,
-      "sha256": "c8438e4fde1934e61c88311633f00949ff645d5c04cdb8671fa3d78164d2f307"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libBrokenLocale.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14552,
-      "sha256": "8f8229e3a72a97b608673315a5b7eaffbc13549add9437ba9828974e83d38e81"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libX11.so.6",
       "type": "symlink",
       "mode": "0o777",
@@ -2557,13 +2222,6 @@
       "sha256": "ee25b3f08bed4d97c703890fb8ba27a70e0df6af67c13161e39a1e34db3396e4"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libanl.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14408,
-      "sha256": "f4d70be0af174f80a2c700f8a690b86ea3da867d10803e8641f7c11c11a4925d"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1",
       "type": "symlink",
       "mode": "0o777",
@@ -2601,60 +2259,6 @@
       "mode": "0o644",
       "size": 670376,
       "sha256": "9d2f1fd742dee91f7247e9402157f69b2fc1001806eea595ede4924c54b78bcd"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbz2.so.1",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libbz2.so.1.0.4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libbz2.so.1.0.4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4",
-      "type": "file",
-      "mode": "0o644",
-      "size": 74688,
-      "sha256": "c630f057efedc12f848710d71f40283895591e5b4608539f387895c64e0553da"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libc.so.6",
-      "type": "file",
-      "mode": "0o755",
-      "size": 1995216,
-      "sha256": "9792e3cbb541c8f44c7acf5f14f4022ea62998ecc787d326bed4d8b6547dfd92"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libc_malloc_debug.so.0",
-      "type": "file",
-      "mode": "0o644",
-      "size": 53904,
-      "sha256": "c9cad01c6334afa750c0b81b5818e3a643ff41860a4a4c802aa7f203c2372953"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
-      "type": "file",
-      "mode": "0o644",
-      "size": 6517312,
-      "sha256": "8bb5f3fdffe280d4453eb79a4663c2c47af70b7c247fe2e94e2da703cee1fd3d"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libdb-5.3.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1864304,
-      "sha256": "cd87ddcf60a6e62ab0dedee64a4292c783e0e991de3329d959fac1ef2dc389af"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libdl.so.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14408,
-      "sha256": "295fa521a03cd2faa99974f378c9e23dd622021ec7d32bcad4f8ea61aec8a872"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libexpat.so.1",
@@ -2735,13 +2339,6 @@
       "sha256": "9e376992a91e92d86809893a3b9eea22a4e27849db1686f6ca58032f79cdafb5"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 182856,
-      "sha256": "30c61ab012a4241bed033725a09b61f5fdd3bb7df95ee852d0b096520524c7af"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libhistory.so.8",
       "type": "symlink",
       "mode": "0o777",
@@ -2753,33 +2350,6 @@
       "mode": "0o644",
       "size": 51656,
       "sha256": "992a6493753dfcc169cc13dd7b869f79f0368360ffd01ff6ef592c60c3a72de6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/liblzma.so.5",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "liblzma.so.5.8.1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/liblzma.so.5.8.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 198832,
-      "sha256": "01e05a4b5268805a10a2414a8904fb1fb45c60626dce53b5ea19c1d491049b99"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libm.so.6",
-      "type": "file",
-      "mode": "0o644",
-      "size": 977112,
-      "sha256": "6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libmemusage.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18640,
-      "sha256": "2ca7f9e467e94976217bee7805578a448f35c9d18dd7ddc74ca2f9eb5938f4cd"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libmenuw.so.6",
@@ -2795,13 +2365,6 @@
       "sha256": "3b2893222b8e5bb847a11162e0e24e6be523abbd575f1c5ce5ebc63ab9f360f4"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libmvec.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1018072,
-      "sha256": "cd2f99df70ed0fa44f79bd6322396180d19eaa1fb527b1b6e2aec9cdfc034d9d"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libncursesw.so.6",
       "type": "symlink",
       "mode": "0o777",
@@ -2813,41 +2376,6 @@
       "mode": "0o644",
       "size": 235520,
       "sha256": "ea1e3fea29b3d3f35e240f626e5e783885d1d17f7915e7840f2a1542058c154c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libnsl.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 96472,
-      "sha256": "559152811dc708d3626b1861bd6fb705f63ad36bc2360a1c678ef746a8042482"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libnss_compat.so.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 43664,
-      "sha256": "1e3f5cf8f1a868301de80638546142205d90ea0e0606c9adae8254fd95ea6740"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libnss_dns.so.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14336,
-      "sha256": "d6ff05b8003825fbef5ad779b5e2f870f179953e4fb560697b6f261010efe8d4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libnss_files.so.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14336,
-      "sha256": "8c93b2ae43dac3c2d688d227609d713f71620d3f0980ebf6bbb371c6eb542108"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libnss_hesiod.so.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26840,
-      "sha256": "8da91b801b5349aca633ffb8cb33e7b9f17cf949624623ea9882406c5779512f"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libpanelw.so.6",
@@ -2863,13 +2391,6 @@
       "sha256": "00fe6bd6cf946faace4dd2812b1afd7a7f2b6e578d436148dac5ba2c10ec74f5"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libpcprofile.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14472,
-      "sha256": "c2897cb6591f3cf50a43c0406d04bbcf665feec52e3b68eea5b3f23dd4e23e9b"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libpng16.so.16",
       "type": "symlink",
       "mode": "0o777",
@@ -2881,13 +2402,6 @@
       "mode": "0o644",
       "size": 231416,
       "sha256": "56485ea502d222fa8b0d99f899470c1bacdca815a958d83c1b349d4e8f605255"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libpthread.so.0",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14408,
-      "sha256": "85e21f7dba0394411d00959176fd18b470e575b0b05f1f4f41e5636802ce0500"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libreadline.so.8",
@@ -2903,40 +2417,6 @@
       "sha256": "a3334d88f3f6c6a25736667e0b39db0f68b4e7e6bf758a475aff681ddb33ad8b"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libresolv.so.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 63936,
-      "sha256": "d41dd4adacf5a35df426461dd8a92d7bdd5ba29bb61a1c3531bec0ada386f8dd"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/librt.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14552,
-      "sha256": "7b7b84d1aedda0e0b2bdfc68844362782132180b8f02be1300e21e77572e514b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libsqlite3.so.0.8.6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1571096,
-      "sha256": "317d80bf5d592f98a71e14d2330591d6a339f631f37c5977835af748a1f26715"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libssl.so.3",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1101760,
-      "sha256": "4b34859318555bf96d518131bed5fc4d5e35fefa4e1729f49eaa26bd05263850"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libtcl8.6.so",
       "type": "file",
       "mode": "0o644",
@@ -2948,39 +2428,6 @@
       "type": "symlink",
       "mode": "0o777",
       "target": "libtcl8.6.so"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libthread_db.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 47840,
-      "sha256": "5becc66927b75fe505e93ece4bb42bbf919f35d2e8bd8d477bdaa40f3d21ea6e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libtic.so.6",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libtic.so.6.5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libtic.so.6.5",
-      "type": "file",
-      "mode": "0o644",
-      "size": 71768,
-      "sha256": "120c0d6252a56295db06db3a0a615ddffecf39c2989b82653b29efd2d1e7ec6e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libtinfo.so.6",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libtinfo.so.6.5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libtinfo.so.6.5",
-      "type": "file",
-      "mode": "0o644",
-      "size": 220464,
-      "sha256": "4013e7651ac68f547d8333517def25b2366c97eec7de7f06e105dbf3444ffebf"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libtk8.6.so",
@@ -2996,26 +2443,6 @@
       "target": "libtk8.6.so"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libutil.so.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14408,
-      "sha256": "e3981d10efd152a53f083e38f5f9ddde7a049c85d0ab388a5eec91b52fc98a11"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libuuid.so.1",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libuuid.so.1.3.0"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0",
-      "type": "file",
-      "mode": "0o644",
-      "size": 39048,
-      "sha256": "632fd43a9d8d6f3496833b7e62e7840f397163373dddf8b8eb0b2b7f36593117"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libxcb.so.1",
       "type": "symlink",
       "mode": "0o777",
@@ -3027,37 +2454,6 @@
       "mode": "0o644",
       "size": 170936,
       "sha256": "a1cde2cec9b7b8b38e4cca450c55c63651efb80a2458d76964b56b763043f533"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libz.so.1",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libz.so.1.3.1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libz.so.1.3.1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 125376,
-      "sha256": "85590dd58edf5445e18bc7193e5ebc01ac5841f1ae187e97705a662e90c6421e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libzstd.so.1",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libzstd.so.1.5.7"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.7",
-      "type": "file",
-      "mode": "0o644",
-      "size": 825336,
-      "sha256": "27f07c9a49c2c956bcfb64cd4712976586a66facbf15fc7f09bc37413b5f2b21"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/ossl-modules",
-      "type": "dir",
-      "mode": "0o755"
     },
     {
       "path": "rootfs/usr/share/X11/XErrorDB",
@@ -3078,11 +2474,6 @@
       "target": "/etc/X11/rgb.txt"
     },
     {
-      "path": "rootfs/usr/share/bash-completion/completions",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/binfmts/python3.13",
       "type": "file",
       "mode": "0o644",
@@ -3095,51 +2486,11 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/debconf/confmodule",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3716,
-      "sha256": "5b043ed174b714949cfb2097d303147b9f02c5fb9e531e2dfb562b1476e820af"
-    },
-    {
-      "path": "rootfs/usr/share/debconf/confmodule.sh",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2736,
-      "sha256": "2e8d6e49e5c3d7b45914f2b39d2a15c4f53f6d69819d245dedcf05fe6a9f4359"
-    },
-    {
-      "path": "rootfs/usr/share/debconf/debconf.conf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 414,
-      "sha256": "2ed2f1e25211c95ae120cecfff540e33a533c03bb2793504c3d692b0b034c2dd"
-    },
-    {
-      "path": "rootfs/usr/share/debconf/fix_db.pl",
-      "type": "file",
-      "mode": "0o755",
-      "size": 2011,
-      "sha256": "c93e407ce5b26da82b2e630b9f7e12af7e9b77ff2475ffbc9c999c6d7963b764"
-    },
-    {
-      "path": "rootfs/usr/share/debconf/frontend",
-      "type": "file",
-      "mode": "0o755",
-      "size": 2515,
-      "sha256": "200c5c0f4c7ad7770e6bb192e14b5d7d668a698d661595f5836e04a365b85293"
-    },
-    {
       "path": "rootfs/usr/share/doc-base/libpng16-16t64.libpng16",
       "type": "file",
       "mode": "0o644",
       "size": 1370,
       "sha256": "7ad199267001a82ebeeab552d0cf3e0447d10fa117606579cee3a2ea3b95a8c0"
-    },
-    {
-      "path": "rootfs/usr/share/doc/debconf",
-      "type": "dir",
-      "mode": "0o755"
     },
     {
       "path": "rootfs/usr/share/doc/fontconfig-config",
@@ -3157,27 +2508,7 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/doc/gcc-14-base",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/doc/libbrotli1",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libbz2-1.0",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libdb5.3t64",
       "type": "dir",
       "mode": "0o755"
     },
@@ -3198,17 +2529,6 @@
     },
     {
       "path": "rootfs/usr/share/doc/libfreetype6",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libgcc-s1",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "gcc-14-base"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5",
       "type": "dir",
       "mode": "0o755"
     },
@@ -3240,32 +2560,12 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/doc/libsqlite3-0",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libssl3t64",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/doc/libtcl8.6",
       "type": "dir",
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/doc/libtinfo6",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/doc/libtk8.6",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libuuid1",
       "type": "dir",
       "mode": "0o755"
     },
@@ -3315,11 +2615,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/doc/libzstd1",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/doc/lsb-base",
       "type": "dir",
       "mode": "0o755"
@@ -3331,11 +2626,6 @@
     },
     {
       "path": "rootfs/usr/share/doc/netbase",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssl-provider-legacy",
       "type": "dir",
       "mode": "0o755"
     },
@@ -3360,22 +2650,12 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/doc/sysvinit-utils",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/usr/share/doc/tzdata",
       "type": "dir",
       "mode": "0o755"
     },
     {
       "path": "rootfs/usr/share/doc/x11-common",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/zlib1g",
       "type": "dir",
       "mode": "0o755"
     },
@@ -3415,28 +2695,6 @@
       "path": "rootfs/usr/share/man/man5",
       "type": "dir",
       "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debian",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/pixmaps/debian-logo.png",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1206,
-      "sha256": "4eb2e1d7383a0cd7927c08ef31d5506a815d0f48fa457daa576035d6628e3f3e"
     },
     {
       "path": "rootfs/usr/share/readline/inputrc",
@@ -3594,13 +2852,6 @@
       "mode": "0o644",
       "size": 8248,
       "sha256": "3a620abad4db9b79b868a7706a4b8809ace5d576395b19c4dd36f6403f07c7ec"
-    },
-    {
-      "path": "rootfs/usr/lib/lsb/init-functions.d/00-verbose",
-      "type": "file",
-      "mode": "0o644",
-      "size": 658,
-      "sha256": "e1c1b915d3e45deaddd57fd4bdd1ff490e0f8dd1e842b22cf2bdc963bbd29e13"
     },
     {
       "path": "rootfs/usr/lib/python3.13/__phello__/__init__.py",
@@ -6422,1824 +5673,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/engines-3/afalg.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22832,
-      "sha256": "1dc13554c487969b5fa9fbd997d0e6f0292b3afd519c662522e0ff7358f601f0"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 51936,
-      "sha256": "e7279c2799db0fa179c93fafef0723c7ba53b2f90a439dd74f7d6cc4c7e4f225"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/engines-3/padlock.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26688,
-      "sha256": "71cceabf628d52ab392b1e688c8531be43267fd28dd483a7ff0e96a31af7ba14"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ANSI_X3.110.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26760,
-      "sha256": "e58d2988a4cf4a218316bc0ea3bcbafdaf5d8744c2e949a27fd9090b514ebe33"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ARMSCII-8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "aaa47092d6fd3fed204ed88f26d74b418c9752b7f70ff041a0a293404acb1bfd"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ASMO_449.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5ec748e35844215110c76834d5923027e5e0f75a817bf64903961998e21ec6ae"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/BIG5.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 92296,
-      "sha256": "91608eab8ff8375af26ac859dca3902a3d123ece2cbf52a0bb5d0120828209c6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/BIG5HKSCS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 239752,
-      "sha256": "7ffe016fc08dd559b922a9f52404b727995008a2ad52d0b889859ed0f0e33781"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/BRF.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a74ad726ed7b6a51f4a7122892cc578221abe4691f5f2cc324df3e942b9916fe"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP10007.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e2f4cf219d4180cd58bfb2b9e90a458684f57c5812e36618bb27c60eb8e07f71"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1125.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "53a969d066ba48e6b4d4fdf19bf5ff3632308d78b051d7f56c8a6204a021100c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1250.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d1916250beaea62de79ba12b053e01be25eae0f1ec2070d389932c7a99ab8dc3"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1251.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e807ce3338626032489d567e6da8a8be39f58cbd5451a1e31526be66a5aa9927"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1252.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a7e4f10c06774a2e7433fc184c9e0dfc8ea4d5d19c3141c455570e0438fbd931"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1253.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ed593da5dd07ce8ddab6b7c74cf3daaa3fb1008ab8adb1b59d5b64057d334aac"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1254.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "27348671fa5b673902d5492da56793baa93e1ebcbf6af6f1e59715097a20e100"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1255.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "c3ee55c360c1b8eae88d48a227bc85aebea5aee6e78ad1406d422932b219b14f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1256.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "724a4a680a1063e401d2658d0134b5ff61df05c5981ab18c4e55cbfc0f8bf2f1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1257.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3285be92143e0ada72e088e0bfb80bf456fea1cc7143b1362fbd9ad5b2bbfec5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP1258.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "96fdcae9de486b486b13bf24b935b377eff5f3310fec40dfe9b92f465335b023"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP737.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "1332bfb05549ec362559437ae467baf72ab85d5e7d40965815d1c0ad0234a75a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP770.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3e8da1092eaf71baf5bbd0297b078d1d071a84932b6b77dee09642e653cb001e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP771.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3cc68fc9ce8e582f2f668242e8604a8c762f5bb177e3f6b22bbc72a7266c5cad"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP772.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "79e7de5ec746f3e915eebb2657cf11aadc9a9f1dcdcc101b0b1c14daa791564e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP773.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "82465548d4ddd27958aa6cd884a20d5b0da4be546f8a6d433797e1090ebde107"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP774.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e2c37414a0b8ebc6270c75f20f0919ed0cf713a433459863f09e001af1c3851c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP775.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "667184980d8352ed6499f078aae4966958d1fde9be5d0ea25cf27b96628afc92"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CP932.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 100488,
-      "sha256": "d51d3ba81ef637f161de9dbd0a50632497a8e387120d4867587923722ee6616b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CSN_369103.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "bcbac7965309cd91812a6904bc2ff8a08cca2448ef2e600c55b84bed89dfaba6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/CWI.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e26272714850ecdf98ceffdc8b0ac0c5998a97aa7227bc4bc8e9dccda1f157a3"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/DEC-MCS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b59c308b0c3f2136cc9ce3ba8bc7bea3384e602c5d91de623363754162f52920"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-AT-DE-A.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "10e94047578cb92cc676bbb5463eafa3837b4d75f5687272fce604414f93c5d0"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-AT-DE.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "4d9b35adabd929f31814e02af3f56335e0e56d9a7bb98646b209bc43a0249f4b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-CA-FR.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "70573cd0ccb5e6a772bb0af263ea8df29945a5985678a43231b145091e3ca1fd"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-DK-NO-A.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d73e32860a0154c082d1624b8078ca806a2cbc3f6cd0350776578a8375f459d0"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-DK-NO.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ee06fa24f5e6089b61ea704100e09af8467d29508b8fd85b4f48f617b3fdd98a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-ES-A.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "132f99628e62d098d8ada51117770c08d40120905ef8cfb722b26d0f7df6b394"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-ES-S.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "44af96ccb4e825c745144cac21882fb68770d408b079c910f2a0df7fa881c6ba"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-ES.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "739d7c7ca0d36b56f78e475e357303e9a565e413d15b3e39e3d7cb19e4f08457"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-FI-SE-A.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d6405ab52c1f4469a184133db42c0c0af03fabe51fcc412760ab0df7408658f5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-FI-SE.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "20a40eaf8a1b341d89837c414c851c0e5e99a6600d27419cd36f4a33fce65e98"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-FR.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f8dcc0d6134b9fe179062ae28b070ed946e846978a2ab240e0e7a47d4ec4652c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-IS-FRISS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "0bcec30aa379d8c175cdfdac5327b01c02a7ad3e16cda28f0d7f53283fad371f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-IT.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "caf8ddc85afcd01fd499eb93e819a26726d098f85f7ae8b1a054ce0ae0c35dfb"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-PT.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "4cf43cdd21a45efc725d3db3bc879f383e947a3692c9a2be7a7ed86d1d1ba568"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-UK.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a17fb36c4bf143a27eb53e5c48e65764ee1eab05d7805ccca626884f3e89ff0b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EBCDIC-US.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "70096433e004457f37b6992a64358251227cde58a611f9915a7b3c36e7266440"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ECMA-CYRILLIC.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "04cd8ce0ee64a5c908388b298e07b6a36a4887a980c853e74dd9603772889f25"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EUC-CN.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "18d2be2fcbc1ac01d8fda96234e9805d7f3f4969413dae4b7caaf77a9429ee42"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EUC-JISX0213.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "e5fc7cc8db10482f2c53e7a7287e88b10f070d41dea488a9d9473b525dc98166"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EUC-JP-MS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 92296,
-      "sha256": "a6d956357113b4e06e98d14a9c83d8e0e34de5f3ae233e1a88df97cb58cd229c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EUC-JP.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "7a9eaaa6573c3662f1e7c73e9c0f0842e3d7601ae5a31046f12a8f77cbdc7c11"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EUC-KR.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "1dc61de18c8e52b3d72d0776de32f42e8c3c648eb72a19e503ef1feb8542514a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/EUC-TW.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "a1e5c97968285bb4e6e1d049313b1bd2c375b5d13f78fc6ebd870590c4ac8b08"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GB18030.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 182408,
-      "sha256": "84e871c7cb56813f2dbdfac73073f3ef529864fc9b3eb72841724a684ca68969"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GBBIG5.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 59528,
-      "sha256": "356f3a208fdfec9e9ec298a7c4a33452779c2d0b3c5937ed4fbafee3659e5725"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GBGBK.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f2b5fceee2709a31433bfac3a5c5c2ece12423c1158775615ef366445eba4c70"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GBK.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 120968,
-      "sha256": "6958227a6aabc422a6e27b49cbfeb7bd5b4084974153cc7d3e664c64ccd97f80"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GEORGIAN-ACADEMY.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5e5b9a49e1a1e4e8a2df1ff93322acbc94188ad859a6ef6ebfa54117294aff22"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GEORGIAN-PS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "24525e63d7a89bbb80b210f223fd181370f2f27ef325f265462d3dc0e461555b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GOST_19768-74.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "712aabcd59557b6c0fa8359391382f6598e2ad73266e2a4d3b4d6b41b9d64e09"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GREEK-CCITT.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d8d20c6759a30aaf73421af0d4ef38bb5c14a0aa046134720c056c0ea39b2a19"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GREEK7-OLD.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "29bcf94ca2287bf14391ae7c8e77bff49689536646eb2f435876552f72912643"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/GREEK7.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3b687f9fcfcba56240728eedcf19b2610e78a990499dfa3417a9f43713e63650"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/HP-GREEK8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "8f4032709ac3b5fe67371e2a8d8539ed0e2b857e3fc9e7420650392f443dc5b7"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/HP-ROMAN8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e3b513b5b9aa26a31f10c55ec3072fd1996cabf9b1683933fcd5a1a4cb42092c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/HP-ROMAN9.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "15f28c0c5265c0956934cff296f7df45b1ab5d2d0cb9bbc76f153e6a008c1be9"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/HP-THAI8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "26e5c8b0645237c7d9d997b398e30f17bad0f041c6c3c1d99282f1ff383e0b85"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/HP-TURKISH8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "25f68539b4652e0d2b70c33e8c69470e4ce0f4e952a80ff5f5ecdaa237b47e4f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM037.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "033ac388f50f9b929b8a396a08c38f5c97170c9d5ebb433fd850ed5c3b3b8149"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM038.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "c657486f03011eb9aea5a8c203fb0d2f0697cfcb3e38097bdee81df6ed27bf18"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1004.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "93554cf5a614cf0bcf77fba236e6e449898439de1f43026727b8f2ed9a30da11"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1008.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5be7214a50f34bb3e08d3efbdd86da8cc6d3dabf14727c22eab9482b96a071ce"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1008_420.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 14472,
-      "sha256": "f2952c35c0116467fa5186ac0341b6587e7bff28a290a3a41c9979735fab89fb"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1025.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5372506c44982084cbce9294eb961a1a447c5f7718da0af5137ab4385c58b371"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1026.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d3aeb5bdf988ead99f6bc1f863b6fd99bdd367c4c55ce6abe58baa480a191c1f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1046.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ab7e498dabee390af73ea661412808e140c7ccf9c39d8734a51993ad7a1cc11e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1047.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5a09c46c6f92071fece090ff59bf636aa21f07a16236babb3502a7eb56fea39f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1097.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "56186e37b7d789511e9a65f46e09d40dca4a6d368f479e822cf8539f892ab6fe"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1112.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "21b4a0d4afdfae4c03ac7111e5cd4bd558ea35fc128262aad094ddd292e49aa4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1122.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d43ddc2bd5e4ebc44017ea008b7f6cf31b9c0f96fa3811e6f70d8162947cc02a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1123.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "39384a981653a6e7e4b9b1d7100a690496b90cd0a0c578c0e27492f9e6fc1748"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1124.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "33e573392b11a3dc474a87b2cf3b31c560e52a986591bb8a7a8aa77ef617c582"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1129.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "88cadb4f89c8db11341a9c746d6644590a714a6473a48b0a1ee0fd2e3036a972"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1130.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "9b053459bc9ae3a58b038340a3088a22e2dd2fc2fdfc759c8439a3d7f1c3abbf"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1132.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a18ce6aa7872b6f22d25d2013da65cc92e49703e03f37d699ac72af10c040dc8"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1133.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "257b91933c7906a31f4fb363fc8da0b26486481bd31c496163f3aa637b759dd9"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1137.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "6a13e8df1625e188eb2a6e4c5690af91406abd0b2d7167d28b5456a998290dc9"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1140.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5a002fdc77a4ed0ab8123a903c901e2ebf7ed1f9ea5955232b02488234ea493d"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1141.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "955a0f186e8ad867c990e0900ed2a893688b3064402f6e81b117d8a356d626a5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1142.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "07de501b5fa47e4fae5a4a877aa60693706e13b9468896e55f0c359e773e0c7e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1143.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "0d70aa6b466ec4e7dc0a36b4236431a9175588cba5592a7fb053767f36e26181"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1144.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "db517626bd9ed4fc86b103b1fde35a7f29fceb7414d4bfefea6a80ebb13105b5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1145.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3163ff8fcdba538c2a1cfe13677b5f030a62a1c1def51dd5395c8298ab5b2400"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1146.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "629789be4a9198f0a2fcd8abadaef29fb14d30e124edda5f12de750a04760241"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1147.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d4919f811e61b5008cea45b13c61f11ac79cb1af4e3d23a26ede042fdd8771c5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1148.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "4846509a28e14b6e20b3559cf264540712a8cc4c0c96e85bfaa8b6c0e1c084d6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1149.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e345fc5946b7f3b07196899fb6a91d39a7453bacd9464ad1da005851fbc0f56c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1153.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "c891543eb9147c7b5208f1451e38e3296aa6daa73ca6c179f9d3580087bbf52f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1154.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "10aa14338c5d5eae5ee89609433bc1e1ecb6314606e04a293939f17454e408e4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1155.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "af6318672277e5d4730e149a835df2eab4e8f1ff8e973894cf658870d7b4569e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1156.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3d4effd3011764c3784ddbe5bf4cbfdd3cb8f1a63f49ddc42e091d7ad0df98e7"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1157.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b63b6ed1b2dff2dbf6816c18631c1e50533d8ff1b7ae1584bf4882b71b7e7836"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1158.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a21ccd08470e3ba5debff55c464a4e30f446e54de7f1bf140ca1b645e691a3a1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1160.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ff466b4bb64af82f6e7e7edf2fd7e1c4ecbd8ad3e8286a356803444c903e94bf"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1161.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5eaad89ef19ddf83362ec4f7ac6d0236ef6b4900555039fb8077b3aa26a7709a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1162.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5fb9b9000358f6e7a4246e0a7ba18cf18a39e49033a797d43d653e4fbd7d7dab"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1163.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "9846925b3c31a757595123931b844bfe2c8484087ef5ff56521b2fe19084157c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1164.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "860f8c2808d6e7a8d7d81f36addf89db502f182d6fb33b09a5216562c0257768"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1166.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "1f40c23548de2293b85b3eb231bb61f2cb2cf6a8ea8f3090493f123ace938818"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1167.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "529a8720b7b17ac047d17ff2ee5435ef17a9f6555a161b3fd3125c5f3bd84c0f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM12712.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "da26a4e05647304a49bb04f09eaee11c732655e74253d86f166314d733e6275c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 157832,
-      "sha256": "d260be0182b8051244c3624f2c8c743efec15cf2051528b78b27902619dbe83a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1371.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 133256,
-      "sha256": "289352b738fc49bbaf5dd09d15f0eff60c7a64f493fe7b113cb8151266becd4f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1388.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 178312,
-      "sha256": "1bb14ff10a8b30a2f1331fb34024abedd396105df19cd50958573b3121cbcde4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1390.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 235656,
-      "sha256": "f351a6491163142536db032d61de465c1d780571f6e0add6df6b2f11b2c02950"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM1399.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 235656,
-      "sha256": "eb156a2296ff5d9305a84df9d48708a0a24df9af3ea433d67e22ed7bfa5a4f15"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM16804.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "42f80a8f60deb074584192b60d375f2efed2ffae256f6ee57efe750724ba4d10"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM256.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "09fa3a62807aae3b2967bac2944da62f55ade98ba4bec05060a6cb9a05e0a50b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM273.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "118769ca637c8124ac915db684f531974744e1eed3df66f22a8288ea6caef838"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM274.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "263fd97ea526aa1a849c53020badba421cc9f6fc444102aedb747163f8dca2c3"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM275.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "4bc32802efce603c36431dc8a9327d56b8a211682a5ff8d45f966a69c048492c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM277.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "62f37eb545944d418372746f579d58a2d0f58cc11f66f8ede794a5990e390dc0"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM278.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3e412558a8afbc50f23fad805f921e12bb83c9555eb34db7bd7afbb40e694a23"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM280.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ff4c94e3f0e562ae54f46cd0d986bd8981bef87531d3fcf5f932fdc1397bd247"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM281.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a70d52ec168a70c5b7f72442d2827f07b1c7309b20be5d3335f49fd015cfac2f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM284.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ef5ee216fb6636be57cba26601fc17c36b24969029ef208988027f0281728f0a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM285.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "8943a58cd5cff6c4cd63f3ca4dfe5ed962757dc77093ab23c5243484093250af"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM290.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "aca119bc72f1b397faf0560197cfd22cc710c02cd5303f743ab38f6b94904434"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM297.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b777e66aafb5195bb560d8109dd1220f3b45d9eddd9483fbc77eb93aacd83644"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM420.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ff8dfcb53c43715f49ef5c4baa0500cfb7030cb71eb780abf0f628d6d3753eeb"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM423.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "9fd918e55809f34ed432d043a737e1bc11120b904822ed93685cfba8e320a9af"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM424.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "fa47a9e167792839427512094edfccf3edf17cfb3a600fc926f74a06b19446fe"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM437.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "36f728a060f497ef57e678df69114b0086169dfdd94875ab9aabed93709049ef"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM4517.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "8724449662200f8b0084e01d0dac8401c56fa4d19cad7bfd591a8eec8ab5648f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM4899.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e673714e43abc94684bf3afff057da0f7eb8eb6e971260989930f6d9221cc825"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM4909.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "43149beed4b0ca817a56a393c48fc9176c1934d4d6fe69fea5c48e43e87c2e93"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM4971.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "dabe86a15636213b15146523680e0bca626991a7735fc503b93d52a424425dae"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM500.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "cca8bb74bccd616cd127b23028663f43afae477c731d6fd9d399cbdb1e0abb55"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM5347.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d906941ad9617bca7d3bf09cbddd7b9ff0cb7165f217c017b17e80f98b25abdf"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM803.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ca7e68cfd18a5b345f05fa498ff2c32b943530755652480785c97ac425c88060"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM850.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "da6e5c601274437452c2b8a21270f40e97ca22b279f1e98cede2267d99bf78f0"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM851.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "81888b71e02ec5eb2d5614ffda7e6b4222f1d9cb5d41c73a14ebf19375decd80"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM852.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "166dc5444392d3c6e2b9d5c0dd43cbdf0bd4f84a4e8c8a9771c5526718e011ce"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM855.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "cbded6e8fcdee65524f141ccc20e7a6bac41cb55353fd485aa38d6e936a5e4e1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM856.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "2a517ae2da467a82457f65ed1f79d66723f24bfde04efa03fc1355d934ef569e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM857.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "784ac8c1db9a8f92ea052921d0cfa761d2cd6b0337803ac5d3b2a9d0996d0b9e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM858.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "832b1f5fbd44ff8c9d6fd7b66faf5250a9ae8d0d3342586153c2942cbebdaf59"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM860.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b33c5a26a89aa53d2a16bfc86e6c858d0f793601d114ae8fd482873e8c7de0b6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM861.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "9c919ef7ffd7a73053bc8f5b55e8972e2f9d0d9069f25c4836085f4dfe260da5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM862.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d6345e334e2acdab00a1a107854a627da4146d80c4a817f41e46580579060253"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM863.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "921bb0f951e4acdedb5bbc226f68722f926c5e2125b4753a36b3222f35f357f1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM864.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "66d3ff69023bc1876407b4afc6ab778cbac7ea7a384d4d6abaa1d4a5a6ac149f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM865.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "70b98100e1da6a9a44c2f8c68a0fa29dc74ab4f2769198ecaf9c949d733af4cc"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM866.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "07b451d1e93f089a5cb17bc85aaa2e949e79fa0c449105c308d6e9fc4b20ba51"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM866NAV.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "c7153de9865b93a1c17cbfe897fe930861a7b3184e23dc055f681671a8b2e0aa"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM868.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "88fe9fd2b4ea4763c71e8c0b301cb7a0f860db027286ef94386c3d6d00dbc0aa"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM869.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f5a8a31bf2893ae82369f7a9351f4816f7ee5a48fd93d5e9ad8be47c9e21b312"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM870.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5af2732b4db42b781b248e0b03b078545c35d5064fa6c9e1e638715a6d665433"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM871.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "eb18003eb0426cdc8d689174b3418412d70b754e5f73f05f37fbee5ed9f3b927"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM874.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "7fc09be281ffce89b1bbb281411c9feefc99cfaefe4ecd3d2bf56bad9b8e9004"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM875.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a404f6fecb2beb9715d30f6ac6ec4e2757b45bbed7fa9a02d88431bad403ccba"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM880.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "4ac22519e7fa042c4dae29b0663716d60a0628fa6ed274c9ff0cefedbc41243f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM891.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "c8f25fdd49bcd7531f6ce2cb911a1a4a93fd9909fd816a7706601986f990893e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM901.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "63826094a47fc2013e3f7f283461e6bccc13516c0da5cd618d54d6e70e7c5839"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM902.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "866e0e46b2887e5d50c0a7f169fd634c033346ed6e2d13f47d0808cb8aaf4589"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM903.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "afa6c1caba18f9def1094147f9bf1c1f0ce98cdfbdaf4833c7ec80108a3cf74f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM9030.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "0ca5e8f3ee7b5e650004719bed25d5ded746d6bfacc4ca6f264648dff1dc9587"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM904.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e9a29af1370dcaf7ee431fdf98c4a42adb55f27a89cd8d3421a7a6b32a1d34c4"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM905.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "e2ee8ef0de594613c3cea9ba8313034cdca3157df0381b4c18b3dd440e7c3360"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM9066.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b62820c43dd716fafb4a7edd2846a310da43a15cbd8f532434147478f9d9373c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM918.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "218f9cf5c594a43008a93167ef06df6f1df76d4894bad1dbeb7afa80437c7557"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM921.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f1f3f0c6d050e242f1473bfdbd110be45fdf19154106cfeaa2a93e603eb12604"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM922.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "9854bf4ff660699937ad6bacc6e0914c746d7ee2ae88ac5f00b9e529c07f0728"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM930.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 100488,
-      "sha256": "30179d90f15b255b147e0a0c755fefc0afda36266dcb2d1c3940bce4b841f607"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM932.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 75912,
-      "sha256": "c8694e0657a3db89207109883f6ab62e85e93da35a1c722ee1c44baa0a173ae5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM933.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 120968,
-      "sha256": "f30cd57e7e437a9a3e89696a39186e9f3dbd06967ae9e9a91b25b270bcbf01e1"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM935.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 88200,
-      "sha256": "93f1a2965e537bb9252a4730d071bb75432c92d074317fec112532b47a7a274a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM937.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 116872,
-      "sha256": "c9c11885a1842bd7b227eb29d7a225fce03b25a5e75739bd76288ebd93149d59"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM939.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 100488,
-      "sha256": "b680f4de415e82ee90c44ae31255b0a868457d43d93081b5acde727bdb618277"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM943.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 75912,
-      "sha256": "02178977bdf18be62c4c747a505e665b55dfee8bc56803c5c2cea6d4c6f7da24"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IBM9448.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "7c432e306b4e3802580a31d2de99526f92efb8123f6f38c8bf2774d09a1587be"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/IEC_P27-1.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d505419b51efd57f610b4d82920a9c4ca079f332ef8159969992db3873fa5eff"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/INIS-8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "85b465b27825677a7940961411761767449e76cd573e9772d592b3e44e0a4cee"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/INIS-CYRILLIC.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "edae8f05397e5a89b14601e20468442e036e209c20550d0ee5c8707ae04621ad"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/INIS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f98343e0095e0c600fa821cbb9151be372d973de832a757d8ac2dd908b4800ae"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISIRI-3342.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "09de04ba35ec7070d9fbe9a8e2af94c354532fc9d988ca889dd516edfabdf669"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-CN-EXT.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 55432,
-      "sha256": "24d5bc05c04999eebdbe991f4b322944c3ec611bb69482f38c820e60069f7160"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-CN.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 39048,
-      "sha256": "569b1bcb0454ef36e7751e4aa4036d358ec41a056df420b5bf1f9f0b13eb1331"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-JP-3.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 34952,
-      "sha256": "5bf6ee8f89ef60ecf14a1fc789df42287302bdd83dc8173f3d43c221f6ed5466"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-JP.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 59528,
-      "sha256": "7a848f6def00c1b3f456cfaf7dc73bde2698b496da3d832cefa6ec7365683b94"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-KR.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "e6b50be50b48c5d59d25cb67f8bd2e0ac940ed2dfdb60f30ed3a8b4d247662c2"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-IR-197.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "58276e382f8bc4b20725c98bde49b3a25d08990456b61393ce561e4a78262e66"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO-IR-209.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "009af31aeb3a26d93e9a6eec6d0c69d15599fc2e7ff68fd96e97aba824059e52"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO646.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 39048,
-      "sha256": "580acf11686e1ca61d1fe087006c7366af376fc7185c7f2006c42319f74b8b58"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-1.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "fc07dae1cba2a02ab7f211755ba574d31d7a160b7a39dd3cc098ef34dd2c099f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-10.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "4d5054ab7db7c7bffecd9dc2b7c6f6d2b2bbffb60383b9b0c14e2fe3dc4ffbd2"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-11.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b7c3ba18684f5ea6d4c51de7b89619f724b253ffc7d8eedae8dd9b830a1621e2"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-13.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "0ab3aa71227e79091eca46355d4d36ec9cdf8e0f7b7ffe4c688ced8c4fc0ccfd"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-14.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "81634ebc7bd6eda25fedd90523d1ee4fbc4cf2228dca87019ea28cdfa6aa2442"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-15.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "54ce28cd8886cf89263d884c16d6b067d5c350c84d33d2891f8e241293c36c70"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-16.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a88710af24174df740595d735017c1380879fb845d2932e683205c5dfd18850a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-2.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f2c1588f32cccf8843799141abec01fb315bddce6acfe578491db7059178a827"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-3.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "7bbc3e42d65db3ff04edb3e286867920b32e623362c6c83704f0921258213cba"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-4.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "725bb0798943ecb1d39f85b323c311da3b7e7b2be82b7fe0dd2da112f2042f78"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-5.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a80467af2bc70d1e05959bfdcc731816233b11249930a1f35851a2cf34eab533"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-6.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "d50bdf3aa4aec3625508a44af74234210c5816d4193534022e8a736538e9625a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-7.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b574c9400584d1951d9a36d2a2fe9c4e0250a5696b46de4c878eb01b14990e1c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "45e6ca7abf51020d23ca5e7dfb077bcf6bc0aab53827d102c624d8acff5e8441"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-9.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "fdab5dd1cded14ee73741f0fc751177b6caa6fd1f6eb6f6ede4f636e099c559a"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO8859-9E.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "26ae9b9e26c710ae8ab624faa7beebaed30e2c4f708d876c47e6f46506f2f745"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_10367-BOX.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d5565f09cccb4eb836fc151c0407b597b333ad310bfd3e094311afd71ae1d557"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_11548-1.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "dabd628cbcb716e38e79b491161d965dda74d1fe94d759f2ebb745cc2fe319e6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_2033.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ee91d9e64ab9401a69c21455e2c6c0cfdd4b0904fca34c0bce11da7b09a12b8d"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_5427-EXT.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b2cf328743558d2b86c0fe811418d86d8b734cc09d4fa18d3f8c9f378993d24e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_5427.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "a6d9bf12c874487921530a46e4bbd79e7cf2738c12452a44b03527889d2ba508"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_5428.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "d399f74d866bf2410954972563da377edcb327103d97fe77063de5c8308e86fd"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_6937-2.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26760,
-      "sha256": "bd5c8d43b1f5b454f5496832cd51aab7f4b276d7148fc2bb7b926295cbfe0b98"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/ISO_6937.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26760,
-      "sha256": "d16b1853d3b611a48b791b3acb29b401583e4194e07839cdd54c728bdb81c554"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/JOHAB.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "b3174731deaece8e19ca570a85fa5d22956d39ea334c562f9cafcdefea55f64b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/KOI-8.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "8819002bd3f6807ad31b1d73da241059351489fd5f79303dd0f6bcc5261178d2"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/KOI8-R.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3ec2cb0ff2e821c487aa90202238e8063696552c909085fc3c66629dd804406b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/KOI8-RU.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f563e63262004f07e6ac1aa1c8880e982473d7e2dec8e51d6ea001ce298188d9"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/KOI8-T.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "fce14296d8c2c11e667a646ebd8738f617ea8a031b243b5d88d6018bcae92138"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/KOI8-U.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "612808557dcc0d143c7c3f2d0ccbeab5ddada523b23af38e4b27d145fbc75b4f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/LATIN-GREEK-1.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f648655a189f12e86ca0be72416b36d4180a5eb811ca4b2f3c9394f98168c470"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/LATIN-GREEK.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "ec4127b8698f00aee8a0353b7ed92bc92b5d8771ce45888021665fb016a152a6"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/MAC-CENTRALEUROPE.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "95de9971c001720f0ff3b8ea4af5bd2d8fb92dcd03c8a83507b4712c9f23d624"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/MAC-IS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "5ead40c344a44356540e4ba5b44a37a678a7ed7b3b91433349201eb8ca598822"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/MAC-SAMI.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "75e68b08aa25ce566bc098e2b18536a2100d20c040799d7a7c07291d67337cc5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/MAC-UK.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3aa60bba7943c6b6e355ca404ee23281af71fc9d2ae2ba48c6df16ff6940adfa"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/MACINTOSH.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "cb10592e125a4ff6b05a04fdaeade0ad1cbc1a62afb4034fa376b08c1710c5a3"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/MIK.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f343af1c880d42490ca73a3cb910aa08bd39376480a04b327e30705fb339a4f7"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/NATS-DANO.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "139aa4eeadbe508205ecdc5b1d840d3292652baea527ce21d50f8528de89b355"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/NATS-SEFI.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "fb41775fb7295465ccffb036aa5f7b44bd0c358572b563745607437d54d68941"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/PT154.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "3b7e6c5f1aa0d63f682d49012744b21b3c58f155cdbea14028698c1deb94f8af"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/RK1048.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b6165b2e772999db5f9453944b68e2c65f1a0c8b7baf6af9a86f2094e1fce288"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/SAMI-WS2.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "b4df932851d3f05aff0bb022da9e7906ca1522861adcd73bc1a008dc02c78d1b"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/SHIFT_JISX0213.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "b365d330945888688970188f33a3fa34ff9eb2303110d31ab354dca8dd56714d"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/SJIS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 100488,
-      "sha256": "7648f651781d6991e839dbaae14e076d49b370b315c89df1e2adf317b07aa747"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/T.61.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26760,
-      "sha256": "aad256e5b493a78d07dbf2dd508f06bbf912ff0fcbe2ab82df79f19aea1396e8"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/TCVN5712-1.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "f3f70dfb3e70633eb5a4dcb4187864e7e3137f1e95b57fffa50a33a1436a0507"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/TIS-620.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "6491028f368a34197a2e7a3566a6e0452780e18459f042388086c73ffb31ee40"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/TSCII.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22664,
-      "sha256": "3946ea12c04a508fe6f12c7e91bb776bfaa3d110f788752d7ef6340136672192"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/UHC.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 75912,
-      "sha256": "ffddebb6d64d0b55094b248a6074b06b071e5c04ec0b36049f8d93b1021b9cf7"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/UNICODE.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "0b74c2fc3e378d0bcadb0e508ec807476dbcc1dedb28462ece7d2b189b84433d"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/UTF-16.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "087c724e3b8cc770ec441332e88d7fad25c1ce18aed3d05781d2df91d134f419"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/UTF-32.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "bc0e60272831091d9e88e92632b8f50dfc0d99ee2c3a17c7100a26a74023ba82"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/UTF-7.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26760,
-      "sha256": "dc28571bf13abffa1a28b9acbeaf03218d33467ba391e17b369afff03c6998ff"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/VISCII.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18568,
-      "sha256": "6e04639267d063f6e0638449608d2cf0bede50ea543125cb66097d7ed0534efa"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/gconv-modules",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3916,
-      "sha256": "ca370833ebc1ec0283a3e6b66cea63d5b1d2e118272e963d2a25c891564aa89d"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache",
-      "type": "file",
-      "mode": "0o644",
-      "size": 27028,
-      "sha256": "52c227df9d53248238602c1ddaccd2c8ddc4cc6a61aa45d7c425af590b8806a5"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/libCNS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 473080,
-      "sha256": "59d40439986bad483c26989b5eae66f775f6a280130a31e8eb3209a9b96e1f2f"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/libGB.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 71672,
-      "sha256": "812b4dbd4c0a6ce993262dfefb2c84f418ce6a7656d502e7b9c4b5922f4bf273"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/libISOIR165.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 63480,
-      "sha256": "52a6bdb62b40bc0e09f55bb996434c1a93a98b263c12f088bdbbecb2a0fb8162"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/libJIS.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 108536,
-      "sha256": "57e54466909cc2e7b0f1103def7376e5666b081ccfc92a51c0d608f82042cbe7"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/libJISX0213.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 129016,
-      "sha256": "88b6bb839b182419e52dbe70ce66f2dd41a0a584a8b45c8262fa6cccca61ea06"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/libKSC.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 51192,
-      "sha256": "f92ec9e14b4e340c8d7bc639a4b9a2ceab898f1c9c23cacd1b09f2652d90defa"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 141224,
-      "sha256": "533bb6758a00a87a2d7835bcd3ebca58e0def2c1096ec582dea180adceeb7404"
-    },
-    {
       "path": "rootfs/usr/share/X11/locale/C",
       "type": "dir",
       "mode": "0o755"
@@ -8571,45 +6004,11 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/bash-completion/completions/debconf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 293,
-      "sha256": "7d22b26a9e69748900fbdd1d5221b5ef3af497fa24d6b29910b6418cb10ebed1"
-    },
-    {
-      "path": "rootfs/usr/share/bash-completion/completions/debconf-show",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "debconf"
-    },
-    {
       "path": "rootfs/usr/share/bug/media-types/presubj",
       "type": "file",
       "mode": "0o644",
       "size": 548,
       "sha256": "40ca64c14041a61aba24773d54467a4f9409d3772118348477b2578025ee99bb"
-    },
-    {
-      "path": "rootfs/usr/share/doc/debconf/README.Debian",
-      "type": "file",
-      "mode": "0o644",
-      "size": 352,
-      "sha256": "48a1123e8f661af97aab3b53fa48dab8d169e6480e7e4ac324c8001daff21d49"
-    },
-    {
-      "path": "rootfs/usr/share/doc/debconf/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3482,
-      "sha256": "ac216c6a13486550eb6076936854541aaf379a874d2cdaf6f8628bee6a28c5f7"
-    },
-    {
-      "path": "rootfs/usr/share/doc/debconf/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2764,
-      "sha256": "57163c71bd8a5289660892827dd0dfaa7fef47f89deedc9dc6711ced7d0a28d7"
     },
     {
       "path": "rootfs/usr/share/doc/fontconfig-config/changelog.Debian.gz",
@@ -8759,34 +6158,6 @@
       "sha256": "5c410e0aa3d7685946240a1aaecb4cfc17d4cc083366416aa9513c2c2adb72af"
     },
     {
-      "path": "rootfs/usr/share/doc/gcc-14-base/README.Debian.amd64.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3422,
-      "sha256": "5296d3b2adbab4b6dcc733d125a93eb1122f9c7905f24d1b2cab5e89c49a5510"
-    },
-    {
-      "path": "rootfs/usr/share/doc/gcc-14-base/TODO.Debian",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2212,
-      "sha256": "aba726eeeafd7ae426552559759c83ee93249d0d9c4e3e19f146fde6d2cde448"
-    },
-    {
-      "path": "rootfs/usr/share/doc/gcc-14-base/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 30907,
-      "sha256": "96566a2df70b85708bd8edf8a41c5dc87eca402199f2480df23abe4be4a92757"
-    },
-    {
-      "path": "rootfs/usr/share/doc/gcc-14-base/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 69004,
-      "sha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
-    },
-    {
       "path": "rootfs/usr/share/doc/libbrotli1/changelog.Debian.amd64.gz",
       "type": "file",
       "mode": "0o644",
@@ -8813,97 +6184,6 @@
       "mode": "0o644",
       "size": 1354,
       "sha256": "24a64e5bb83d0960d1835696a1e23c0896ad6055b0ca47c66ab0eb9a766324b1"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libbz2-1.0/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1463,
-      "sha256": "675c010cb688d8518c8ec297bae1a972eab21760a8008b9ee1a07431b62a03e1"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libbz2-1.0/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 5624,
-      "sha256": "33da383b2e4ee02eb5c955a60d49927a1e79ce24b22371414e3ba3f33469480b"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libbz2-1.0/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2228,
-      "sha256": "832ed535ff3c3d025a8d2348eb1b697b89addcf2eaadbc17650262040b9145e2"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/NEWS.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1334,
-      "sha256": "f410947e3ddd98dbdf630b23ce93a014f09a79789c7c1319fe511241bceb8826"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/NEWS.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 139833,
-      "sha256": "c4124e2ca1ee602b27e1275cb5c1ce905d8018a48f5fe96d40933426ae26e126"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/README.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2648,
-      "sha256": "103388d45c31c59534c3c71378dd532a69d90b6fa0618cf41cdc123613d463ac"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/README.hesiod.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2357,
-      "sha256": "13e364163184406285935cea0fd0555aba252dc92e85ef72988c4c7e7617a0cb"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 37607,
-      "sha256": "9847644969b76d150301885e17baf0dc38ddab640fe09e9c036b5d6830fa7971"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 153,
-      "sha256": "b66db2deaee0257c5a456c17ee3058e014b51d596466b8454da17936a38d7e88"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libc6/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 51200,
-      "sha256": "f5788886720a2605a946e81d571e6c8162b09f58d2e2ceb8d36e5768fccd850d"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libdb5.3t64/build_signature_amd64.txt",
-      "type": "file",
-      "mode": "0o644",
-      "size": 9,
-      "sha256": "9bcc6b8dda7b5ef9fd43c0ab7580d3a91d87fcd6a988b22dc4d39549be61fb83"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libdb5.3t64/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1550,
-      "sha256": "e10a04ac12a0b46af446a135e5bc586d2e68b790a927a950b8e2823e8939d53e"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libdb5.3t64/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 17177,
-      "sha256": "8b53da37d73289d9df7317b3a2dbe16491f1fa9fec8b77b86d69704b40ce2c26"
     },
     {
       "path": "rootfs/usr/share/doc/libexpat1/AUTHORS",
@@ -8995,48 +6275,6 @@
       "mode": "0o644",
       "size": 31206,
       "sha256": "acdab1506824347784d2cc0a634cfa17dbf525c0d5b4902b4ac9d0d4e1fed6c7"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5/AUTHORS",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2146,
-      "sha256": "01e6df90d71d591f4307db3f397a5a4fac93b18533f5a3862156f1a0a7dc8610"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5/NEWS.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 32760,
-      "sha256": "c95a95ced5e7905e9c6dd3bc902b4905f440fe35405c64b53f5df57ef3881b8b"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5/THANKS.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2432,
-      "sha256": "31723deeeb5156ffb3e2300bd6b3ddefc39d4f657c210c91c3948af5f3f33c26"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2405,
-      "sha256": "c89ec5e0f18609003f33caeedd5aa7cd2fa59f9092868b3e76adbf156a6ace37"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 173193,
-      "sha256": "cfeb7c17e12e439554198249fbc8be5bef92c4625196f9991f3c8a6449e162e0"
-    },
-    {
-      "path": "rootfs/usr/share/doc/liblzma5/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 11875,
-      "sha256": "d755588e2d89d7845d0d4e718ac45d49ae9fc53cec4540af105963c20598f9d7"
     },
     {
       "path": "rootfs/usr/share/doc/libpng16-16t64/ANNOUNCE",
@@ -9156,69 +6394,6 @@
       "sha256": "092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce"
     },
     {
-      "path": "rootfs/usr/share/doc/libsqlite3-0/README.Debian",
-      "type": "file",
-      "mode": "0o644",
-      "size": 721,
-      "sha256": "a10c47c2bc0b93bd7a58bf3823f99b8fd658065024a0fc412dc423d05f1fa242"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libsqlite3-0/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4570,
-      "sha256": "adf0751e693b3c42ccbdf7de2e8520a67f5fadcbcde41cec6e2a7715c2fb30f6"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libsqlite3-0/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 109555,
-      "sha256": "1a98cb4e685efbadc210127a218a3d686ff49b09f11c13670cffae89cddfdd23"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libsqlite3-0/changelog.html.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 126237,
-      "sha256": "c661a58b5fc196e5bc27901edb2aaf5659556f096d18cca6e45644839a2dd303"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libsqlite3-0/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1770,
-      "sha256": "7b1679aaa97e6e49ec12460eefa85a82b432053bc468dd89dbdb50f2326589f3"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libssl3t64/NEWS.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 299,
-      "sha256": "89f06e9c3b0b0a2d956552ef2ce2107a3c0a8caf2ed0d655f7fdb26ea16ca579"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libssl3t64/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7511,
-      "sha256": "aa4ec4a36b9788e916677f49c3773e013a4a6a53fe6df56abffbbed98eb35bc8"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libssl3t64/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 271837,
-      "sha256": "de7e88f075451ad8ebc3784a263a873c1079a940a56bb6d6f77155027f406b89"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libssl3t64/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2543,
-      "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35"
-    },
-    {
       "path": "rootfs/usr/share/doc/libtcl8.6/changelog.Debian.gz",
       "type": "file",
       "mode": "0o644",
@@ -9240,27 +6415,6 @@
       "sha256": "e925aa8863f0c9eda3625ce2cb16c0d5017fca248c5bd6af97006df5d9c6199c"
     },
     {
-      "path": "rootfs/usr/share/doc/libtinfo6/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 6841,
-      "sha256": "1b224186c7445ec37800b278f8c1c6c27c4c5bb9a3672bcc54f2fffc5f026769"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libtinfo6/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 247883,
-      "sha256": "92d200a73ad38f5e0a23ffd1c9769f2d19b5b7b5230b46c6b243c93d943ad830"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libtinfo6/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4670,
-      "sha256": "f838d6048fbc59356b7e56c207a7cb32dc6bf4adea95514a002596bde8f6e1e7"
-    },
-    {
       "path": "rootfs/usr/share/doc/libtk8.6/changelog.Debian.gz",
       "type": "file",
       "mode": "0o644",
@@ -9280,34 +6434,6 @@
       "mode": "0o644",
       "size": 3657,
       "sha256": "55756939bc322e1ddb187794a0deb8bdf72349ecba34b429446782cd04ea4cef"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libuuid1/NEWS.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 465,
-      "sha256": "ef07ba8b9e6bcc88029a15494ae958dd1195ab7a2f0c4c26098edd5f7fa1ee80"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libuuid1/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 13776,
-      "sha256": "03b2e5aff8e83b06f9114bb43e671bfb6f4c5ed8b458ae4bceed6a1229b4db79"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libuuid1/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 113,
-      "sha256": "7d1164ec23c4068457ccf5c3437b81a883e429b94bc301638c1863e58f0dedb2"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libuuid1/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 30341,
-      "sha256": "56b67e2eb8bac5a15d91e261d558d73f1f029113cced229753138194997366b6"
     },
     {
       "path": "rootfs/usr/share/doc/libx11-6/changelog.Debian.gz",
@@ -9527,27 +6653,6 @@
       "sha256": "3ebbe713ac6980aefc18dcf407c94f51bbf02852463294bbb6dc1ee1f9fad9c3"
     },
     {
-      "path": "rootfs/usr/share/doc/libzstd1/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 5498,
-      "sha256": "7b0d4a55026eb5dfbccbb2ebeac75db9f848679958f6b50ac94192d35e424c75"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libzstd1/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 18222,
-      "sha256": "9d9bc4945d1802ffe12cca4e3c5013839550cf95cfc53ddeaa0280827d45fc6f"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libzstd1/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 5332,
-      "sha256": "5cec9fef4d3fa7e0371fbef4ec3fc416e0105dc2a9922117f84e825cb11f50f8"
-    },
-    {
       "path": "rootfs/usr/share/doc/lsb-base/README.Debian",
       "type": "file",
       "mode": "0o644",
@@ -9595,27 +6700,6 @@
       "mode": "0o644",
       "size": 1234,
       "sha256": "795b66147ea5ad692991caa7008ece551fb0fa88b9c53656223bd1518dc58ab2"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssl-provider-legacy/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7511,
-      "sha256": "492882e076b553abc4a99b9d431140abdc9111d26eeb35b337bbfb3745037deb"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssl-provider-legacy/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 271837,
-      "sha256": "de7e88f075451ad8ebc3784a263a873c1079a940a56bb6d6f77155027f406b89"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssl-provider-legacy/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2543,
-      "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35"
     },
     {
       "path": "rootfs/usr/share/doc/python3.13-minimal/README.Debian.gz",
@@ -9701,20 +6785,6 @@
       "sha256": "092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce"
     },
     {
-      "path": "rootfs/usr/share/doc/sysvinit-utils/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 8249,
-      "sha256": "6a63e8208e625d97406e4ab158f23861a7c9df7a2060b1ebad32597a1cebfa84"
-    },
-    {
-      "path": "rootfs/usr/share/doc/sysvinit-utils/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 5881,
-      "sha256": "53c7ef3839f64b24cc25a0937d11ce228517a48be0cc794f0d67b7e209b2a9ba"
-    },
-    {
       "path": "rootfs/usr/share/doc/tzdata/NEWS.Debian.gz",
       "type": "file",
       "mode": "0o644",
@@ -9769,34 +6839,6 @@
       "mode": "0o644",
       "size": 5004,
       "sha256": "2badb73e6e70d0bd2e0b85d39ce18d3c66cfebc3e301720374fa20e6539c947d"
-    },
-    {
-      "path": "rootfs/usr/share/doc/zlib1g/changelog.Debian.amd64.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 238,
-      "sha256": "55b56c3a523dc79e97cad05e0b9afbb2309cd9e738f636fd39e5f9c5776deb69"
-    },
-    {
-      "path": "rootfs/usr/share/doc/zlib1g/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1508,
-      "sha256": "c631c3743056aea5d6c114efc27fc9f53f32a75d3f33767f4d244746e8fa153a"
-    },
-    {
-      "path": "rootfs/usr/share/doc/zlib1g/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 29508,
-      "sha256": "a697e1cefca8aa7ad377a5a46b941f7ccb8c15686d781f74c923c7ecf46afd5b"
-    },
-    {
-      "path": "rootfs/usr/share/doc/zlib1g/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2927,
-      "sha256": "9e5b96d63773a5d177ba264254390f792be07e41748ebd94730981c6cac31cc6"
     },
     {
       "path": "rootfs/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf",
@@ -10112,39 +7154,11 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/lintian/overrides/debconf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 39,
-      "sha256": "919f702e09a46d34dfe17e0238bae42d324a9b290bc88868dc007531d5743c34"
-    },
-    {
       "path": "rootfs/usr/share/lintian/overrides/libbrotli1",
       "type": "file",
       "mode": "0o644",
       "size": 90,
       "sha256": "2348de77b1f367dbd9891dd844d22a63299861d50db72b621849ecd0466467f2"
-    },
-    {
-      "path": "rootfs/usr/share/lintian/overrides/libc6",
-      "type": "file",
-      "mode": "0o644",
-      "size": 971,
-      "sha256": "0897b1b340b6588f122f63908fb930a292c0b533de1ccaa588ae4b9aa0927b2b"
-    },
-    {
-      "path": "rootfs/usr/share/lintian/overrides/libdb5.3t64",
-      "type": "file",
-      "mode": "0o644",
-      "size": 134,
-      "sha256": "bd6da8460178e9ecfdee8f049fa14b46c208c8581c94d9979c0071b8af49d182"
-    },
-    {
-      "path": "rootfs/usr/share/lintian/overrides/libgcc-s1",
-      "type": "file",
-      "mode": "0o644",
-      "size": 45,
-      "sha256": "eed87afa7d83880a25ae5a41ba9d98d89a1fc2e2e3bba0f4d5c3cdda21a457a4"
     },
     {
       "path": "rootfs/usr/share/lintian/overrides/libpng16-16t64",
@@ -10166,13 +7180,6 @@
       "mode": "0o644",
       "size": 925,
       "sha256": "813c743b0f678a3c7e9d1401d842406b586328e4750a379913c039441680ff16"
-    },
-    {
-      "path": "rootfs/usr/share/lintian/overrides/libssl3t64",
-      "type": "file",
-      "mode": "0o644",
-      "size": 54,
-      "sha256": "418ab624307a41fdee3c70f79632449caad9b6407c2d63ad06443a80852622c4"
     },
     {
       "path": "rootfs/usr/share/lintian/overrides/libtcl8.6",
@@ -10222,55 +7229,6 @@
       "mode": "0o644",
       "size": 123,
       "sha256": "e0f5ca3e889620c995d03b9f941791e34fdf9aff7bb9f8446586163cb09de8e7"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf-apt-progress.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2720,
-      "sha256": "0bb7a5035833c1aa3913ab469945ab7b511c51b926b700844f2ae4ae9ccdb064"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf-communicate.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1363,
-      "sha256": "711e853b7c5b49398ae12186619a276cd937e2cb5f2e5c929000a1c84a9da87f"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf-copydb.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1892,
-      "sha256": "f8094dc6e93050cce7cef665ffb1b4b4abac5bb53616c35d4b55dd9aa8022a54"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf-escape.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1203,
-      "sha256": "32dc3100fe50fc530fac8e6d64cc3295ce37c7689ec8774806ebeb7d5a0abb62"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf-set-selections.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1895,
-      "sha256": "6704ddb7014725cc801596eef2f93874a6eba11f9651c5f66fa7e13ed50ec47e"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf-show.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1307,
-      "sha256": "5a4041c5c31d81f596a17da71b7a34316edc99d6775e5d39d551bd913862a2a7"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/debconf.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1641,
-      "sha256": "af10cfb7a02251a2d0bfb713200093cd4848c68a7c4bdbb2631d5fda74607ff2"
     },
     {
       "path": "rootfs/usr/share/man/man1/python3.13.1.gz",
@@ -10333,209 +7291,6 @@
       "mode": "0o644",
       "size": 11619,
       "sha256": "417fca53d60783f52f00ea765396e59c83b892348bc5ca8f07b7187d78b296ad"
-    },
-    {
-      "path": "rootfs/usr/share/man/man5/init-d-script.5.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2013,
-      "sha256": "72b9243d57bd6b55ec94ba9427c9cc986a774158ec5eacfe808364ceb8ff1f96"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/dpkg-preconfigure.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1523,
-      "sha256": "b0bf91a871b04d2b3fc22e12f86900147ec59ec3e6ba149e15ce670cdd368d74"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/dpkg-reconfigure.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1778,
-      "sha256": "00923b94d61f4b2a9b977b2265f5591a2fd9c5d1fb1907460bc5c8b373d8687b"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/fstab-decode.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1319,
-      "sha256": "0e9f6882207eee1e6d7847897eebc7e50765f761dfee727f79d67cfa37f36048"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/killall5.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1055,
-      "sha256": "a9efbb9dcdfcac36ef58806a5358c58cfc8d215bf1d2e3c2d49ad2457e210800"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/pidof.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2062,
-      "sha256": "f7cfed0a7928f0c32ef557ff94db850612298786ff70e56db1c4e2cafa0a2c80"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/AutoSelect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2024,
-      "sha256": "f2a6ec2142d76cc775668f239e0210d769d5329c2ae494b1af51a52fcb8f387b"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Base.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 510,
-      "sha256": "b69794dc206f91e1d8230dfff68c97543f7c2937e02270d5b09557504e25ec32"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Client",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/ConfModule.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 15717,
-      "sha256": "010edf4ec588ad8fc1856f37ea9767b6b8e5eeb82017ce922d887c671358be8f"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Config.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7181,
-      "sha256": "e5e262cea03f075f0a459f57c077f485a184b4819c3bea7d2f5bb55528a073f5"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Db.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1212,
-      "sha256": "ee568caf310d037671e28f5aca28526bb9509ac88897e1be437d5570d678b254"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2408,
-      "sha256": "281474446e4b96c66425716afc63837be4684a08be6ae0fc455edd65ed16a416"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 206,
-      "sha256": "a2b1c2afd76a96771daa3253e277b697c5d69efdb29d540dfff816b986d71fad"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Encoding.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1483,
-      "sha256": "aba864856f671a1f5b553a845e80c683183b50db08b178377c061f01c6736e3b"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Format",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Format.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 144,
-      "sha256": "8a606807846230c56c0b117f0be535432503b81afd8a858bf225b0710079a19d"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2870,
-      "sha256": "9807fa98c81e5b9314bc25c4d288ffe97350cf33ff5aa46534f690db78baf888"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Gettext.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 311,
-      "sha256": "cf0d28ad9cee9812620584cf0ef6a98062b36502fa601b725178ebc764c01e4e"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Iterator.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 209,
-      "sha256": "d08310a34e32c689d8bff8dcafd92bf4849d76e762470f8c991425c4990f751c"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Log.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 926,
-      "sha256": "0f4b4a7b38292449475f981760f14056a44c7b641d0a84951a767a493dcab91e"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Path.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 305,
-      "sha256": "25967cae35d6e7cf0e75fb13b9ca142d6fa8c9f034c13a9e6b4e379edba1266d"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Priority.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 676,
-      "sha256": "7ccb2d9fb96964ea06a7c3ac71910c5a8afc0e50e571c1bea5d31922019e3d84"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Question.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 5862,
-      "sha256": "76e39a8413aae732f4f08e321be98725e670b62469e4f5905440f971a7a1487d"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Template",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Template.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 8198,
-      "sha256": "9aef3d86e4a57c90fe69bc7275930049d37e1308547097680b3ae1d941ff9b2a"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/TmpFile.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 388,
-      "sha256": "d21f028a596779cf454bdc8acc7e2f3803e01acf034750c53ff6ea7023949067"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debian/DebConf",
-      "type": "dir",
-      "mode": "0o755"
     },
     {
       "path": "rootfs/usr/share/tcltk/tcl8.6/auto.tcl",
@@ -14855,13 +11610,6 @@
       "sha256": "9f9156ab5416241b5128ee53aa116701f00a9ce2381c2b936585385e550589ca"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 53974,
-      "sha256": "efd92404c912b44689b96e311c2d827944c54df21f1509985d122495bda6f9aa"
-    },
-    {
       "path": "rootfs/usr/share/X11/locale/C/Compose",
       "type": "file",
       "mode": "0o644",
@@ -16225,244 +12973,6 @@
       "mode": "0o644",
       "size": 380660,
       "sha256": "8cb29f7db250ebb2551a6ce2c1e0bfd5a0eb520e9e233370db0493e82e1f36f7"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Client/ConfModule.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3891,
-      "sha256": "dee1cb9f961b76d28ef7c6e099ebf0ef4e18bad55f4d0bf843245f8ab2b80457"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Backup.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1647,
-      "sha256": "3620ba1981937ffe39fd1365561e751dc11a78ce4b9087bf04858c2e90a5e952"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Cache.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4830,
-      "sha256": "2b7548c30e8ded3b1bbc795a1396edb3a812fee32d5aaa481650535202742ebd"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Copy.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 959,
-      "sha256": "f762dfec8894befed2f129342dc56cea97e273ec99d7e04abf94ef540ad0b2cb"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Debug.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 961,
-      "sha256": "f42691f8a393dbde2229c1faeda617b9c521c9baa518bdd480263c2947c3a957"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/DirTree.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1994,
-      "sha256": "56b40bf04a33c226ae8756297e88756f9da1155c2e0d55451f029498322621fd"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Directory.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3702,
-      "sha256": "febd6f5eb719249fdf52fb124d5124d5fe8e7d507698e8ce524fcf6f069f2b7a"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/File.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3730,
-      "sha256": "abb4c3eedf11c0724ca539115efd85add7d62ccef92f21c6f6899b293459ae73"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/LDAP.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 6215,
-      "sha256": "dc729b02bbb78fac5c200725f619c8be42cf4eb7ce04a5b16bf143408d29ec34"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/PackageDir.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3680,
-      "sha256": "3b52f5916de51dedeb563c2ce3db83a4d749d1fcc9eac917a9b80af03a43aa2b"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Pipe.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1810,
-      "sha256": "d992f4df3a92570ac5838aa019afabfbacd78ca17cc1b4da905c82f6b7e2712c"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/DbDriver/Stack.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 5260,
-      "sha256": "192d19a3b8701fcc1fe0ff634fb2e6aa1b9d56e422e13dd03c6e34b3c802bda2"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2869,
-      "sha256": "2a385481d07bf770ba902bc695b42da827858a9a768ec07c0e4b2f61e5fd34b7"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 926,
-      "sha256": "52b9ff6a8619ddc2e9d81e7ee005a0d844e83340c1a8869de0575c5ab02d010c"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 352,
-      "sha256": "d09df6c1ebe36e8a66d1763b18246a3474c1069ea9658b2d813de798efd95a58"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1991,
-      "sha256": "b0d1708f0cb3379bd535cb507c3316e57b2e9cd99744d7b4f9aac0950120fd82"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web",
-      "type": "dir",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Format/822.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2105,
-      "sha256": "4e0606e39f3cde0221b87434ac258be14a8e168871ca81711ada2c5e337bfeab"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Dialog.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7832,
-      "sha256": "0fe24d4a9be73f9136812cfbaad43b2818554db8a037db39392070091eb9bc96"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Editor.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2179,
-      "sha256": "a800ddbeffc897ab64f738a18e9ce9ea12b25ae884283ae48b74eb1356a4c789"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Gnome.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7519,
-      "sha256": "d18d81e196ec08a86eee1ccf688ac75d985fd2811c0e23350296fe3183c6d93e"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Kde.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2085,
-      "sha256": "af31800eed184035c7cb762fdeff4ecf77d76b37fe433836cfed540c38dacccd"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Noninteractive.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 744,
-      "sha256": "055c00cb7f0d3ffc1d4f477e0242ea18de8d58b476a53e7b81c7ca1b30974aa7"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Passthrough.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7152,
-      "sha256": "f457ae992af0dc650004e55485db6970134d6f071c996c52b987ac0ed55be1b7"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Readline.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3580,
-      "sha256": "bf7980d7b64d2a37ef0829c7248299bf7d2a2e837cb348bb3d5e834eec5b0cfc"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/ScreenSize.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 892,
-      "sha256": "163b48b39d090fe21dc0c71ed636d18dd3969dec1be8dcce2dc469a5218f77b3"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Teletype.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1659,
-      "sha256": "92504cbd234d2d8387dfd97e55e60db370fd1b6b71b8c0d3568128689457d919"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 166,
-      "sha256": "e0aac882da15de83d9eb5306d9f0b86f1418821d67924d647e109faafd30855f"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/FrontEnd/Web.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2666,
-      "sha256": "3f99aeda14e4c64ec41dda69f4f906b70812a1f578dc073631fe4df8b720f295"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Template/Transient.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1100,
-      "sha256": "20c8d2c432718c69b9e5f6e0e8dd3420c6756a498074ad167716ff61119a736f"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debian/DebConf/Client",
-      "type": "dir",
-      "mode": "0o755"
     },
     {
       "path": "rootfs/usr/share/tcltk/tcl8.6/encoding/ascii.enc",
@@ -18624,391 +15134,6 @@
       "mode": "0o644",
       "size": 937,
       "sha256": "b6fe3df9dbec251d6367ae2cdeffd43f3faa88e011fad9a67e6bfd9399eb51f1"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Boolean.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 740,
-      "sha256": "8b005178b1eaa2287743c1f13d6f9aa33778428110811f2c73c8c07d2bbf0678"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Error.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 341,
-      "sha256": "f8b82dddc6846a459d0b20e3e858c8d85421cafb4528d51b19e58a61f6e7dd3b"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2194,
-      "sha256": "7f66878812ce99fd67b4dd85eb42b8b12d0ab83b83e63f0d4602117911b5cab8"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Note.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 340,
-      "sha256": "338e4f869b96f4587f23d4d220cb5feb32938aae56720f2397514369f4b9500e"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Password.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 700,
-      "sha256": "602a508a94ff0af5e6629d086def8ebf518763e658ced266d08301c44d990aa0"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Progress.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1857,
-      "sha256": "236b9d8671234e53262228463b741d7bb6b15880e52dd3b1696b33a10e0ab60f"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1692,
-      "sha256": "d6efc6ffa815caa6cdd0f1838b8703d9a5dee36b849a66707c1fde28f1ca4fcc"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/String.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 797,
-      "sha256": "64111195f36e838121e0b30a799a736cd4ea4c9ea40b418e02635cba9a37a2c6"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Dialog/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 340,
-      "sha256": "58f7fd84f1bb43f997ed248b21eceb319be83029d0e92e321e6b359507fa5052"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Boolean.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1018,
-      "sha256": "7ce327c85796f4dcbb91e6b983e548359affa9fc4264e8e80f9ca15f79e43e6a"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Error.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 176,
-      "sha256": "8d210e36c5a7ed8821c05576d0caf047b85e68554af04f027a4075cf89d3fd0f"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 926,
-      "sha256": "4540144e3f3c9c0935d17c78144bb4406ffa43fefe259abd0455cfd4ed2763df"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Note.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 175,
-      "sha256": "90f71570e2975217739074fc807b975f0506b3323fd17ae6d4c7179d34119091"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Password.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 182,
-      "sha256": "4376048c2b5e27b8622834a3f1f8449ee9d7413c606bad1dd8bcf06d6a854e2e"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Progress.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 246,
-      "sha256": "a000b866a949e08ef3dff1f9ad0ccec1f463dce3c554194dbad8ed9384ca54b8"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 843,
-      "sha256": "2fd2b0182c1cc4e6b273991ea664d8b6493582f59016336cd94d57399d6f5249"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/String.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 450,
-      "sha256": "b3f9ac3c8bf337b271402a4c50d18eb788f6e88ca96033692cbfa164ff85df3c"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Editor/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 326,
-      "sha256": "2c3949a7aeeea2202c99aa158b269fd8980c2313d96c9559c8efe8c436f8c2b4"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Boolean.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 693,
-      "sha256": "48112d97692c0dc236b7768d0056e818c14566d0bc8ee5f58e04606608ed0478"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Error.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1177,
-      "sha256": "2837ac3b2273b702b881786742841e34c6b7d78aa1568c4aeceb53d3ed4fc29e"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2485,
-      "sha256": "36810b1a352f9437f7001175a647caf09789ac55e956eac47e1d1bdd2192190c"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Note.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1087,
-      "sha256": "da1036c593cbea2e3f7a5949e8a399fbe3403baaedafa17897f2201146121cb8"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Password.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 590,
-      "sha256": "0c869e898994defb9cbb1668eca597e8b912ee6ffa39cb37fa0a13db4af78a27"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Progress.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1123,
-      "sha256": "991b298c100d68d3a56f0af82c85da7e32dc4caa39c9c26c40de19f83cf371b2"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 985,
-      "sha256": "9101a0a8d775a319a81c2b16e8049c11d932a26665e8261b44e2a57890b53341"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/String.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 659,
-      "sha256": "0791fd1b17791057dec52249cde63e027638e381b9ed6d8df3af61af31385865"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Gnome/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 301,
-      "sha256": "04d3e093b9bb5b054a0f6b30c343d7f469106427b3706a6a2f1d66747db04293"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Boolean.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 189,
-      "sha256": "da9bc4de7a37954ffe0ff352f015fcc9f2fee44ad4731d4251176e665ff6a4b1"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Error.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1686,
-      "sha256": "8307cc93fe02070febe53c84a80abfc4433c5686084139168f0500f51c3168c0"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 193,
-      "sha256": "b87f48cef7f37bee09f1c004b3ef24c4caae957735f42c81f26854e7e57a30a6"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Note.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 186,
-      "sha256": "b7686057ef127250493d0f0d798bd4af5fd573746385c6331a90d9824329c412"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Password.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 190,
-      "sha256": "2c6c4318959dae8d6c5d1e427014ddbee4ffd5d144aaf7657b5d939d2db64692"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Progress.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 269,
-      "sha256": "ff9324048f2197f62d1a29d2ddbd36e254523c1acf8f0289d08bf5ddb62b3daa"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 613,
-      "sha256": "bc98ec856a55d4190ed4beb12716d35a599c86479a7602ad4fecb04251e988fd"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/String.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 188,
-      "sha256": "0268c7c333d42a172c2a04b7497356753a70e182e975f76240a185eef02c8c6b"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Noninteractive/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 237,
-      "sha256": "c71f33fce010170d5f914d2dbf15f0e4b7bc1b96b1dde51f26853d5fb31ce7f1"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Boolean.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1206,
-      "sha256": "9b841f807abeb509c47b6d28eff5ca120f20d7c20393ba22c763792f3240896c"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Error.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 181,
-      "sha256": "6a039f10a5b99bad208dcf4fe34a9b6656ec204edc0d987d768aa09f5ba8e0a9"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2257,
-      "sha256": "e9eeaf52ad9972f01d4366c73edc1549ab700878ce93bb4c4ced2b675cb2e794"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Note.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 414,
-      "sha256": "c9691629ebdfc51888b7e1bd69a132896dc09fccef2637c4ed5328e505aad035"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Password.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 638,
-      "sha256": "a27e587660b90ba0e0a734123ba7daf79c8acc7488b886311987bdecd50a9369"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Progress.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 816,
-      "sha256": "f9735fb5c8626474dec53a55e77906055ec76094972e9a7190a0f6353ff365af"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3282,
-      "sha256": "e3725f9e272f3a5b9b0702b33dcf90ef211e9fc29e617f5a7175a43c6b6bf124"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/String.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 583,
-      "sha256": "7190f6aa30ed17373f2ffdc24b24d03f07195528d9ae7b399254c01250506240"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Teletype/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 326,
-      "sha256": "21204c75925e1c4f42eb30f9ad0ffc17ec51e23dd64b5b19e41388be91adf60b"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Boolean.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 671,
-      "sha256": "4d484c697566d0225e446a01cfa7be333e00e1fa0cc1f101091efa37a4ab3521"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Error.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 171,
-      "sha256": "790d995821dca1e9d007b0058f95081337fcda574934ff8543c754938d6a16e9"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Multiselect.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 967,
-      "sha256": "18a335a9421152f5a165cb8bfc51b4474dbb660fe1da7201f402700f8f3bedfc"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Note.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 170,
-      "sha256": "c38c8ec7191436c1a095722d680fd7337f474cd2d3201e0cf02d47821491b7cf"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Password.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 494,
-      "sha256": "bc9629f5aa67ea0f9411d54c5e4a20e124f3316c85981ae7a4cc5970301c94cc"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Progress.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 242,
-      "sha256": "58785869b8dfcd6f0e466cbecf099b52c8c21eebd59aceeb6f9b51285109a207"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Select.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 887,
-      "sha256": "50dfbb3f090947a1d47691083e4d5a893f523faa5bad92c057be61aee5eba439"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/String.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 478,
-      "sha256": "8c08e24dc1fe9b88e1c0ca61a245bd82d9624b93404951685e43e5337d73589d"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debconf/Element/Web/Text.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 326,
-      "sha256": "142e2c3004fb2d0c42e6a0093aabcbf15ebcceba5d1db43de0f69541597faff4"
-    },
-    {
-      "path": "rootfs/usr/share/perl5/Debian/DebConf/Client/ConfModule.pm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 636,
-      "sha256": "dc37ba89da3474451abb2d2eb6a1d992d04c4585d2a8621c5de630ef65295079"
     },
     {
       "path": "rootfs/usr/share/tcltk/tcl8.6/tcl8/platform/shell-1.1.4.tm",
