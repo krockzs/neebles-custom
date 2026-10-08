@@ -2,7 +2,7 @@
 
 **Module domestic-material authority**
 
-**Current integration status (2026-10-06):** **Point 1 CLOSED / GREEN. Point 2 CLOSED / GREEN at source level.** CUSTOM V2 represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. Point 2 additionally certifies persistent Tray behavior through module-owned Construction using the same generic runtime/material authority model. The current Test Module Construction fetch/checkout is aligned to the final published module-source revision `b552786af35ad4aa395942ca7d6cef0458925fc9`. The legacy productive shared module-rootfs model and direct host-provider execution model are retired. **Fresh Live and installed-system acceptance remain pending. No new Boss release is claimed here.**
+**Current integration status (2026-10-08):** **Point 1 CLOSED / GREEN. Point 2 CLOSED / GREEN at source level.** CUSTOM V2 represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. Point 2 additionally certifies persistent Tray behavior through module-owned Construction using the same generic runtime/material authority model. The current Test Module Construction fetch/checkout is aligned to the final published module-source revision `34ab129e4048cd53a725f70783f0044dcad729f9`. The legacy productive shared module-rootfs model and direct host-provider execution model are retired. **Fresh Live and installed-system acceptance remain pending. Boss v1.0.30 has been published; this source alignment does not claim Fresh Live acceptance.**
 
 CUSTOM V2 is the certified domestic material, world and module-construction truth for N.E.E.B.L.E.S. modules.
 
