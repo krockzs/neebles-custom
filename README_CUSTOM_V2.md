@@ -2,9 +2,25 @@
 
 **Module domestic-material authority**
 
-**Current integration status (2026-10-08):** **Point 1 CLOSED / GREEN. Point 2 CLOSED / GREEN at source level.** CUSTOM V2 represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. Point 2 additionally certifies persistent Tray behavior through module-owned Construction using the same generic runtime/material authority model. The current Test Module 1.2.2 Construction fetch/checkout is aligned to the published module-source revision `ee91d94b1026e7890379c656dbdee2896d00e32b`. The legacy productive shared module-rootfs model and direct host-provider execution model are retired. **Fresh Live and installed-system acceptance remain pending. Boss v1.0.30 has been published; this source alignment does not claim Fresh Live acceptance.**
+**Current integration status (2026-10-08):** **Point 1 CLOSED / GREEN. Point 2 CLOSED / GREEN at source level.** CUSTOM V2 represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. Point 2 additionally certifies persistent Tray behavior through module-owned Construction using the same generic runtime/material authority model. The current Test Module 1.2.3 Construction fetch/checkout is aligned to the published module-source revision `308fbf186aa9dc2a2201862f993809799a987fd0`. The legacy productive shared module-rootfs model and direct host-provider execution model are retired. **Fresh Live and installed-system acceptance remain pending. Boss v1.0.32 has been published; this source alignment does not claim Fresh Live acceptance.**
 
 CUSTOM V2 is the certified domestic material, world and module-construction truth for N.E.E.B.L.E.S. modules.
+
+## CAST30 — Test Module 1.2.3 source pin (pre-publication)
+
+The immutable source commit `308fbf186aa9dc2a2201862f993809799a987fd0`
+contains the module-owned Open-window Close / IPC unregister repair. CUSTOM V2
+only aligns `fetch` and `checkout` to that commit and changes the installed
+module material-manifest version metadata from `1.2.2` to `1.2.3`. Its 2,242
+material entries, 32-DEB module delta, 59-DEB global Essential layer,
+Python/Tk world and controlled Construction runtime authorities are unchanged.
+
+The module reports the authenticated session end to Boss, which owns the
+canonical `runtime_dead` state/event for every declared Open Surface. CUSTOM V2
+does not implement UI/Tray/Launcher synchronization and must not duplicate it.
+This source change requires publication under a new immutable CUSTOM revision
+and later Boss Registry/Preinstall pin alignment before Fresh Live acceptance.
+Passing JSON/source checks does not certify installed-system behavior.
 
 > **CUSTOM V2 declares and certifies WHAT module material exists. Boss governs HOW that certified material is authenticated, bound to an installed module and executed.**
 
