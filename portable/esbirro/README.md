@@ -1,6 +1,6 @@
 # N.E.E.B.L.E.S. Esbirro Portable Workspace
 
-**Current integration status (2026-10-05):** Point 1 module-material architecture closed and certified. Esbirro now documents the explicit CUSTOM classic / CUSTOM V2 boundary and the Essential + module-delta material model. **Point 2 remains pending; no new release is claimed here.**
+**Current integration status (2026-10-08):** Point 1 and Point 2 are CLOSED/GREEN at source level. Esbirro preserves the separate CUSTOM classic and CUSTOM V2 material-authority models. CAST30 changes Boss governance/presentation, not the certified Esbirro/Qt 6.8.2 material. Release-build, Fresh Live and installed-system acceptance remain separate pending gates.
 
 Esbirro is the controlled domestic engineering and certification authority of the N.E.E.B.L.E.S. ecosystem.
 
@@ -571,7 +571,7 @@ Essential global layer
 
 The previous shared persistent module-rootfs model is no longer authoritative.
 
-**Point 2 remains pending.** Repository cleanup/audit and documentation are completed before the project moves fully into Point 2. Release preparation/publication comes only after Point 2 closes.
+**Point 2 is CLOSED/GREEN at source level.** CUSTOM V2 and Boss document the module-owned persistent Tray Construction path. Source closure is not publication or installed-system acceptance.
 
 No "next Boss release" number is asserted by this README. Version/release truth must be read from the repository again when the release phase actually begins.
 
