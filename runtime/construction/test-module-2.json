@@ -54,7 +54,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-test-module-2.git",
-        "647068de3b3b550799ca48c419e02aa9d5973e3c"
+        "ba71e2fe52c9aae67715040649faea1a43e4c7a1"
       ],
       "session": false,
       "execution": "foreground"
@@ -81,7 +81,7 @@
         "/work/modules/test-module-2",
         "checkout",
         "--detach",
-        "647068de3b3b550799ca48c419e02aa9d5973e3c"
+        "ba71e2fe52c9aae67715040649faea1a43e4c7a1"
       ],
       "session": false,
       "execution": "foreground"
