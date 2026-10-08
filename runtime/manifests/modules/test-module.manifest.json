@@ -1,6 +1,6 @@
 {
   "module": "test-module",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "entries": [
     {
       "path": "packages/fontconfig-config_2.15.0-2.3_amd64.deb",
