@@ -584,3 +584,236 @@ Fresh Live remains a later integrated system-acceptance frontier; Point 1 source
 Esbirro exists so N.E.E.B.L.E.S. can keep growing new worlds, tools and technologies **without turning Boss into a pile of technology-specific branches**.
 
 > **Esbirro domesticates and certifies. CUSTOM preserves the truth. OS supplies platform authority. Boss governs generic execution. BUILD materializes the system.**
+
+
+---
+
+# Lore canónico del Esbirro Goblin — lenguaje de colaboración
+
+> **Este capítulo es una adición narrativa y de vocabulario.** Todo el README técnico anterior se conserva íntegro. El lore ayuda a conversar, diseñar casts, entender diagnósticos y mantener continuidad entre chats y máquinas; **no sustituye** los contratos, el código, las autoridades ni la certificación actual.
+>
+> **Fuente histórica:** *N.E.E.B.L.E.S. — Esbirro Goblin, Dossier Maestro de Arquitectura, Autoridad, Domesticación y Lore*, baseline documental 27-09-2026 (post-Stage 8). Ese baseline es histórico, no una declaración del estado técnico vigente. Ante discrepancias operativas manda el código y la documentación técnica actual; el significado narrativo aquí recogido se conserva como vocabulario de trabajo.
+
+## El personaje y la cadena de mando
+
+**Sr. Neebles** es la autoridad narrativa máxima: manda y fija la doctrina. **Esbirro Goblin**, también llamado el Goblin o el Goblin de los Elfos, es su segundo a bordo, el **Espía de Asalto Informador**: observa, interroga, persigue, custodia y regresa con testimonios. Su condición de segundo a bordo **no le otorga autoridad ilimitada**.
+
+```text
+                      SR. NEEBLES
+                 autoridad máxima
+                         |
+                    fija la ley
+                         v
+                    ESBIRRO GOBLIN
+            segundo a bordo / espía de asalto
+                         |
+             +-----------+-----------+
+             |           |           |
+             v           v           v
+          ELFTOWN      GHETTOS     PRÓFUGOS
+          observa      custodia     persigue
+             |           |           |
+             +-----------+-----------+
+                         |
+                         v
+                    TESTIMONIOS
+                         |
+                         v
+                 VUELVE AL MANDO
+```
+
+En las conversaciones de N.E.E.B.L.E.S., esto es una **metáfora operativa de rol**, distinta del vocabulario estratégico de Arsenal y Municiones utilizado en Lifecycle. El lore permite preguntar qué vio el Goblin, qué elfo interrogó, qué mueble falta, dónde está el prófugo, qué barrotes se cruzaron, qué ventanilla se solicitó y qué llave autoriza abrirla.
+
+## Diccionario de Elftown
+
+| Palabra del lore | Sentido dentro del mundo | Traducción técnica original |
+| --- | --- | --- |
+| **Sr. Neebles** | Autoridad suprema que dicta la doctrina | Autoridad narrativa máxima del ecosistema |
+| **Esbirro Goblin** | Segundo a bordo, espía, interrogador, custodio | Agente de observación, domesticación, resolución, transporte y certificación, gobernado por autoridades explícitas |
+| **Goblin / espía** | Investiga sin asumir que lo observado es legal | Observación ELF, observación doméstica y pruebas; evidence/findings |
+| **Elftown** | Lugar narrativo donde se observan los elfos | Área de observación y conocimiento de objetos ELF |
+| **Elfo** | Criatura que el Goblin examina | **Objeto ELF** inspeccionado, ejecutable o biblioteca ELF |
+| **Casa** | Hogar físico donde vive el mundo domesticado | Domestic root / runtime root materializado |
+| **Ghetto** | Mundo controlado donde habitan los elfos | Entorno runtime separado de las dependencias implícitas del Linux anfitrión |
+| **Muebles** | Todo lo que la casa necesita para ser habitable | Ejecutables, bibliotecas, helpers, loaders, rutas de datos, rutas runtime y otros recursos del mundo |
+| **Barrotes** | Límites del Ghetto: impiden fugas | Filesystem boundary y reglas de containment del domestic world |
+| **Ventanilla** | Abertura reglada para relacionarse con el exterior | Interfaz externa **explícita** concedida mediante authority |
+| **Llave** | Permiso que permite abrir una ventanilla precisa | Grant explícito; no aparece automáticamente por encontrar un recurso |
+| **Prófugo** | Rastro o habitante que escapa o falta en su casa | Referencia sin resolver, escapante o perseguida recursivamente |
+| **Poder** | Algo que el Goblin sabe hacer | Capacidad genérica implementada |
+| **Hechizo / spell** | Forma de invocar un poder bajo una ley | Invocación declarativa reusable y comprobable |
+| **Grimorio** | Libro de leyes y conocimiento de los mundos | Catálogo declarativo de worlds y semánticas de resolución |
+| **Cast / casteo** | El acto de lanzar el hechizo | Invocación controlada o probe forense bajo una ley declarada |
+| **Testimonio** | Lo que el Goblin informa después de investigar | Observation/evidence conservada |
+| **Penqueo** | El Goblin rechaza un cast incorrecto | Rechazo estructurado por contrato, ley o input inválido |
+| **Cuarta Pared** | El Goblin advierte algo que no era la pregunta principal | Finding lateral relevante que, por sí solo, no altera PASS/FAIL |
+
+**Distinciones que jamás se deben confundir:** una **Casa** es el root materializado; el **Ghetto** es el mundo controlado; los **Barrotes** son las reglas que lo contienen. Los **Muebles** no son solamente dependencias `.so`: incluyen también los ejecutables, intérpretes, helpers, loaders, datos y rutas necesarias. Un **Elfo** es un objeto ELF particular, no el nombre de todo el rootfs. Una **Ventanilla** no es una **Llave**: la primera es la interfaz y la segunda el grant que autoriza usarla.
+
+## El Ghetto: la casa, los muebles y sus barrotes
+
+```text
++---------------------------------------------------------+
+|                       GHETTO                            |
+|                 (mundo controlado)                       |
+|                                                         |
+|  CASA /                                                |
+|    usr/          muebles: ELF, ejecutables y recursos   |
+|    lib/          muebles: bibliotecas y loaders         |
+|    etc/          muebles: datos/config autorizados      |
+|    var/          muebles y writable grants controlados  |
+|                                                         |
+|  BARROTES: las rutas internas pertenecen a ESTA casa    |
++----------------------------+----------------------------+
+                             |
+                        VENTANILLA
+                             |
+                       LLAVE / GRANT
+                             |
+                             v
+                       LINUX ANFITRIÓN
+```
+
+El objetivo no es simular aislamiento mientras se resuelve lo que falta en el host. **Un elfo no puede huir al Linux de turno para conseguir muebles por debajo de la mesa.** Una ruta hallada físicamente en el anfitrión no se convierte en mueble autorizado. Encontrar un objeto, resolverlo, transportarlo y recibir permiso para usarlo son hechos diferentes.
+
+El Goblin puede observar recursos exteriores, pero **observación no significa concesión**. Las Ventanillas se abren únicamente mediante autoridades exactas. Los Barrotes evitan los escapes de rutas, enlaces y resoluciones; una comunicación exterior necesaria debe tener su propia Ventanilla y Llave declaradas.
+
+## La investigación de un elfo y la persecución de prófugos
+
+El Goblin no pregunta solamente «¿se ejecuta?». Interroga la estructura del ELF y devuelve hechos:
+
+1. **Ve al Elfo.** Inspecciona el binario real; observa `PT_INTERP`, `DT_NEEDED` y `RPATH/RUNPATH`.
+2. **Escucha su testimonio.** Preserva lo observado como evidencia. Ver un `DT_NEEDED` **no** significa que ya esté resuelto.
+3. **Persigue a sus contactos.** Busca los `NEEDED` únicamente en los lugares y las autoridades declaradas para ese mundo.
+4. **Sigue a los prófugos recursivamente.** No basta con la primera capa: persigue dependencias transitivas, ramas y ciclos hasta cerrar el árbol.
+5. **Distingue los senderos.** `RPATH` y `RUNPATH` no significan lo mismo; el contexto heredado y su orden importan.
+6. **Revisa los Barrotes.** Rechaza referencias que escapan de la Casa, rutas ilegales, enlaces que salen del Ghetto y dependencias ausentes cuando son obligatorias.
+7. **Vuelve con su Testimonio.** Informa evidencia y hallazgos laterales sin confundirlos automáticamente con un juicio de certificación.
+
+```text
+ELFO RAÍZ
+   |-- PT_INTERP ------> observar ------> resolver dentro del mundo
+   |-- DT_NEEDED[] ----> frontera de búsqueda ----> prófugos
+   |                                                |
+   |                                          cierre recursivo
+   +-- RPATH/RUNPATH -> búsqueda y herencia bajo reglas exactas
+                                                    |
+                                                    v
+                                      TODO DENTRO DEL GHETTO
+```
+
+**Lore del cierre:** el Goblin considera prófugo tanto lo que falta como lo que intenta escapar; una persecución bien hecha no se detiene en el primer `DT_NEEDED` encontrado. También sabe que observar una fuga y tener autoridad para corregirla no son la misma cosa.
+
+## Poderes, hechizos, grimorio y escuelas
+
+Un **Poder** implementa una capacidad genérica. Un **Hechizo** la formula como invocación declarativa. El **Grimorio** guarda vocabulario y mundos; los **targets** vinculan valores lógicos con rutas relativas dentro de la Casa; un **cast** ejerce la pregunta de forma controlada.
+
+El Dossier Maestro histórico documentó **32 hechizos únicos, 40 inserciones de hechizos y 233 casos declarativos** en **siete escuelas**. Estas cifras pertenecen al censo del dossier de septiembre de 2026 y **no son un conteo automático del árbol actual**.
+
+| Escuela (nombre canónico) | Área interrogada en el lore |
+| --- | --- |
+| `allowed_session_inputs` | Qué puede y qué no puede entrar por las ventanillas de sesión |
+| `data_paths` | Qué datos/muebles son requeridos, opcionales o inalcanzables |
+| `environment` | Qué lleva el proceso en su mochila de entorno; cómo se sella |
+| `executable` | A qué elfo/ejecutable se invoca, con qué argumentos y autoridad |
+| `helpers` | Qué ayudantes físicos pertenecen a la Casa |
+| `library_paths` | Dónde se esconden dependencias ELF; búsqueda, herencia y persecución recursiva |
+| `runtime_paths` | Rutas y referencias del mundo que pueden transportarse sin capturar el host |
+
+Artefactos mencionados por el dossier (referencias históricas de contrato; su ubicación actual debe verificarse en el repositorio):
+
+```text
+domesticacion-elfica.schema.json
+    -> vocabulario de las siete escuelas y tipos de valor
+
+domesticacion-elfica.grimorio.json
+    -> identidades de worlds y asociaciones lógicas
+
+domesticacion-elfica.targets.json
+    -> valores lógicos -> targets relativos dentro de la Casa
+
+testings/domesticacion/manifest.json
+    -> runner, leyes, matrices y referencias a contratos
+```
+
+El Dossier describe hechizos como `boss.elf_interpreter_observation`, `boss.elf_interpreter_resolution`, `boss.elf_needed_observation`, `boss.elf_needed_resolution`, `boss.elf_recursive_closure`, `boss.recursive_closure_certification`, `boss.search_authority_grants`, `boss.world_reference_resolution`, `boss.path_contract`, `boss.physical`, `boss.process_environment` y `boss.runtime_authority`. Esos nombres identifican **capacidades genéricas**, no reglas especiales para Python, Qt ni un módulo determinado. El catálogo histórico completo y sus matrices pertenecen al Dossier y a los contratos del repositorio.
+
+## Las tres capas del juicio del Goblin
+
+```text
+                 OBSERVACIÓN
+                     |
+                   hechos
+                     v
+                  EVIDENCIA
+                     |
+             +-------+-------+
+             |               |
+             v               v
+          AUTHORITY       SENTENCIA
+         ¿quién puede     ¿cumple la ley?
+          usar qué?       PASS / ERROR /
+                          required / optional /
+                          domestic / escape
+```
+
+**Auditoría**: encuentra un hecho, conserva evidencia y puede reportar un finding sin convertirlo en fracaso. **Certificación**: compara la evidencia con la ley declarada y puede producir un ERROR. **Cuarta Pared**: durante un cast que pregunta por X, el Goblin advierte Y, lo informa como finding y **no modifica por ello** el PASS/FAIL de X. Una investigación de Y puede requerir otro cast.
+
+**Ley cardinal del Esbirro:**
+
+```text
+AVAILABLE != REGISTERED != GRANTED != USED
+```
+
+Que exista un mueble no entrega una Llave. Que una authority esté disponible no significa que haya sido registrada. Que esté registrada no significa que se haya concedido, y que se haya concedido no implica su uso. El Esbirro puede tener poderes, pero no autoentregarse autoridad.
+
+## Buen casteo, Penqueo y nuevas leyes
+
+Un **buen cast** es una pregunta técnica bajo un hechizo existente, con entradas, mundo y autoridad explícitos:
+
+```text
+PREGUNTA -> HECHIZO EXISTENTE -> AUTHORITY EXACTA
+         -> EVIDENCIA -> JUICIO
+```
+
+Un **mal cast** intenta forzar un verde introduciendo excepciones, cambiando la ley para el caso particular o buscando silenciosamente en el host:
+
+```text
+RESULTADO DESEADO -> PARCHE ESPECÍFICO -> HOST FALLBACK -> GREEN FALSO
+```
+
+Si el Goblin **penquea** un cast, el diagnóstico debe investigar antes de tocar código: ¿falló la realidad física, el sensor, el cast, la ley, la authority, su registro/grant, o el operador? **Un RED no demuestra por sí solo que falte una capacidad nueva.**
+
+Para crear un nuevo hechizo:
+
+1. Observar el problema real y formular la **ley genérica**, no un parche para ese producto.
+2. Buscar primero si un hechizo existente ya responde la pregunta.
+3. Solo si falta un Poder, definir la semántica nueva en el engine dueño de ella.
+4. Declarar el hechizo, sus opciones y casos en la escuela correcta.
+5. Obtener un RED controlado cuando corresponda; implementar y certificar fixtures y realidad física.
+6. Dejar el poder reusable para casos X, Y, Z y módulos futuros.
+
+Para crear una nueva **Llave** (authority), el dueño de la semántica declara su descriptor; OS/BUILD suministran autoridad de plataforma donde corresponda; Boss autentica, registra y concede **el grant exacto**. Ningún cast puede inventar permisos por detectar una ruta disponible.
+
+## El Esbirro y los futuros módulos N.E.E.B.L.E.S.
+
+Cuando un módulo necesita su entorno, el Goblin ayuda a identificar los Elfos, sus Muebles y la Casa requerida; certifica los caminos de búsqueda y denuncia a los Prófugos. Los Barrotes aíslan el mundo del Linux anfitrión. Si se necesita comunicación, se declara una Ventanilla y se solicita la Llave apropiada.
+
+El módulo nuevo no debe obligar a codificar un nuevo «Boss Python», «Boss Node», «Boss Qt» o una rama particular para su tecnología. **El objetivo narrativo y técnico es que los poderes del Esbirro y los contratos de Boss sean reusables**.
+
+La discusión actual sobre manifiestos Multi-RootFS de propiedad del módulo y un campo `domination` **sigue siendo diseño**, no una sintaxis que este capítulo declare implementada. No convertir nombres del lore en campos obligatorios del parser ni desplazar la responsabilidad de Preinstall por inferencia. El README técnico anterior continúa describiendo su baseline; el lore aquí añadido explica cómo hablamos de Casas, Ghettos, Elfos, Muebles y autoridad.
+
+## Leyes de continuidad del lore
+
+- **El Goblin observa; la ley juzga.** No confundir testimonio con autorización ni con sentencia.
+- **Un Elfo no se fuga al host.** No hay fallback silencioso fuera del world/grant declarado.
+- **La Casa no es la ciudad.** Los Muebles que requiere deben estar domesticados y autorizados.
+- **Los Barrotes son reales.** Los paths, symlinks, búsquedas y referencias no deben escapar del Ghetto.
+- **La Ventanilla requiere Llave.** Toda interfaz externa necesita concesión explícita.
+- **Los Prófugos se persiguen hasta el cierre recursivo.** No abandonar dependencias transitivas.
+- **Un Poder no pertenece a un incidente.** Los nuevos hechizos representan leyes reusables.
+- **La Cuarta Pared conserva hallazgos laterales.** No contamina automáticamente el resultado principal.
+- **El Penqueo es evidencia de un rechazo, no licencia para parchear.** Primero se determina qué falló.
+- **Esbirro vuelve al mando con Testimonios.** Su trabajo debe seguir siendo explicable, auditable y transportable entre máquinas y conversaciones.
+
+> **Identidad conservada:** Sr. Neebles dicta la doctrina. Esbirro Goblin, su segundo a bordo, espía Elftown, custodia los Ghettos, persigue Prófugos y vuelve con Testimonios. Los Elfos habitan una Casa con sus Muebles; los Barrotes impiden la fuga; las Ventanillas solo se abren con Llaves. El Grimorio guarda los Hechizos, y un buen cast pregunta primero por la ley.
