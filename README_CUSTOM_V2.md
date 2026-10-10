@@ -6,6 +6,34 @@
 
 CUSTOM V2 is the certified domestic material, world and module-construction truth for N.E.E.B.L.E.S. modules.
 
+## Current Multi-RootFS integration — Boss 1.0.34
+
+The current Test Module source revision is
+`b36b3ed73a0db7b099a9e61e938e303482fea4f8`.
+
+The canonical CUSTOM Construction recipe is
+`runtime/construction/test-module.json`, which pins that source revision
+for both `fetch` and `checkout`.
+
+The Construction contract declares the named RootFS `python3.13-tk`
+in world `modules.python3.13-tk`. Both `open-runtime` and
+`tray-provider` select that RootFS explicitly.
+
+The 59 Essential DEBs and 32 Test Module delta DEBs retain their
+certified membership data. The module material manifest's 2,242 entries
+match the corresponding Test Module manifest; the latter additionally
+declares its RootFS identity.
+
+Boss 1.0.34 candidate build completed successfully in GitHub Actions
+(run `38087115867`). The candidate is not a published stable release,
+and VM installation, update, rollback and Fresh Live acceptance
+remain pending.
+
+The CAST30 source pin and earlier release-status statements below are
+historical records, not the current integration selector.
+
+---
+
 ## CAST30 — Test Module 1.2.3 source pin (pre-publication)
 
 The immutable source commit `308fbf186aa9dc2a2201862f993809799a987fd0`
