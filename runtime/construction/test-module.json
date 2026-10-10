@@ -2,6 +2,13 @@
   "schema": "1",
   "name": "neebles-domestic-construction",
   "subject": "test-module",
+  "rootfs": {
+    "python3.13-tk": {
+      "domination": {
+        "world": "modules.python3.13-tk"
+      }
+    }
+  },
   "steps": [
     {
       "id": "init",
@@ -54,7 +61,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-test-module.git",
-        "308fbf186aa9dc2a2201862f993809799a987fd0"
+        "b36b3ed73a0db7b099a9e61e938e303482fea4f8"
       ],
       "session": false,
       "execution": "foreground"
@@ -81,7 +88,7 @@
         "/work/modules/test-module",
         "checkout",
         "--detach",
-        "308fbf186aa9dc2a2201862f993809799a987fd0"
+        "b36b3ed73a0db7b099a9e61e938e303482fea4f8"
       ],
       "session": false,
       "execution": "foreground"
@@ -89,6 +96,7 @@
     {
       "id": "open-runtime",
       "runtime_authority": "modules.runtime",
+      "rootfs": "python3.13-tk",
       "world": "modules.python3.13-tk",
       "execution": "persistent",
       "session": true,
@@ -117,6 +125,7 @@
     {
       "id": "tray-provider",
       "runtime_authority": "modules.runtime",
+      "rootfs": "python3.13-tk",
       "world": "modules.python3.13-tk",
       "execution": "persistent",
       "session": true,
