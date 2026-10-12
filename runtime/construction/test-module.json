@@ -61,7 +61,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-test-module.git",
-        "d7849a35a6e8c3f4c5e586296532404f8614a41c"
+        "830307f508c3cb63c0027d39e7e5fa7bcd53b24f"
       ],
       "session": false,
       "execution": "foreground"
@@ -88,7 +88,7 @@
         "/work/modules/test-module",
         "checkout",
         "--detach",
-        "d7849a35a6e8c3f4c5e586296532404f8614a41c"
+        "830307f508c3cb63c0027d39e7e5fa7bcd53b24f"
       ],
       "session": false,
       "execution": "foreground"
@@ -120,6 +120,9 @@
         "/opt/neebles/modules/test-module/runtime.py",
         "--intent",
         "open"
+      ],
+      "session_readonly": [
+        "neebles/tray.sock"
       ]
     },
     {
@@ -146,7 +149,8 @@
         "/opt/neebles/modules/test-module/tray/tray-provider.py"
       ],
       "session_readonly": [
-        "neebles/tray.sock"
+        "neebles/tray.sock",
+        "neebles/test-module-controller.sock"
       ]
     }
   ]
