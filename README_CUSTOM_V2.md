@@ -1,5 +1,16 @@
 # N.E.E.B.L.E.S. CUSTOM V2
 
+## Integración Test Module 1.2.7 (fuentes, sin aceptación instalada)
+
+- Fuente publicada: `krockzs/neebles-test-module` commit `5db32c4fdec61564415839851c18c092896e11bc`.
+- `runtime/construction/test-module.json` apunta a ese SHA inmutable en `fetch` y `checkout`.
+- Los dos manifiestos CUSTOM V2 de Test Module declaran versión `1.2.7`; se preservan exactamente las 2.242 entradas certificadas y sus hashes.
+- Se conservan los DEB Essential/delta, RootFS `python3.13-tk`, mundos, autoridades y steps de ejecución. No se modifica CUSTOM clásico.
+- El Tray ahora sigue `runtime_state` y `open_available` de Governor. El cambio de unidad systemd de 1.2.6 a 1.2.7 requiere una migración explícita durante la actualización instalada.
+- Esta alineación de fuentes no afirma aceptación tras actualización, reinicio ni pruebas visuales en Ryzen.
+
+---
+
 **Module domestic-material authority**
 
 **Current integration status (2026-10-08):** **Point 1 CLOSED / GREEN. Point 2 CLOSED / GREEN at source level.** CUSTOM V2 represents the certified module-material model consumed by Boss through permanent package pools, persistent MaterialBinding and ephemeral RuntimeLease. Point 2 additionally certifies persistent Tray behavior through module-owned Construction using the same generic runtime/material authority model. The current Test Module 1.2.3 Construction fetch/checkout is aligned to the published module-source revision `308fbf186aa9dc2a2201862f993809799a987fd0`. The legacy productive shared module-rootfs model and direct host-provider execution model are retired. **Fresh Live and installed-system acceptance remain pending. Boss v1.0.32 has been published; this source alignment does not claim Fresh Live acceptance.**
