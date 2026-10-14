@@ -1,5 +1,17 @@
 # N.E.E.B.L.E.S. CUSTOM V2
 
+## Integracion Test Module 1.2.9 (fuentes coordinadas; aceptacion instalada pendiente)
+
+- Fuente inmutable del modulo: `4a8ba8d018de50f86191235f22c9b9aa41cdeabb`.
+- Construction `fetch` y `checkout` utilizan ese mismo SHA; Boss `registry/modules.json` selecciona 1.2.9.
+- Dos manifiestos CUSTOM V2 indican 1.2.9, sin cambiar ninguna de las 2.242 entradas ni los paquetes/RootFS `python3.13-tk`.
+- Boss 1.0.53 Uninstall se mantiene intacto. El controlador `systemd-user` es retirado durante Uninstall por contrato.
+- En esta version el finalizador de sesion KDE `scripts/complete-desktop-install.py` es EXPLICITO: la UI de Boss no lo ejecuta automaticamente.
+- Pruebas unitarias del modulo: 24/24; ciclo real Update/Uninstall/Reinstall/Tray en Ryzen sigue pendiente.
+
+---
+
+
 ## Integración Test Module 1.2.7 (fuentes, sin aceptación instalada)
 
 - Fuente publicada: `krockzs/neebles-test-module` commit `5db32c4fdec61564415839851c18c092896e11bc`.
