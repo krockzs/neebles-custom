@@ -1,6 +1,6 @@
 {
   "module": "test-module",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "rootfs": "python3.13-tk",
   "entries": [
     {
