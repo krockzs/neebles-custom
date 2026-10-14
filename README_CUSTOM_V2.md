@@ -1,5 +1,16 @@
 # N.E.E.B.L.E.S. CUSTOM V2
 
+## Integración Test Module 1.2.11 — material y fuente alineados; pruebas físicas pendientes
+
+- Fuente inmutable: `krockzs/neebles-test-module` commit `3def2f0d0d97e57aae9e26fec33386e63df5b16d` (Test Module `1.2.11`).
+- Construction `fetch` y `checkout` seleccionan exactamente ese commit.
+- Ambos manifiestos del módulo declaran `1.2.11` sin modificar sus 2.242 entradas, hashes ni permisos.
+- Permanecen intactos los 59 DEB Essential, los 32 DEB delta, el mundo `modules.python3.13-tk`, los cinco steps y los grants declarativos.
+- Boss `1.0.55` instalado en Ryzen según reporte del operador. La instalación real de Test Module `1.2.11`, el cambio de idioma en vivo y el inicio automático de Tray requieren validación física posterior.
+- Boss Registry `registry/modules.json` se alineará por separado; este commit CUSTOM no actualiza el catálogo.
+
+---
+
 ## Integracion Test Module 1.2.9 (fuentes coordinadas; aceptacion instalada pendiente)
 
 - Fuente inmutable del modulo: `4a8ba8d018de50f86191235f22c9b9aa41cdeabb`.
