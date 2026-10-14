@@ -1,6 +1,6 @@
 # N.E.E.B.L.E.S. Esbirro Portable Workspace
 
-**Current integration status (2026-10-08):** Point 1 and Point 2 are CLOSED/GREEN at source level. Esbirro preserves the separate CUSTOM classic and CUSTOM V2 material-authority models. CAST30 changes Boss governance/presentation, not the certified Esbirro/Qt 6.8.2 material. Release-build, Fresh Live and installed-system acceptance remain separate pending gates.
+**Estado documentado (14-10-2026):** Esbirro preserva dos modelos de autoridad distintos: CUSTOM classic para el corpus controlado Boss/Calamares y CUSTOM V2 para material/mundos de modulos. Boss **v2.0.0** fue compilado y verificado en GitHub Actions usando el laboratorio controlado Qt 6.8.2 y Rust 1.98.1 en su respectiva etapa; se publico con 11 artefactos y `SHA256SUMS`. Test Module **v1.2.12** quedo publicado y seleccionado mediante CUSTOM V2 + Registry. Publicacion y verificacion de artefactos **no** sustituyen la aceptacion Live/instalada para cada nuevo cambio.
 
 Esbirro is the controlled domestic engineering and certification authority of the N.E.E.B.L.E.S. ecosystem.
 
@@ -70,7 +70,16 @@ Canonical restore entrypoint:
 python3 portable/esbirro/restore-workspace.py
 ```
 
-The restore path verifies SHA256 before extraction.
+Before restoring a fresh checkout, download the **actual Git LFS archives** (not 134-byte pointer text) and verify they match `portable/esbirro/manifest.json`:
+
+```bash
+cd /home/thomyorke/NEEBLES/neebles-custom
+git lfs install
+git lfs pull --include="portable/esbirro/snapshots/*.tar.zst"
+python3 portable/esbirro/restore-workspace.py
+```
+
+`restore-workspace.py` validates SHA256 before extraction, and **refuses** to overwrite existing `build_deps/` or `build_sysroot_6.8.2/`. These directories may contain an active controlled workspace; never remove them just to force this tutorial to succeed. Inspect the actual snapshot manifest and existing paths first. A green local compile alone does not certify the output.
 
 A restored workspace must match the portable manifest.
 

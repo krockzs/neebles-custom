@@ -2,7 +2,17 @@
 
 **CUSTOM classic — Boss / Calamares controlled material authority**
 
-**Current integration status (2026-10-05):** CUSTOM classic remains the certified domestic-material authority for the Boss and Calamares corpora. Module material is governed separately by **CUSTOM V2**. No module-material milestone, point numbering or release state is implied by this README.
+**Autoridad vigente:** CUSTOM classic preserva el material domestico certificado de **Boss y Calamares**. La familia CUSTOM V2 se ocupa del material de módulos. Este README no determina la version actual de Boss ni sus dependencias de modulo.
+
+**Mapa de documentación (leer segun la autoridad que se investiga):**
+
+- `README_CUSTOM.md` — material clasico Boss/Calamares, Qt controlado y metadatos efectivos.
+- `README_CUSTOM_V2.md` — paquetes Essential, deltas, RootFS, mundos y Construction de módulos.
+- `portable/esbirro/README.md` — laboratorio, restauración, autoridad, certificación y lore del Esbirro.
+- `neebles-boss/README.md` — Governor, MaterialBinding, RuntimeLease, transacciones y release de Boss.
+- `neebles-test-module/README.md` — tutorial de desarrollo de módulos y consumidor de referencia.
+
+Los tres primeros documentos se encuentran en este repositorio; los otros dos en repositorios independientes. Los pins y versiones se verifican en manifiestos y releases reales, no mediante fechas antiguas del README.
 
 N.E.E.B.L.E.S. CUSTOM preserves controlled physical material and integrity truth used by the classic Boss and Calamares domestic paths.
 
