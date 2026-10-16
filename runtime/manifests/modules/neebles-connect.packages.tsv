@@ -52,7 +52,6 @@ libkrb5-3	1.21.3-5+deb13u1	amd64	libkrb5-3_1.21.3-5+deb13u1_amd64.deb	47d71d6a7f
 libkrb5support0	1.21.3-5+deb13u1	amd64	libkrb5support0_1.21.3-5+deb13u1_amd64.deb	3a0acd8b37955c0e102c756b52c97df2a31f67b96453c35dab70df218d309117
 libldap2	2.6.10+dfsg-1	amd64	libldap2_2.6.10+dfsg-1_amd64.deb	60069e4a550ca890113fa89d3001417781b18e146ec5d637d31e368dec9909bd
 libllvm19	1:19.1.7-3+b1	amd64	libllvm19_19.1.7-3+b1_amd64.deb	db0d614d61345ca710fb73e75105f1ec6e38898fa7b3aa99fa7eb7d8b0a11d57
-liblzma5	5.8.1-1+deb13u2	amd64	liblzma5_5.8.1-1+deb13u2_amd64.deb	b38acab30f295bf1066a6632e31cbd0a1980f2924b38040cda131d5dea5384ec
 liblzo2-2	2.10-3+b1	amd64	liblzo2-2_2.10-3+b1_amd64.deb	f3032201fe2928a87e13f05ce256ff3ac2a7860c7e594dc51ae6d7348a4466ce
 libmd4c0	0.5.2-2+b1	amd64	libmd4c0_0.5.2-2+b1_amd64.deb	0bd88d7ce2bda0626836267c02beb1ddf89e99eae26bd5c717ce5601faa075a9
 libminizip1t64	1:1.3.dfsg+really1.3.1-1+b1	amd64	libminizip1t64_1.3.dfsg+really1.3.1-1+b1_amd64.deb	9682faa260b02c865790f02089a755cb19b4b9100d91d3adb11da090709ad5d2
@@ -101,6 +100,7 @@ libtspi1	0.3.15-0.4	amd64	libtspi1_0.3.15-0.4_amd64.deb	58388425e9a57275143f1c71
 libunistring5	1.3-2	amd64	libunistring5_1.3-2_amd64.deb	6dd3490bef06ea1096f32d10766b7e016cf579bfae8451d1b7df15ce05b8aa46
 libusb-1.0-0	2:1.0.28-1	amd64	libusb-1.0-0_1.0.28-1_amd64.deb	bb6467a002915c4ac464aa1b22204907951a30e43bcb86596ebd3539e84458e9
 libvncclient1	0.9.15+dfsg-1+deb13u2	amd64	libvncclient1_0.9.15+dfsg-1+deb13u2_amd64.deb	13395ab10fb0cffb79e453778b22a26c1faa356fed995a6f25628238a639797a
+libvterm0	0.3.3-3+b1	amd64	libvterm0_0.3.3-3+b1_amd64.deb	91886654a1d1e157e3a43c085048ffe23a255fe25211b2e7d781b38f69a1f911
 libvulkan1	1.4.309.0-1	amd64	libvulkan1_1.4.309.0-1_amd64.deb	f47da79cd140264fe21cceb08bc87a71bc7fec05819e4a421f3f518d21101a37
 libwacom-common	2.14.0-1	all	libwacom-common_2.14.0-1_all.deb	214956bd9b26600c4d5ac0d60c1685be6ef650644e36b712620c56fccd4d4f58
 libwacom9	2.14.0-1	amd64	libwacom9_2.14.0-1_amd64.deb	884cb03fe12ffb871f9a199c13d1a455c5abb30b4619c58babb3940755b7b3c8

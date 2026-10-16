@@ -40,6 +40,40 @@
           ]
         }
       }
+    },
+    "modules.rust-qt": {
+      "categories": {
+        "executable": {
+          "category": "executable",
+          "value": "coreutils-env",
+          "declared_targets": [
+            "usr/bin/env"
+          ],
+          "resolved_targets": [
+            "usr/bin/env"
+          ]
+        },
+        "library_paths": {
+          "category": "library_paths",
+          "value": "connect-runtime-libraries",
+          "declared_targets": [
+            "usr/lib/x86_64-linux-gnu"
+          ],
+          "resolved_targets": [
+            "usr/lib/x86_64-linux-gnu"
+          ]
+        },
+        "runtime_paths": {
+          "category": "runtime_paths",
+          "value": "connect-qt-plugins",
+          "declared_targets": [
+            "usr/lib/x86_64-linux-gnu/qt6/plugins"
+          ],
+          "resolved_targets": [
+            "usr/lib/x86_64-linux-gnu/qt6/plugins"
+          ]
+        }
+      }
     }
   }
 }

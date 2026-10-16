@@ -1,6 +1,6 @@
 {
   "module": "neebles-connect",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "entries": [
     {
       "path": "packages/adduser_3.152_all.deb",
@@ -381,13 +381,6 @@
       "sha256": "db0d614d61345ca710fb73e75105f1ec6e38898fa7b3aa99fa7eb7d8b0a11d57"
     },
     {
-      "path": "packages/liblzma5_5.8.1-1+deb13u2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 309696,
-      "sha256": "b38acab30f295bf1066a6632e31cbd0a1980f2924b38040cda131d5dea5384ec"
-    },
-    {
       "path": "packages/liblzo2-2_2.10-3+b1_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -722,6 +715,13 @@
       "mode": "0o664",
       "size": 197004,
       "sha256": "13395ab10fb0cffb79e453778b22a26c1faa356fed995a6f25628238a639797a"
+    },
+    {
+      "path": "packages/libvterm0_0.3.3-3+b1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 35700,
+      "sha256": "91886654a1d1e157e3a43c085048ffe23a255fe25211b2e7d781b38f69a1f911"
     },
     {
       "path": "packages/libvulkan1_1.4.309.0-1_amd64.deb",
