@@ -18,11 +18,32 @@
       "sha256": "ef590f89563aa4b46c8260d49d1cea0fc1b181d19e8df3782694706adf05c184"
     },
     {
+      "path": "packages/fontconfig-config_2.15.0-2.3_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 318308,
+      "sha256": "0475c00d02660c07a15085051818625331bb502e053242106aaaa1f2ddb41225"
+    },
+    {
       "path": "packages/fontconfig_2.15.0-2.3_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 463312,
       "sha256": "09794b188e042c90b4a89fcb5afeb276bc231b74ddf8a3efbbc7dfb6f0eac4cb"
+    },
+    {
+      "path": "packages/fonts-dejavu-core_2.37-8_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 840460,
+      "sha256": "86635b3d25b3655fc11cb3ecc3af59f0bf19643b02b94f2de48bd10253cdba12"
+    },
+    {
+      "path": "packages/fonts-dejavu-mono_2.37-8_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 488808,
+      "sha256": "3003e98a5debfdeadc7040a7f715fe9fe6fb67f68deacf6049b54e30f07fc014"
     },
     {
       "path": "packages/keepassxc-minimal_2.7.10+dfsg1-1_amd64.deb",
@@ -58,6 +79,13 @@
       "mode": "0o664",
       "size": 1738892,
       "sha256": "ea6e3e42c2220f3df9fd5235872d0548f6243dedc0078fc3d4c85eb1d29ed791"
+    },
+    {
+      "path": "packages/libbrotli1_1.1.0-2+b7_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 306624,
+      "sha256": "0fb79f88db210afbd69282ab9649e525f393ec6950ca34da1a6b359250b8d7db"
     },
     {
       "path": "packages/libbsd0_0.12.2-2_amd64.deb",
@@ -172,11 +200,39 @@
       "sha256": "02e85fb9461b85b23f775d5fcf5a31c55d37bec40b63fd98ca5d3a2763714ae7"
     },
     {
+      "path": "packages/libexpat1_2.8.3-1~deb13u1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 122672,
+      "sha256": "38abe0e710a07688e9c149d74536e67cfee0364bdb64dd6d644c32a1cfad389f"
+    },
+    {
+      "path": "packages/libffi8_3.4.8-2_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 24144,
+      "sha256": "0ebdc340de33333639c3c63874cd4b15ac2e83dfa1ef3053b7eefaf4919f4f68"
+    },
+    {
       "path": "packages/libfido2-1_1.15.0-1+b1_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 78728,
       "sha256": "094fc0fe20c652be848ab2a8b3793eb03bc4327140ebd232145356352004e6c0"
+    },
+    {
+      "path": "packages/libfontconfig1_2.15.0-2.3_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 391576,
+      "sha256": "7ae91ec59857cc8e375eb2bdd371a4a69daea38f7787d06d474a847867d852b1"
+    },
+    {
+      "path": "packages/libfreetype6_2.13.3+dfsg-1+deb13u1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 452308,
+      "sha256": "e4947f3291528f03d574f2b01d5c5fc45c58c47480f32888a5cdf0f231ab584e"
     },
     {
       "path": "packages/libgbm1_25.0.7-2+deb13u1_amd64.deb",
@@ -193,18 +249,18 @@
       "sha256": "f0eb41f8cb40896e0822e9ab65611e8383c12b721c76c54764f744abb4a8c247"
     },
     {
-      "path": "packages/libgl1_1.7.0-1+b2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 89504,
-      "sha256": "87fa2f6e5abaed4ed385fac879c8dd735af719ee2300222d901793c66e041678"
-    },
-    {
       "path": "packages/libgl1-mesa-dri_25.0.7-2+deb13u1_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 46240,
       "sha256": "722fad9944bdfd29eb6421576331a2697f83bc4b3551d693edb7aefdde6bb198"
+    },
+    {
+      "path": "packages/libgl1_1.7.0-1+b2_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 89504,
+      "sha256": "87fa2f6e5abaed4ed385fac879c8dd735af719ee2300222d901793c66e041678"
     },
     {
       "path": "packages/libglib2.0-0t64_2.84.4-3~deb13u5_amd64.deb",
@@ -592,6 +648,13 @@
       "sha256": "f61ccd0c809a665a6061c6a28d265965e8712e616599a81e50699ff8394afeea"
     },
     {
+      "path": "packages/libreadline8t64_8.2-6_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 168832,
+      "sha256": "eeadf2b5e755c9f183883feea2d9b5b28560284275d5f54d3e55d0923b1d0967"
+    },
+    {
       "path": "packages/librtmp1_2.4+20151223.gitfa8646d.1-2+b5_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -753,11 +816,32 @@
       "sha256": "2967212bd582e0dffca443fdc44f4c660e7368d41f7ee3a7f6314e0c3abfe9ea"
     },
     {
+      "path": "packages/libx11-6_1.8.12-1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 815292,
+      "sha256": "b5a3fd3bf8c8fd0364bfb9bea00dcba7fc301229bd02dded084632d31f5b0fb3"
+    },
+    {
+      "path": "packages/libx11-data_1.8.12-1_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 343072,
+      "sha256": "c54f87069888f80ba4da586da6147d74c7598ccdd8b90906dbc4271fa414c738"
+    },
+    {
       "path": "packages/libx11-xcb1_1.8.12-1_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 247128,
       "sha256": "e05f94d21a932fba5b09b9b13d99df776b155d3bc792c0e294451df9ffe1ba25"
+    },
+    {
+      "path": "packages/libxau6_1.0.11-1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 20392,
+      "sha256": "689a9f0e0ba3e2c65431f864871e303ee904de69dd28abfc462663fae030227f"
     },
     {
       "path": "packages/libxcb-cursor0_0.1.5-1_amd64.deb",
@@ -886,6 +970,27 @@
       "sha256": "a46b8d860fbff32c8021dac6036d83859c24ad8700cd1b977cda116d37a2dd35"
     },
     {
+      "path": "packages/libxcb1_1.17.0-2+b1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 144340,
+      "sha256": "5c222a72d11b866447da31693254f738430726e3e065a384e82687b2fd2f978b"
+    },
+    {
+      "path": "packages/libxdmcp6_1.1.5-1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 27756,
+      "sha256": "0740dc760916b2008b45417a42a8fd7dd5de370fb57d31373f15034cda8acf0b"
+    },
+    {
+      "path": "packages/libxext6_1.3.4-1+b3_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 50448,
+      "sha256": "fc618ec40465e5ce48622606299cb47833efc3fb235ba15543b81f850722f443"
+    },
+    {
       "path": "packages/libxkbcommon-x11-0_1.7.0-2_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -905,6 +1010,13 @@
       "mode": "0o664",
       "size": 699724,
       "sha256": "e0c6b63ce4602a036a526f60fe5e6c1586710688058d98fc1001b9b3147b7efd"
+    },
+    {
+      "path": "packages/libxrender1_0.9.12-1_amd64.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 27896,
+      "sha256": "9d042dfd5e613be1e02e6ddd0c5c4adef19c5eb08f6db838c2eba672c496dca4"
     },
     {
       "path": "packages/libxshmfence1_1.3.3-1_amd64.deb",
@@ -984,11 +1096,25 @@
       "sha256": "889a9ad2ab513fe26b317ac22959b1c372e090e79d165858fba4b036b6278f5e"
     },
     {
+      "path": "packages/readline-common_8.2-6_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 69360,
+      "sha256": "f77e8aa0bf0de618f11cb0b21658a4ed60f177d63b3cf26d7fc3706b6d0eaaa9"
+    },
+    {
       "path": "packages/shared-mime-info_2.4-5+b2_amd64.deb",
       "type": "file",
       "mode": "0o664",
       "size": 759952,
       "sha256": "d7d061df29326b0ca6b273ac9332168659ff1562659f0a33609657a143dd7881"
+    },
+    {
+      "path": "packages/x11-common_7.7+24+deb13u1_all.deb",
+      "type": "file",
+      "mode": "0o664",
+      "size": 216864,
+      "sha256": "57a981938506b26dc552f19cafeaa8c04e9b59dc7508509151f8507a9d4e5f24"
     },
     {
       "path": "packages/xkb-data_2.42-1_all.deb",
@@ -1008,7 +1134,118 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/etc/X11/Xreset",
+      "type": "file",
+      "mode": "0o755",
+      "size": 709,
+      "sha256": "a6a17509c4d16c95018c14c199350527c2c358cf440e32331eb3fc2afc12aa62"
+    },
+    {
+      "path": "rootfs/etc/X11/Xreset.d",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/X11/Xreset.d/README",
+      "type": "file",
+      "mode": "0o644",
+      "size": 205,
+      "sha256": "d56429429532b7e87013aca475067890964e3e4746ee2d7025180800310d0f26"
+    },
+    {
+      "path": "rootfs/etc/X11/Xresources",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/X11/Xresources/x11-common",
+      "type": "file",
+      "mode": "0o644",
+      "size": 319,
+      "sha256": "abb8f49e63779b32ffc3b678212650b4c307567afc9216f522876d7b5857b25b"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession",
+      "type": "file",
+      "mode": "0o755",
+      "size": 3926,
+      "sha256": "f0e3a90f77d470d65ae5f276fb39820cc1262aa4a65d5629ebb302312975494c"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/20x11-common_process-args",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1565,
+      "sha256": "362448dd9614fd95042391750279c6b8c2bcaddac378193330cafe4c4c1b59dc"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/30x11-common_xresources",
+      "type": "file",
+      "mode": "0o644",
+      "size": 878,
+      "sha256": "afe858a06cfa7f21b8b5694780b98766de39c0cb6eaf7a4623b978ad3c6bc51c"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/35x11-common_xhost-local",
+      "type": "file",
+      "mode": "0o644",
+      "size": 389,
+      "sha256": "162189201eaa9ee96f1fc9546b83d88682903b69dc326e8c3cb51f58043a18d4"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/40x11-common_xsessionrc",
+      "type": "file",
+      "mode": "0o644",
+      "size": 187,
+      "sha256": "76944eea06861af747d0ed1cd516ef597d4f1543b040e025bfa1df15906ce73f"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/50x11-common_determine-startup",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1568,
+      "sha256": "c8aa9d6622178eeae1b0c20475338384f0f4e6a3b1a2f788906006bdacf3792a"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/90x11-common_ssh-agent",
+      "type": "file",
+      "mode": "0o644",
+      "size": 385,
+      "sha256": "91ccb7ffc6e17cb36c7cefcd39a6f7b95c355ef1187c91e1f23f9367ca3a588b"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.d/99x11-common_start",
+      "type": "file",
+      "mode": "0o644",
+      "size": 166,
+      "sha256": "e1e8fccc5299746efba8d7550ac0cf19002659ee298c53c8591ee6e3efcc7220"
+    },
+    {
+      "path": "rootfs/etc/X11/Xsession.options",
+      "type": "file",
+      "mode": "0o644",
+      "size": 265,
+      "sha256": "0d59030f6d7a466ba62f301ff970ebda039cc9eac8ed9045dcf570460d41fb64"
+    },
+    {
+      "path": "rootfs/etc/X11/rgb.txt",
+      "type": "file",
+      "mode": "0o644",
+      "size": 17394,
+      "sha256": "2c8ab5acc9eb072f4cc88696834188100d05e50af5d1425501d993700aaa3164"
+    },
+    {
       "path": "rootfs/etc/X11/xkb",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/X11/xorg.conf.d",
       "type": "directory",
       "mode": "0o755"
     },
@@ -1049,6 +1286,311 @@
       "sha256": "348c114422e9e28c8b24775cf39e785d02600445c0ac1c38fe7976c377fba6e5"
     },
     {
+      "path": "rootfs/etc/fonts",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 874,
+      "sha256": "0a6b0f1c1f5d1c06a811b517a3d2690700bba8e961cd55dd2c7648cde3605a21"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 864,
+      "sha256": "144619057c0a040de247c74cf09f230d737b9c1c534f3ba8804fdd3ddeded8b0"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 866,
+      "sha256": "977c24eb43f10d21263bbdb624649e5edf63147bd7bb4f84db97ce7d53bb9054"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 866,
+      "sha256": "3e90c9c36beef46f10d1529251f8683b9c4ac900695adbb4a23a4b6036f938a5"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 856,
+      "sha256": "0d9c177b6a85daa9957ed6750d4eb26122604da18d340e7ba31e6f4d24f963ed"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 858,
+      "sha256": "68777b1705ec7a05a86430def4be093668e84e305cc7e11291df52403a7318cc"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/57-dejavu-sans-mono.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1201,
+      "sha256": "1f2ead86f8203d809abfc9d88d92b04316edd67b6291795ea74ea8a0c3c2e04d"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/57-dejavu-sans.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1711,
+      "sha256": "f6285e2d336f93086acfa2ac7895ef75ef5ff34f833ba5a63c09fb2841aedc27"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/57-dejavu-serif.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1357,
+      "sha256": "7c596f7e202090ded38fded904c4a17d5a189b6c9cc914a2e88554116f6474ca"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1545,
+      "sha256": "807e5222c6d11a72ad527ebc088f42daf2a807e7718c8f7ff227cbfecafd3d70"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/58-dejavu-lgc-sans.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2063,
+      "sha256": "ecde2093f005c73d7da21cdd7b80c791910050609db36cb5eea84a4ba8da5cef"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.avail/58-dejavu-lgc-serif.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1689,
+      "sha256": "e685632c3edbb6868a7ca5275e7c71f25486a8cfd16113a478194a5631205619"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/10-scale-bitmap-fonts.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/10-sub-pixel-none.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/10-sub-pixel-none.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/10-yes-antialias.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/10-yes-antialias.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/11-lcdfilter-default.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/20-unhint-small-dejavu-lgc-sans.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/20-unhint-small-dejavu-lgc-serif.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/20-unhint-small-dejavu-sans-mono.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/20-unhint-small-dejavu-sans.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/20-unhint-small-dejavu-serif.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/20-unhint-small-vera.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/30-metric-aliases.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/30-metric-aliases.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/40-nonlatin.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/40-nonlatin.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/45-generic.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/45-generic.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/45-latin.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/45-latin.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/48-spacing.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/48-spacing.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/49-sansserif.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/49-sansserif.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/50-user.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/50-user.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/51-local.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/51-local.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/57-dejavu-sans-mono.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/57-dejavu-sans-mono.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/57-dejavu-sans.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/57-dejavu-sans.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/57-dejavu-serif.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/57-dejavu-serif.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/58-dejavu-lgc-sans-mono.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/58-dejavu-lgc-sans.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/58-dejavu-lgc-sans.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/58-dejavu-lgc-serif.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "../conf.avail/58-dejavu-lgc-serif.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/60-generic.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/60-generic.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/60-latin.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/60-latin.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/65-fonts-persian.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/65-fonts-persian.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/65-nonlatin.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/65-nonlatin.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/69-unifont.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/69-unifont.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/80-delicious.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/80-delicious.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/90-synthetic.conf",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/usr/share/fontconfig/conf.avail/90-synthetic.conf"
+    },
+    {
+      "path": "rootfs/etc/fonts/conf.d/README",
+      "type": "file",
+      "mode": "0o644",
+      "size": 979,
+      "sha256": "fdc29a3ebd8816eb07ed04c2cbe151076e95a7b0b2a0ec8fe94e5c8a67931d3c"
+    },
+    {
+      "path": "rootfs/etc/fonts/fonts.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2940,
+      "sha256": "93a23ba073996edb8b42d6c89ebc2ec5fd2101ce82cb65ba0db358dabf55ca22"
+    },
+    {
       "path": "rootfs/etc/glvnd",
       "type": "directory",
       "mode": "0o755"
@@ -1067,6 +1609,18 @@
       "path": "rootfs/etc/gss/mech.d",
       "type": "directory",
       "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/init.d",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/etc/init.d/x11-common",
+      "type": "file",
+      "mode": "0o755",
+      "size": 2762,
+      "sha256": "f3970ef5cc93144c5e91108aeb5cb64aa36a10de26bba0104ada8e2fb1fd7e17"
     },
     {
       "path": "rootfs/etc/login.defs",
@@ -1221,6 +1775,12 @@
       "path": "rootfs/usr/bin",
       "type": "directory",
       "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/bin/X11",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "."
     },
     {
       "path": "rootfs/usr/bin/c_rehash",
@@ -1426,7 +1986,22 @@
       "sha256": "33f5ce2d4f529ea3d433dce6f5378eb7620a6c029367dc5e76b3e3ca541c7923"
     },
     {
+      "path": "rootfs/usr/include",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/include/X11",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
       "path": "rootfs/usr/lib",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/lib/X11",
       "type": "directory",
       "mode": "0o755"
     },
@@ -2252,6 +2827,71 @@
       "sha256": "c73c2e98ad556a412dd6eef44b857dbd3cc02f191db8af30968084565f60f311"
     },
     {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libX11.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libX11.so.6.4.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1342984,
+      "sha256": "b03e563b316b8b53c7988f0ee91d6656cc425538e00947a8b14482d179e80099"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXau.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libXau.so.6.0.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 14472,
+      "sha256": "4275ec5b14bec21770c44447b3a52977e211c7ba08745008f3a1783878e091bb"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXdmcp.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libXdmcp.so.6.0.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 26728,
+      "sha256": "761409b24c818719f8c8a2a64a61c8ac6a3067f3d8882485dca64a98d7500040"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXext.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libXext.so.6.4.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 81568,
+      "sha256": "74cef58f0855cbbe23fce87566249f717e5c8ebeceee09efee393616a9b17697"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXrender.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libXrender.so.1.3.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 47608,
+      "sha256": "39fed75f787ac251cba86e30ccd979e3df1f84dd73c63a75eeb86a18fd413e64"
+    },
+    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libXtst.so.6",
       "type": "symlink",
       "mode": "0o777",
@@ -2322,6 +2962,45 @@
       "mode": "0o644",
       "size": 6053816,
       "sha256": "f0fc5541fe80e000234ecab515b5f188abdc0f2ec4a6aaf256d4c3e66a84faf3"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libbrotlicommon.so.1.1.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 141496,
+      "sha256": "7b0b0de90d8d3d4f07b99738c0285c6a0dbb6611d774ca44e7ea53a19a01ea68"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libbrotlidec.so.1.1.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 51376,
+      "sha256": "06530583d5927000480f4214d80d0213fec3d34cc448527f932a6eceb50cefef"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlienc.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libbrotlienc.so.1.1.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libbrotlienc.so.1.1.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 670376,
+      "sha256": "9d2f1fd742dee91f7247e9402157f69b2fc1001806eea595ede4924c54b78bcd"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libbsd.so.0",
@@ -2493,6 +3172,45 @@
       "sha256": "966fdddc519c9a2ac316bc7566747ee2472d6fece0d3736a06572f2def5f7d39"
     },
     {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libexpat.so.1.12.3"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libexpat.so.1.12.3",
+      "type": "file",
+      "mode": "0o644",
+      "size": 186520,
+      "sha256": "0fd7d092bd0bf5dcc29f31daaba2bad993b0d18a1ab771fb844e0a6dfa8efe18"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libexpatw.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libexpatw.so.1.12.3"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libexpatw.so.1.12.3",
+      "type": "file",
+      "mode": "0o644",
+      "size": 186504,
+      "sha256": "6f6c1f68a47cb4bcfec35168be4c6c250a2d1ff1d5c8b5c0b860430200efeec1"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libffi.so.8.1.4"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libffi.so.8.1.4",
+      "type": "file",
+      "mode": "0o644",
+      "size": 47576,
+      "sha256": "922024ec5a23f7de1095b1cff2f6cbfb377b5d58cd51fd0ec2e8fe35427653e2"
+    },
+    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libfido2.so.1",
       "type": "symlink",
       "mode": "0o777",
@@ -2504,6 +3222,32 @@
       "mode": "0o644",
       "size": 227232,
       "sha256": "b4f139c99cc99cf285591d534aaa39dc484082207d1a535440bf58d50b70c6e7"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libfontconfig.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libfontconfig.so.1.12.1"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.1",
+      "type": "file",
+      "mode": "0o644",
+      "size": 317360,
+      "sha256": "d6344f71a0cfd5fcb154278f0be706021f75f79d1fcc973fc4ddb1dff40ab0ee"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libfreetype.so.6.20.2"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libfreetype.so.6.20.2",
+      "type": "file",
+      "mode": "0o644",
+      "size": 845736,
+      "sha256": "9e376992a91e92d86809893a3b9eea22a4e27849db1686f6ca58032f79cdafb5"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libgallium-25.0.7-2+deb13u1.so",
@@ -2699,6 +3443,19 @@
       "mode": "0o644",
       "size": 1310560,
       "sha256": "c0cc41333a8fc0c24428a61ba0af6380aabb1f0d91ac48c13ed743b06c8ccc87"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libhistory.so.8",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libhistory.so.8.2"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libhistory.so.8.2",
+      "type": "file",
+      "mode": "0o644",
+      "size": 51656,
+      "sha256": "992a6493753dfcc169cc13dd7b869f79f0368360ffd01ff6ef592c60c3a72de6"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libhogweed.so.6",
@@ -3097,13 +3854,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libproxy/libpxbackend-1.0.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 55208,
-      "sha256": "ca5c681cb332fb373975f2fff8e47ba65323783a3ae2c4f8aa4d152720f140fd"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libproxy.so.0.5.9",
       "type": "file",
       "mode": "0o644",
@@ -3115,6 +3865,13 @@
       "type": "symlink",
       "mode": "0o777",
       "target": "libproxy.so.0.5.9"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libproxy/libpxbackend-1.0.so",
+      "type": "file",
+      "mode": "0o644",
+      "size": 55208,
+      "sha256": "ca5c681cb332fb373975f2fff8e47ba65323783a3ae2c4f8aa4d152720f140fd"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libpsl.so.5",
@@ -3141,6 +3898,19 @@
       "mode": "0o644",
       "size": 56024,
       "sha256": "13f66b57154db818c5f15b268a73b8e2f97146850315d0c1fde2141eb20cf4b5"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libreadline.so.8",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libreadline.so.8.2"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libreadline.so.8.2",
+      "type": "file",
+      "mode": "0o644",
+      "size": 362728,
+      "sha256": "a3334d88f3f6c6a25736667e0b39db0f68b4e7e6bf758a475aff681ddb33ad8b"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/librtmp.so.1",
@@ -3591,6 +4361,19 @@
       "mode": "0o644",
       "size": 121384,
       "sha256": "594cc3c2ea1d668f34d01d93c676ce0e42553110a4534eba877dd3eba27a7a0c"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libxcb.so.1",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "libxcb.so.1.1.0"
+    },
+    {
+      "path": "rootfs/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0",
+      "type": "file",
+      "mode": "0o644",
+      "size": 170936,
+      "sha256": "a1cde2cec9b7b8b38e4cca450c55c63651efb80a2458d76964b56b763043f533"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libxkbcommon-x11.so.0",
@@ -4445,6 +5228,1657 @@
       "path": "rootfs/usr/share/X11",
       "type": "directory",
       "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/XErrorDB",
+      "type": "file",
+      "mode": "0o644",
+      "size": 42077,
+      "sha256": "0323aaa64feb069500a0a6f92b6808abba700f27693ee4b093582d266750a2f5"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/C",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/C/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/C/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 340,
+      "sha256": "1ef6cef5b0dfb176c5dcb79701eebcded31af8bf51b6918e7d7b71a6c90757bb"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/C/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 632,
+      "sha256": "23aafb8b1d7201ff108ef5089089b709c35f31cc38e8ba0714a3aa58f73a7c70"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/am_ET.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/am_ET.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 17420,
+      "sha256": "44b0d7ed76f2fd0856762e0e2194f90ecb1094470310f95817911381c759d2dc"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/am_ET.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/am_ET.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/armscii-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/armscii-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 306,
+      "sha256": "db08a669163eff3d66983674e4a76c73c583f57146b88d0c2c9a39a203380c56"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/armscii-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "765790804af149586c7e16a43c8fa222c0e4130b869bb95542ca1eaba5419cde"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/armscii-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 907,
+      "sha256": "a4b1598d46507d3228cd28f3539b76c29d57e1661319ac089d3dfdd3ac2cd370"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/compose.dir",
+      "type": "file",
+      "mode": "0o644",
+      "size": 35030,
+      "sha256": "1b842b950d38753e01c639e364c44bf7dec2300a444845bb3707049262616a0f"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/cs_CZ.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/cs_CZ.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 512,
+      "sha256": "2498c21f61aa88237d149b182c888ebdcdc0877ec158e5d6a9fef234310dde64"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/cs_CZ.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/cs_CZ.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/el_GR.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/el_GR.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 124875,
+      "sha256": "cd39eff9261eeb8580d3256b647917a21a7833194ac4d9652753c8f1726ef380"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/el_GR.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/el_GR.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/en_US.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/en_US.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 456061,
+      "sha256": "a3077ce7fdae43776b9a485d8a9689c0bfeb0cd17348a87b7a06818e59554ea1"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/en_US.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 346,
+      "sha256": "ced92075d6db441663139fa39079da39bca242ec651459038b693faee91d1e29"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4074,
+      "sha256": "d617d3c76564be0b2cecf3988cc3e3a16a6fbef62c941bae47e51e157d2e0444"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/fi_FI.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/fi_FI.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 36227,
+      "sha256": "55d31f9b815add4ee2c23d0c585baa69d3b5a4609c9ab025e26d8cba29da6906"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/fi_FI.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/fi_FI.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-academy",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-academy/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 313,
+      "sha256": "c1e69bbfdc84372324bbeaf17ad9d03572a456446a37459e0ef1435d9a654da3"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-academy/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 348,
+      "sha256": "a7cb7e2f84444951109778015156b408d73edb77a15ff694a4fb03f087997a98"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-academy/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 962,
+      "sha256": "44399df2d1c870b19d1e7c129cf807e12d81a189e9dcbde27726d9a003ceb8f9"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-ps",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-ps/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 308,
+      "sha256": "76326759d9e6437facbb79af3a2206be69ce735cd000a6c03ad33c3d58496251"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-ps/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 343,
+      "sha256": "758810fd49affe9ec5a9ee518710f72468003c8116bd08617b5ddd08c2c05035"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/georgian-ps/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 923,
+      "sha256": "4f195f73008876dc86f40a7eb5f8931ee5f631f84dcb7ae9c124e9a52ab668c1"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ibm-cp1133",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ibm-cp1133/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 307,
+      "sha256": "70bc9147a80c6f90aab84b3d77122c82c92b134885e1096341ee60950a7a0190"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ibm-cp1133/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "17cb7407f673541a8c5e93ce1c8f36fabdf28e02bac54cfe89c853db9d4d106b"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ibm-cp1133/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 915,
+      "sha256": "e29f6b4ff13e5dada3a1f6b7f72aa98ee9669070fde364a74fd6084007f9325a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iscii-dev",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iscii-dev/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iscii-dev/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "d97e0c9cb64ddc529b35683fa358662ca6a3faf34d218f2578c6fe753b1474a3"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iscii-dev/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 907,
+      "sha256": "4e6ad80d84000520d0113a769a8c6a957b7566d3d8a2056fe8715f0544aec422"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/isiri-3342",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/isiri-3342/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/isiri-3342/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "68eaf6a031b4ac739b85bc5330d813ba60bf47ff1eaf69050fc5e999a038f2f0"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/isiri-3342/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 915,
+      "sha256": "419663d103c6197050128fba9e82ca6a4b54a173f58ce59a51355f1bcc6e7cd2"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-1/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 20458,
+      "sha256": "1af5494aa0b35e94bc3f9f5765f74f6cc59057985b26957b6442ae419284bd72"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-1/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 340,
+      "sha256": "1ef6cef5b0dfb176c5dcb79701eebcded31af8bf51b6918e7d7b71a6c90757bb"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-1/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 720,
+      "sha256": "4e75969924c999eca364995b042406e0af3672e44774c730e0f9d4452e58cda3"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-10",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-10/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 308,
+      "sha256": "0a94af8f380ed056a63fe3c4bbebf70a3f03aae95434770e7c4879f74bcbd988"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-10/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "891ee42949b619ae44e1afc9d0a18d98bea6a4ce3b22759aa4bb3ad725ec7408"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-10/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 769,
+      "sha256": "3c0e7499e3e513c6c0aa022633a85497e26e2bc66b2d8addfcdc429258b738bd"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-11",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-11/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-11/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 344,
+      "sha256": "acbac0e9bafec77d3581caf193c893efac58d1a623b61a98169a8505d2812660"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-11/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 770,
+      "sha256": "7fc7e57a4219611b260bf2b7b088e948828b08e9b6ccd755e3401e9ed4b19984"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-13",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-13/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 21247,
+      "sha256": "3b9f39fa0d4b2295a15ee8c8a0eeed65c2c49e27e3e3c94062e2770affe13a15"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-13/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 248,
+      "sha256": "a8a0e42aaf0bc6365ec936da183f3ab58784166f0155f8135265f926fe29a60d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-13/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 770,
+      "sha256": "e7d556ff13f4e740f24a31bdb490ff72d0016e1a2f3ea8722add4a12c31831fb"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-14",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-14/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 21014,
+      "sha256": "e955a741c57afff0bb1e6b224ae3c767b160ea24d910ad7ad9301cc196889388"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-14/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "4c127cd114bc17c16afd9f8641c472253123db88b7105afe0cd574dd6c887c48"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-14/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 770,
+      "sha256": "39c95449667cbcbeeec7c86d7059154f60fab9fc684f8442f0f0026319c14bee"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-15",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-15/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 19367,
+      "sha256": "a22b601b8c9e5a6e3d1960c1cfc088cd92ddfff2f03f2bbf5e9dd1aedd7fa299"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-15/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "66989c577117c61f02495d621781cf711392314c8eb0707e7e8bd9cb796602a2"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-15/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1054,
+      "sha256": "b9a8267a5a5179237c4133c5549806f00bdd943c8abec7b9366d1cd9df2199c9"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-2",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-2/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 23658,
+      "sha256": "8d49ffa743818f07048222faac0017709dc2e85de669f8e040654965ba38dbc2"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-2/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 248,
+      "sha256": "a8a0e42aaf0bc6365ec936da183f3ab58784166f0155f8135265f926fe29a60d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-2/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "1697f4c056feb2c803fa27ab016f960b2cc9454d09456fa781cec9f5403967c5"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-3",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-3/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 22797,
+      "sha256": "2844e64f02de5bfbde68e24026898472903f5b04427d0bdd66a777be387e776e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-3/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "155d1b62f3a7cf781cdfa461323b0ec52b69160413871b8f9a6693c87ee86a67"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-3/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "74edf2a16152bc8eee8f19b80cffed0d4fa7e4431b72298dfb18ebc5879fc3be"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-4",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-4/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 16009,
+      "sha256": "ad66ad0317bc5076ab6b60ec5650989816421e837735acc7fdf0ef4c8cd5fc2e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-4/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "6b37571c38a1e90e879c920db9fd7c3c2309e3f40553a09db94b62a3f45fff5f"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-4/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "f2589f4e8f1260bd942b884f8f76ea8b7657bd9540fc10183aaa4fa8dff2c95f"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-5",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-5/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 307,
+      "sha256": "6915476f03b77396033e4e5ead6eaf27f2a6ad6b7631954b96e1c3b92bdce5cc"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-5/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 248,
+      "sha256": "a8a0e42aaf0bc6365ec936da183f3ab58784166f0155f8135265f926fe29a60d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-5/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "032b9870847f76a57e8be14c45a968d417e7fa6db5245e63645ddc940865ef12"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-6",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-6/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 307,
+      "sha256": "1881a296792c42f47da59a8030e3a09a27832834182f99c3f349d7e0c2c6c956"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-6/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "9a0e7916f30c06b7cce0ec60f8bf3a7d80fb24ccb048a9ee161079a5df2d160e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-6/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "367dfefed863ad49660fd62e04fac46f2c2cedbca4fc27cdfa571c42c01a847c"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-7",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-7/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 10660,
+      "sha256": "dc1b55370699544394817047ff498bcb78589506d6861737b21edf661d49f803"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-7/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 248,
+      "sha256": "a8a0e42aaf0bc6365ec936da183f3ab58784166f0155f8135265f926fe29a60d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-7/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "0a9aecfeee85814abfbbe0b5032a702c13a3728d5110181b744e8370eff19811"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 307,
+      "sha256": "d213a33e3951aa96f0f7d8fc6a76426fb833a1a9205597910b3d66d6902df86e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "0ce8f2b39e65030f2cf072ce9a4276f3b4f563d65f638bae43a4efcd3ed169e3"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "26fb2b10f3f2c6175f0640db0d62c23a87f495a81bbb5124a4f1ed0ce59cb0ad"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 21703,
+      "sha256": "9375264a5b8a080b511fa5d720eb25c021b06f0afbe12574ef99675d95b6f722"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 248,
+      "sha256": "a8a0e42aaf0bc6365ec936da183f3ab58784166f0155f8135265f926fe29a60d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 763,
+      "sha256": "1b4282e1a661f316d5de5ed9b999c9cf06e68216f540e0a81e699948bf09bc11"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9e",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9e/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 22291,
+      "sha256": "b9edd9f66ad87347746f5bf9cbeb14c184d4ad758cbcc7f009f2f1f5a7fae5aa"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9e/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "60d666759d2b03246d52e5d4df2ae3dd018e8de6be4ca8240f9adaff1cb695aa"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/iso8859-9e/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 942,
+      "sha256": "36ee0c52a56edbe747127efb5421287dcb2d3ebb3b58331cefe3eeee749bbb32"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.JIS",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.JIS/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 303,
+      "sha256": "ce3a4bf8b3666b0509ffe53a0e9151b18531e7db8d6cd8d7b64564182c4d4689"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.JIS/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 340,
+      "sha256": "f4be662f6dd770ea360a6cde97af797f44da2bdffe83c644edda9a9891ee53ad"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.JIS/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1681,
+      "sha256": "659812ba83687a41bde281a570fb794a97ccac1138425d47950c7c3fc714c94a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.SJIS",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.SJIS/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 304,
+      "sha256": "9bd2b9276c34d78c6a5e9ce5ffbdb5838eeded8f979a524fe853647acf4fcd3d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.SJIS/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 481,
+      "sha256": "bbfdd2a67876afd2ebf9fb7f1d89a7f5840380bdb3b78fda27356ce6617c3f51"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja.SJIS/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5138,
+      "sha256": "a60aabf425ecc47b83d65522df9b18adbe7b73315a2b6d549321d615c0c7745d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 299,
+      "sha256": "1881640f93410f9b7c8ac8368326f7206709bece16a76d33b5c2f1232a1483fb"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 611,
+      "sha256": "3e4fc429ec1d173058186aa5b443bf8efc675de48c5446538d3707d7c35ea37b"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1613,
+      "sha256": "7d7c97b76834021df73c264ad1cc5cea2bb9bc69ea11ad9ec8f13f76fb2d5e6b"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja_JP.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja_JP.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 347,
+      "sha256": "85023cec5e57823e91c22fd0cc8e0562e1b357dea2fb46e3978ebf01ed960d83"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ja_JP.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2161,
+      "sha256": "cae871a0235e9b72631e8fd1b37b5791b23701ffbab543a865e683440400219b"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/km_KH.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/km_KH.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/km_KH.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 299,
+      "sha256": "df4a3bcf39efef842ef9b8b855f9ec29da85613eb5133b0d764da535f0c32f1a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/km_KH.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 299,
+      "sha256": "5b01d7b9d4e4d66563785cdefe578e857440f27fbb5523ebc6055f981c0d0b78"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 240,
+      "sha256": "3061fe8262e058cf26c775dfb14197038e6d938b74b338538eaa9feb07e7740a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 789,
+      "sha256": "5bc4ae802964223fdfacf71151260272f3eb62c4f746852a53a58a81224eb3e3"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko_KR.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko_KR.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko_KR.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 347,
+      "sha256": "d5ac844df91eb872b5a9d06960dfdc727b9d910a0c36cd303c9595447616a2ec"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ko_KR.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2160,
+      "sha256": "84dd1247a616bdf50fd5b1dab4da3258efd8529e93b6cbe0d641e7e30f29ee31"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-c",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-c/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 6257,
+      "sha256": "fe7bc516195a7078bc63a6c61485a6e1fd839f6f6856697efce295836816937f"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-c/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 338,
+      "sha256": "608dae8d74e5bdb0cd7d048192e1584229fb78e10764d4b5fd4a09b027a0af8d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-c/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 883,
+      "sha256": "257ca9b185a922a4a0e769a1352bec5c5982848847b5c2c003f58e03a0bc985e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-r",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-r/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 303,
+      "sha256": "dad63662a9174ebd0fd17735741ed48cf08b5e92aa1e5709e7d30ccafd64b1cf"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-r/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 338,
+      "sha256": "4aaaba59bb8712b563c55f4f48ca580bdf26900eab8ccc4903d5a27a34fa51ec"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-r/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 886,
+      "sha256": "a6d8d84df6d17cad9274c73e1bdbebac3b95af83052777498bef42316f6aa8c1"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-u",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-u/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 303,
+      "sha256": "64570cfb67e26c2f07bf71fa91452b5e89200a2eae92d748f85223c0d2baeba8"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-u/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 338,
+      "sha256": "259e1f568bd6dc198c6a296a1d551ee8014f1e469eb6047f00c96f506eda4fc2"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/koi8-u/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 883,
+      "sha256": "015debceb4f8232e4a6f34572e46e344b8b6ad0f150b94de64f3914d04ebbbf0"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/locale.alias",
+      "type": "file",
+      "mode": "0o644",
+      "size": 76784,
+      "sha256": "527540ae0ffe6e73b7934a486335f57741616900f2a47b7ba5abf6c2fffcca6c"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/locale.dir",
+      "type": "file",
+      "mode": "0o644",
+      "size": 38432,
+      "sha256": "72e5b15f87c6a375d428b39edc4236e331614e2ef733a32ef59d6f099ffe4397"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1251",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1251/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1251/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 348,
+      "sha256": "9b904cfe01db751706807fe3818c7515386ae258df3e764880b1d909c84574e3"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1251/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 990,
+      "sha256": "412cddf3fcad7c24e1a9d73f5aacffb4c21dc43577b440f80e9eb361f76e8fc2"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1255",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1255/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1255/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 348,
+      "sha256": "57d3f7e62775f0b90379342d5c2473266fdfbbc68cba6465fd8361d6cf673ef6"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1255/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 990,
+      "sha256": "417ad932501f1f53b79f10b81566c21e0ac2477c164dd13dabc2c882766a66de"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1256",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1256/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1256/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 348,
+      "sha256": "aa677177937f7a7099d7e4fb3956fa225709e9e94c8a5a44bc636f7d093832ef"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/microsoft-cp1256/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 990,
+      "sha256": "35e1f9236954bf64033333e7d6c66569e67c64b1b998b59498c519c9265e47ff"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/mulelao-1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/mulelao-1/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 306,
+      "sha256": "ebb7c61e7c7386b0be0289ffd9fcfb609bc52ea85162cfa78752869adb1f16a2"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/mulelao-1/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "b64a7aa29787f97bd50b6a9494812466d7704ec1ec5c698a7f5f38996543c558"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/mulelao-1/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 907,
+      "sha256": "0287cd5e869039f885c21f4f1a9b996c4e611cc49ef9d9eb86d21664c633e9cd"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/nokhchi-1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/nokhchi-1/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/nokhchi-1/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "b849f1c3fd5c6c98700c3e11202c5bf37c63e5956532678e45336779bab75137"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/nokhchi-1/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 908,
+      "sha256": "155bdb39a8bfa8308091c68ede17e9c5f3f03849b3449ce5d001687228d9bfa6"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_BR.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_BR.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1405,
+      "sha256": "df150cfafe06fa49607d463b44b298776334cba2df7cc2615839dc5ddb192993"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_BR.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 345,
+      "sha256": "084a4789668816bf0c9154fe3bd9d4d1bb303d355611d14e29f02d6e1d4cbb10"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_BR.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2006,
+      "sha256": "896ef838af8c04c6e4ce7ffbff6b241c24024ab9f3c5e59c2beefe36eb01efe5"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_PT.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_PT.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 192,
+      "sha256": "7937f12b516deee3699e80bce3fb1f34d5bfde3f596ca3ae1b17765d7d2b2e08"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_PT.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 345,
+      "sha256": "1b7661866efdf754de97baa070e1079a233f1abb11f91721528e0d268bac41c8"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/pt_PT.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2006,
+      "sha256": "e66c59298386f5c2fafb232e28333816aa5563e6a206688d09486a7e9841bc09"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ru_RU.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ru_RU.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ru_RU.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 345,
+      "sha256": "c7f2ddfe768b88bd83527aa17bfc359be01cf5e77a46731ea7f1031917669ade"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/ru_RU.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2266,
+      "sha256": "9c79a5307f23b94392455fd29e1d38b9fb1fed98d650377f346e2ff75ee055a8"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/sr_RS.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/sr_RS.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4878,
+      "sha256": "28f12f426f04d708bfcf84b15fe657e0939c82f19848e134aec569a4e6730c17"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/sr_RS.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 299,
+      "sha256": "df4a3bcf39efef842ef9b8b855f9ec29da85613eb5133b0d764da535f0c32f1a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/sr_RS.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tatar-cyr",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tatar-cyr/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tatar-cyr/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 341,
+      "sha256": "84c9f63886c9e1516e60c5e350c82db46013c10648c62a51a5601f724e418368"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tatar-cyr/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 934,
+      "sha256": "57b233d304d99d5495f9b0608f760c1668f9c3198f3d50adb155ec2704965628"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 347,
+      "sha256": "2c125f8e32f5a1fafd00b88320d74c66ffec12dd267fa2fcac5baec5e14e3e3f"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1007,
+      "sha256": "9561ffe58338823958c9d363113920eaf2c76e3ef220af27624dd213c05eb017"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 337,
+      "sha256": "76a0383f411132d9709b6a0f610944cba07c2bcb113a0181d32bff1b38a6aea4"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/th_TH/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 758,
+      "sha256": "fd386de7fc7e72d399725552d10e820ac07bd62f630b96161e4732bdff45d85d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tscii-0",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tscii-0/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tscii-0/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 339,
+      "sha256": "4d90d27f18aebae0b6f6d5ed716c6b6bfda493ab95dc7f3f06f71270fe1fb28c"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/tscii-0/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 893,
+      "sha256": "a457496a3d7e6ee65a4361b196758ec911138c62364176cf3c7512d12a3e589b"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.tcvn",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.tcvn/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5509,
+      "sha256": "3d5ba2554b7acb06de0d5a607bcc0b3b29105021baef012c35f5f653116e7b58"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.tcvn/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 342,
+      "sha256": "3fd427902101c0859d1190d5803f2df5ffde718796e3f5990c653df6a38cd1b6"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 907,
+      "sha256": "ec55e37b253e2ab3c131ab498a7f97c4aae2703e2240e0e1f19f46d8ace6b7ec"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.viscii",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.viscii/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5509,
+      "sha256": "7f108ea2bea94584dcc12c106c2ce229e666731d38b6438ad859cab8f2173a16"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.viscii/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 344,
+      "sha256": "b0d1f14af33f7d6990fcc08594cfb52e76e0077560d74d848b69f5ad51b59003"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 923,
+      "sha256": "8c5ddd468371a5f177647a921cc274ffe2df31d1341555f2495ad3a52359150a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 347,
+      "sha256": "16f3baef683a4a2cbbd48574eb4e25537bdce2348ce6913b3e13e3bf7459ca97"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1901,
+      "sha256": "06f8b0b892c9f4d975d7c1b8bb763bbcbf3cec98ad3b9a6627ab11f9057cf624"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gb18030",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gb18030/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 310,
+      "sha256": "c75c61c93d9f65b6517f01d7407afb8d5135c68b0912878d1a0978999be1d95a"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gb18030/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 347,
+      "sha256": "bd1b6a4bf44cd2cb41063ef3f2b93fda728f232d55cbe77ad13a964a135e327d"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1413,
+      "sha256": "47974c869ef9b4bcf09de84ce990b9f80fabc4f235f97ed51061c6f86fe95c89"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gbk",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gbk/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 306,
+      "sha256": "0c0bbcaa2747600218f820bf8d74dcbcdba0546f095eee45a6ceda373dc4b2bd"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gbk/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 343,
+      "sha256": "be9a55d0efc5433d09668feea32119b46347030ed8a77bfb037e3187465026fb"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1165,
+      "sha256": "844880169e4182f724c2b2f2ff8ccd9d989d73bf242e2b0159de5c3cf746cdd0"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 299,
+      "sha256": "44b03d1fe026503f6b2338a8ce42713acb07c831e2e583cb35bfdbeaaaa6a2a1"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 338,
+      "sha256": "a6e6dc413c4bd168cd26ab8b0cace5e464212f03aef6d1994fcbd4351815da5e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_CN/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 787,
+      "sha256": "dcfd7043b9285b310749a25c196a866ec887e8a5f1fffd42a655caa05a89b2d6"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 345,
+      "sha256": "95fcb72dd3ae5e8d34183f3a068a7042434a82ac23801cadb22dfbf8ace8a432"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1668,
+      "sha256": "8672f39ad92391b57bf2214593be0e8b0b44c84546dcdb5ce759734a896902fa"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 305,
+      "sha256": "9043c936195bf61f498f168c9446e6310ee5db91310436b4b4dcc4932ff0bd98"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 344,
+      "sha256": "106b13ec77c4ee6be2e731694fe7b55767bcdde240c5ed031a2ce63681e37d67"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1053,
+      "sha256": "efa2b5071b1884e359a0035fbdea170e241cd7d7a7e914fade5a1bbf635ff3e5"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5hkscs",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5hkscs/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 310,
+      "sha256": "40e4234500ef02f31f8dcd95caebb40b6b2adb0f59ff2b7ad0b901b2fe45cf4e"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5hkscs/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 349,
+      "sha256": "f9e3ec1ce066da306f6edee42764c9cb8e586d900fd9341a9774a63c1d1ecf22"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1097,
+      "sha256": "44182dc734ca2700d7fb485689f20f1e82fc0c3f7a29f03c8c70e1350827eec0"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.UTF-8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.UTF-8/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 52,
+      "sha256": "2d04ecb0181c56837f5b266d57fce339356d80212bde313c9a656d65cb751d59"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.UTF-8/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 345,
+      "sha256": "e67615cebce31ef62695e4b4f3603ee88c099c4ce66c2320fc3ee14eb9bd5910"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1228,
+      "sha256": "ab32de05042135d0fbbe84985bd7221c52072146c809a835ace9cab82642f418"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.big5",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.big5/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 307,
+      "sha256": "806bad5419a8e6daea8e1e50d9e8d7e7373cbff41608f2d213e06b91ed449a1f"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.big5/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 344,
+      "sha256": "675460866b5990e87bf9e967d1b8623d45cc70625839c57f113b030e214500ca"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW.big5/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 9519,
+      "sha256": "37ec838903461a720be5093b281f23872c2deb9609693f0ebfd03cb9f8a24fa4"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW/Compose",
+      "type": "file",
+      "mode": "0o644",
+      "size": 302,
+      "sha256": "35e56e33bb1caf9819741f39069cc986e01502294d941e6c10292ed004570088"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW/XI18N_OBJS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 244,
+      "sha256": "40deb13f5d81187a233d543da4509610d5647af4c74b202a530923aa9946449c"
+    },
+    {
+      "path": "rootfs/usr/share/X11/locale/zh_TW/XLC_LOCALE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2283,
+      "sha256": "1358bc65b381ba2ae6a7884ef232ce086bcd59e7171f9de4ebb4a72560961cb9"
+    },
+    {
+      "path": "rootfs/usr/share/X11/rgb.txt",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "/etc/X11/rgb.txt"
     },
     {
       "path": "rootfs/usr/share/X11/xkb",
@@ -6708,13 +9142,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/bug/libgl1/control",
-      "type": "file",
-      "mode": "0o644",
-      "size": 38,
-      "sha256": "97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2"
-    },
-    {
       "path": "rootfs/usr/share/bug/libgl1-mesa-dri",
       "type": "directory",
       "mode": "0o755"
@@ -6732,6 +9159,13 @@
       "mode": "0o755",
       "size": 448,
       "sha256": "e53c557758d853d7e7af01ad44c16ddad6287360def8f3f00795c60dce453587"
+    },
+    {
+      "path": "rootfs/usr/share/bug/libgl1/control",
+      "type": "file",
+      "mode": "0o644",
+      "size": 38,
+      "sha256": "97d4601cba0a9374b200bc3c1a5435db226f0f9ab6fdf2caa369e01d45d1fca2"
     },
     {
       "path": "rootfs/usr/share/bug/libglvnd0",
@@ -7873,6 +10307,32 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/usr/share/doc-base",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc-base/fontconfig.fontconfig-user",
+      "type": "file",
+      "mode": "0o644",
+      "size": 560,
+      "sha256": "6407dfe8c19a767d5f3e4abc97790aa3d23f8e81cdd175a4c2881de046a8934a"
+    },
+    {
+      "path": "rootfs/usr/share/doc-base/libpng16-16t64.libpng16",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1370,
+      "sha256": "7ad199267001a82ebeeab552d0cf3e0447d10fa117606579cee3a2ea3b95a8c0"
+    },
+    {
+      "path": "rootfs/usr/share/doc-base/shared-mime-info.shared-mime-info",
+      "type": "file",
+      "mode": "0o644",
+      "size": 474,
+      "sha256": "11b8381ce63239c2e3274ff6c641d6f1c15c2944d2ce7b8ba94eba96a1672e0b"
+    },
+    {
       "path": "rootfs/usr/share/doc/adduser",
       "type": "directory",
       "mode": "0o755"
@@ -7977,6 +10437,18 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other/index.html",
+      "type": "file",
+      "mode": "0o644",
+      "size": 771,
+      "sha256": "4c4447794438339c2962006f009543add5d45a93407de98ce5d31d2f89450cba"
+    },
+    {
       "path": "rootfs/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_logout",
       "type": "file",
       "mode": "0o644",
@@ -7996,18 +10468,6 @@
       "mode": "0o644",
       "size": 802,
       "sha256": "09c9e1ae7b3318a377c899bcbf40b5793a7b18c9526ffe8c14b71b5779b4de73"
-    },
-    {
-      "path": "rootfs/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other/index.html",
-      "type": "file",
-      "mode": "0o644",
-      "size": 771,
-      "sha256": "4c4447794438339c2962006f009543add5d45a93407de98ce5d31d2f89450cba"
     },
     {
       "path": "rootfs/usr/share/doc/adduser/examples/deluser.conf",
@@ -8157,6 +10617,32 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/usr/share/doc/fontconfig-config",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fontconfig-config/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3589,
+      "sha256": "73350e4fd85dc26f6047e556001dd221eec009e6e8e7417d482702ae1e7eb439"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fontconfig-config/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 262491,
+      "sha256": "a2f4c9af2249d09f9eddf34860817d07e4ecde85d8877c70483b7bdd09be96b3"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fontconfig-config/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1301,
+      "sha256": "b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db"
+    },
+    {
       "path": "rootfs/usr/share/doc/fontconfig/README.Debian",
       "type": "file",
       "mode": "0o644",
@@ -8204,6 +10690,142 @@
       "mode": "0o644",
       "size": 11193,
       "sha256": "ae20390d2c86c2ace8efd829d395d270062847ca9d1601dd2e722644c5ae964f"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/AUTHORS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 842,
+      "sha256": "915a742f0b242ea43fcbef934b6d24353b51351470f71d8a8d00c751892fad50"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/BUGS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 51,
+      "sha256": "f3a3ba43ec32229502ca63f91de8862c22657b79aed0b2e06f1580001052e3e0"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/README.md",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2557,
+      "sha256": "a531455b82dfefec9e02852474c6d3398b3ef57fba069d369f3633df2be53c0d"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1111,
+      "sha256": "0c9a5cf92ea2a9c207954ed93742988e8200cfb564cffc894f27bb7d62c572c8"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 23229,
+      "sha256": "055c79cf2cbb009ea535896f9715f1ac017ca8845aee89b7c7037381dd36522a"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/langcover.txt.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3928,
+      "sha256": "409216120d1796ee4d3da1f215dcb4eee848e7e28a96b780ae6d038fda4542c9"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/status.txt.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 54464,
+      "sha256": "796775ba966f41c3bcac3045075ca6d72b3c1c97daeeb062f44de86a41436550"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-core/unicover.txt.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4971,
+      "sha256": "5c410e0aa3d7685946240a1aaecb4cfc17d4cc083366416aa9513c2c2adb72af"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/AUTHORS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 842,
+      "sha256": "915a742f0b242ea43fcbef934b6d24353b51351470f71d8a8d00c751892fad50"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/BUGS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 51,
+      "sha256": "f3a3ba43ec32229502ca63f91de8862c22657b79aed0b2e06f1580001052e3e0"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/README.md",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2557,
+      "sha256": "a531455b82dfefec9e02852474c6d3398b3ef57fba069d369f3633df2be53c0d"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1111,
+      "sha256": "043d7610ae38b4da8ffbbce99cedc64337c0825e3c47ab45c5d04a4733be4228"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 23229,
+      "sha256": "055c79cf2cbb009ea535896f9715f1ac017ca8845aee89b7c7037381dd36522a"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/langcover.txt.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3928,
+      "sha256": "409216120d1796ee4d3da1f215dcb4eee848e7e28a96b780ae6d038fda4542c9"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/status.txt.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 54464,
+      "sha256": "796775ba966f41c3bcac3045075ca6d72b3c1c97daeeb062f44de86a41436550"
+    },
+    {
+      "path": "rootfs/usr/share/doc/fonts-dejavu-mono/unicover.txt.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4971,
+      "sha256": "5c410e0aa3d7685946240a1aaecb4cfc17d4cc083366416aa9513c2c2adb72af"
     },
     {
       "path": "rootfs/usr/share/doc/keepassxc-minimal",
@@ -8321,6 +10943,39 @@
       "mode": "0o644",
       "size": 5596,
       "sha256": "be50f0ae31f14e6ab12a34fa3d2ca1247fd3a7eefe428229e6bd402c1241c8e0"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libbrotli1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libbrotli1/changelog.Debian.amd64.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 227,
+      "sha256": "b404c92d1c16d748b88f48e2d8ebddd3aa9e22f277decd646d5a7f840f2241d2"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libbrotli1/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1073,
+      "sha256": "b1c489706e905408b243652d4adb060ad150f024ea49286a3f9190c86b8d7ca5"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libbrotli1/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2022,
+      "sha256": "891538038faa6e50fa2e524f8d68cf655274663ae0bf3d7ed131d63697859655"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libbrotli1/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1354,
+      "sha256": "24a64e5bb83d0960d1835696a1e23c0896ad6055b0ca47c66ab0eb9a766324b1"
     },
     {
       "path": "rootfs/usr/share/doc/libbsd0",
@@ -8739,6 +11394,58 @@
       "sha256": "588d64c855381c4f1638f91840c5cbf0a7e771cab4e6298e5b4cf6a909ea1ac7"
     },
     {
+      "path": "rootfs/usr/share/doc/libexpat1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libexpat1/AUTHORS",
+      "type": "file",
+      "mode": "0o644",
+      "size": 142,
+      "sha256": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libexpat1/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3785,
+      "sha256": "1f256e402fde6dd01e94f56294d2988a0fd988814a3a5489d3de82d301aa5cd1"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libexpat1/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 33095,
+      "sha256": "06361e6eeb720daeed7512f174eab94c03c1d7946423943fd792005a59fddd47"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libexpat1/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1756,
+      "sha256": "60919fe1a156395ff14511bb6ff79756c50ade2fff59ac60c9bae1d8a7fe6292"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libffi8",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libffi8/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1745,
+      "sha256": "332b5e2250594b86c51eb818c64eb1c1b3653a888d52745d2a057e1a31e615ca"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libffi8/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 10164,
+      "sha256": "25ee86cfccc2b7eb9a156a127f1e1b38c46c231f516ff201912223eaf62ee186"
+    },
+    {
       "path": "rootfs/usr/share/doc/libfido2-1",
       "type": "directory",
       "mode": "0o755"
@@ -8763,6 +11470,65 @@
       "mode": "0o644",
       "size": 3626,
       "sha256": "c05201a77c4ac0cab4b8abd8daded4dbaeb460b393d44fed45da7fd4e5ad8652"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfontconfig1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfontconfig1/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3589,
+      "sha256": "c3e7addbb0d5c772598c0ec89e82c625fdc248c863a25d9b6bd13d185c995e9e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfontconfig1/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 262491,
+      "sha256": "a2f4c9af2249d09f9eddf34860817d07e4ecde85d8877c70483b7bdd09be96b3"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfontconfig1/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1301,
+      "sha256": "b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfreetype6",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfreetype6/README",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3114,
+      "sha256": "304b99f680248e42f9c656d36c8c41cda74cf6eebbc5af4d11c4abc1b0d9e2b9"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfreetype6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 6211,
+      "sha256": "b2ff5b8bb4aaaa316e6f075853d7e31fc311e8cc59effcba9aa5bcf4a5bcdb35"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfreetype6/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 78525,
+      "sha256": "2307fb4386ffe9f8aa7a73ff5716c95b70b5595afb6302a7a42d39f3bfec53ff"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libfreetype6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 31206,
+      "sha256": "acdab1506824347784d2cc0a634cfa17dbf525c0d5b4902b4ac9d0d4e1fed6c7"
     },
     {
       "path": "rootfs/usr/share/doc/libgbm1",
@@ -8850,27 +11616,6 @@
       "mode": "0o755"
     },
     {
-      "path": "rootfs/usr/share/doc/libgl1/changelog.Debian.amd64.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 228,
-      "sha256": "9e3bc1c93d51c58fe4ad275d2c0825b4134ee86001612b70b730dbc4c2c35c83"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libgl1/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1478,
-      "sha256": "f44e681252c8133887b7c87b52b30b4cd3745ead9f95b4eff0bcc81ed86a806c"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libgl1/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4422,
-      "sha256": "37920f219f60efa2fde5d003c51be0608b2159cc74c5eb6d70d630907db2d9a3"
-    },
-    {
       "path": "rootfs/usr/share/doc/libgl1-mesa-dri",
       "type": "directory",
       "mode": "0o755"
@@ -8895,6 +11640,27 @@
       "mode": "0o644",
       "size": 14847,
       "sha256": "55268f06fbc193ee1a4fe694045a9cec58ba727d74bb17b5b1d54de36873a038"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libgl1/changelog.Debian.amd64.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 228,
+      "sha256": "9e3bc1c93d51c58fe4ad275d2c0825b4134ee86001612b70b730dbc4c2c35c83"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libgl1/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1478,
+      "sha256": "f44e681252c8133887b7c87b52b30b4cd3745ead9f95b4eff0bcc81ed86a806c"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libgl1/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4422,
+      "sha256": "37920f219f60efa2fde5d003c51be0608b2159cc74c5eb6d70d630907db2d9a3"
     },
     {
       "path": "rootfs/usr/share/doc/libglib2.0-0t64",
@@ -10340,6 +13106,65 @@
       "sha256": "f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d"
     },
     {
+      "path": "rootfs/usr/share/doc/libreadline8t64",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/README.Debian",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2027,
+      "sha256": "acd6c06b17be2b53af372832183fc280322667dffce7328d148350369cb98e18"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/USAGE",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2025,
+      "sha256": "0759c74d61889b687f33cb03899630d8ecc09c5ebe7cedd2dd2e17eeef193f93"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1666,
+      "sha256": "e709ecac48c99f6e5c50469287bc73de55c21a11afcc25efd59a779b57d54b52"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 24270,
+      "sha256": "c07473a407ba409d8b97aee59e48e271a1f04d3cfe202321ae7c2678889942b3"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4314,
+      "sha256": "854c6f5f249a109a913e1e58528445c4fec96f063ae8ba496bfb2b460bcc6866"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/examples",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/examples/Inputrc",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2362,
+      "sha256": "91b802c04ca1e0c2f8966814c696ca980ea2c633f943c806078729a919da454c"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libreadline8t64/inputrc.arrows",
+      "type": "file",
+      "mode": "0o644",
+      "size": 727,
+      "sha256": "092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce"
+    },
+    {
       "path": "rootfs/usr/share/doc/librtmp1",
       "type": "directory",
       "mode": "0o755"
@@ -10918,6 +13743,58 @@
       "sha256": "99ade79b69c41bfb14b8a0567e9c0acdd858d6d8ad7d3ca4f9da1cfd000954b1"
     },
     {
+      "path": "rootfs/usr/share/doc/libx11-6",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2104,
+      "sha256": "767b367cbe1695a8db75890edb409de5d4a51195751d50f5eb294fe5033c7c49"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-6/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 235772,
+      "sha256": "764be3d0e316b75988a3663223a971e7189811821e7389b152400bcc521053f7"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 47102,
+      "sha256": "0b380a7fd5b2228f26e9585e56f14812efd3350f3df307507d2bc055dfd8de3e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-data",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-data/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2104,
+      "sha256": "d55acc3904149b1182e7d8a50ddd7f3369657d8e92f8c46f5b5ed4fe97e21cd1"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-data/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 235772,
+      "sha256": "764be3d0e316b75988a3663223a971e7189811821e7389b152400bcc521053f7"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libx11-data/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 47102,
+      "sha256": "0b380a7fd5b2228f26e9585e56f14812efd3350f3df307507d2bc055dfd8de3e"
+    },
+    {
       "path": "rootfs/usr/share/doc/libx11-xcb1",
       "type": "directory",
       "mode": "0o755"
@@ -10942,6 +13819,32 @@
       "mode": "0o644",
       "size": 47102,
       "sha256": "0b380a7fd5b2228f26e9585e56f14812efd3350f3df307507d2bc055dfd8de3e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxau6",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxau6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 836,
+      "sha256": "184175a4f21e8d2d164029360a00d9a18548f25ddc3daed76f9552da66ef4ec8"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxau6/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 13127,
+      "sha256": "f885fe6a119fb141ecd5fa1e000dbe6bb3e8fe61e04e6acdaa340e984c38e5ae"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxau6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1224,
+      "sha256": "118dd263a7b91c8f21c489f949bf13281dff9e766deea92b829dac4dce66601a"
     },
     {
       "path": "rootfs/usr/share/doc/libxcb-cursor0",
@@ -11545,6 +14448,98 @@
       "sha256": "4f7cb9db6bf6542f5417e3d674c780d3a5fd12291a54d63054fb576ee0cfae80"
     },
     {
+      "path": "rootfs/usr/share/doc/libxcb1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxcb1/changelog.Debian.amd64.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 228,
+      "sha256": "a2f7e44c762c9421f27157a052bbffdc14388a6655e83fafe399fb19bcff3db9"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxcb1/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1469,
+      "sha256": "610f9e9aa400f93acb29a85b1aa33c654db2776b68202b4fe1295f8c03c7b8d2"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxcb1/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 96583,
+      "sha256": "b7ca08b5f8f33332a3b9f11d637d349e3dfb33e422d20f13242387b9ba9e6ce6"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxcb1/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1781,
+      "sha256": "4f7cb9db6bf6542f5417e3d674c780d3a5fd12291a54d63054fb576ee0cfae80"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxdmcp6",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxdmcp6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 728,
+      "sha256": "69c12b1a01a9065da8da89f73610904d028cc27caf186413b526c537164a97d3"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxdmcp6/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 17635,
+      "sha256": "6ee8c5adb2503e99be64e52910b37422a8ccc6c526092a4fcf12673e7e74775f"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxdmcp6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1265,
+      "sha256": "1bcbb50f8603fe8b86d330bfa460b772ea04fbd3c70e4499f0768b5340b9fd6e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxext6",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxext6/changelog.Debian.amd64.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 239,
+      "sha256": "de9c50bd3e2cff2bbb69301fbd10022763aee1a57f3438b69c3b894f5e40674d"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxext6/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 885,
+      "sha256": "19b25a94f44ff73e6cf76e4cf1cb020491c2d7f56d7b81e8090cf91ce1690420"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxext6/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 21057,
+      "sha256": "5da9605afc0c4aedb8b8cf1707d6b85b7ea927f594ce4066a9957659287cb15b"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxext6/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 10421,
+      "sha256": "bc57e445ca1d9fe082c8d54189dd411ff26caa8552c9c63d44ea06a982f32124"
+    },
+    {
       "path": "rootfs/usr/share/doc/libxkbcommon-x11-0",
       "type": "directory",
       "mode": "0o755"
@@ -11627,6 +14622,32 @@
       "mode": "0o644",
       "size": 3067,
       "sha256": "ee746b96cfa5be73c3ea3e4cfb1285e9b315d4c9267f99b2ee9c5d911d9fe3f4"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxrender1",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxrender1/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 940,
+      "sha256": "00efb04f30934b00dbc87805c19e47e40f16915904868ee2c548ed57ce83ccd1"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxrender1/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 9252,
+      "sha256": "27be60d023265fc8343a3f75f6ffb4cf100a8a952a96500d2459090ec77ee89e"
+    },
+    {
+      "path": "rootfs/usr/share/doc/libxrender1/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2252,
+      "sha256": "ed2a78123a5076b4f11da38cb1ffb85b5cb9fdc26b5746c517b1d7e7a9029704"
     },
     {
       "path": "rootfs/usr/share/doc/libxshmfence1",
@@ -12072,6 +15093,39 @@
       "sha256": "f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d"
     },
     {
+      "path": "rootfs/usr/share/doc/readline-common",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/readline-common/changelog.Debian.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1665,
+      "sha256": "3f714361320c19763a7b4a254d2368469efe53d72adae8c5e53475c0537720fd"
+    },
+    {
+      "path": "rootfs/usr/share/doc/readline-common/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 12128,
+      "sha256": "f2fbe823f33bcb5ed37e770cf8457ab1532f52dc2f610377bb2e7156824c15e2"
+    },
+    {
+      "path": "rootfs/usr/share/doc/readline-common/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 4314,
+      "sha256": "854c6f5f249a109a913e1e58528445c4fec96f063ae8ba496bfb2b460bcc6866"
+    },
+    {
+      "path": "rootfs/usr/share/doc/readline-common/inputrc.arrows",
+      "type": "file",
+      "mode": "0o644",
+      "size": 727,
+      "sha256": "092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce"
+    },
+    {
       "path": "rootfs/usr/share/doc/shared-mime-info",
       "type": "directory",
       "mode": "0o755"
@@ -12159,6 +15213,32 @@
       "sha256": "225192ba28586d04c32528921c382cfb4c85b4ef596fbc180ecdcc95a83be523"
     },
     {
+      "path": "rootfs/usr/share/doc/x11-common",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/doc/x11-common/changelog.Debian.old.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 194817,
+      "sha256": "96e2d9e17ecde356e1cf047a57a35e49f5effb8e1bdc340e7358b6d1251d084a"
+    },
+    {
+      "path": "rootfs/usr/share/doc/x11-common/changelog.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1646,
+      "sha256": "e0106ef44d541267f4938b2a28ee4cd9c6fd9c44a3ccf8899a1a65ca70c0ab8f"
+    },
+    {
+      "path": "rootfs/usr/share/doc/x11-common/copyright",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5004,
+      "sha256": "2badb73e6e70d0bd2e0b85d39ce18d3c66cfebc3e301720374fa20e6539c947d"
+    },
+    {
       "path": "rootfs/usr/share/doc/xkb-data",
       "type": "directory",
       "mode": "0o755"
@@ -12199,32 +15279,6 @@
       "sha256": "648621d1a2180678818eb393565849bbc8b332cc521c21e009d948ea5541b3c3"
     },
     {
-      "path": "rootfs/usr/share/doc-base",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc-base/fontconfig.fontconfig-user",
-      "type": "file",
-      "mode": "0o644",
-      "size": 560,
-      "sha256": "6407dfe8c19a767d5f3e4abc97790aa3d23f8e81cdd175a4c2881de046a8934a"
-    },
-    {
-      "path": "rootfs/usr/share/doc-base/libpng16-16t64.libpng16",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1370,
-      "sha256": "7ad199267001a82ebeeab552d0cf3e0447d10fa117606579cee3a2ea3b95a8c0"
-    },
-    {
-      "path": "rootfs/usr/share/doc-base/shared-mime-info.shared-mime-info",
-      "type": "file",
-      "mode": "0o644",
-      "size": 474,
-      "sha256": "11b8381ce63239c2e3274ff6c641d6f1c15c2944d2ce7b8ba94eba96a1672e0b"
-    },
-    {
       "path": "rootfs/usr/share/drirc.d",
       "type": "directory",
       "mode": "0o755"
@@ -12235,6 +15289,395 @@
       "mode": "0o644",
       "size": 74857,
       "sha256": "47d92a9ea932d92a14e01d5936b24812112e207127749f0d92dd7ce0cf4e9132"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 213,
+      "sha256": "7dae5045441ce7ab4ce9ee0ccbee84e2ae90daee9cfd2ac64cd887ee85c528df"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/09-autohint-if-no-hinting.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 717,
+      "sha256": "f04d1737c2a85925a6294f4b966597d03a30c9e4c551c7a8c270eaad514b2689"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-autohint.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 630,
+      "sha256": "9ae4308a18941969ea42f5881c202be052fe12da3fb1fb4fc4b940642ec74db0"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-hinting-full.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 616,
+      "sha256": "aa01699d6a43a1be2996233e67daf1570b9000bd1a59763463d3a12b852cdc3a"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-hinting-medium.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 620,
+      "sha256": "f0eaec3db6879f3460bd0e1ef3e09dd965168ca460a79d098eb0648c6740095d"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-hinting-none.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 616,
+      "sha256": "5970fa53c69874ee51349300ef3412592e46e7f133c06074befcf6ab2a3ef6e2"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-hinting-slight.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 620,
+      "sha256": "d138eca2bac3f78d45ff7cfb649ad792caa4a6e61f73cea7cf0ea54b091f1ef4"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-no-antialias.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 260,
+      "sha256": "75412c70f3a78ad090c79a9dc63cce6aae41b2cfc2f67f4a1a1b533526216d2e"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2068,
+      "sha256": "df8e99abb6f82384c61978906a45a95794940545da95790d87f01d9391e0894b"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-sub-pixel-bgr.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 672,
+      "sha256": "719006f7887a958da8efe5ad010a2cde689313074607ae20f0be4cd9e8bfffad"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-sub-pixel-none.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 647,
+      "sha256": "0f00b5cf0ce07062ec65b9b340aa888f6c5fbc215aafebd26781be2d5a13ff6a"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 672,
+      "sha256": "e4cfc04f5fc5093d2ba20c40f8709c9dfc099997313d0f96bc8256597a15d057"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 682,
+      "sha256": "15178eb45f3206433bace02053214d5750b9d74a4ece727f48c7fbc8f8c9adb3"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-sub-pixel-vrgb.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 682,
+      "sha256": "049680ed134d34c560be493a47301bf6542050e7e89c27d3df25145b41f8133e"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-unhinted.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 625,
+      "sha256": "dca27a149268da3aeaa3416dc236fd1d76e2f997b1ba91e1292297e78c9281d4"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/10-yes-antialias.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 258,
+      "sha256": "e6d82a642d1b37f7d24dc37f938b999f00ff7aa4303b2602d04164d53f221005"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 695,
+      "sha256": "76aec9d8dac48faabe1bbde9e887cfb09fa45f30be5f8826e945a394a0097e48"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/11-lcdfilter-legacy.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 692,
+      "sha256": "0768fd57ae0a50d54f2f2e5efae98437ae8623573b652f246ac22e574d5f38b0"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/11-lcdfilter-light.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 689,
+      "sha256": "0708443f97406b100a5ccfa67ea8a1c1473ff60ff03848e536bc62e2b2ddcea3"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/11-lcdfilter-none.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 686,
+      "sha256": "8c2b7c2db7bf8e54fb4f449e726ad97d824195085f97a5c19d75914ad7b4b074"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1377,
+      "sha256": "278732c68c16177f2aa3c7e4ea318b9f720aee13a433c32eb15ba626806c609d"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/25-unhint-nonlatin.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3329,
+      "sha256": "8b8c05318fb3f4893a9522e7989dd9280d14233adbc21be867bd173add4a0d5c"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/30-metric-aliases.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 13610,
+      "sha256": "3baf25c82e1a14c606d45c212296852be06ae9795d60e84aab573226151450a2"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/35-lang-normalize.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 48373,
+      "sha256": "fb06f0e9206cc711a68719940e670a3756ae6656ea9b73197f3bbc0c921ee433"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/40-nonlatin.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 7981,
+      "sha256": "9c56aeed6490db1d29602d7f8e028742b5e7a0268eaaa60de2fde582c6403715"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/45-generic.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 3490,
+      "sha256": "24de9f68189d544bb4cc084d9bd8f3a59d8b988a9dc44b11e9877d5add5fc948"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/45-latin.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 7159,
+      "sha256": "807638284032d8d8f6ed8b014a0edae79a4d4f3c4e70317fdb0bfa8edd66779e"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/48-spacing.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 441,
+      "sha256": "99d839cd8aa28854e8f54f26e7200b6e57951f39f56791a0ed473662488bcef6"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/49-sansserif.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 639,
+      "sha256": "7849a11ce5243e8bb3d06bcad558737a8682e5122e73c8e427f4c011a2054818"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/50-user.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 751,
+      "sha256": "449137ccce57d60bca178d57519ba54e1942d757ad171f3a88cd78df2161c970"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/51-local.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 263,
+      "sha256": "dca9d917e1f66f73bfa495943b4d1eaab2d93810a51bc8e600cf4d4e9df03e67"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/60-generic.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1911,
+      "sha256": "195bc8605dd23289d42c10d79cc13a5ce4a4b3cf965df5b30ecc0b7149bb951f"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/60-latin.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2166,
+      "sha256": "2de7c687e03b1fedf9fd016aa14ed8088f52578896a73f06158dda8acd264f09"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/65-fonts-persian.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 10132,
+      "sha256": "c675fab143a3638346874798be45f51f6878ebec591b4362d83cfffb828ec4ca"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/65-khmer.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 304,
+      "sha256": "0bc1c077ef01cb409f51f95218b97b144278c0568b5de03683047b2a1963c590"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/65-nonlatin.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 9876,
+      "sha256": "e309e38d7fb47cc3f639f4313b19e72c9be4d1f2db92d7d892ea65bfdd0cbd30"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/69-unifont.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 687,
+      "sha256": "fa97c0cf5f79d70e2dc3dc48155d4c9220cd7c6a8bc95b89c4ebcc517f97479e"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/70-force-bitmaps.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 326,
+      "sha256": "46fb68f9ec27605f880379b753c1afcc1cacfc75021e3a288f4cf62c945e394f"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/70-no-bitmaps-and-emoji.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 373,
+      "sha256": "313260028904353a026faa457bacea58df88ceff7dc97b269e526130dc797a7e"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/70-no-bitmaps-except-emoji.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 429,
+      "sha256": "bb5df65896bf3011b2f2935b63ab12db1ecf078674ff73a533123445f122a92b"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/70-no-bitmaps.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 304,
+      "sha256": "5994ce306887448ec29b2d6624696bb2dd7e333dd51cc5818f9ebe72abc077da"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 77,
+      "sha256": "87228113c2e8ffbf5565ffaa80d5e5fde33b14f0725accf69e1e31c80df398c0"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/80-delicious.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 437,
+      "sha256": "34f27b7fe9cd83b2b6d46f16ef9c477412f2d7ef63634f86b9b38b79bc4f81ad"
+    },
+    {
+      "path": "rootfs/usr/share/fontconfig/conf.avail/90-synthetic.conf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1757,
+      "sha256": "cdd0aac7840c664a7127b64db66bdfe8dc22be3774d10bc22f4a41c98de5d85e"
+    },
+    {
+      "path": "rootfs/usr/share/fonts",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 708920,
+      "sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 759720,
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 334268,
+      "sha256": "0d3c03d1b667192f91223660a3163325cf83132662fe4d9f7d6e596bf7a995c2"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 254960,
+      "sha256": "2084995adab143b149258f5944b7f863804796b753014526bd7f7915b1b20770"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 253448,
+      "sha256": "710323dd803666c37988df68e736c233d96efdf5c770c8ee28f4c4f4b84fb32d"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 343140,
+      "sha256": "54bf827eb99404e8f430c330ad30f063334f637eba0109b6a18d4f566a8e9dd8"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 356668,
+      "sha256": "aac3f559445d23f0f567a243f91f3f6ad6cb4b5cafa1521a3479fffe0637f0bd"
+    },
+    {
+      "path": "rootfs/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+      "type": "file",
+      "mode": "0o644",
+      "size": 380660,
+      "sha256": "8cb29f7db250ebb2551a6ce2c1e0bfd5a0eb520e9e233370db0493e82e1f36f7"
     },
     {
       "path": "rootfs/usr/share/gcc",
@@ -12464,6 +15907,18 @@
       "mode": "0o644",
       "size": 15201,
       "sha256": "550c8ffdf25b6fa0047b47bdbff74a660802d0c22a31797255389a439cb85985"
+    },
+    {
+      "path": "rootfs/usr/share/info",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/info/rluserman.info.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 26693,
+      "sha256": "161d3684da4ce2047c416ef67c935711b353f2479da6769f0dc0a73099795f20"
     },
     {
       "path": "rootfs/usr/share/keepassxc",
@@ -18428,6 +21883,13 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/usr/share/lintian/overrides/libbrotli1",
+      "type": "file",
+      "mode": "0o644",
+      "size": 90,
+      "sha256": "2348de77b1f367dbd9891dd844d22a63299861d50db72b621849ecd0466467f2"
+    },
+    {
       "path": "rootfs/usr/share/lintian/overrides/libbsd0",
       "type": "file",
       "mode": "0o644",
@@ -18659,6 +22121,13 @@
       "sha256": "d1fbe826d4cecb047c53663b94f7614c9ebb68df2078b9bf8111909b1d478f4d"
     },
     {
+      "path": "rootfs/usr/share/lintian/overrides/libx11-6",
+      "type": "file",
+      "mode": "0o644",
+      "size": 60,
+      "sha256": "f463047684138b2efc6bd51cbf7dcd7f4f60011a0d2cf02a786cf6a29457040b"
+    },
+    {
       "path": "rootfs/usr/share/lintian/overrides/libxml2",
       "type": "file",
       "mode": "0o644",
@@ -18692,6 +22161,20 @@
       "mode": "0o644",
       "size": 360,
       "sha256": "6353b1cbf1d0bb27dbb21bad36d9c820e4a64dc4398a50db31591f8a5099f8d0"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/readline-common",
+      "type": "file",
+      "mode": "0o644",
+      "size": 42,
+      "sha256": "8ee145c8c2958431bddb705cc2e9032a194337fd5fdee299cfe06fe1fb529707"
+    },
+    {
+      "path": "rootfs/usr/share/lintian/overrides/x11-common",
+      "type": "file",
+      "mode": "0o644",
+      "size": 123,
+      "sha256": "e0f5ca3e889620c995d03b9f941791e34fdf9aff7bb9f8446586163cb09de8e7"
     },
     {
       "path": "rootfs/usr/share/locale",
@@ -23313,6 +26796,20 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/usr/share/man/man3/history.3readline.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 7781,
+      "sha256": "060fbf153ced5cf155f433a08d4c2830162649129cbadb6aee66ea79483ba01a"
+    },
+    {
+      "path": "rootfs/usr/share/man/man3/readline.3readline.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 15809,
+      "sha256": "36ff039dd426268582c9199e2b0fc7df093e09944d61dbef136f641e5d573dab"
+    },
+    {
       "path": "rootfs/usr/share/man/man3/ts_close.3.gz",
       "type": "file",
       "mode": "0o644",
@@ -23430,6 +26927,40 @@
       "mode": "0o755"
     },
     {
+      "path": "rootfs/usr/share/man/man5/Compose.5.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 2586,
+      "sha256": "410bcd6d69ce6e5d98f7b7b6f49d8322b3e50db341452fc3015e953831f549b1"
+    },
+    {
+      "path": "rootfs/usr/share/man/man5/XCompose.5.gz",
+      "type": "symlink",
+      "mode": "0o777",
+      "target": "Compose.5.gz"
+    },
+    {
+      "path": "rootfs/usr/share/man/man5/Xsession.5.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 5048,
+      "sha256": "a1025a99627cdc61ea8650175991ce303047efdbd4263a8f5872fd8a761fb39b"
+    },
+    {
+      "path": "rootfs/usr/share/man/man5/Xsession.options.5.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1702,
+      "sha256": "670cc7a64dc9a31f8c53880bf562903f11a45a696b6aa229aeff22d1a0f2b347"
+    },
+    {
+      "path": "rootfs/usr/share/man/man5/Xsession.options.d.5.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1702,
+      "sha256": "670cc7a64dc9a31f8c53880bf562903f11a45a696b6aa229aeff22d1a0f2b347"
+    },
+    {
       "path": "rootfs/usr/share/man/man5/adduser.conf.5.gz",
       "type": "file",
       "mode": "0o644",
@@ -23463,6 +26994,13 @@
       "mode": "0o644",
       "size": 3097,
       "sha256": "2f6a6c96f26b61db77737113ce59b06a3e8177d2099fba5bc9069182adb3c11f"
+    },
+    {
+      "path": "rootfs/usr/share/man/man5/fonts-conf.5.gz",
+      "type": "file",
+      "mode": "0o644",
+      "size": 11619,
+      "sha256": "417fca53d60783f52f00ea765396e59c83b892348bc5ca8f07b7187d78b296ad"
     },
     {
       "path": "rootfs/usr/share/man/man5/gshadow.5.gz",
@@ -26744,6 +30282,35 @@
       "mode": "0o644",
       "size": 128,
       "sha256": "ae913b4f193632d9fd5f751a9d03c34b92b03e58922b1c2a2f67e3a49cd54d27"
+    },
+    {
+      "path": "rootfs/usr/share/readline",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/readline/inputrc",
+      "type": "file",
+      "mode": "0o644",
+      "size": 1875,
+      "sha256": "efd629d8b3569cf2bdeac6586ffde95e6e277df85142753dc3a1629c657b87b1"
+    },
+    {
+      "path": "rootfs/usr/share/xml",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/fontconfig",
+      "type": "directory",
+      "mode": "0o755"
+    },
+    {
+      "path": "rootfs/usr/share/xml/fontconfig/fonts.dtd",
+      "type": "file",
+      "mode": "0o644",
+      "size": 8254,
+      "sha256": "76afafd572f6194858eef6d28389505d591d8d2a026da46568046554a87c207f"
     },
     {
       "path": "rootfs/var",
