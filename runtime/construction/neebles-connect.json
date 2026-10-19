@@ -61,7 +61,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-connect.git",
-        "8ce50796ba5a450332ecb5ed4697229a602457be"
+        "d19cd6037eff79418b0ad8a957d24c053b61d60c"
       ],
       "session": false,
       "execution": "foreground"
@@ -88,10 +88,40 @@
         "/work/modules/neebles-connect",
         "checkout",
         "--detach",
-        "8ce50796ba5a450332ecb5ed4697229a602457be"
+        "d19cd6037eff79418b0ad8a957d24c053b61d60c"
       ],
       "session": false,
       "execution": "foreground"
+    },
+    {
+      "id": "install-vault",
+      "runtime_authority": "modules.runtime",
+      "rootfs": "rust-qt",
+      "world": "modules.rust-qt",
+      "execution": "foreground",
+      "session": true,
+      "readonly": [],
+      "dynamic_readonly": [
+        {
+          "authority": "modules.installed_runtime",
+          "source": "/opt/neebles/modules/neebles-connect",
+          "destination": "/opt/neebles/modules/neebles-connect"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/opt/neebles/modules/neebles-connect",
+      "arguments": [
+        "/opt/neebles/modules/neebles-connect/runtime/neebles-connect",
+        "--intent",
+        "install-vault"
+      ],
+      "session_readonly": [
+        "neebles-secrets/secrets.sock"
+      ]
     },
     {
       "id": "open-runtime",
