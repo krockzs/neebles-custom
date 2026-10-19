@@ -7,16 +7,6 @@
       "domination": {
         "world": "modules.rust-qt"
       }
-    },
-    "keepass-full": {
-      "domination": {
-        "world": "modules.rust-qt"
-      }
-    },
-    "keepass-minimal": {
-      "domination": {
-        "world": "modules.rust-qt"
-      }
     }
   },
   "steps": [

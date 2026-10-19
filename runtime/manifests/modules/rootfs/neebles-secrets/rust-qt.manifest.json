@@ -1,7 +1,7 @@
 {
-  "module": "neebles-connect",
+  "module": "neebles-secrets",
   "version": "1.0.0",
-  "rootfs": "keepass-minimal",
+  "rootfs": "rust-qt",
   "entries": [
     {
       "path": "packages/adduser_3.152_all.deb",
@@ -44,13 +44,6 @@
       "mode": "0o664",
       "size": 488808,
       "sha256": "3003e98a5debfdeadc7040a7f715fe9fe6fb67f68deacf6049b54e30f07fc014"
-    },
-    {
-      "path": "packages/keepassxc-minimal_2.7.10+dfsg1-1_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 7762280,
-      "sha256": "d5532645d9763d0ce3e276ae20aeaff66d300a9fa0d0471d3a898084872c41c1"
     },
     {
       "path": "packages/libargon2-1_0~20190702+dfsg-4+b2_amd64.deb",
@@ -648,13 +641,6 @@
       "sha256": "f61ccd0c809a665a6061c6a28d265965e8712e616599a81e50699ff8394afeea"
     },
     {
-      "path": "packages/libreadline8t64_8.2-6_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 168832,
-      "sha256": "eeadf2b5e755c9f183883feea2d9b5b28560284275d5f54d3e55d0923b1d0967"
-    },
-    {
       "path": "packages/librtmp1_2.4+20151223.gitfa8646d.1-2+b5_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -765,13 +751,6 @@
       "mode": "0o664",
       "size": 59552,
       "sha256": "bb6467a002915c4ac464aa1b22204907951a30e43bcb86596ebd3539e84458e9"
-    },
-    {
-      "path": "packages/libvncclient1_0.9.15+dfsg-1+deb13u2_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 197004,
-      "sha256": "13395ab10fb0cffb79e453778b22a26c1faa356fed995a6f25628238a639797a"
     },
     {
       "path": "packages/libvterm0_0.3.3-3+b1_amd64.deb",
@@ -1068,13 +1047,6 @@
       "sha256": "3e610f29321cdcc61337c86e6b4031ff60f0c9915fe19e6a862ac06480620ff4"
     },
     {
-      "path": "packages/openssh-client_10.0p1-7+deb13u4_amd64.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 989904,
-      "sha256": "8fff343654f86c3b3266f94cd338c7b4da2e386da029327815118ea00bce03b9"
-    },
-    {
       "path": "packages/openssl_3.5.7-1~deb13u3_amd64.deb",
       "type": "file",
       "mode": "0o664",
@@ -1094,13 +1066,6 @@
       "mode": "0o664",
       "size": 93268,
       "sha256": "889a9ad2ab513fe26b317ac22959b1c372e090e79d165858fba4b036b6278f5e"
-    },
-    {
-      "path": "packages/readline-common_8.2-6_all.deb",
-      "type": "file",
-      "mode": "0o664",
-      "size": 69360,
-      "sha256": "f77e8aa0bf0de618f11cb0b21658a4ed60f177d63b3cf26d7fc3706b6d0eaaa9"
     },
     {
       "path": "packages/shared-mime-info_2.4-5+b2_amd64.deb",
@@ -1701,23 +1666,6 @@
       "sha256": "628447dcfa3bfbe4c3df9f0885dcbe93a757b82d5dc91369da5139864a969663"
     },
     {
-      "path": "rootfs/etc/ssh",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/etc/ssh/ssh_config",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1668,
-      "sha256": "2a6f95f82ff24c74627826953f3414ff856231235ca387c1bf60d08fa81ac77e"
-    },
-    {
-      "path": "rootfs/etc/ssh/ssh_config.d",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
       "path": "rootfs/etc/ssl",
       "type": "directory",
       "mode": "0o755"
@@ -1888,20 +1836,6 @@
       "sha256": "1c61e59033a52b767630dfd1ea8b91e402bb8d28319a8fc4d82301a26a94b5c8"
     },
     {
-      "path": "rootfs/usr/bin/keepassxc",
-      "type": "file",
-      "mode": "0o755",
-      "size": 4049432,
-      "sha256": "e4e97e175ad054fc666e31538f4668192ecde61f47b0a2d5eb3735a994bf18ed"
-    },
-    {
-      "path": "rootfs/usr/bin/keepassxc-cli",
-      "type": "file",
-      "mode": "0o755",
-      "size": 4266520,
-      "sha256": "61ce1f1d1e0f31ec7816cb4f6fb3b7ba096b2cb3ff3e2020d2dd29f0e99eea2a"
-    },
-    {
       "path": "rootfs/usr/bin/openssl",
       "type": "file",
       "mode": "0o755",
@@ -1914,69 +1848,6 @@
       "mode": "0o4755",
       "size": 118168,
       "sha256": "ba6fedb706e2375b8f2873815159baa6bfba652e611687aff5432a0e88c2902e"
-    },
-    {
-      "path": "rootfs/usr/bin/scp",
-      "type": "file",
-      "mode": "0o755",
-      "size": 227968,
-      "sha256": "bde7f8e3badea00a86faa4522efcac312dafe6fae5bf3d9dcd6d5beb4de036e9"
-    },
-    {
-      "path": "rootfs/usr/bin/sftp",
-      "type": "file",
-      "mode": "0o755",
-      "size": 240224,
-      "sha256": "82db87c4c00f6c817eb771b8a273bf81d35107f70c2bdb6c6af75a5f85c81e29"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh",
-      "type": "file",
-      "mode": "0o755",
-      "size": 1047584,
-      "sha256": "af3b04ec5653755032fc18ad02445e4e51170e75d8bac4265647d423caa9a83e"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh-add",
-      "type": "file",
-      "mode": "0o755",
-      "size": 444864,
-      "sha256": "64ae57eb0787b1c39af387edefb42456a8261830f1612fe77549a679067edfa0"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh-agent",
-      "type": "file",
-      "mode": "0o755",
-      "size": 420224,
-      "sha256": "2e5cdfc7a49f257608fcca315671f419878e26f719c88b7305710f314bfc8937"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh-argv0",
-      "type": "file",
-      "mode": "0o755",
-      "size": 1455,
-      "sha256": "fcf4ffdfab652a0882b7b2417a25265d07a936c4268e2d3f4dec14797a9e5734"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh-copy-id",
-      "type": "file",
-      "mode": "0o755",
-      "size": 14170,
-      "sha256": "d6666d3a3e50681936374efa7a3ae1000fffaffc57d597c6dfa7a75378927437"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh-keygen",
-      "type": "file",
-      "mode": "0o755",
-      "size": 567744,
-      "sha256": "4a16f170f7c80d6643d3ffada36d396c9d7b1d63238a218628e37af38d6107c0"
-    },
-    {
-      "path": "rootfs/usr/bin/ssh-keyscan",
-      "type": "file",
-      "mode": "0o755",
-      "size": 588256,
-      "sha256": "0a17e9f79c816a13c174747c8a7a89bf0f0c04ca9977181be59932762db596dc"
     },
     {
       "path": "rootfs/usr/bin/update-mime-database",
@@ -2004,32 +1875,6 @@
       "path": "rootfs/usr/lib/X11",
       "type": "directory",
       "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/openssh",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/openssh/ssh-keysign",
-      "type": "file",
-      "mode": "0o4755",
-      "size": 498240,
-      "sha256": "2e17227e65689a3bfade7c7d7e5b80905130815c44b6134eba49bb51b4573186"
-    },
-    {
-      "path": "rootfs/usr/lib/openssh/ssh-pkcs11-helper",
-      "type": "file",
-      "mode": "0o755",
-      "size": 395632,
-      "sha256": "a055fb7b3188a14e7bd585ed0a97e74d128a0c9d362bfbbcb0c016292f814c8a"
-    },
-    {
-      "path": "rootfs/usr/lib/openssh/ssh-sk-helper",
-      "type": "file",
-      "mode": "0o755",
-      "size": 387440,
-      "sha256": "9655fac146313b8352bf125057085120dd5f9f3e5726381d89e3a19e712ffd67"
     },
     {
       "path": "rootfs/usr/lib/sasl2",
@@ -2091,51 +1936,9 @@
       "target": "/etc/ssl/private"
     },
     {
-      "path": "rootfs/usr/lib/systemd",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/systemd/user",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/systemd/user/graphical-session-pre.target.wants",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/systemd/user/graphical-session-pre.target.wants/ssh-agent.service",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "../ssh-agent.service"
-    },
-    {
-      "path": "rootfs/usr/lib/systemd/user/ssh-agent.service",
-      "type": "file",
-      "mode": "0o644",
-      "size": 409,
-      "sha256": "1a6b0d395a9d8186d3fa02618bd9e5619aeb8d36005d3653e3f26741648526c5"
-    },
-    {
-      "path": "rootfs/usr/lib/systemd/user/ssh-agent.socket",
-      "type": "file",
-      "mode": "0o644",
-      "size": 355,
-      "sha256": "d832c5044298c90a3245565708e516fa35e5e5c77cf680ad39829ccbdcf5a94b"
-    },
-    {
       "path": "rootfs/usr/lib/tmpfiles.d",
       "type": "directory",
       "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/tmpfiles.d/openssh-client.conf",
-      "type": "file",
-      "mode": "0o644",
-      "size": 13,
-      "sha256": "b424e86e7fe590f50a5e7c2a83bb760335ee60ebb69beb2834d7cdf6ec36b1ae"
     },
     {
       "path": "rootfs/usr/lib/tmpfiles.d/passwd.conf",
@@ -2350,18 +2153,6 @@
       "mode": "0o755",
       "size": 63808,
       "sha256": "613c5b6ed8c95bb9d3b4055299a9e2a77422841b5e974711dd91562b6fb0d32e"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/keepassxc",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/keepassxc/libkeepassxc-autotype-xcb.so",
-      "type": "file",
-      "mode": "0o644",
-      "size": 92480,
-      "sha256": "343422a7cc392561ae35801255b54bb19b6542e24a4ccde51728c9a0aa764bdd"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/krb5",
@@ -3445,19 +3236,6 @@
       "sha256": "c0cc41333a8fc0c24428a61ba0af6380aabb1f0d91ac48c13ed743b06c8ccc87"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libhistory.so.8",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libhistory.so.8.2"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libhistory.so.8.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 51656,
-      "sha256": "992a6493753dfcc169cc13dd7b869f79f0368360ffd01ff6ef592c60c3a72de6"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libhogweed.so.6",
       "type": "symlink",
       "mode": "0o777",
@@ -3900,19 +3678,6 @@
       "sha256": "13f66b57154db818c5f15b268a73b8e2f97146850315d0c1fde2141eb20cf4b5"
     },
     {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libreadline.so.8",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libreadline.so.8.2"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libreadline.so.8.2",
-      "type": "file",
-      "mode": "0o644",
-      "size": 362728,
-      "sha256": "a3334d88f3f6c6a25736667e0b39db0f68b4e7e6bf758a475aff681ddb33ad8b"
-    },
-    {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/librtmp.so.1",
       "type": "file",
       "mode": "0o644",
@@ -4049,19 +3814,6 @@
       "mode": "0o644",
       "size": 129040,
       "sha256": "903f4b4d4b8b5999b754d701437e480cd6b6eec0b279127568aa7727f45b6a76"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libvncclient.so.0.9.15",
-      "type": "file",
-      "mode": "0o644",
-      "size": 170152,
-      "sha256": "c6c284c94871c299e9d479e9a4f76854a3a70ea31e1e056d97ebb156348b0e3c"
-    },
-    {
-      "path": "rootfs/usr/lib/x86_64-linux-gnu/libvncclient.so.1",
-      "type": "symlink",
-      "mode": "0o777",
-      "target": "libvncclient.so.0.9.15"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libvterm.so.0",
@@ -9046,18 +8798,6 @@
       "sha256": "316c9cfb47ee6fb9901ee99cead1c6c59fe24fe0c58c250272515a0429c786d7"
     },
     {
-      "path": "rootfs/usr/share/applications",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/applications/org.keepassxc.KeePassXC.desktop",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2021,
-      "sha256": "c324cbeb1d0012c546155581d8ffc13c37b401f20b3dbf36698a655d8cb09014"
-    },
-    {
       "path": "rootfs/usr/share/apport",
       "type": "directory",
       "mode": "0o755"
@@ -9066,13 +8806,6 @@
       "path": "rootfs/usr/share/apport/package-hooks",
       "type": "directory",
       "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/apport/package-hooks/openssh-client.py",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1213,
-      "sha256": "a468f4fdaf805098fce63451bc771c8f9a0c8545e7bad40bb715b27f6b39523f"
     },
     {
       "path": "rootfs/usr/share/apport/package-hooks/source_mtdev.py",
@@ -10826,39 +10559,6 @@
       "mode": "0o644",
       "size": 4971,
       "sha256": "5c410e0aa3d7685946240a1aaecb4cfc17d4cc083366416aa9513c2c2adb72af"
-    },
-    {
-      "path": "rootfs/usr/share/doc/keepassxc-minimal",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/keepassxc-minimal/NEWS.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 274,
-      "sha256": "15e2a8375a62bbef7a7c64017b704206d0c1e29a9eb8ae4a8ffd02a4d7c34170"
-    },
-    {
-      "path": "rootfs/usr/share/doc/keepassxc-minimal/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2591,
-      "sha256": "bc7d410cd33d7faca4c2f53138e37cb43c9a9542c458c2e346b97f2cff587510"
-    },
-    {
-      "path": "rootfs/usr/share/doc/keepassxc-minimal/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 22950,
-      "sha256": "29d38e4a71a2b3198ff0bec1983eeead8195b441f755004480e383036e608f28"
-    },
-    {
-      "path": "rootfs/usr/share/doc/keepassxc-minimal/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 48927,
-      "sha256": "151c36f30719e4717965df3fdf955aac46619f0185bc4a70b9b3be5fb1def65c"
     },
     {
       "path": "rootfs/usr/share/doc/libargon2-1",
@@ -13106,65 +12806,6 @@
       "sha256": "f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d"
     },
     {
-      "path": "rootfs/usr/share/doc/libreadline8t64",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/README.Debian",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2027,
-      "sha256": "acd6c06b17be2b53af372832183fc280322667dffce7328d148350369cb98e18"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/USAGE",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2025,
-      "sha256": "0759c74d61889b687f33cb03899630d8ecc09c5ebe7cedd2dd2e17eeef193f93"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1666,
-      "sha256": "e709ecac48c99f6e5c50469287bc73de55c21a11afcc25efd59a779b57d54b52"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 24270,
-      "sha256": "c07473a407ba409d8b97aee59e48e271a1f04d3cfe202321ae7c2678889942b3"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4314,
-      "sha256": "854c6f5f249a109a913e1e58528445c4fec96f063ae8ba496bfb2b460bcc6866"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/examples",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/examples/Inputrc",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2362,
-      "sha256": "91b802c04ca1e0c2f8966814c696ca980ea2c633f943c806078729a919da454c"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libreadline8t64/inputrc.arrows",
-      "type": "file",
-      "mode": "0o644",
-      "size": 727,
-      "sha256": "092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce"
-    },
-    {
       "path": "rootfs/usr/share/doc/librtmp1",
       "type": "directory",
       "mode": "0o755"
@@ -13594,32 +13235,6 @@
       "mode": "0o644",
       "size": 3868,
       "sha256": "a627862d217aed18b58086a8711ebf9a66b0e090fa16f64ef92b59e920921b15"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libvncclient1",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libvncclient1/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3510,
-      "sha256": "21ac3ac3cdb5a7ad549badfbe8b7b4ab4c51c5267dc30ea6a6a1dfe53496ea40"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libvncclient1/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 121031,
-      "sha256": "69562befd74e781e841b1615dcab2637dced46be8b16620b23bcf8a8f47e4c82"
-    },
-    {
-      "path": "rootfs/usr/share/doc/libvncclient1/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 23306,
-      "sha256": "bbc6ec91305120135037e7105aa564b5a26b5fd4b5812a70d69b6f5140d8b075"
     },
     {
       "path": "rootfs/usr/share/doc/libvterm0",
@@ -14846,74 +14461,6 @@
       "sha256": "55268f06fbc193ee1a4fe694045a9cec58ba727d74bb17b5b1d54de36873a038"
     },
     {
-      "path": "rootfs/usr/share/doc/openssh-client",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/NEWS.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7255,
-      "sha256": "10d81b14b0f5f8525d45062e93f626b8be53a4e3e7478b369de0de67239e1235"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/OVERVIEW.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2564,
-      "sha256": "b8d143d9361c1327159a0c75678919fe6c0af2434e510473f29e154f3464bd11"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/README",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2014,
-      "sha256": "e958b8e442cda0f01f3c79a296a7390b83b7e2470ca1597cd2a4806a18b728e4"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/README.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4781,
-      "sha256": "010c4f07d63b795d12d0ce3f91e2350e33c7683b79ca71083b03b469d0199f0a"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/README.dns",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1615,
-      "sha256": "e1aed1364b3c5fee3d204acd43cdc0a0bbd0a015d01843645ede1fb0ea76bc7c"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/README.tun.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1854,
-      "sha256": "16cbd1334e2e0db83f5c6ec0442c2b9d06368f1a1a6d069b317b5fad83bc2f53"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 40504,
-      "sha256": "9e19087c9f6ba57e0de8a3ec0a1ff673f5a9cc2b3c4d37feb2dc5ce52560aaad"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 90964,
-      "sha256": "4fb15d7fc7e5e60fc0a45dade1e7d14500d188ba50d681e11d4d3dda2f703abe"
-    },
-    {
-      "path": "rootfs/usr/share/doc/openssh-client/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 10973,
-      "sha256": "af946edbe423f2af7cb2297e68ed177748461b3c8ecee9884ea087bea7b06f92"
-    },
-    {
       "path": "rootfs/usr/share/doc/openssl",
       "type": "directory",
       "mode": "0o755"
@@ -15091,39 +14638,6 @@
       "mode": "0o644",
       "size": 134315,
       "sha256": "f3dcba89cb3374a12866b0adb0e3d5caf950416bf3a5230341549da3b229e47d"
-    },
-    {
-      "path": "rootfs/usr/share/doc/readline-common",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/doc/readline-common/changelog.Debian.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1665,
-      "sha256": "3f714361320c19763a7b4a254d2368469efe53d72adae8c5e53475c0537720fd"
-    },
-    {
-      "path": "rootfs/usr/share/doc/readline-common/changelog.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 12128,
-      "sha256": "f2fbe823f33bcb5ed37e770cf8457ab1532f52dc2f610377bb2e7156824c15e2"
-    },
-    {
-      "path": "rootfs/usr/share/doc/readline-common/copyright",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4314,
-      "sha256": "854c6f5f249a109a913e1e58528445c4fec96f063ae8ba496bfb2b460bcc6866"
-    },
-    {
-      "path": "rootfs/usr/share/doc/readline-common/inputrc.arrows",
-      "type": "file",
-      "mode": "0o644",
-      "size": 727,
-      "sha256": "092e7ff3a9e25ec05baeabb3e403585e744c17bb8dba4c70aee944a37ba884ce"
     },
     {
       "path": "rootfs/usr/share/doc/shared-mime-info",
@@ -15809,499 +15323,6 @@
       "mode": "0o644",
       "size": 105,
       "sha256": "cd3881df4227c13ca7f9cfe6c78820f21d5f7a00a41b299214f6f827e63be369"
-    },
-    {
-      "path": "rootfs/usr/share/icons",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/256x256",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/256x256/apps",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/256x256/apps/keepassxc.png",
-      "type": "file",
-      "mode": "0o644",
-      "size": 32938,
-      "sha256": "517e021ae33591d41139ac187d84b3d6a64564de4942858bf8d789f25c17f9c5"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc-locked.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 9768,
-      "sha256": "967833bfc5f3b241283156114d13b33365e3aa5d1f713893853ca04873e06270"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc-monochrome-dark-locked.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2337,
-      "sha256": "a194fabb9d346baf9f64c6d630f6573bedaf3976ab71bee503297b50e47759b3"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc-monochrome-dark.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1435,
-      "sha256": "3c8c58c4c32acd16f8d136fcc794870823e5f123736eaaf5b04b3b177316627a"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc-monochrome-light-locked.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1702,
-      "sha256": "b5b77750ea8eac6e2ffe1001b187f9a65b33acf3e0abfa6ac9d8bf43b8985d25"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc-monochrome-light.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1110,
-      "sha256": "9857ae68858c2dd47171f624f7b3413d0381a52eb347e16612bee2e777f0373c"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc-unlocked.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7215,
-      "sha256": "8dcd1cb45ab62afb123926cde4c952a93d37f22ff0033270cf1892147f5d9236"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/apps/keepassxc.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 6913,
-      "sha256": "46ac2bd17caa6d0b06bfb15c0692ed08d27245c8636d88b5a70fa2c484a8d11a"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/mimetypes",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/icons/hicolor/scalable/mimetypes/application-x-keepassxc.svg",
-      "type": "file",
-      "mode": "0o644",
-      "size": 15201,
-      "sha256": "550c8ffdf25b6fa0047b47bdbff74a660802d0c22a31797255389a439cb85985"
-    },
-    {
-      "path": "rootfs/usr/share/info",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/info/rluserman.info.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 26693,
-      "sha256": "161d3684da4ce2047c416ef67c935711b353f2479da6769f0dc0a73099795f20"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/docs",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/docs/KeePassXC_GettingStarted.html",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2317917,
-      "sha256": "7d258757c163794dbc8d68d22a975201985b5dc2e89aa923d69b178d126bfdc3"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/docs/KeePassXC_KeyboardShortcuts.html",
-      "type": "file",
-      "mode": "0o644",
-      "size": 42660,
-      "sha256": "da12046333d5f81f51e997bf0d4226b9ab365ad78d818ed35651d2682c30ed4c"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/docs/KeePassXC_UserGuide.html",
-      "type": "file",
-      "mode": "0o644",
-      "size": 6137927,
-      "sha256": "65986498bd04ff5f199a8d525c582383e641d5165a07ea85adf5f25e8029ee25"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/icons",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/icons/application",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/icons/application/256x256",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/icons/application/256x256/apps",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/icons/application/256x256/apps/keepassxc.png",
-      "type": "file",
-      "mode": "0o644",
-      "size": 32938,
-      "sha256": "517e021ae33591d41139ac187d84b3d6a64564de4942858bf8d789f25c17f9c5"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_ar.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 258401,
-      "sha256": "497924ecf2fadac533587da006f0b6cdb38309780c58c7e706d8429ab473bf1a"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_bg.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 359220,
-      "sha256": "e4bd181421727b02400c6c268c346914841b25ccacd1c868c387695584672708"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_ca.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 123431,
-      "sha256": "9d65de2e1cb75994e303ac560749c8dde06850245baec1d70fd962c2fc98ad3f"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_cs.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 287136,
-      "sha256": "fd232b8514720c23ff739816e8188b21fcc4ce054d256295aceed5532be59cea"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_da.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 176985,
-      "sha256": "7341adc9dc060c0627dba4f83800e8a0c63d70bbf79b88bad503d0e86c8256ec"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_de.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 360348,
-      "sha256": "cf446bf26a0da8ea8689dcf0eef1c3f5410029164c7027fac5199afea60072ec"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_el.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 336213,
-      "sha256": "fb8d0cfd88f320f8450be066e86af768ddef8988bc09ea552b270301faa14aa1"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_en.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 309274,
-      "sha256": "e0fef431e025c5bd78246e9e18bdac67d6e4690d037334909017578f08a5883f"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_en_GB.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 326082,
-      "sha256": "d6244679cc2dcddd54812774e8b5401b7f9390cd996cce500bc2cf89e35add95"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_en_US.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 309274,
-      "sha256": "e0fef431e025c5bd78246e9e18bdac67d6e4690d037334909017578f08a5883f"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_es.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 358644,
-      "sha256": "31b79903a0b1646cfd024c6b4c2ad4a0360876984e50a6536e548e585da8e9c8"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_et.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 345114,
-      "sha256": "f39612f0fe1055a59b09f013ea231919135a98d566bd0217c33807ef48bc083d"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_fi.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 336334,
-      "sha256": "88dd02ced896cdd52286645dbcf4ba95235db26f55a9d23140598431f621fe65"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_fil.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 290843,
-      "sha256": "f3d333b159c925f5cee09cf750866f1175e616a6bb538eb1d9cda3fb0a79412e"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_fr.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 379771,
-      "sha256": "dfb111b7d7c1152a7d151ce19cb4ac67b66f5696660f84f1b082ee978d668921"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_fr_CA.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 256704,
-      "sha256": "7005080f0eb242c37326749ee988dfb41d8a6b324ff3121db90c9f7dab200859"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_he.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 290663,
-      "sha256": "242e8a1fc8be534eeb3374f178672b574b3fb519ac28a790eb960ed07fa26538"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_hr.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 127149,
-      "sha256": "7bad3ec786ef5269c202f5571c2d69809acced910676eea1069a957cead1fb7d"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_hu.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 349090,
-      "sha256": "8061a618b753896dae5ca2e09e45c5ef241b4bed46c30ef04100e62ac0e25e9f"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_id.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 301028,
-      "sha256": "f45e8a6c9d6554f9d6ec7845008011fb4b90682fcd8499d7412a32ccc118a490"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_it.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 350622,
-      "sha256": "f537b0e8f7def9e3437c6d7955a388f904c71bf1d5baba434a0264406905c349"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_ja.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 261240,
-      "sha256": "0d28ee16c683285e0127acfab49683283a4321876637c1c8a10732314f6ffb1b"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_km.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 283649,
-      "sha256": "b360ef43be22db478304fc93d0f6dfcbef6221a972dfc0fe371b1825bc5dd24f"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_ko.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 250453,
-      "sha256": "899ae44b3e20d1869f8906c4210d6e608d10432e39bc37b2c9ca9354099f1683"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_lt.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 290488,
-      "sha256": "070ba14a3550d95ba8748cfdefe3cd7c450bd31c42174c5d08544429eae2ec0b"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_my.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 298935,
-      "sha256": "5f8370e511b2bd656dbd21cf3c245f11596cda3c2df253bd0e7bf163ef6588a0"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_nb.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 304608,
-      "sha256": "c866e43a3cf1ce956332114e69e17e262fa01e2e5540553803dd4d185410a25b"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_nl.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 353474,
-      "sha256": "590593361ccf4b5d6e404e646889755be73d9349f460decfb8694fd1021339e0"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_pl.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 350691,
-      "sha256": "281c7f0ed20abcce512a49e07f4d1e4de831eb80e2f4a72695d7a317310b9f87"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_pt_BR.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 352122,
-      "sha256": "6b27d13c621938a076e1b59d43c89599a4dc9640e933b99a83233b0a1cb85bf4"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_pt_PT.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 356617,
-      "sha256": "6b0ef56fadd54365f9160f4208d891ea42a9a1a569e5baf3e190419c1b62bd86"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_ro.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 221005,
-      "sha256": "9d7955640148ec8d75cc2c9fcc794dd045e2f8b467b9381f2a2564cb97c74c42"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_ru.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 351304,
-      "sha256": "8cc523116e18713bcb33c49aef6f32c040211f5a2ea174b3627d56efe88c8c51"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_si.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 265877,
-      "sha256": "678155ea57dec164e6743795c017bf3be5b0ac50056aabce461a327d315f865d"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_sk.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 235685,
-      "sha256": "77ce912f79f282f8fa1394d10ebf26aa66a294adee72485b2a379054f7f019e1"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_sl.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 122390,
-      "sha256": "ef42e40ab5464c4eee608a870bbadbe351a9a9836d2010b86835f4666db88b6a"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_sq.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 329309,
-      "sha256": "e1fb8f21e99b787d64eb7c051e8cd32562e1a64839387ce480e420abde7f88b1"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_sr.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 193877,
-      "sha256": "c739b24e020e0e8811c1aa05c2d624f0357c0038da69b1e0173403508030f144"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_sv.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 335675,
-      "sha256": "0d55ee9e21074c9927ece052f2c1df447b34bf89cd63145b41822db76490afc6"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_th.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 262431,
-      "sha256": "8f7d95577b3ddfd8869c3552f3ab02e1d2b8234a53f30892b4b6d53a308b556e"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_tr.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 344458,
-      "sha256": "d37c8cc58a5dcc5153ff9830951a630529aa4b9a5629029044677ac154b74fef"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_uk.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 342716,
-      "sha256": "990909cdd7f98a39c025b932504ed28bf5a709632378c9a1d765e08cfa1cbfb2"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_zh_CN.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 237481,
-      "sha256": "f9ca0f041cde3a34b109b213ac69faa1d10e74a9a81ce242bb919be8e460f4c1"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/translations/keepassxc_zh_TW.qm",
-      "type": "file",
-      "mode": "0o644",
-      "size": 238165,
-      "sha256": "4f7c905df9dedeeb06c4923ba7c652e81d6deda99453b3d0c8fee6095621681c"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/wordlists",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/keepassxc/wordlists/eff_large.wordlist",
-      "type": "file",
-      "mode": "0o644",
-      "size": 62122,
-      "sha256": "df895130803573b14caa684e8cba982a9ed21f4898c98c711f204acf600efedd"
     },
     {
       "path": "rootfs/usr/share/libdrm",
@@ -22142,13 +21163,6 @@
       "sha256": "50257a11e925a0244b637ebb8b1bd7378378403a5822dee62a32e4ee6f143e0c"
     },
     {
-      "path": "rootfs/usr/share/lintian/overrides/openssh-client",
-      "type": "file",
-      "mode": "0o644",
-      "size": 81,
-      "sha256": "0e56ca3436ee6f195b8fc745e100ee8af5a5a2d125dc827d629d99d5dda6a981"
-    },
-    {
       "path": "rootfs/usr/share/lintian/overrides/openssl",
       "type": "file",
       "mode": "0o644",
@@ -22161,13 +21175,6 @@
       "mode": "0o644",
       "size": 360,
       "sha256": "6353b1cbf1d0bb27dbb21bad36d9c820e4a64dc4398a50db31591f8a5099f8d0"
-    },
-    {
-      "path": "rootfs/usr/share/lintian/overrides/readline-common",
-      "type": "file",
-      "mode": "0o644",
-      "size": 42,
-      "sha256": "8ee145c8c2958431bddb705cc2e9032a194337fd5fdee299cfe06fe1fb529707"
     },
     {
       "path": "rootfs/usr/share/lintian/overrides/x11-common",
@@ -26029,20 +25036,6 @@
       "target": "openssl-cmds.1ssl.gz"
     },
     {
-      "path": "rootfs/usr/share/man/man1/keepassxc-cli.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4567,
-      "sha256": "3cd772f129cfdae060e7e950b058ab8f3ca9ace2d3e5077002073e49303c0ab5"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/keepassxc.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1250,
-      "sha256": "45ee114496de7301608b190ff7d9a2dc45eaa3e4d411ddfef3ab0c0d441c8e34"
-    },
-    {
       "path": "rootfs/usr/share/man/man1/mac.1ssl.gz",
       "type": "symlink",
       "mode": "0o777",
@@ -26577,24 +25570,10 @@
       "target": "openssl-cmds.1ssl.gz"
     },
     {
-      "path": "rootfs/usr/share/man/man1/scp.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3646,
-      "sha256": "f990168e35166dc0fa0fd1f959c194ed4349b41e1db56424ff36a9633184f54f"
-    },
-    {
       "path": "rootfs/usr/share/man/man1/sess_id.1ssl.gz",
       "type": "symlink",
       "mode": "0o777",
       "target": "openssl-cmds.1ssl.gz"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/sftp.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 6331,
-      "sha256": "14866f5f918982483f7bfa5d4c53fcc2662ab0d86db6d7113309fbc5a5dc53e0"
     },
     {
       "path": "rootfs/usr/share/man/man1/smime.1ssl.gz",
@@ -26619,55 +25598,6 @@
       "type": "symlink",
       "mode": "0o777",
       "target": "openssl-cmds.1ssl.gz"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh-add.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4258,
-      "sha256": "2500fef18bcf6ceeca2ab7e083fd339b7cf4b947e3cf535acd30de4addf2ddf0"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh-agent.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 4056,
-      "sha256": "4b68ac7b8dd8219979da78d31e74da82a297253460ab196f3502712613d445dc"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh-argv0.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 720,
-      "sha256": "d2863449b093ce069436b0f5c005c657f8313a7afe8f1a9347879fb731f3baaf"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh-copy-id.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 3240,
-      "sha256": "621a8c7fa884fcaf78d01f2ccf11946d38192c08ac3a95469087f7898eb87986"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh-keygen.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 13125,
-      "sha256": "4187847363a21c971eb05638d12db87f09ed94cea857e4a7c5c874b09cd598e4"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh-keyscan.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 2296,
-      "sha256": "9853bddce174b54203038fc07a8efe432cb52891e456d31eab6ff58984f3dadc"
-    },
-    {
-      "path": "rootfs/usr/share/man/man1/ssh.1.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 15310,
-      "sha256": "78a8c50b4eecf26228707878018ca314aea3008c87caef6724030fc856e50481"
     },
     {
       "path": "rootfs/usr/share/man/man1/storeutl.1ssl.gz",
@@ -26794,20 +25724,6 @@
       "path": "rootfs/usr/share/man/man3",
       "type": "directory",
       "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/man/man3/history.3readline.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 7781,
-      "sha256": "060fbf153ced5cf155f433a08d4c2830162649129cbadb6aee66ea79483ba01a"
-    },
-    {
-      "path": "rootfs/usr/share/man/man3/readline.3readline.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 15809,
-      "sha256": "36ff039dd426268582c9199e2b0fc7df093e09944d61dbef136f641e5d573dab"
     },
     {
       "path": "rootfs/usr/share/man/man3/ts_close.3.gz",
@@ -27043,13 +25959,6 @@
       "mode": "0o644",
       "size": 1898,
       "sha256": "d0a13aefd9bd76716093405f636021f36fdf71b50433918c8d8def3ae801d627"
-    },
-    {
-      "path": "rootfs/usr/share/man/man5/ssh_config.5.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 20952,
-      "sha256": "7860149efded4d0d863e3227c78780137ee78ce437cca61aad74bdd425498b37"
     },
     {
       "path": "rootfs/usr/share/man/man5/subgid.5.gz",
@@ -28834,27 +27743,6 @@
       "sha256": "a69825f2235f9cc8ac9142849002bbb0c56df0983f9a609be8843b97bc91866c"
     },
     {
-      "path": "rootfs/usr/share/man/man8/ssh-keysign.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1429,
-      "sha256": "8983fe7c1b2927b57f4fa2e4a9fdf7a1cf528b6501e9ac21e3bac9e5bf7170cd"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/ssh-pkcs11-helper.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1024,
-      "sha256": "04ce20dfe9f3aa890f6ecd48f65049748db89604ce7e2446f6ad370fb1327640"
-    },
-    {
-      "path": "rootfs/usr/share/man/man8/ssh-sk-helper.8.gz",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1025,
-      "sha256": "22b69f69f49d2a7a3edf451fcb37f4c1dbff092b37800f1b724a0c163ab05e30"
-    },
-    {
       "path": "rootfs/usr/share/man/man8/update-ca-certificates.8.gz",
       "type": "file",
       "mode": "0o644",
@@ -30198,18 +29086,6 @@
       "sha256": "234e5e534810a3863b2f05673b26b7c8263ff272723051b9979c24ea05bda714"
     },
     {
-      "path": "rootfs/usr/share/metainfo",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/metainfo/org.keepassxc.KeePassXC.appdata.xml",
-      "type": "file",
-      "mode": "0o644",
-      "size": 93814,
-      "sha256": "0f416bae4bcc6e4cc4dd5106e61739d22d5d7561909c23afc8b5b9c60e5f2600"
-    },
-    {
       "path": "rootfs/usr/share/mime",
       "type": "directory",
       "mode": "0o755"
@@ -30225,13 +29101,6 @@
       "mode": "0o644",
       "size": 2488673,
       "sha256": "dacfd65f815c094da7a23ebb8b00d26501e32c7c885dfe0cb2dd685c94ae9f57"
-    },
-    {
-      "path": "rootfs/usr/share/mime/packages/keepassxc.xml",
-      "type": "file",
-      "mode": "0o644",
-      "size": 299,
-      "sha256": "3f590716a686150c6350e2a1917f8f54fe60ef57bfa9fbae2b776a08ec824b3b"
     },
     {
       "path": "rootfs/usr/share/perl5",
@@ -30282,18 +29151,6 @@
       "mode": "0o644",
       "size": 128,
       "sha256": "ae913b4f193632d9fd5f751a9d03c34b92b03e58922b1c2a2f67e3a49cd54d27"
-    },
-    {
-      "path": "rootfs/usr/share/readline",
-      "type": "directory",
-      "mode": "0o755"
-    },
-    {
-      "path": "rootfs/usr/share/readline/inputrc",
-      "type": "file",
-      "mode": "0o644",
-      "size": 1875,
-      "sha256": "efd629d8b3569cf2bdeac6586ffde95e6e277df85142753dc3a1629c657b87b1"
     },
     {
       "path": "rootfs/usr/share/xml",
