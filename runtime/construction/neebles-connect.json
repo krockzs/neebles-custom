@@ -120,6 +120,9 @@
         "/opt/neebles/modules/neebles-connect/runtime/neebles-connect",
         "--intent",
         "open"
+      ],
+      "session_readonly": [
+        "neebles-secrets/secrets.sock"
       ]
     }
   ]
