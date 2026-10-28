@@ -753,11 +753,11 @@
       "sha256": "bb6467a002915c4ac464aa1b22204907951a30e43bcb86596ebd3539e84458e9"
     },
     {
-      "path": "packages/libvncclient1_0.9.15+dfsg-1+deb13u2_amd64.deb",
+      "path": "packages/libvncclient1_0.9.15+dfsg-1+deb13u2+neebles1_amd64.deb",
       "type": "file",
       "mode": "0o664",
-      "size": 197004,
-      "sha256": "13395ab10fb0cffb79e453778b22a26c1faa356fed995a6f25628238a639797a"
+      "size": 208200,
+      "sha256": "57572d40da915b9e648c33f8c386f647176a146a06b633ba7a2893ce6306c9da"
     },
     {
       "path": "packages/libvterm0_0.3.3-3+b1_amd64.deb",
@@ -3981,8 +3981,8 @@
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libvncclient.so.0.9.15",
       "type": "file",
       "mode": "0o644",
-      "size": 170152,
-      "sha256": "c6c284c94871c299e9d479e9a4f76854a3a70ea31e1e056d97ebb156348b0e3c"
+      "size": 209536,
+      "sha256": "dfd203cc5b291c5b61d34972102b5732a7d75108a754ae7f321c221034dbe925"
     },
     {
       "path": "rootfs/usr/lib/x86_64-linux-gnu/libvncclient.so.1",
