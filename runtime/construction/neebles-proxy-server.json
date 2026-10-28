@@ -1,0 +1,126 @@
+{
+  "schema": "1",
+  "name": "neebles-domestic-construction",
+  "subject": "neebles-proxy-server",
+  "rootfs": {
+    "rust-qt": {
+      "domination": {
+        "world": "modules.rust-qt"
+      }
+    }
+  },
+  "steps": [
+    {
+      "id": "init",
+      "runtime_authority": "boss.runtime",
+      "world": "boss.git",
+      "writable": [
+        {
+          "authority": "neebles.domestic_workspace",
+          "source": "/opt/neebles-build/modules",
+          "destination": "/work/modules"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/work/modules",
+      "arguments": [
+        "init",
+        "/work/modules/neebles-proxy-server"
+      ],
+      "session": false,
+      "execution": "foreground"
+    },
+    {
+      "id": "fetch",
+      "runtime_authority": "boss.runtime",
+      "world": "boss.git",
+      "readonly": [
+        "system.dns_resolver_config"
+      ],
+      "writable": [
+        {
+          "authority": "neebles.domestic_workspace",
+          "source": "/opt/neebles-build/modules",
+          "destination": "/work/modules"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/work/modules",
+      "arguments": [
+        "-C",
+        "/work/modules/neebles-proxy-server",
+        "fetch",
+        "--depth",
+        "1",
+        "https://github.com/krockzs/neebles-proxy-server.git",
+        "c06c8672757e89de93418e34c4867acecba09403"
+      ],
+      "session": false,
+      "execution": "foreground"
+    },
+    {
+      "id": "checkout",
+      "runtime_authority": "boss.runtime",
+      "world": "boss.git",
+      "writable": [
+        {
+          "authority": "neebles.domestic_workspace",
+          "source": "/opt/neebles-build/modules",
+          "destination": "/work/modules"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/work/modules",
+      "arguments": [
+        "-C",
+        "/work/modules/neebles-proxy-server",
+        "checkout",
+        "--detach",
+        "c06c8672757e89de93418e34c4867acecba09403"
+      ],
+      "session": false,
+      "execution": "foreground"
+    },
+    {
+      "id": "open-ui",
+      "runtime_authority": "modules.runtime",
+      "rootfs": "rust-qt",
+      "world": "modules.rust-qt",
+      "execution": "persistent",
+      "session": true,
+      "readonly": [
+        "boss.modules.ipc"
+      ],
+      "dynamic_readonly": [
+        {
+          "authority": "modules.installed_runtime",
+          "source": "/opt/neebles/modules/neebles-proxy-server",
+          "destination": "/opt/neebles/modules/neebles-proxy-server"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/opt/neebles/modules/neebles-proxy-server",
+      "arguments": [
+        "/opt/neebles/modules/neebles-proxy-server/runtime/neebles-proxy-server",
+        "--intent",
+        "open"
+      ]
+    }
+  ]
+}
