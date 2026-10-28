@@ -1,12 +1,28 @@
 # N.E.E.B.L.E.S. Esbirro Portable Workspace
 
-**Estado documentado (14-10-2026):** Esbirro preserva dos modelos de autoridad distintos: CUSTOM classic para el corpus controlado Boss/Calamares y CUSTOM V2 para material/mundos de modulos. Boss **v2.0.0** fue compilado y verificado en GitHub Actions usando el laboratorio controlado Qt 6.8.2 y Rust 1.98.1 en su respectiva etapa; se publico con 11 artefactos y `SHA256SUMS`. Test Module **v1.2.12** quedo publicado y seleccionado mediante CUSTOM V2 + Registry. Publicacion y verificacion de artefactos **no** sustituyen la aceptacion Live/instalada para cada nuevo cambio.
+**Estado actualizado (28-10-2026):** Esbirro mantiene la separación de CUSTOM classic (Boss/Calamares) y CUSTOM V2 (módulos). La GitHub Release **Boss v2.0.8** está publicada. Secrets **1.0.7** está seleccionado; Connect **1.0.2** fue compilado con Qt 6.8.2/GCC 14 y Rust 1.98.1 en sus respectivos pipelines, con material Q06 y RootFS `rust-qt` de CUSTOM V2. Su cierre ELF físico registró 89 objetos y cero dependencias irresueltas. La aceptación funcional de Connect con dos monitores y equipos guardados fue comunicada por el operador en el Ryzen. Una prueba de consumidor no constituye nueva certificación del laboratorio ni cambia sus snapshots.
+
 
 Esbirro is the controlled domestic engineering and certification authority of the N.E.E.B.L.E.S. ecosystem.
 
 This directory preserves the portable development laboratory used to create, certify and restore controlled worlds, runtime material and construction authority.
 
 > **The repository is authoritative. The host is not authoritative. Downloads is not authoritative. Successful compilation alone is not certification.**
+
+---
+
+# Caso verificado de integración: Connect 1.0.2 (octubre 2026)
+
+El caso Connect recorrió las fases **fuente controlada → biblioteca LibVNCClient modificada → DEB autenticado → delta CUSTOM V2 → compilación Qt en Esbirro → auditoría ELF física → runtime Rust → pins de Construction/Registry → prueba real informada**.
+
+- Fuente LibVNCClient Debian `0.9.15+dfsg-1+deb13u2`, respetando los cuatro parches de seguridad de Debian, con adaptación `ExtendedDesktopSize` Q06 versionada en `neebles-connect/tooling/esbirro/`.
+- DEB `libvncclient1_0.9.15+dfsg-1+deb13u2+neebles1_amd64.deb`, SHA-256 `57572d40da915b9e648c33f8c386f647176a146a06b633ba7a2893ce6306c9da`. Ni Essential ni el corpus classic fueron sobrescritos.
+- Qt 6.8.2/GCC 14: build y DESTDIR controlados. Cierre ELF Q08E-R4R2: **89 objetos**, **cero DT_NEEDED irresueltos**. Los `RUNPATH` absolutos de `libproxy`/`libpxbackend` fueron verificados físicamente contra material autenticado, sin tratarlos como resolución probada del cargador en el host.
+- Runtime Rust **1.0.2**: pruebas estructurales 13/13 y Rust 5/5, formato y Release correctos. Qt no se recompiló exclusivamente por el cambio de número de release Rust.
+- Selección: Connect `2e6390268ea85935d7118b7276adb092c0328f0d`, CUSTOM V2 `0bb4478d9feae938714c9ca678dcd26dc0a04f86`, Registry Boss `b559588312817dcc9166a6e006d1a49d5019e250`.
+- El operador confirmó funcionamiento de dos monitores, equipos y credenciales separadas el 28-10-2026. Para un informe formal de aceptación de RuntimeLease se necesitan las evidencias de ejecución instaladas, no inferencias desde el build.
+
+**Contrato permanente:** el material recién creado se certifica contra sus fuentes y su identidad; un cambio exclusivamente documental no exige cambiar el hash de los DEB, el mundo RootFS ni los pins del código. El host nunca se convierte en autoridad de compilación o reparación implícita.
 
 ---
 
@@ -314,7 +330,7 @@ runtime/modules/rootfs/ as one productive persistent shared module rootfs
 
 ---
 
-# Current Test Module world
+# Historical Test Module world
 
 The current reference module uses:
 

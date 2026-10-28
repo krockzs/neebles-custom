@@ -20,6 +20,14 @@ N.E.E.B.L.E.S. CUSTOM preserves controlled physical material and integrity truth
 
 ---
 
+## Fotografía de integración — 28-10-2026
+
+CUSTOM classic continúa siendo la autoridad de material controlado **Boss/Calamares**, sin convertirse en un pool de dependencias de módulos. La integración seleccionada en el ecosistema utiliza **Boss 2.0.8**, **Secrets 1.0.7** y **Connect 1.0.2**; los paquetes de Connect y sus RootFS pertenecen exclusivamente a **CUSTOM V2**. En particular, el DEB Q06 de LibVNCClient fue incorporado al delta de Connect, **no** al corpus classic.
+
+La publicación documental de este README no regenera, reempaqueta ni certifica materiales. Para la selección vigente de fuentes, consultar `runtime/construction/neebles-connect.json`, los manifiestos de CUSTOM V2 y `neebles-boss/registry/modules.json`. La prueba de dos monitores y persistencia de equipos fue comunicada por el operador en el Ryzen el 28-10-2026; esa evidencia de consumidor no altera el alcance de CUSTOM classic.
+
+---
+
 ## Hard boundary: CUSTOM classic != CUSTOM V2
 
 The repository may physically contain both families of material, but their architectural identities are distinct.

@@ -1,8 +1,29 @@
 # N.E.E.B.L.E.S. CUSTOM V2
 
-**Autoridad vigente (14-10-2026):** material certificado, mundos de ejecucion, RootFS con nombre y Construction declarativo de modulos. CUSTOM classic es independiente y conserva exclusivamente el corpus clasico de Boss/Calamares.
+**Autoridad vigente (28-10-2026):** material autenticado Essential, deltas por módulo, RootFS nominados, mundos y Construction declarativo. CUSTOM classic permanece independiente y exclusivo de Boss/Calamares.
 
-## Integracion vigente: Test Module 1.2.12
+## Integración seleccionada — Connect 1.0.2 / Secrets 1.0.7 (28-10-2026)
+
+CUSTOM V2 es la fuente de verdad de **Essential + deltas por módulo + RootFS nominados + manifiestos de integridad + mundos + Construction**. La publicación actual de `main` incorpora la selección de Connect 1.0.2 y Secrets 1.0.7, mientras CUSTOM classic preserva el corpus de Boss/Calamares.
+
+| Elemento | Selección del código/material |
+|---|---|
+| Connect fuente 1.0.2 | `2e6390268ea85935d7118b7276adb092c0328f0d` |
+| Secrets fuente 1.0.7 | `d61e3aa916d7c5863ae7dc9bb29661b711753a30` |
+| CUSTOM V2 material y Construction para Connect 1.0.2 | `0bb4478d9feae938714c9ca678dcd26dc0a04f86` |
+| Boss Registry que selecciona Connect 1.0.2 | `b559588312817dcc9166a6e006d1a49d5019e250` |
+| RootFS Connect | `rust-qt` → world `modules.rust-qt` |
+| Construction Connect | `init`, `fetch`, `checkout`, `install-vault`, `open-runtime` |
+| LibVNCClient adaptada Q06 | `libvncclient1_0.9.15+dfsg-1+deb13u2+neebles1_amd64.deb`, SHA-256 `57572d40da915b9e648c33f8c386f647176a146a06b633ba7a2893ce6306c9da` |
+| Inventario RootFS Connect | **4466** entradas en `runtime/manifests/modules/rootfs/neebles-connect/rust-qt.manifest.json` |
+
+Los steps `fetch` y `checkout` pinnean el **mismo commit Connect 1.0.2**. El RuntimeLease consume un RootFS materializado y autenticado, no reconstruye paquetes ni recurre a bibliotecas del host. La prueba física ELF Q08E-R4R2 resolvió 89 objetos y cero `DT_NEEDED` pendientes; la aceptación operativa de dos monitores/equipos fue informada por el usuario el 28-10-2026. No confundir esa aceptación puntual con una matriz exhaustiva de rollback, plugins Qt o portabilidad.
+
+**Ley de pins:** el SHA de material/Construction y el SHA de la fuente del módulo se conservan aunque un commit posterior cambie únicamente README. No se actualizan los pins del Registry por una modificación documental sin cambios en los bytes seleccionados del módulo.
+
+## Referencia histórica — Test Module 1.2.12 (no selector vigente de Connect)
+
+La tabla siguiente registra el cierre antiguo del módulo de referencia; **no** describe el estado actual de Connect, Secrets ni los SHA seleccionados por el Registry para ellos.
 
 | Componente | Identidad publicada o seleccionada |
 |---|---|
@@ -217,7 +238,7 @@ For every required `.deb`, package identity/version/architecture/filename/SHA tr
 
 ---
 
-# Current Test Module material
+# Historical Test Module material (reference only)
 
 The reference Test Module is now represented as a delta over Essential:
 
