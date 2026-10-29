@@ -1,6 +1,6 @@
 {
   "module": "neebles-proxy-server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "rootfs": "rust-qt",
   "entries": [
     {
