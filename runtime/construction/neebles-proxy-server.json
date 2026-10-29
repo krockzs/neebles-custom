@@ -61,7 +61,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-proxy-server.git",
-        "c06c8672757e89de93418e34c4867acecba09403"
+        "cd9d95786a80968f9aa0bcd090a1e5b4200e8798"
       ],
       "session": false,
       "execution": "foreground"
@@ -88,7 +88,7 @@
         "/work/modules/neebles-proxy-server",
         "checkout",
         "--detach",
-        "c06c8672757e89de93418e34c4867acecba09403"
+        "cd9d95786a80968f9aa0bcd090a1e5b4200e8798"
       ],
       "session": false,
       "execution": "foreground"
@@ -120,6 +120,61 @@
         "/opt/neebles/modules/neebles-proxy-server/runtime/neebles-proxy-server",
         "--intent",
         "open"
+      ]
+    },
+    {
+      "id": "inspect-status",
+      "runtime_authority": "modules.runtime",
+      "rootfs": "rust-qt",
+      "world": "modules.rust-qt",
+      "execution": "foreground",
+      "session": false,
+      "dynamic_readonly": [
+        {
+          "authority": "modules.installed_runtime",
+          "source": "/opt/neebles/modules/neebles-proxy-server",
+          "destination": "/opt/neebles/modules/neebles-proxy-server"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/opt/neebles/modules/neebles-proxy-server",
+      "arguments": [
+        "/opt/neebles/modules/neebles-proxy-server/runtime/neebles-proxy-server-inspect",
+        "--json"
+      ]
+    },
+    {
+      "id": "install-vault",
+      "runtime_authority": "modules.runtime",
+      "rootfs": "rust-qt",
+      "world": "modules.rust-qt",
+      "execution": "foreground",
+      "session": true,
+      "readonly": [],
+      "dynamic_readonly": [
+        {
+          "authority": "modules.installed_runtime",
+          "source": "/opt/neebles/modules/neebles-proxy-server",
+          "destination": "/opt/neebles/modules/neebles-proxy-server"
+        }
+      ],
+      "mounts": {
+        "proc": true,
+        "dev": true,
+        "tmp": true
+      },
+      "chdir": "/opt/neebles/modules/neebles-proxy-server",
+      "arguments": [
+        "/opt/neebles/modules/neebles-proxy-server/runtime/neebles-proxy-server",
+        "--intent",
+        "install-vault"
+      ],
+      "session_readonly": [
+        "neebles-secrets/secrets.sock"
       ]
     }
   ]
