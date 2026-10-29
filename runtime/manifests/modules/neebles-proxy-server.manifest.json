@@ -1,6 +1,6 @@
 {
   "module": "neebles-proxy-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entries": [
     {
       "path": "packages/adduser_3.152_all.deb",
