@@ -61,7 +61,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-proxy-client.git",
-        "fdddf03fb5d790542d602bad95dd7b3f42e52e2d"
+        "19fe839863c40e2d8ab492848230ed04f7e891bd"
       ],
       "session": false,
       "execution": "foreground"
@@ -88,7 +88,7 @@
         "/work/modules/neebles-proxy-client",
         "checkout",
         "--detach",
-        "fdddf03fb5d790542d602bad95dd7b3f42e52e2d"
+        "19fe839863c40e2d8ab492848230ed04f7e891bd"
       ],
       "session": false,
       "execution": "foreground"
