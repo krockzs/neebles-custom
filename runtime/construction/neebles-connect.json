@@ -61,7 +61,7 @@
         "--depth",
         "1",
         "https://github.com/krockzs/neebles-connect.git",
-        "6be35db86cd4c03c10b144a7b02ff9c820ee17c5"
+        "be0dc15a2ec21fdf5daa2d5cadc74c5bcb276539"
       ],
       "session": false,
       "execution": "foreground"
@@ -88,7 +88,7 @@
         "/work/modules/neebles-connect",
         "checkout",
         "--detach",
-        "6be35db86cd4c03c10b144a7b02ff9c820ee17c5"
+        "be0dc15a2ec21fdf5daa2d5cadc74c5bcb276539"
       ],
       "session": false,
       "execution": "foreground"
